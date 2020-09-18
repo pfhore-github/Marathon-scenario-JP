@@ -1,0 +1,125 @@
+<marathon_levels>
+ <level index="0">
+  <music file="Music/Lightless Dawn.mp3"/>
+ </level>
+ <level index="1">
+  <music file="Music/Cataklyst.mp3"/>
+ </level>
+ <level index="2">
+  <music file="Music/Forcemark.mp3"/>
+ </level>
+ <level index="3">
+  <music file="Music/Harmful or Fatal.mp3"/>
+ </level>
+ <level index="4">
+  <music file="Music/Misuse.mp3"/>
+ </level>
+ <level index="5">
+  <music file="Music/Proof Of Demise.mp3"/>
+ </level>
+ <level index="6">
+  <music file="Music/Deadlock.mp3"/>
+ </level>
+ <level index="7">
+  <music file="Music/Dark Fog.mp3"/>
+ </level>
+ <level index="8">
+  <music file="Music/Cataklyst.mp3"/>
+ </level>
+ <level index="9">
+  <music file="Music/The Complex.mp3"/>
+ </level>
+ <level index="10">
+  <music file="Music/Basement Floor.mp3"/>
+ </level>
+ <level index="11">
+  <music file="Music/Deadlock.mp3"/>
+ </level>
+ <level index="12">
+  <music file="Music/Intuit256.mp3"/>
+ </level>
+ <level index="13">
+  <music file="Music/Forcemark.mp3"/>
+ </level>
+ <level index="14">
+  <music file="Music/Lightless Dawn.mp3"/>
+ </level>
+ <level index="15">
+  <music file="Music/Long Time Coming.mp3"/>
+ </level>
+ <level index="16">
+  <music file="Music/Misuse.mp3"/>
+ </level>
+ <level index="17">
+  <music file="Music/Dark Fog.mp3"/>
+ </level>
+ <level index="18">
+  <music file="Music/Deadlock.mp3"/>
+ </level>
+ <level index="19">
+  <music file="Music/Dice.mp3"/>
+ </level>
+ <level index="20">
+  <music file="Music/Basement Floor.mp3"/>
+ </level>
+ <level index="21">
+  <music file="Music/Babylon.mp3"/>
+ </level>
+ <level index="22">
+  <music file="Music/Proof of Demise.mp3"/>
+ </level>
+ <level index="23">
+  <music file="Music/Cognitive Dissonance.mp3"/>
+ </level>
+ <level index="24">
+  <music file="Music/Long Time Coming.mp3"/>
+ </level>
+ <level index="25">
+  <music file="Music/Enter the Maze.mp3"/>
+ </level>
+ <level index="26">
+  <music file="Music/Forcemark.mp3"/>
+ </level>
+ <level index="27">
+  <music file="Music/Cataklyst.mp3"/>
+ </level>
+ <level index="28">
+  <music file="Music/Animosity.mp3"/>
+ </level>
+ <level index="29">
+  <music file="Music/Temptation.mp3"/>
+ </level>
+ <level index="30">
+  <music file="Music/Chronological.mp3"/>
+ </level>
+ <level index="31">
+  <music file="Music/Long Time Coming.mp3"/>
+ </level>
+ <level index="32">
+  <music file="Music/One Sly Move.mp3"/>
+ </level>
+ <level index="33">
+  <music file="Music/Proof Of Demise.mp3"/>
+ </level>
+ <level index="34">
+  <music file="Music/Ice Flow.mp3"/>
+ </level>
+ <level index="35">
+  <music file="Music/Intuit256.mp3"/>
+ </level>
+ <level index="36">
+  <music file="Music/Dice.mp3"/>
+ </level>
+ <level index="37">
+  <music file="Music/One Sly Move.mp3"/>
+ </level>
+ <level index="38">
+  <music file="Music/Harmful or Fatal.mp3"/>
+ </level>
+ <level index="39">
+  <music file="Music/The Complex.mp3"/>
+ </level>
+ <level index="40">
+  <music file="Music/Enter the Maze.mp3"/>
+ </level>
+</marathon_levels>
