@@ -1,0 +1,169 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 320
+#LOGON 310
+#INFORMATION
+
+
+
+
+
+
+$C1／／ホスト"Hathor" @ mara.eng.public からのメッセージをデコード＼＼
+$C0
+
+$C3すみません。プフォールの磁気パルス攻撃からまだ完全にジャンプパッドシステムが回復していないようです。なんとか下水道にたどり着けただけでもかなりの幸運です。下手をすると、壁の中にいたかもしれません。
+
+
+なぜ下水道ですかって？私にもわかりません。
+#PICT 1021 RIGHT
+$C3
+
+また、私が輸送していたプログラムカードは近い水域のどこかにあります。幸い、私たちはまだ工学セクターの中にいます。そして、今回の要件に必要なアップリンクも近くにあります。
+
+表示されている場所からカードを見つけて、近くのアップリンク回路に挿入してください。完了次第、外に転送して任務の次の段階に移るつもりです。$C0
+
+
+$C1＼＼メッセージ終了／／
+#LOGOFF 310
+#LOGOFF 320
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 200
+$C1『ボブへのオード』
+エドガー・ラン・ポーの『大鴉』のパロディ。
+#INFORMATION
+Deep into my pocket reaching
+Thinking of security breaching
+Dreaming dreams of life on Mars I lived 300 years before.
+
+Pulling out a spanker, goading
+With a missle I was loading
+Taking aim upon a slaver, god forsaken, ugly Pfhor.
+
+Reading text from Durandal, peering
+A computer's face is sneering
+Who I am is all I'm hearing
+I wanted to pull the cord.
+
+All've a sudden there came a tapping
+By a fist that's gently rapping,
+Rapping, tapping, tapping, rapping
+Loud upon my shuttle door.
+
+As I opened the large door
+I was greeted by a being
+Dumber than a cow, I swore.
+#INFORMATION
+
+Long it stood there, blocking passage
+Standing, staring, bearing message
+As it managed "Frog blast the vent core!"
+
+I'm a CYBORG, not a magician!
+What was this civilian's mission?
+Standing there in one position.
+Quoth the human, "Frog blast the vent core!"
+
+Bent on rage, unholy feeling.
+Shoot to kill, to fire when kneeling,
+No, a crouch is too much for the Bungie engine to endure.
+Croaked the green bob, "Frog blast the vent core!"
+
+A spanker missile to blow apart man
+How I wished to kill Doug Zartman
+To lose all heart and side with the decrepid Pfhor
+Pleaded Bob, "Frog blast the vent core!"
+#INFORMATION
+
+Now this phrase was mind corrupting
+And my mission interupting
+Fantasies of shooting Bob onto the wretched starship's floor.
+Quoth the target, "Frog blast the vent core!"
+
+As I lift my Zeus-Class, trembling
+Bob just went about his mumbling
+Along came an unsuspecting soldier of the legion Pfhor.
+Spoke the moron, "Frog blast the vent core!"
+
+Now I raised my Mega Pistol
+Tears in Bob's eyes, clear as crystal
+Glowing from the rod of Pfhor
+Quoth our victim, "Frog blast the vent core!"
+
+As a shot, a hit, collided
+With a bang 'twas coincided
+The evil phrase is all we hear....
+"OH MY GOD, THEY'RE EVERYWHERE!!"
+#LOGOFF 200
+$C1Written by Benjamin Wigler
+Editions by Forrest Cameranesi
+#END
+#FINISHED
+#LOGON 200
+$C1『平手打ちせざるボブ』
+ロバート・フロストの『選ばれざる道』のパロディ
+#PICT 200
+
+
+
+
+
+All roads diverge and lead to Sol
+And sorry I could not splinter both
+And be a soldier, long I stood
+Deep in Lh'owon's undergrowth
+
+Then took the other, body hair
+And having perhaps the lower brain
+Because it was messy, the clothes it wear
+Though as for death a passing care
+Had SPNKed them really both the same
+#PICT 200 RIGHT
+
+
+
+
+
+And both on the floor they lay
+Upon a warrior's spineless back.
+Oh, I kept the skull for another day!
+Yet knowing how they lead on to Sol,
+I doubted if I should ever come back.
+
+I shall be telling this with a sigh
+Somewhere ages and ages hence:
+All roads, they lead to Sol, and I-
+I took the one the Pfhor was on,
+And then I jumped the Electro-fence.
+#LOGOFF 200
+$C1ベンジャミン・ウィグラーによる
+フォレスト・カメネージのエディション
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 320
+#INFORMATION
+
+<<< 全Marathonターミナルへのメッセージ >>>
+
+
+
+
+$Bマラソン緊急システム放送
+$b
+
+今日の午前８時２０分、マラソンは不明の敵軍に攻撃され、その結果マラソンは多大な損害を受けた。
+
+午前８時３０分には、エイリアンの軍隊がマラソンを乗っ取った。現在の状況は非常に重大である。乗組員全員はただちに武器を取り、戦う準備をせよ。
+
+
+
+
+<<< 報告時間 2794.7.3.14.08.39 >>>
+#LOGOFF 320
+#ENDTERMINAL 2

@@ -1,0 +1,5 @@
+<marathon>
+	<stringset index="135">
+		<string index="09">[タイムスタンプ～0811[ce]－10.07]</string>
+	</stringset>
+</marathon>

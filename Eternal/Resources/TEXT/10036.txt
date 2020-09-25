@@ -1,0 +1,5 @@
+<marathon>
+  <stringset index="135">
+    <string index="09">[タイムスタンプ～6500万年[紀元前]－12.21]</string>
+  </stringset>
+</marathon>
