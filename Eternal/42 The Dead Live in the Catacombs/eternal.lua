@@ -98,19 +98,11 @@ function Triggers.got_item(type, player)
 end
 
 function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-    if damage_type == "hulk slap" then
-      if victim.weapons.current.type == "smg" then
-        victim.life = victim.life + damage_amount
-      elseif victim.weapons.current.type == "shotgun" then
-        victim.life = victim.life + damage_amount
-      end
-    elseif damage_type == "claws" then
-      if victim.weapons.current.type == "smg" then
-        victim.life = victim.life + damage_amount
-      elseif victim.weapons.current.type == "shotgun" then
-        victim.life = victim.life + damage_amount
-      end
-    end
+	if projectile and (victim.weapons.current.type == "smg" or victim.weapons.current.type == "shotgun") then
+		if projectile.type == "shotgun bullet" or projectile.type == "smg bullet" then
+			victim.life = victim.life + damage_amount
+		end
+	end
 end
 
 function Triggers.init(restoring)
