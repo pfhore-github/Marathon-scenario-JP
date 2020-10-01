@@ -197,6 +197,7 @@ $C3
 
 
 $C1＼＼メッセージ終了／／
+#TAG 10
 #LOGOFF 310
 #LOGOFF 320
 #ENDTERMINAL 2
