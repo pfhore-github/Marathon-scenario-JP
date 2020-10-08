@@ -1,0 +1,14 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 1604
+#PICT 6100
+Dummy terminal to keep Forge happy.
+#LOGOFF 1604
+#END
+#FINISHED
+#LOGON 1604
+#PICT 6100
+Dummy terminal to keep Forge happy.
+#LOGOFF 1604
+#ENDTERMINAL 0

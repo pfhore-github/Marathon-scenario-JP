@@ -4,7 +4,7 @@
 #LOGON 1600
 $C5*1AAA: スフト・人類ストリーム翻訳起動*
 #PICT 1000
-$C5Place the (/datastore?) you are carrying in the appropriate receptacle, and then return here.
+$C5持ち運んでいる（／データストア？）を適切な端子に入れて、ここに戻ってください。
 #LOGOFF 1600
 $C5(ストリーム翻訳、ジャハシステム、2323、ポートランド、オレゴン州、地球)
 #END
