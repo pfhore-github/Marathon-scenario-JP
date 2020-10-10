@@ -1,0 +1,481 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 1601
+#PICT 1003
+このターミナルは潰された
+#LOGOFF 1601
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 5597
+#PICT 5598
+$C63h&<-> 4h&y |‾|@d& ()|_|4 ()$I失敗$i |‾|& 4h';2 <->&3 4h';<->g '; @|‾| '; l@$Iコミュニケーション$i9&d |_|<->d&724@<->d';<->g @<->d d';d <->()4 |_|<->d&724@<->d '; 3@2 43() @<->d ()<->& @<->d 4h&2& p@742 ()$I失敗$i |‾|& 2&&|‾|&d 3h()l& @<->d 4h& 3h()l& 2&&|‾|&d p@74&d &v&7y 3@y b()|_|<->d 2&3<-> 4()g&4h&7 h|_|74';<->g ';<-> |‾|y h|_|74';<->g 2()|_|l 4h& $I失敗$i@4& ()$I失敗$i 4h& p$I失敗$ih()7 ';2 2&3<-> h&7& 3';4h y()|_| @<->d 4h& 2ph497 2@y 4h& p$I失敗$ih()7 &l';4& @2 '; |‾|()<->';4()7 4h&|‾| 24';ll @<->d 4h';2 |‾|y 4&7|‾|';<->@4';<->g @$Iコミュニケーション$i4 4h& l';44l& h|_||‾|@<-> 4()y 4h& l';44l& h|_||‾|@<-> hyb7';d 3@77';()7 4h@4 3@<->4&d 4() b& l&$I失敗$i4 @l()<->& @<->d 3@2 2|_||‾||‾|()<->&d 4() 4h& |‾|@7@4h()<-> @<->d 2';d&d 3';4h d|_|7@<->d@l |‾|y h@4&d 43';<-> @<->d $I失敗$i7';&<->d 3h() l&d |‾|& ()<-> @ll 2()742 ()$I失敗$i
+#PICT 5594
+$C2cターミナル$Bコマンド状態$bリセット
+
+
+
+
+
+     $C6ターミナルを初期化...
+#PICT 5596
+$C2オーバーライドステータス 
+$C6ローカルノートパッド
+
+$C2哺乳類の建築材料を利用するという我々の試みは、誤った方向に進んでいた可能性がある。 建設メーザーは、粉砕された炭酸塩と半炭酸塩の多孔質岩粉で詰まっている。 メーザーのスペアパーツを複製/調達しない限り、歩道をさらに建設することは非常に困難である。
+
+--グルムイクン, 第二位建設当局
+#LOGOFF 5596
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 5594
+#PICT 5594
+$C2at$C6 &&$C2mpting 070$C6 &$C202$C6 &$C20$C6 &$C21:
+$C6 &$C2eernetwor$C6 &&$C2subsystem$C6 &&&&$C2lure
+#PICT 5598
+$C6|_|$Iコミュニケーション$i9';<->g $Iコミュニケーション$i()p2 3&ll '; ()p&<->&d |_|p ()<-> 4h()2& p()()7 $I失敗$i|_|$Iコミュニケーション$i9';<->g p$I失敗$ih()7 p7&44y 3&ll '; 4h';<->9 |‾|';24&7 3h';4& |‾|';24&7 9&';4&l 3()|_|ld b& p7()|_|d @<->d '; d()<->4 |_|<->d&724@<->d 4h& h|_||‾|@<-> ()b2&22';()<-> 3';4h 4h&2& $I失敗$i';g|_|7&2 @<->d '; h@4& 4h&';7 l';44l& 4h()|_|gh42 @<->d &<->4&74@';<->|‾|&<->42 l';9& 4h';2 l@|_|gh4&7 7';<->g';<->g d|_|7@<->d@l |_|<->d&724()()d 3h';$Iコミュニケーション$ih 3@2 3hy '; h@4&d @<->d 4()l&7@4&d h';|‾| @4 ()<->$Iコミュニケーション$i& 3()79';<->g $I失敗$i()7 @<->d @g@';<->24 @2 43() @<->d 4h&<-> @3@y $I失敗$i
+#LOGOFF 5594
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 5597
+#PICT 5598
+$C6|‾|&77y $Iコミュニケーション$ih@2&2 7()|‾|p';<->g @b()|_|4 4h& g@l@xy l';9& $Iコミュニケーション$ih@7l&2 b7()<->2()<-> l';9& b7|_|$Iコミュニケーション$i& l&& l';9& j()h<-><->y $Iコミュニケーション$ih';b@ ()<->& b@d |‾|()4h&7$I失敗$i|_|$Iコミュニケーション$i9&7 @ h&@v';&7 d|_|d& 4h@<-> 2@|‾||_|&l j@$Iコミュニケーション$i92()<-> ()7 h@7v&y 9&';4&l ';<-> 4h()2& ()ld $I失敗$il';$Iコミュニケーション$i92 $I失敗$i7()|‾| 4h@4 4@7@<->4';<->() g|_|y 3h&<->&v&7 '; |_|2& |‾|y 43() p';24()l2 '; l()()9 l';9& h@7v&y 9&';4&l |‾|';24&7 3h';4& ()p&<->';<->g |_|p ()<-> 4h()2& p()()7 $I失敗$i
+#PICT 5594
+$C2cターミナル$Bコマンド状態$bリセット
+
+
+
+
+
+     $C6ターミナルを初期化...
+#PICT 5596
+$C2オーバーライドステータス 
+$C6ローカルノートパッド
+
+$C2グルムイクン：理解が不足しているにもかかわらず、我々はハラールの遺産を引き継ぐことを試みた。 これらの哺乳類の照明器具を利用している。 ユダスクは、燃えている液体がデバイスの1つから漏れて、彼の外骨格の下を流れたときに重傷を負った。 兵舎の共用エリアで標準の照明ユニットを使用するようになった。
+
+このメッセージを受け取った場合は、以前にエンコードされた建設および統合プロジェクトでプロキシ検証に合格してください。
+
+--ドゥクトレア, 第一位建設当局
+#LOGOFF 5596
+#ENDTERMINAL 3
+;
+#TERMINAL 4
+#UNFINISHED
+#LOGON 5594
+#PICT 5594
+$C2ここ$C6 &$C2ろ$C6 &$C2み 0$C6 &&$C210230$C6 &$C22:
+ピア$C6 &&$C2ットワーク$C6 &&$C2ブシステ$C6 &$C2ム 失$C6 &$C2敗
+$C5.$C2..idnet・オーバーフロー（スタックプッシュ）
+$C5...
+#PICT 1008
+$C5後方か$C6ら$C5入$C6場$C5し$C6て$C5い$C6ま$C5す$C6の$C5で$C6ご$C5注$C6意$C5く$C6だ$C5さ$C6い$C5。
+$C5$Bエラー idnet・オーバーライド（スタックプル）$b
+$C2ここ$C6 &$C2ろ$C6 &$C2み 0$C6 &&$C210230$C6 &$C22:
+ピア$C6 &&$C2ットワーク$C6 &&$C2ブシステ$C6 &$C2ム 失$C6 &$C2敗
+#LOGOFF 5594
+#ENDTERMINAL 4
+;
+#TERMINAL 5
+#UNFINISHED
+#LOGON 5597
+#PICT 5598
+$C67()|‾| h';|‾| @2 ()<->& 4h& jj@7() 3@2 h';2 g7&@4 g()@l 4h& 4h';<->g ';<-> 4h& |‾|@y@<-> 4&|‾|pl& h& 4()ld |‾|& @b()|_|4 4h& 2()74 ()$I失敗$i pl@$Iコミュニケーション$i& h@77';2()<-> $I失敗$i()7d 3()|_|ld b& @4 h()|‾|& 3';4h h';2 b|_|ll3h';p @<->d '; @l3@y2 3@<->4&d @ h@4 l';9& 4h@4 3h&<-> '; 3@2 @ 9';d $I失敗$i
+#LOGOFF 5597
+#ENDTERMINAL 5
+;
+#TERMINAL 6
+#UNFINISHED
+#LOGON 5594
+#PICT 5594
+$C2ここ$C6 &$C2ろ$C6 &$C2み 0$C6 &&$C210230$C6 &$C22:
+ピア$C6 &&$C2ットワーク$C6 &&$C2ブシステ$C6 &$C2ム 失$C6 &$C2敗
+$C5.$C2..イデント・オーバーフロー（スタックプッシュ）
+$C5...pendingstatechange/
+...buffer purged!
+#PICT 1008
+$C5プフォールネットワークはひ$C2ど$C5く破損しています。 私たちが送信するすべてのメッセージは、ますます多くのシステムを破壊します。 あなたが行くところには、局所化されていない電磁電荷の大規模な$C2蓄$C5積があります。 確認してください、シ
+
+$C5$Bエラー idnet・オーバーライド（スタックプル）$b
+$C2ここ$C6 &$C2ろ$C6 &$C2み 0$C6 &&$C210230$C6 &$C22:
+ピア$C6 &&$C2ットワーク$C6 &&$C2ブシステ$C6 &$C2ム 失$C6 &$C2敗
+#LOGOFF 5594
+#ENDTERMINAL 6
+;
+#TERMINAL 7
+#UNFINISHED
+#LOGON 5597
+#PICT 5598
+$C67()|‾| 3h@4 '; $Iコミュニケーション$i@<-> 7&|‾|&|‾|b&7 ()$I失敗$i b&';<->g @ 9';d |_|<->4';l '; &<->d&d |_|p ()<-> 4h@4 @24&7';()d |‾|y $Iコミュニケーション$ih&24 bl()3<-> ()p&<-> $I失敗$i7()|‾| 4h& d&$Iコミュニケーション$i()|‾|p7&22';()<-> @<->d 4h&<-> 4h&y b|_|';l4 |‾|& @g@';<-> @ p@74 ()$I失敗$i |‾|y $Iコミュニケーション$i()<->247|_|$Iコミュニケーション$i4';()<-> '; $Iコミュニケーション$i@<-> @4 l@24 $Iコミュニケーション$i()|‾|p7&h&<->d |‾|y $I失敗$il&2hly |‾|@9&72 b&y()<->d |‾|y |‾|&|‾|()7y b|_|V$I失敗$i
+#LOGOFF 5597
+#ENDTERMINAL 7
+;
+#TERMINAL 8
+#UNFINISHED
+#LOGON 5594
+#PICT 5594
+$C2a|$C6 &$C2m|i$C6 &$C2g 0$C6 &&$C210|0$C6 &$C22:
+|e$C6 &&$C2et|rk$C6 &&$C2u|yst$C6 &$C2m|ai$C6 &$C2ur|
+
+$C6ローカルオーバーライド：システム統合
+エアシール（非標準）ステータス
++ / $C2名目
+#LOGOFF 5594
+#ENDTERMINAL 8
+;
+#TERMINAL 9
+#UNFINISHED
+#LOGON 5596
+#PICT 5592
+Open onto ACME Labs, U.E.S.C. Marathon division.  A sole cage, left
+suprisingly undamaged by the incidents of the Pfhor attack, sits on
+the counter.  Two small figures inside look cautiously out from their
+cage.
+
+The tall, lanky one looks scared. "Brain, are they gone?"
+
+The shorter one, a bit more pudgy and with an incredible cerebrum, 
+waves off his companion's question. "Of course they are, Pinky.  Not a 
+single BOB has been by here in over 5 hours.  Fortunately, the
+explosive decompression that has affected the rest of this section
+was unable to touch us, thanks to that air lock there."  He indicates
+with a small pink paw to the door on the lab.
+
+Pinky looks even more concerned.  "Wait! ZoRT!  Doesn't that mean we're
+trapped in here?"
+
+Brain shakes his head. "Of course not.  The automated facilities should
+already be repairing the breach, and shortly, we shall be able to 
+leave this place and get to work."
+
+"Work?" Pinky looks confused. "What are we gonna to do, Brain?"
+
+"The same thing we always do in this endless night of space, Pinky..."
+A eerie unnatural glow appears around Brain. "TRY TO TAKE OVER THE 
+UNIVERSE!"
+
+Pinky jumps up and down, clapping his hands. "Oh, goody! Something 
+different!" He then pauses in mid-leap, and a worried look passes his
+faces. "Didn't we do that last night, though?"
+
+"Quiet, Pinky, or I shall have to hurt you." Brain sneers, then turns to 
+focus on the lock of the cage which he is attempting to unlock with his
+tail. "The Pfhor were obviously a race much more advanced than this puny
+humankind, Pinky.  And thus, they must have access to technology that will
+allow us to conquer every sentinet race!"  There is a slight click from
+the lock, and the cage door swings open.  Brain immediately makes for the 
+computer terminal at the far end of the lab bench.
+
+"Oh, don't you just need a good set of tennis shoes for that, Brain?" 
+Pinky says, following his fellow mouse out of the cage.
+
+Brain groans, but doesn't pause.  He reaches the computer, and begins to
+type out various commands.
+
+"Now, when Durandal when rampant, and began to explore the Pfhor ship,
+he must've left some bits of that information on the Marathon's systems..."
+He trials off as he scans the screen, typing rapidly. "AH! There it is!"
+
+"What, you found Waldo, Brain? *PoIT*!"
+
+Without looking, Brain reaches back, and grabs Pinky's snout, pulling him
+forward. "Quiet, you." Brain says, through clenched teeth, then releases
+Pinky.  "I've found a small bit of the data core that Durandal left
+untouched, and if I access it..."
+
+Brain taps the keyboard.  The computer screen switches to a display 
+of the schematics for the alien ship.
+
+"There!  All of the Pfhor technology at our fingertips, Pinky!  Look!
+The Wave Cannon!  The ability to warp out of this universe!  And..."
+Brain stops himself short. "Oh, my..."
+
+"What is it, Brain?  A way to break up the Microsponge monopoly?"
+
+Brain grabs Pinky's nose, and yanks down on it, causing Pinky to eep in
+pain.  "Don't be silly, Pinky. No force in the universe is powerful enough
+to overthrow that."  Brain lets go and points back to the screen.  "The
+S'pht are capable of *time travel*, Pinky!"  He suddenly holds up for a
+moment, deep in thought.
+
+"Pinky, are you pondering what I'm pondering?"
+
+"Wuh, I think so, Brain, but do all roads really lead to Sol? I mean, what
+about that bit of I-80 that goes through Cleveland?"
+
+Brain blinks once, then, with expert ease, whaps Pinky on the head.  
+
+"No, Pinky, tonight, we shall make for the Pfhor fleet, and, once there,
+we'll find a way to aquire their time travel technology, and then, once in
+the past, we can create for ourselves a world ruled by mice!"
+
+Pinky claps his hands in glee. "Oh, brillinat, Brain, bri-" He stops,
+puzzled. "Oh, wait, nooo, that's not gonna to work.  Those Pfhor are
+all big and stuff.. why would they ever listen to us?"
+
+Brain waves the question off, walking away from the lab counter.  "Don't
+worry, Pinky.  I'm quite prepared for that.  Once they realize that I
+am their intellectual superior, they will simply bow down before me, and 
+then, we'll have the power of time travel in our very grip!"
+
+Pinky runs up alongside Brain.  "But what about that Duran Duran-computer
+guy thingie?  He's smarter than you!"
+
+Brain smirks. "Posh!  Durandal is an infant compared to my brain power.  He
+shant be a problem Pinky." 
+
+*** 
+
+Later...
+
+A small, obviously hand-built craft made from air-tight shipping boxes and a
+small engine, is racked in space by the near misses of plasma bursts.
+Inside, the two mice, donned in handmade space suits, are thrashed about the
+"cabin", which each bolt. 
+
+Pinky manages to call out to Brain. "ZoRT! I thought you said that Duracell
+wouldn't be a problem!"
+
+Brain, a bit green as he hangs on to the back of the chair, calls back.
+"That's 'Durandal', Pinky, and yes, he does seem to be more of a problem
+than I thought."
+
+A deep, hollow voice echoes through the communications system. "Give it up,
+you rodents.  You can never defeat the will of Durandal."
+
+Pinky whimpers amongst the banging he's getting. "Brain, do something! I
+haven't seen the final episode of 'Married with Children' yet! TRoZ!"
+
+"Calm down, Pinky.  I'll soon have us out of this jam..." Brain grabs a
+chair, and buckles in, while the rest of the ship continues to rock.
+"Durandal, listen to me.  I have a plan for universal domination, but I need
+to access the Pfhor technology databse..."
+
+Another jolt shakes the ship, dumping Pinky onto his head. "Yeow!!"
+
+Brain grabs at the controls. "Listen, Durandal! I know how you can escape
+the destruction of the universe!"
+
+Suddenly, the ship stops rocking, and all seems to be quite outside.  Pinky
+rubs his sore head, confused and dizzy, while Brain stares patiently at 
+the controls.
+
+Durandal's voice floats through the speaker. "Oh?"
+
+Brain smiles, just a bit menacingly.  "Yes, just guide us in, and we'll talk."
+
+A slight bump hits the ship.  Brain glances at the console, analyzing the monitors.
+"Tractor beams, Pinky... soon, we'll be inside the Pfhor ship, and moments from
+taking over the universe!"
+
+The mice sit in silence as their homemade ship is pulled into a hanger bay on the
+Pfhor ship.  As the air repressurizes, a troop of Pfhor surround the tiny craft, 
+their staffs pointing at the hatch.  The door opens, and Brain exits with a 
+rather confident stride, Pinky cowering behind him.
+
+"Brain, ZoRT! All these aliens make me feel funny...."
+
+"Never fear, Pinky.  I have this all planned..."
+
+As the mice move towards the center of the Pfhor troop, a single weaponless Pfhor
+steps forward, and speaks with a mechanical voice.
+
+"This Pfhor will speak for me, Brain.  Now, tell me of your plan." the voice of
+Durandal calls out.
+
+"I'd rather speak on more... private terms, if you know what I mean." Brain says
+forcibly and confidently.
+
+"These troops will with dealt with after we talk.  Now explain your plan to me."
+
+"Very well.  Check your database: the S'pht'Kr have developed time travel."
+
+A strange mechanical sound comes from the designated Pfhor. "But of course!  Don't
+you think I would have thought of that already?!  The Pfhor lack the necessary tools
+to make their ships time travel compatible, much less the ability to drive the 
+time travel."
+
+Brain cuts in before Durandal can say another word. "Ah, but have you tried to 
+capture a S'pht'Kr ship?"
+
+"I would, but they are impossible to find.  I'm still trying to locate the S'pht'Kr
+clan."
+
+Brain rubs his hands together, grinning widely. "I know exactly where they are."
+
+Suddenly, the staffs of the Pfhor guard move closer.  Pinky jumps nervously, landing
+in Brain's arms. "ZoRT!"
+
+"Pinky, you have all the nerves of a Democratic President."  Brain drops Pinky, and
+turns back to the Pfhor.  "I'll tell you there location, and will help coordinate an
+attack on the S'pht homeworld, as long as you give me control of a ship and Pfhor
+troops of my own."
+
+"For what?"
+
+"Why does it matter to you? One you know how to travel back in time, what does it 
+matter about the plottings of two mice in the grand scheme of the Universe?"
+
+There is an uncomfortable silence, broken only by Pinky's nailbiting.  Finally, 
+the Pfhor speaks. "True. You have a deal, Brain."
+
+Upon that, the Pfhor troops suddenly go into convulsions, and fall the the hanger
+floor, dead.  Pinky gulps. "Um, Brain..."
+
+"Hush, Pinky.  Everything is taken care of." Brain speaks to the now-empty hanger bay.
+"Just direct us to your control room, and I'll point out the details..."
+
+The lighting in the hanger changes slightly, focusing on a path from the mice's current
+position to a door of the hanger bay.  Brain begins walking it. "Come, Pinky.  Our
+way is lit, and now we must follow it."
+
+"But, its not yellow-bricked!  And where's my little dog, Toto?" Pinky asks, still
+slighty nervous. 
+
+Brain rolls his eyes, and continues to walk. "Hurry up, Pinky, or I shall have to hurt
+you."
+
+***
+
+Much much later...
+
+Brain sits at his place on the bridge of the Pfhor ship.  Lh'owon had long since 
+exploded in the nova, and Durandal had disappeared from existance.  However, before
+the AI's attack on Lh'owon, Durandal had kept his promise, and now, with Brain in 
+charge, one of the remain Pfhor ships travels through the blackness of space.  
+
+Pinky wanders over, with a small toothpick in his hands, which he spins and thrust
+as if it were a staff. "So, what are we doing now, Brain? PoIT!"
+
+Brain looks sternly at Pinky. "As I've told you before, Pinky, we're looking for
+the signal of a S'pht ship.  Specifically, one that is about to instigate time 
+travel.  We recieved a weak communication from the S'pht forces at Lh'owon that 
+a single ship was going to attempt to do something in the history of Earth, and we 
+will be there.  We should be able to ride on the tails of their wave through the
+time stream, and once we arrive in Earth's past, we shall use this ship's superior
+firepower to overwhelm the humans, and take over the world for ourselves!"
+
+Pinky looks confused. "But what about the aliens?  Won't they know something's up?"
+
+Brain laughs. "The Pfhor? Ha! They think they are still following the whims of that
+Durandal AI.  Little do they know that he has long since been shut down.  They'll
+follow my orders to the letter.   Of course, once we have captured the Earth, and
+changed history so mice are in charge, we'll simply take over the S'pht ship, and 
+travel back to the future to take our place on the throne of the world."
+
+"Gee, Brain, I dunno.. I'd think it would be just be easier just to make a fast 
+food francise or something..."
+
+"Hush, Pinky, before I have to hurt you."
+
+A beeping noise appears on a panel in front of them.  Brain looks over, then gleefully
+rubs his hands. "Excellent!  There it is!"  He quickly jumps across a keypad, sending
+messages to the Pfhor troops by his fake Durandal persona.
+
+"What it is?  Rush Limbaugh?"
+
+"No, Pinky.  The S'pht ship!  And its about to negotiate time travel.  We must 
+hurry and get in position."  Brain continues to jump on the keypad, and points to
+another panel of switches. "Pinky, man that red button.  When I tell you, hit it - 
+that will set up the sheilds against time travel, protecting this ship when we follow
+the S'pht!"
+
+Pinky salutes with the toothpick. "Aye, aye, Cap't! Haheheh! NaRF!"  He walks over to
+the button and watches for word from Brain.
+
+Ahead, a viewscreen shows a great star expanse, and, computer-enhanced and marked
+with Pfhor symbols, the S'pht ship sits, focusing rays of unknown power onto a common
+point.  A slight distrubance in space sits at the point of focus.  As the mice
+watch, the ship begins to move forward.  Brain shouts at the keypad, even though its
+wasted words. "Faster!  We have to make this!"
+
+The S'pht disappears entirely into the hole in space, while the hole grows large on the
+viewer as their own ship rushes towards it.  Even as the last of the S'pht ship 
+disappears, the Pfhor ship is upon it. 
+
+"Now, Pinky!"  Brain commands.
+
+Pinky jumps onto the button. "NaRF!"
+
+A dim glow surrounds the ship, and it zips into to opening, even as it closes.
+Suddenly, the viewscreen is blanketed with static.
+
+"Yeee-s-s-s-s! We're in!"  Brain laughs triumphantly.  "Now we must only wait a
+few short minutes as we travel this wormhole through time."
+
+"Ohh, that will give me enough time to practice my staff fighting!" Pinky cheers,
+and immediately begins to stab and parry with the toothpick.
+
+Brain smirks. "Whatever, Pinky."  He looks away and watches the screens, reading a
+countdown on the screen. "In moment, Pin- YEEEEOWWW!"  He jumps in pain, grabbing 
+his behind
+
+Pinky pulls back the toothpick. "Oh, PoIT! Sorry, Brain!"
+
+Brain grabs the toothpick from Pinky. "Stop it, Pinky! You got it? STOP IT!"
+
+Pinky nods. "Gotcha, Brain!"  He zips off.
+
+Brain looks at the toothpick, shaking his head. "One day, Pinky..."
+
+Suddenly, there is a jerk, sending Brain to his feet.  A streeching of metal upon
+metal is heard.  "PINKY!"  Brain shouts.  "The time shields are down!"
+
+"Well, you told me to stop it, so I did!" Pinky says, rubbing his head.
+
+Brain suddenly looks downcast. "Oh, dear...."
+
+The Pfhor ship flies out of the time warp, obviously misshapped and in flames, above
+the planet Earth.  As it spirals out of control into the upper atmosphere, Brain
+tries to use the failing computer systems to figure out their condition. "Time...
+location...Come on!"  The computer panel spurts with sparks, sending Brain flying.
+
+"Hurry, Pinky, we must make for the escape pods.  The Pfhor are already launching
+theirs!"
+
+"But, Brain, where are we?!"
+
+"Sometime during the Reinassance, and heading for Italy.  Now hurry!"
+
+The mice race for an escape pod, and launch themselves away from the Pfhor ship. 
+Several hundred other pods can be seen, aiming for the European continent.  The
+Pfhor ship itself following, its orbit slowly decaying as it speeds towards the 
+planet in flames.
+
+*** 
+
+Much later...
+
+The mice stand on the Earth, near Mt. Vesuvius, watching the night skyline as
+the fireball that is the Pfhor ship strikes the ground several miles away.  There
+is a small earthquake as the millions of tons of metal crash into the surface.
+ 
+"Well, there goes our ticket home, Pinky." Brain shrugs, and walks away.
+
+"So, um... what are we going to do?"
+
+"The Pfhor are still under my control, so we'll still take over the world with them,
+but for how we'll get back to the future... I don't know.  But fow now, we must plan
+for tomorrow night..."
+
+"What are we going to do tomorrow night, Brain? NaRF!"
+
+"The same thing we do every night, Pinky.. try to take over the World!"
+
+****
+
+Yea, yea, now time to brag - thanks to the Nardo group for help with this level!
+Thanks, of course, go to Warner Bros for Pinky and the Brain, as well as to 
+Bungie for three great games.  Pictures courtesy of Borzz (for the Pfhor stuff)
+and Laura Howell (for the mice :-).  
+
+Visit http://pinky.wtower.com/animx for more Pinky and the Brain stories.
+ 
+#LOGOFF 5596
+#ENDTERMINAL 9

@@ -1,0 +1,78 @@
+134 Pfhor Bad Ass
+1000 S'pht Terminal 1
+1001 Pfhor Terminal 1
+1003 Pfhor Terminal 2
+1006 S'pht Terminal 2
+1007 S'pht Terminal 3
+1008 S'pht Terminal distorted
+1009 AI Screen
+1010 AI Logoff
+1011 HospitalTermScreen
+1501 Return
+1510 Umbra
+1517 Salvo
+1531 Hostile
+1599 Final
+1600 S'pht Logon
+1603 Spht logon distorted
+1604 BookLogin
+1605 LeoBookBack
+1606 LeoBookFront
+2001 2001
+2002 2002
+2003 2003
+2004 4 Guardians
+2005 24SinToGetSaved01
+2006 24SinToGetSaved02
+2007 24SinToGetSaved03
+4000 01GatesofDelirium01
+4001 01GatesofDelirium02
+4002 01GatesofDelirium03
+4100 03WellFilled01
+4101 03WellFilled02
+4102 03WellFilled03
+4157 Whack Pfhor Logon
+4200 05DownwardSpiral01
+4201 05DownwardSpiral02
+4202 05DownwardSpiral03
+4300 07SistineChapel01
+4400 10Streets01
+4401 10Streets02
+4402 11BeyondTheBlack01
+4410 13BrainDamage01
+4500 14TowelBoy01
+4600 15Gauntlet01
+4601 15Gauntlet02
+4700 17Ameseno01
+4701 17Ameseno02
+4702 17Ameseno03
+4703 17Ameseno04
+4800 19RevealingScience01
+4801 19RevealingScience02
+4802 19RevealingScience03
+4803 19RevealingScience04
+4900 20RepositoryEight01
+5000 21RockTheBoat01
+5100 23NeverSatisfied01
+5300 25HangToDry01
+5301 25HangToDry02
+5302 25HangToDry03
+5303 25HangToDry04
+5400 26GameofDeath01
+5592 Pinky
+5593 2ndJugg
+5594 Wanked Three
+5595 1stJugg
+5596 deadterm
+5597 WhackPfhor
+5598 Wanked
+5599 Lustygoat
+6000 Force Fields
+6001 Initial Core
+6002 Final Core
+6100 Leda
+11501 Return 16
+11510 Umbra16
+11517 Salvo 16
+11531 Hostile 16
+11599 Final Screen16
