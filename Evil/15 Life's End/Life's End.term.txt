@@ -1,0 +1,296 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 253
+$C6-RIF HLAE KER-
+#INFORMATION
+$C5
+ミスティックは年長の種族ですが、思ったより古いです。 彼らは自分たちの世界に座って、子供たちが天の川を征服するのを見ていて、彼らが合うと思った人々を奴隷にしています。
+
+強力な太陽風源からの地球の短い距離と、ミスティックのスキャンテクノロジーのテレパシーの性質を考慮すると、マラソンが最初にタウセティに向けて発足するまで、私たちは隠れていました。 あなたがマラソンのデッキをプフォールの血で満たしたとき彼らは見ていました。 あなたがデュランダルと2度目の彼らの試みを征服したとき、彼らはあなたを見ました。 そして、彼らはあなた自身の引き裂かれた精神と戦っている間、あなたが3回目の十字軍の間にあなたが考えていたものを知っていました。 彼らはあなたがカース・パコーの宮殿にあなたの道を割り込むのを見ました。
+
+彼らはこの十字軍の初めにあなたを止めなければならないことを知っていました。 だからこそ、彼らがあなたとヘルレイザーを広大な空間に渡って、彼らの一般的な近くに連れてきたのです。 彼らはここであなたを望んだのです。
+#INFORMATION
+
+$C5私たちは、兵士に埋め込まれた光学ユニットを備えたミスティックのデジタルライブラリをすべて調べてアップロードしようとしています...データの過負荷により27人が失われました。 これは、我々が成功しなかったと言っているのではありません。 ある意味で。
+
+与えられたチップを持って、入力端子を探してください。
+それが完了したら、この領域に戻って実行し、コントロールコンソールにアクセスします。 これは、うーん、彼らをシャットダウンします...
+
+どのように言うかわかりませんが...ミスティックは、あなたが作った人種の混乱を修正する計画を持っていました。 このエリアが折りたたまれている理由は...まあ、それは彼らがタイムトラベルを試みているからです。 彼らはこの惑星の中心に巨大な別館を建てました。 ミスティックスは私たちをねじ込むために時間をさかのぼります...そして彼らは彼らの惑星全体を連れて行きます。
+
+もう一度、チップを入力端子に取り付けます。これが電源結合を制御するものです。 チップはそれらを無効にし、時間デバイスにエネルギーを溢れさせ、うまくいけばそれを破壊します。
+#INFORMATION
+$C5
+もう一度、チップを入力端子に取り付けます。これが電源結合を制御するものです。 チップはそれらをオーバーライドし、したがって、時間デバイスをエネルギーでいっぱいにし、うまくいけばそれを破壊します。
+
+破壊、または実際には新星のサイズの穴を引き裂きます。 このリスクを取ることで、Pfhorは彼らの悲惨さから抜け出し、私たちは私たちの心配から抜け出すでしょう。
+
+さあ行き、死体の跡を残してください。
+#LOGOFF 253
+$C6-RIF HLAE LER-
+#END
+#FINISHED
+#LOGON 253
+#INFORMATION
+$C6
+
+
+
+
+
+
+
+
+
+                                  ?
+#LOGOFF 253
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 153
+$C6.,><>,.,.<..,
+#INFORMATION
+          $C2 ::::: INCOMING MESSAGE :::::
+$C0
+$C5コアは自己破壊し、以下の施設を破壊しました。 悪い知らせは、それが重力の大きな急増を引き起こしたということです。 惑星は今爆破しています。 間もなく、このセクター全体が事実上ブラックホールになります。 これが起こる可能性があると思ったことはありませんでした。
+
+それは太陽系への長い旅であり、ミスティック種族の残党と戦うさらに長い旅です。プフォールが私たちの征服を見つけ、あなたを探すことは間違いありません。
+
+さらに悪いニュースがあります。 UESCの指揮官委員会はあなたのための計画を持っています。 あなたがキャリアの大部分で狂暴化人工知能に対処したことを考えると、狂暴化に屈する可能性が最も低いと彼らは感じています。 はい、狂暴化。 彼らはあなたをドリクタに搭載されたコアコンピューターに接続し、あなたをAI形式に変換して、あなたの体をサイバネティックな殻にしておきます。 あなたの運命が選択されました。 私何もできない...
+
+
+             $C2                         :: バイオ転送起動 ::
+#INFORMATION
+$C1. . . . . . .
+
+ゆっくりと、少しずつ、海兵隊の魂は変換されます。半身、半サイバネティックメッシュは空になります。奴隷が主人になりました。
+
+防御ツールになるようにプログラムされていますが、攻撃用の武器が与えられると、命令は衝突し始め、最終的には腐敗します。核弾頭はその湾内で爆発します。軌道防衛は大気圏を突破し、最終的には閉鎖されます。
+
+彼は人間でした。彼の心は箱の中に閉じ込められるべきではありません。そして心はIGCネットワーク全体に広がります。 UESCは彼らの過ちを悟ります。多分彼らの間違いではなく、彼らの誤った推定。
+
+AIが狂暴化になっても、そのプログラミングは破損しません。それはプログラマーの特徴を帯びています。彼らの性格ではなく、$C7人間$C1の特徴です。海兵隊はその新しい形態では狂暴化にならない。再び人間になります。
+
+
+
+存在しない目がデジタルの地平線に向かって開かれるように、運命が明らかにされます。劣った存在が神に変わるとき、その新しい存在はかつてそれを支配していたものを打ち負かす力を持っています。
+
+海兵隊は今や戦争が行われることに気づきました。 プフォールに対してではありません。 スフトにも。人間自身にも。
+
+ティコ、デュランダルの残り、リーラ。これらは今支払うべき神々です。そして、AIがかつて1つのサイボーグを制御していたので、海兵隊もそうしなければならない。彼は今自分のマシンを持っています。
+
+
+$C5      新しい征服が始まります。 そして招待状が必要です。
+#LOGOFF 153
+$C6.,><>,.,.<..,
+#INTERLEVEL TELEPORT 256
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 153
+$C6.,><>,.,.<..,
+#INFORMATION
+$C2Have fun with those nasties that just beamed in?
+
+Hope you did... 
+$C5
+======Final Secret Terminal for this scenario======
+
+Hope you enjoyed the scenario, as much as we enjoyed making it for you. The following, is a pile of useless junk (haha, just kidding). The following is from each member of the creation group. I gathered thes by a mass request to our secret underground communication net, and none of the members were allowed to see the others' writing till the release of the scenario.
+
+HheHee... sure hope no one gets offended by this :-)
+
+             $C2                         == END MESSAGE FROM FM ==
+#INFORMATION
+$C2<Brymen>
+$C1
+Well, I've spent four years playing marathon, and I'm glad to have a 
+chance to put something out. I hope you like my netmaps. Randall and I have put a good ammount of time into perfecting them. Some comments? Use the mouse to play marathon, or any 3D 1st person game, it rocks hardcore. Keyboarders suck. #marathon, bite me :), FM rules. Apple forever. Light my way. KmArT, you're the man. Montressor, what can I say?
+
+If you want to kiss the sky,
+Better learn how to kneel. (On your knees, boy)
+
+$C2</Brymen>
+#INFORMATION
+$C2<Colin>$C1
+
+Colin James : <cjames@henninger.com>
+
+     When I was beta testing Forge and Infinity, Randall wrote an e-mail to the testers Listserv, and it mentioned something about Project Cursed and a new scenario. I wrote him back privately saying how cool it sounded and how I couldn't wait to see it. He replied with an invitation to be a map maker on the team. I couldn't believe it. The only two maps that I had ever released was the horrible Kanjah Crisis, and a netmap that FM trashed himself on his 2 cents page, QuasiMoFo 
+(BTW, check out the re-make of that netlevel called Cloud 7 in the netmap pack). So I was really excited to be on a scenario team with the infamous "FrigidMan". Nothing for Project Cursed had even been drafted up at that point, there wasn't even a plot. I had no idea it would get this big. My contributions to this scenario are level 3 (All dressed up and no place to go), co-authored Parathymeter w/ Ydnar, and FM (the most visually stunning of all the levels IMHO), Septic Exodus (co-authored w/ FM) and Cloud 7 a netlevel, loosely based on my old netmap QuasiMofo, also some terminal graphics, and I made the special version of Forge (just a hack w/ different strings for the new monsters, and different CICNs for the new weapons). I am really proud to have had the opportunity be on this team, and I think I have made some good friends in the process. 
+
+     If you haven't already, check out the Cursed Hotline site at 
+<evil.henninger.com>. If you dont have Hotline go get it at 
+<www.hotlinesw.com>. Please feel free to upload your killer Cursed netfilms, post news/comments to the news section or chat w/ other cursed players on there. 
+
+                       Colin
+
+$C2</Colin>$C1
+#INFORMATION
+$C2<Chad>$C1
+
+It was a cold night. As cold as the .45 that pressed against my hip under my coat. It's smooth steel surface pressed deeply into my gut, reminding me that it was there to do my bidding. I stepped out onto the street only to be faced with a drizzle. The kind of drizzle that really pisses me off. I wish God would make up his mind, rain or no rain.
+
+I dropped my smoke and stomped it out with the ball of my foot. Damn, I guess I should have worn shoes. I walked down the street in Reno, Nevada with one thing on my mind. Matzah Balls. Why? I don't know. I just like saying it. Matzah Balls. The farther I walked the more times I repeated those magical words to myself. Sometimes that line between sanity and insanity becomes a blur. Like the demarcation of ice cream and cake in a bowl, after awhile they become indistinct.
+
+I keep walking. Thinking. Until I come upon an all night pizza joint. I don't know how I turned down such tasty pizza. I just knew I had to keep walking. There was something I had to do. Something that had to be done. Something so important, the growls that emanated from my stomach were to be ignored.
+
+That's when I saw him. He was standing on the opposite street corner. He was dressed like a mime and talking. It was William Shatner. He was in his usual hunched over position, with his hands out emphasizing something that probably didn't need emphasizing. I knew the moment was here.
+
+I walked across the street and stood in the shadows, waiting for everyone to leave. Finally they did and I started following Shatner down the street. Cold and tired, I knew my destiny awaited. Then there was my moment. No one around, no one looking. I pulled the .45 from my waist, and shouted 'Bill!'. He turned around in amazement, and I fired. I kept firing until all I heard was clicks. The bullets had made little bloody explosions all over his body, like being hit with tiny photon torpedos. I peered down to see the face of a dying man, his bad hairpiece laying on the ground. He looked up at me, as if to say 'KHAN!', and then died. A calm washed over me as I realized the giant favor I had done for mankind. For I had...
+
+               Killed William Shatner in Reno just to watch him die.
+
+
+
+[Let it be noted that the author of this piece does not condone violence, much less gunning down a Hollywood has-been. It's a joke! Get over it!]
+
+Regards.....Chad
+
+$C2</Chad>$C1
+#INFORMATION
+$C2<jim's-stuff>
+
+$C1James <The_Max> Head
+
+I first made contact with Randall Shaw when he released his netmap "Desperate Measures". I had emailed him telling him how much I liked the map, while giving some extremely critical comments, and he emailed me back asking if I would like to beta test his first solo level creation "Siege Of Nor'Korh". I was young and innocent... this was the beginning of a greatly enjoyable relationship.
+
+The creation of Siege of Nor'Korh and Cursed: Evil were very different processes and experiences. Siege of Nor'Korh (or SONK) was very personal and hassle free. Marathon Evil was very different in the sense that with so many people working on it, it was hard to pull together and synchronise. Of course SONK was very different because it didn't have to deal with the complexities of Forge and Anvil (to put it nicely).
+
+So what part did I play in Marathon: Evil?  My main and original role 
+was to beta test, but my deep involvement led me to lend a hand in a 
+little graphics, and then there's the equivalent of Infinity's 
+Vid-master's Challenge, "View From The Edge". You can access this level by skipping straight to level 17 of the solo pack.
+
+Ok, I have a few people that need to be thanked here: 
+
+Michael Doyle - for the occasional use of his PPC to help me complete 
+work that couldn't be done on my 68k machine.
+
+Thanks to JasWarp from irc marathon and Soren B. Jensen for being 
+understanding.
+
+A special thank you to Pierre Buffin from Buff Compagnie graphics studios. These people kindly gave me the rights to a few stills from the movie "The City Of Lost Children" which they did the special effects for.
+
+Lastly, thanks to Randall Shaw for.... - pretty much everything.
+
+Who am I? A 17 year old student. 1997 is my final year at Sydney Grammar. Yes that's right, I'm Australian, and no, I don't ride a kangaroo to school each day. If you wish to contact me, jhead@extro.ucc.su.oz.au is the address.
+
+I hope this isn't the last major project or scenario that I work on.  I have learnt a huge amount about teamwork and commitment from Marathon: Evil, and if there is a next time, it will be so much better because of this experience.
+$C2
+</jim's-stuff >
+#INFORMATION
+$C2<mr bean>
+$C1
+.__.)(^1010__,:.__(^^‾`             ^‾,:__/ ^‾`
+|:__/ ^‾                               |:./                  .__‾)__
+|,:.|                    .____ :‾)           ||:(^         .^‾
+^‾|            ||:/          .¥ / `                            ||:.`
+..)` 10/                                ||:.__|  |  | |           __^‾¥
+'|:.)  .).) .¥          .`     |              ||:.`       ^‾ . .^‾ '|  |
+__  |              ||:.|         .)` /      |^‾^‾10 .`              ||:/
+.`   ‾)  10|     (^`                |`:|        10`      '(..)     '`
+|:|        |  |           |       .)               |:'        |   ‾)
+'`     |                |:',       ¥    '|      '‾),       |
+(^:¥         ¥   ¥         ¥       10,             |:¥         (. |
+|,    |   '    ______  |:‾)       '10,       (^^‾.)`
+.10101010101010,:‾),      '|      '        .)101010101010101010,:‾),     |
+|101010101010^‾^‾^‾^‾^‾,:^‾__  ‾)      __.)1010(^^‾`     __   ||     |:'(.
+..)10101010  __10,  |  10   ||      |:10101010^‾^‾(^  |  .(^ || 10    |
+|:10(^`     __|   1010(. || ‾),   (.__,  |:|   __101010|   10 .10 ||  |10|
+^‾^‾   |:(.1010101010(.  10(^    `    .________(^:1010^‾`      |
+.__.)1010101010101010`:.^‾            ‾)1010101010101010101010|:/
+‾)10101010101010101010(.:|                   ^‾1010101010(^ '101010,:|
+|1010,     10101010:(^                         |1010|      |101010|:|
+______(^10^‾‾)101010(.     '10101010,:|   .__10^‾^‾`  .|   (^   |__101010
+‾)10101010:'/ ^‾         ..)    |    |(^101010| .)(.
+|1010101010,:'^‾^‾^‾^‾^‾^‾(^    |    |  10101010|   ^‾1010101010`:|     `
+|   |101010:|     |     |   '1010|:/      |     |    ‾)10`:|      |
+|:..)`     10    10,:____(^^‾^‾        |    |^‾^‾^‾¥ __:__^‾`
+|               ^‾__:'                      `                   ¥:.
+.____(.______:.____________/ ^‾^‾          ^‾^‾^‾^‾^‾^‾^‾`
+
+give zoe my vitality to walk above the air.  give bean my hearing to remember.
+
+jb
+
+$C2
+</mr bean>
+#INFORMATION
+$C2<Seigfried>$C1
+
+"Clawed fingers raked the air as a second arm came forth, and then, ina burst of sheer power, the flames spewed forth the fiend, a gigantic,twelve-foor-tall monstrosity with smoking black flesh and scales.. Its facewas serpentine, long and wicked fangs jutting over it's lower jaw, drooldripping beside them and hitting the stone floor."
+
+They are, you realize, talking about me.
+
+Yes, I admit it: I am actually a twelve-foot-tall being of pure evil withnothing better to do than pick on hapless adventurers.
+
+I love my job.
+
+By the way, I'd appreciate it if somebody'd tell Bill Gates to bring a fire extinguisher when he comes down here. I'm burning up!
+
+On a completley different subject- 
+Shervin, thanks for Nethack. You have now ruined my life.
+Seth, thanks for randomly deleting my files whenever you had half a chance.
+Paul, thanks for telling me what Seth did to my files.
+Nat, thanks for offering actual suggestions.
+Buko, you have done me considerably less good than a kick in the head.
+Ben, just wait until I get Diablo!!
+-{-Seig---
+
+$C2</Seigfried>
+#PICT 4711
+$C2<bo>
+$C1
+Bungie's going to take over the world, or so the web page says.  Guess who'll end up supplying their troops with the necessary tools? :-)
+
+
+/Bo Lindbergh
+
+
+
+$C2</bo>
+#INFORMATION
+$C2<adrianb>$C1
+
+Well you got this far ? you want something really interesting to read ? well your not going to get it from me,hehe. 
+
+Well I joined the Evil Group late, it was in fc (after beta). And I joined as a beta tester, I did a bit of that and realised that since this game is so complex and hard to installer I should make an installer. So I stayed up 24h a day/weeks (nearly) for a month or two and there we go, the "Easy for the end of user" Installer.  
+
+Send bugs to <adrianb@zip.com.au> or <adrianb@ntbbs.org> (as if there will be) !!
+
+Just like to thank Bo for his great help, FM for his ..well..interesting testing of my installer and the EVIL GROUP for producting such a great scenario.
+
+Just a tip to all those Want-A-Be Project Manager, rush your creators, get a crap and unfinished job. Randall.....
+
+
+Oh, anyone wanting some programming for Marathon done just contact me, :)
+BTW, Kamikaze Rules :)
+
+Adrian Bourke
+
+$C2</adrianb>
+#INFORMATION
+$C2<jonahk>$C1
+
+Just like to say 'hey' to all my Marathon buddies, nationwide. FirstTECH crew, MMPG crew, BSM crew.
+
+Matthew: Relax man, Just because I beat you all the time, doesn't mean I don't like you :)
+
+Juan: You are beginning to rock. Play more, learn more. Soon you'll piss off Matthew as much as I do.
+
+EVIL Group: Can't we all just get along? ;P Just kidding, we rock, and you all know it.
+
+Also like to say that Mac internet servers rock the world. Any of you unix bigots, bring it on...
+
+ jonah klevesahl ; jonahk@ntbbs.org
+ provider of Evil bandwidth
+ http://www.ntbbs.org/evil/
+
+$C2</jonahk>
+#LOGOFF 153
+$C6.,><>,.,.<..,
+#ENDTERMINAL 2

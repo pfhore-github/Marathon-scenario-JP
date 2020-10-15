@@ -1,0 +1,41 @@
+1 Ten Thousand Spoons
+2 BEER WINE GUNS AMMO PICNIC SUPPLIES
+128 term-igc human
+129 term-stripes
+150 term-human login/out 1
+151 term-alien1
+153 term-generic static
+154 term-holo logon
+250 term-human login/out 2
+251 term-alien2
+252 term-mystic logon 1
+253 term-mystic logon 2
+254 term-mystic generic
+260 term-human generic 2
+300 term-L01 info1
+301 term-L03 adu info1
+302 term-L03 adu info2
+303 term-L07 info1
+304 term-L08 info1
+305 term-L10 pump circuit
+306 term-L08 volcano
+307 term-L08 trooper slaughter
+308 term-L10 compactor
+309 term-L10 chip assignment 2
+310 term-L01 info2
+311 term-L02 karth
+312 term-L13 septic code
+799 sec-1
+800 sec-2
+801 sec-3
+802 sec-4
+803 sec-5
+804 sec-6
+805 sec-7
+806 sec-8
+807 sec-9
+1501 snd-Desolation(9)-v2 16 s
+1504 snd-Ambush-(8)-v2 8 m
+1506 snd-Silence(10)-v2-22 6 s
+1511 snd-Rancor(9)-v2 16 s
+1599 snd-FinalEXP(8)-v.2 16 s
