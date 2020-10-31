@@ -22,7 +22,7 @@ $C2*4 $C6fghs $C2----
 #TERMINAL 1
 #UNFINISHED
 #LOGON 2020
-$C2GHF .... $C63#ｴ‰hg$C276
+$C2GHF •••• $C63#¥‰hg$C276
 #PICT 2021
 $C2即出撃可能なスリープ中のユニット
 発：$C6自動安全保障システム
@@ -42,7 +42,7 @@ $C6..ｦ65$C2...KJ
 #TERMINAL 2
 #UNFINISHED
 #LOGON 2020
-$C6...675$C2. KJ
+$C6¯˘∫∑¶675$C2 • KJ
 #PICT 2022
 $C2許容損害レベル
 発：$C6第一級部隊指揮官 
@@ -79,7 +79,7 @@ EOF brk #$bs1001011010011
 #TERMINAL 4
 #UNFINISHED
 #LOGON 400
-$C5ｧHF▽¥≫ｴ ゥ･ H
+$C5ßHF¢¶\¢‰¥ ••• H
 #INFORMATION
 $C5
 かつて良心の
@@ -112,6 +112,6 @@ $C5しかしその人は
 
 そして今、私は理解した
 #LOGOFF 400
-$C5・%ｦ{}h ----
+$C5‡%¶{}h ----
 #END
 #ENDTERMINAL 4
