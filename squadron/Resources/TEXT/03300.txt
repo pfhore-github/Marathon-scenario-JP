@@ -1,0 +1,1 @@
+<marathon><opengl><fog on="true" depth="10" landscapes="true"><color red=".3" green=".3" blue="0.02"/><texture coll="27" bitmap="0" normal_image="Weapons/sky/sky1.png"/><landscapes>	<landscape coll="27" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1" azimuth ="45"/></landscapes></fog></opengl></marathon>
