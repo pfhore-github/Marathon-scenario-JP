@@ -65,7 +65,7 @@ UESCターミナルオーバーライド
 
 幸運を祈ります。反対側でお会いしましょう。
 #LOGOFF 1604
-トランスポートがアクティブ化されました
+トランスポート起動
 #INTERLEVEL TELEPORT 18
 #ENDTERMINAL 1
 ;
