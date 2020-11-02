@@ -1,10 +1,10 @@
 timer = 0;
 
-function master_init (rs)
+function level_init (rs)
 	Players[0]:play_sound(249, 1);
 end
 
-function master_idle ()
+function level_idle ()
 	if (timer == 0) then
 		if (Tags[11].active) then
 			Players[0]:play_sound(226, 1);

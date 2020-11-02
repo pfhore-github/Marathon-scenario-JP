@@ -129,7 +129,7 @@ function master_idle()
    end
 end
 
-function master_player_damaged(victim_player, aggressor_player,       
+function Triggers.player_damaged(victim_player, aggressor_player,       
 				aggressor_monster, damage_type, 
 				damage_amount, projectile)
    local life;
@@ -149,9 +149,9 @@ function master_player_damaged(victim_player, aggressor_player,
    
    if ( (damage_type == "poison") and 
      (victim_player) and (not victim_player.dead)) then
-      victim_player._poison_hits = victim_player._poison_hits or 0 + 1;
+      victim_player._poison_hits = (victim_player._poison_hits or 0) + 1;
       pct = 15 + Game.global_random(2)*10 + Game.global_random(5);
-      victim_player._poisoned = victim_player._poisoned + 
+      victim_player._poisoned = (victim_player._poisoned or 0) + 
 	 (max_poison_time*30)*pct/100;
       if (victim_player._poisoned > max_poison_time*30) then
 	 victim_player._poisoned = max_poison_time*30;
@@ -214,19 +214,6 @@ function got_item_sound(item, player, table, sound)
 	 player:play_sound(sound,1);
       end
    end
-end
-
-function Triggers.player_damaged(victim_player, aggressor_player,       
-				aggressor_monster, damage_type, 
-				damage_amount, projectile)
-	master_player_damaged(victim_player, aggressor_player,       
-				aggressor_monster, damage_type, 
-				damage_amount, projectile);
-    if level_player_damaged ~= nil then
-        level_player_damaged(victim_player, aggressor_player,       
-				aggressor_monster, damage_type, 
-				damage_amount, projectile)
-	end
 end
 
 function Triggers.monster_killed(victim, victor, projectile)
