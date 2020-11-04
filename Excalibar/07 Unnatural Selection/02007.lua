@@ -2,7 +2,7 @@ last_poly = -1;
 timer = 0;
 bad_grog_dead = false;
 lair_pod_poly = 218;
-
+first = false
 function level_init (rs)
 	lair_pod_line = Lines[831];
 	Players[0]:play_sound(249, 1);
@@ -14,23 +14,9 @@ function level_init (rs)
 	if rs then
 		return;
 	end
+	first = true
 	remove_items("hightech",  "crossbow", "snyper", "snyper ammo", 
 				"dachron", "dachron ammo", "spear", "rocks");
-	items_to_add = {
-		"synper",
-		"snyper ammo",
-		"dachron",
-		"dachron ammo",
-		"spear",
-		"rocks"
-	}
-	number_to_add = { 2, 12, 1, 12, 1, 5 }
-
-	for p in Player()  do
-		for ADD_VAR = 1 , # number_to_add  , 1 do
-			p.items[items_to_add [ ADD_VAR ] ] = number_to_add [ ADD_VAR ]
-		end
-	end
 end
 
 function level_monster_killed(victim, victor, projectile)
@@ -40,8 +26,23 @@ function level_monster_killed(victim, victor, projectile)
 		s.control_panel.permutation = 3;
 	end
 end
-
 function level_idle ()
+	if  first then
+		items_to_add = {
+			["snyper"] = 2,
+			["snyper ammo"] = 12,
+			["dachron"] = 1,
+			["dachron ammo"] = 12,
+			["spear"] = 1,
+			["rocks"] = 5
+		}
+		for p in Players()  do
+			for k, v in pairs( items_to_add ) do
+				p.items[ k ] = v
+			end
+		end
+		first = false
+	end
 	player_poly = Players[0].polygon.index;
 	if (player_poly ~= last_poly) then
 		last_poly = player_poly;
@@ -64,4 +65,5 @@ function level_idle ()
 			p:accelerate(theta, vel, 0);
 		end
 	end
+	
 end

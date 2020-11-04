@@ -141,15 +141,14 @@ skull_icon = [[
 ################
 ]];
 
-function remove_items(item, ...)
+function remove_items( ...)
+   local args = { ... }
    for p in Players() do
-      p.items[item] = 0;
-   end
-   if( ... ) then
-      remove_items(...)
+      for i, v in ipairs (args) do
+      p.items[v] = 0;
+      end
    end
 end
-
 function remove_monsters(monster_type)
    for g in Monsters() do
       if (g.type == monster_type) then
