@@ -13,7 +13,7 @@ function master_init(rs)
 	end
 end
 local damages = {
-["explosion"]={"外に吹き飛ばした", "外に吹き飛ばされた"},
+[_damage_explosion]={"外に吹き飛ばした", "外に吹き飛ばされた"},
 ["zap"]={"衝撃を与えた", "衝撃を受けた"},
 ["projectile"]={"撃った", "撃たれた"},
 ["absorbed"]={"無敵なのに殺した?!", "無敵なのに死んだ?!"},

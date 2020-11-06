@@ -53,10 +53,10 @@ function level_idle ()
          Players[0]:print('次の任務への準備ができています。');
          Players[0]:play_sound(233, 1);
          task_complete = true;
-      end
-      Players[0].overlays[0].text = "残りの敵は" .. e
-      Players[0].overlays[0].color = timer_color(e)
-      idle_danger(2, 10, 606);
+       end
+        Players[0].overlays[0].text = "残りの敵は" .. e
+        Players[0].overlays[0].color = timer_color(e)
+        idle_danger(2, 10, 606);
    end
    if (not fireball) and Tags[10].active then
       fireball = true;
@@ -111,7 +111,7 @@ function level_idle ()
             Players[0]:teleport_to_level(12);
 	 elseif freed then
 	    e = enemies_left(Players[0], 6);  --[[ buffer of 6 to represent unreachable monsters --]]
-	    Players[0]:print('このエリアに残っている敵は'..e);
+	    Players[0]:print('このエリアに残っている敵は' .. e);
 	    Players[0]:print('詳しい情報は城壁のパッドに入って下さい');
 	 else
 	    Players[0]:print('地下牢に閉じ込められた者達を自由にしてからここに戻って下さい');

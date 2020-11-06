@@ -2,8 +2,8 @@
       crossbow. --]]
 
 last_weapon = -1;
+_item_apples = _item_water_vial;
 function common_init(rs) 
-ItemTypes["vial"].mnemonic = "apples"
 full_health = 150;
 triple_health = 450;
 if (Game.difficulty.index == 0) then
@@ -16,14 +16,12 @@ else
    apple_power = 25;
 end
 end
-sword = { "sword" };
-powerup = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
+
 
 function common_got_item(item, player)
    got_item_sound(item, player, powerup, 19);
    got_item_sound(item, player, energies, 19);
-  if (item == "apples") then
+  if (item == _item_apples) then
      player:play_sound(229,1);
      life = player.life;
      if (life >= full_health) then

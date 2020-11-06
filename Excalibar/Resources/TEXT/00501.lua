@@ -1,8 +1,8 @@
 --[[ This is primarily for Jurassic, and supports bananas, powerups, spear, and
       crossbow.  --]]
+_item_bananas = _item_water_vial;
 
 function common_init(rs) 
-	ItemTypes["vial"].mnemonic = "bananas"
 	full_health = 150;
     if (Game.difficulty.index == 0) then
         banana_power = 50;
@@ -12,12 +12,11 @@ function common_init(rs)
         banana_power = 10;
     end
 end
-powerups = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
+
 function common_got_item(item, player)
    got_item_sound(item, player, powerups, 228);
    got_item_sound(item, player, energies, 227);
-   if (item == "bananas") then
+   if (item == _item_bananas) then
       player:play_sound(229,1);
       local life = player.life;
       local new_life;
@@ -30,7 +29,7 @@ function common_got_item(item, player)
          new_life = full_health;
       end
       player.life = new_life;
-      player.items["bananas"] = 0;
+      player.items[_item_bananas] = 0;
    end
 end
 

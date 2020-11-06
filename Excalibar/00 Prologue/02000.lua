@@ -1,3 +1,5 @@
 function level_init (rs)
-   Players[0]:play_sound(252, 1);
+    LOG("X" .. math.max(3,0))
+    LOG("X" .. math.max(-2,0))
+    Players[0]:play_sound(252, 1);
 end

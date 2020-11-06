@@ -25,14 +25,7 @@ bob_trigger = 124;
 bob_safety = 905;
 quake_poly = 240;
 
-function find_monster(mtype)
-	for g in Monsters() do
-		if g.type == mtype then
-			return g;
-		end
-	end
-	return nil;
-end
+
 
 function level_init (rs)
 	bob_door = find_platform(163);
@@ -42,7 +35,7 @@ function level_init (rs)
 	jurassic_light = Lights[46];
 	maintdoor_light = Lights[47];
 	Players[0]:play_sound(99, 1);
-	bob = find_monster("maint bob");
+	bob = find_monster(_maint_bob);
 	if bob then
 		bob_poly = bob.polygon.index;
 		bob_safe = (poly == bob_safety);
@@ -107,8 +100,8 @@ function level_idle ()
 		end
 		if (player_poly == camelot_exit) then
 			Players.print('ホロデックプログラム解除：キャメロット');
-			new_item_at("crossbow bolts", holodeck_arrows1);
-			new_item_at("crossbow bolts", holodeck_arrows2);
+			new_item_at(_item_crossbow_bolts, holodeck_arrows1);
+			new_item_at(_item_crossbow_bolts, holodeck_arrows2);
 			Players[0].yaw = 270;
 			Players[0].pitch = 360;
 			Players[0]:teleport(camelot_holodeck_return);
@@ -123,9 +116,9 @@ function level_idle ()
 		end
 		if (player_poly == jurassic_exit) then
 			Players.print('ホロデックプログラム解除：ジュラ紀');
-			new_item_at("spear", holodeck_spear);
-			new_monster_at("minor raptor", holodeck_raptor1, 90);
-			new_monster_at("minor raptor", holodeck_raptor2, 90);
+			new_item_at(_item_spear, holodeck_spear);
+			new_monster_at(_minor_raptor, holodeck_raptor1, 90);
+			new_monster_at(_minor_raptor, holodeck_raptor2, 90);
 			Players[0].yaw = 270;
 			Players[0].pitch = 360;
 		end

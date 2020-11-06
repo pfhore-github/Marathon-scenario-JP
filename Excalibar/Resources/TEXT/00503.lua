@@ -5,8 +5,8 @@ full_health = 150;
 triple_health = 450;
 
 mixed_bag = false;
+_item_apples = _item_rocks;
 function common_init(rs)
-	ItemTypes["rocks"].mnemonic = "apples"
 	if (Game.difficulty.index == 0) then
 		apple_power = 100;
 	elseif (Game.difficulty.index == 1) then
@@ -20,16 +20,16 @@ end
 
 function common_idle()
 	life = Players[0].life;
-	potions = Players[0].items["epotion"];
+	potions = Players[0].items[_item_epotion];
 	if (life < 50) and (potions > 0) then
 		Players[0]:play_sound(19,1);
 		Players[0].life = life + 2*full_health;
-		Players[0].items["epotion"] = potions - 1
+		Players[0].items[_item_epotion] = potions - 1
 	end
 end
-sword = { "sword" };
-powerup = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
+sword = { _item_sword };
+powerups = { _item_invisible, _item_invincible, _item_nightvision };
+energies = { _item_2x_powerup, _item_3x_powerup };
 
 function common_got_item(item, player)
 	got_item_sound(item, player, sword, 62);
@@ -38,7 +38,7 @@ function common_got_item(item, player)
 	else
 		got_item_sound(item, player, powerup, 19);
 	end
-	if (item == "epotion") then
+	if (item == _item_epotion) then
 		life = player.life;
 		if (life < 50) then
 			player:play_sound(19,1);
@@ -46,12 +46,12 @@ function common_got_item(item, player)
 			player.items[item] = player.items[item] - 1
 		end
 	end
-	if (item == "2x powerup") and mixed_bag then	
+	if (item == _item_2x_powerup) and mixed_bag then	
 		player:play_sound(227,1);
 	else
 		got_item_sound(item, player, energies, 19);
 	end
-	if (item == "apples") then
+	if (item == _item_apples) then
 		player:play_sound(229,1);
 		life = player.life;
 		if (life >= full_health) then
