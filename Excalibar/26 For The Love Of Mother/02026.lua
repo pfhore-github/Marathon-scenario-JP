@@ -107,7 +107,7 @@ function level_idle ()
       end
    end
    if danger_compass then
-      e = enemies_left(Players[0], 8);
+      e = enemies_left(8);
       if (e <= min_left) and (not task_complete) then
          Players[0]:print('敵はいなくなりました！');
          Players[0]:play_sound(233, 1);

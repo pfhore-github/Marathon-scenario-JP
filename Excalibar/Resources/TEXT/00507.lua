@@ -105,16 +105,13 @@ function explode_grenade(grenade, radius, power, poly, x, y)
    end
    explosion_active = false;
 end
-sword = { "sword" };
-powerup = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
 
 function common_got_item(item, player)
    if (item == "sword") then
       player:play_sound(231,1);
       player.items["vial"] =  player.items["vial"] + 4;
    end
-   got_item_sound(item, player, powerup, 228);
+   got_item_sound(item, player, powerups, 228);
    got_item_sound(item, player, energies, 227);
 end
 

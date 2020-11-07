@@ -3,12 +3,11 @@ pool_poly = 534;
 last_poly = nil;
 
 function level_init (rs)
-   restoring_saved = rs;
    Players[0]:play_sound(104, 1);
    if rs then
       return;
    end
-   remove_items("spear", "rocks");
+   remove_items(_item_spear, _item_rocks);
 end
 
 function level_idle ()

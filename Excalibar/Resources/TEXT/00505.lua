@@ -12,12 +12,9 @@ function common_idle()
     Players[0].items["epotion"] = potions - 1
   end
 end
-sword = { "sword" };
-powerup = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
 function common_got_item(item, player)
   got_item_sound(item, player, sword, 62);
-  got_item_sound(item, player, powerup, 19);
+  got_item_sound(item, player, powerups, 19);
   got_item_sound(item, player, energies, 19);
    if (item == "epotion") then
     life = player.life;

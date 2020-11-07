@@ -351,9 +351,9 @@ skull_icon = [[
 ################
 ]];
 
-sword = { "sword" };
-powerup = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
+sword = { _item_sword };
+powerups = { _item_invisible, _item_invincible, _item_nightvision };
+energies = { _item_2x_powerup, _item_3x_powerup };
 
 logs = {}
 function LOG(s) 
@@ -377,22 +377,17 @@ function remove_monsters(monster_type)
     end
 end
 
-function enemies_left(player, buffer)
+function enemies_left(buffer)
     local cnt = 0
     for g in Monsters() do
-        if (g.valid and g.index ~= player.monster.index) then
+        if not g.player then
             local mtype = g.type;
-            if (mtype ~= _fire) and (mtype ~= _torch) then
-                if mtype.enemies["player"] then
-                    cnt = cnt + 1
-                end
+            if (mtype ~= _fire) and (mtype ~= _torch) and mtype.enemies["player"] then
+                cnt = cnt + 1
             end
         end
     end
-    if buffer > 0 then
-        cnt = math.max(cnt - buffer, 0)
-    end
-    return cnt
+    return math.max(cnt - (buffer or 0), 0)
 end
 
 
@@ -621,6 +616,14 @@ function new_item_at(t, poly)
    return Items.new(realpoly.x, realpoly.y, 0, realpoly, t);
 end
 
+function make_quake(timer)
+    for p in Players() do
+        local theta = Game.global_random (360);
+        local vel = (Game.global_random(100+timer*0.5))/10000;
+        p:accelerate(theta, vel, 0);
+    end
+end
+
 function Triggers.init(rs)	
     if master_init ~= nil then
         master_init(rs);
@@ -635,7 +638,8 @@ function Triggers.init(rs)
         level_init(rs);
     end
 end
-
+last_poly = -1
+enter_to = {}
 function Triggers.idle()
     if master_idle ~= nil then
         master_idle();
@@ -649,10 +653,20 @@ function Triggers.idle()
     if level_idle ~= nil then
         level_idle();
     end    
-    for i, v in ipairs(logs) do
+    for _, v in ipairs(logs) do
         Players.print(v)
     end
+    player_poly = Players[0].polygon.index;
+	if (player_poly ~= last_poly) then
+        last_poly = player_poly;
+        if enter_to[player_poly] then
+            enter_to[player_poly]()
+        end
+    end
+    if timers then
+        for _, v in ipairs(timers) do
+            v:next()
+        end
+    end
     logs = {}
-end
-
-
+end 

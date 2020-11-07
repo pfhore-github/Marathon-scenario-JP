@@ -27,16 +27,13 @@ function common_idle()
 		Players[0].items[_item_epotion] = potions - 1
 	end
 end
-sword = { _item_sword };
-powerups = { _item_invisible, _item_invincible, _item_nightvision };
-energies = { _item_2x_powerup, _item_3x_powerup };
 
 function common_got_item(item, player)
 	got_item_sound(item, player, sword, 62);
 	if (item == "invincible") and mixed_bag then
 		player:play_sound(228,1);
 	else
-		got_item_sound(item, player, powerup, 19);
+		got_item_sound(item, player, powerups, 19);
 	end
 	if (item == _item_epotion) then
 		life = player.life;

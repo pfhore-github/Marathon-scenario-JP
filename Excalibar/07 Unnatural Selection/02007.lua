@@ -1,5 +1,3 @@
-last_poly = -1;
-timer = 0;
 bad_grog_dead = false;
 lair_pod_poly = 218;
 first = false
@@ -15,26 +13,31 @@ function level_init (rs)
 		return;
 	end
 	first = true
-	remove_items("hightech",  "crossbow", "snyper", "snyper ammo", 
-				"dachron", "dachron ammo", "spear", "rocks");
+	remove_items(_item_hightech,  _item_crossbow, _item_snyper, _item_snyper_ammo, 
+	_item_dachron, _item_dachron_ammo, _item_spear, _item_rocks);
 end
-
+timers = { QuakeTimer(240)}
 function level_monster_killed(victim, victor, projectile)
-	if (victim.type  == "black knight") then
+	if (victim.type  == _black_knight) then
 		bad_grog_dead = true;
 		Players[0]:print("ゾ・ツンバは殺された！");
 		s.control_panel.permutation = 3;
 	end
 end
+sound_poly = { 285, 188 }
+for _, sp in ipairs(sound_poly)  do
+	enter_to[sp] = function() activate_quake_timer(timers[1]) end
+end
+
 function level_idle ()
-	if  first then
+	if first then
 		items_to_add = {
-			["snyper"] = 2,
-			["snyper ammo"] = 12,
-			["dachron"] = 1,
-			["dachron ammo"] = 12,
-			["spear"] = 1,
-			["rocks"] = 5
+			[_item_snyper] = 2,
+			[_item_snyper_ammo] = 12,
+			[_item_dachron] = 1,
+			[_item_dachron_ammo] = 12,
+			[_item_spear] = 1,
+			[_item_rocks] = 5
 		}
 		for p in Players()  do
 			for k, v in pairs( items_to_add ) do
@@ -42,28 +45,5 @@ function level_idle ()
 			end
 		end
 		first = false
-	end
-	player_poly = Players[0].polygon.index;
-	if (player_poly ~= last_poly) then
-		last_poly = player_poly;
-		if (timer == 0) and ((player_poly == 285) or (player_poly == 188)) then
-			Players[0]:play_sound(226, 1);
-			timer = 1;
-		end
-	end
-	if (timer > 0) then
-		timer = timer + 1;
-	end
-	if (timer == 240) then
-		Players[0]:play_sound(176, 1);
-		timer = 0;
-	end
-	if ( (timer > 15) and (timer < 240) ) then
-		for p in Players() do
-			local theta = Game.global_random (360);
-			local vel = (Game.global_random(100+timer*0.5))/10000;
-			p:accelerate(theta, vel, 0);
-		end
-	end
-	
+	end	
 end

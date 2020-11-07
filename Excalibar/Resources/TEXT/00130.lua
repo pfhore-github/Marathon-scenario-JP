@@ -186,13 +186,8 @@ function Triggers.got_item(item, player)
 	        player:play_sound(229,1);
 	        player._poisoned = -1;
         end
-        if (player._tolerance == nil or player._tolerance < 9) and 
-        (not poison_active) then
-            if player._tolerance == nil then
-      	        player._tolerance = 1
-      	    else
-		        player._tolerance = player._tolerance + 1
-		    end
+        if player._tolerance < 9 and not poison_active then
+            player._tolerance = player._tolerance + 1
 	        player:print('毒への耐性が増えた。')
         end
     end
@@ -228,4 +223,55 @@ function Triggers.monster_killed(victim, victor, projectile)
 	end
 end
 
+-- Timer( { nearly = { 10, f(c)}, done = { 30, g(c) } } )
+function Timer( f )
+    local table = { value = 0, handler = f }
+    function table:start() 
+        self.value = 1
+    end
+    function table:stop()
+        self.value = 0
+    end
+    function table:next()
+        if self.value > 0 then
+            self.value = self.value + 1
+        end
+        if self.handler.done and self.handler.done[1] == self.value then
+            self.value = 0
+            self.handler.done[2](self)
+        elseif self.handler.nearly and self.handler.nearly[1] < self.value then
+            self.handler.nearly[2](self)
+        end
+    end
+    function table:reset()
+        self.value = 0
+    end
+    return table
+end
+
+function QuakeTimer( end_time, max_quake, quake_sound, quake_action)
+    quake_sound = quake_sound or 176
+    max_quake = max_quake or end_time
+    return Timer{ nearly = { 
+        15,
+        function(self) 
+            make_quake(math.min( self.value, max_quake))
+        end
+    }, done = {
+        120,
+        function(self)
+            if quake_action then
+                quake_action()
+            end
+            Players[0]:play_sound(quake_sound, 1);
+        end
+    }}
+end
+
+function activate_quake_timer(timer) 
+	if timer and timer.value == 0 then
+		Players[0]:play_sound(226, 1);
+		timer:start()
+	end
+end	
 

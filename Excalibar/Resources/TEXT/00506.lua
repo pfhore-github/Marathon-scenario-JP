@@ -56,15 +56,12 @@ function common_monster_killed(monster, killer, shot)
       explode_grenade(monster, grenade_range, grenade_power, _mp, _mx, _my);
    end
 end
-sword = { "sword" };
-powerup = { "invisible", "invincible", "nightvision" };
-energies = { "2x powerup", "3x powerup" };
 
 function common_got_item(item, player)
    if (item == "sword") and sword_play then
       player:play_sound(62,1);
    end
-   got_item_sound(item, player, powerup, 228);
+   got_item_sound(item, player, powerups, 228);
    got_item_sound(item, player, energies, 227);
 end
 

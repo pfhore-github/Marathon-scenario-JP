@@ -7,18 +7,17 @@ function level_init (rs)
 	if rs then
 		return;
 	end
-	remove_items("wand", "magic scroll");
+	remove_items(_item_wand, _item_magic_scroll);
 	items_to_add = {
-		"snyper",
-		"snyper ammo",
-		"dachron",
-		"dachron ammo",
-		"spear",
-		"rocks"
+		[_item_snyper] = 2,
+		[_item_snyper_ammo] = 1,
+		[_item_dachron] = 1,
+		[_item_dachron_ammo] = 1,
+		[_item_spear] = 1,
+		[_item_rocks] = 1
 	}
-	number_to_add = { 2, 1, 1, 1, 1, 1 }
-	for n = 1 , # number_to_add , 1 do
-		Players[0].items[items_to_add [n]] = number_to_add [n];
+	for k,v in pairs(items_to_add) do
+		Players[0].items[k] = v
 	end
 end
 
@@ -28,7 +27,7 @@ function level_idle ()
 		if (drawbridge.floor_height == 0) then
 			drawbridge_up = true;
 			for g in Monsters() do
-				if (g.type == "piranha") then
+				if (g.type == _piranha) then
 					if drawbridge == g.polygons then
 						g:damage(200);
 					end
@@ -36,7 +35,7 @@ function level_idle ()
 			end
 		end
 	end
-	n  = Players[0].items["magic scroll"];
+	n  = Players[0].items[_item_magic_scroll];
 	if (n >= 4) and (not elemental_scrolls) then
 		Players[0]:print('すべての４つの基本の巻き物を拾った！');
 		Players[0]:play_sound(233, 1);

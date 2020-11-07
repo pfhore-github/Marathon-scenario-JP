@@ -169,7 +169,7 @@ function level_idle ()
       end
    end
    if danger_compass then
-      e = enemies_left(Players[0], 8);
+      e = enemies_left(8);
       Players[0].overlays[0].text = "残りの敵:"..e;
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 177, -7680);

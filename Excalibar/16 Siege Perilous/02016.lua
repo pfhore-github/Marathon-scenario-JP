@@ -10,9 +10,8 @@ quake = 0;
 task_done = false;
    
 last_poly = nil;
-
+_shot_firespray = _shot_special;
 function level_init (rs)
-	ProjectileTypes["special"].mnemonic = "firespray";
 	danger_compass = Lights[33].active;
 	counter_light = Lights[33];
 	restoring_saved = rs;
@@ -23,46 +22,46 @@ function level_init (rs)
       music = start_theme;
    end
 	if (Game.difficulty.index == 0) then
-   fire_length = 120 * 30;
-elseif (Game.difficulty.index == 1) then
-   fire_length = 60 * 30;
-elseif (Game.difficulty.index == 2) then
-   fire_length = 30 * 30;
-else
-   fire_length = 20 * 30;
-end
+      fire_length = 120 * 30;
+   elseif (Game.difficulty.index == 1) then
+      fire_length = 60 * 30;
+   elseif (Game.difficulty.index == 2) then
+      fire_length = 30 * 30;
+   else
+      fire_length = 20 * 30;
+   end
 
    if rs then
       return;
    end
-   remove_items("wand");
+   remove_items(_item_wand);
 end
 
 function timer_color(e)
-  if (e <= min_left) then 
-     if (not task_done) then
-	set_terminal_text_number(172, 622, 3);
-	set_terminal_text_number(169, 605, 4);
-	task_done = true;
+   if (e <= min_left) then 
+      if (not task_done) then
+	      set_terminal_text_number(172, 622, 3);
+	      set_terminal_text_number(169, 605, 4);
+	      task_done = true;
      end
      return "green";
-  elseif (e < 31) then 
-     return "yellow";
-  else 
-     return "red";
-  end
+   elseif (e < 31) then 
+      return "yellow";
+   else 
+      return "red";
+   end
 end
 
 function level_idle ()
    if restoring_saved and (not restore_check) then
-      remove_monsters("fire");
+      remove_monsters(_fire);
       restore_check = true;
    end
    if Lights[32].active ~= (music == end_theme) then
       if Lights[32].active then
-	 music = end_theme;
+	      music = end_theme;
       else
-	 music = start_theme;
+	      music = start_theme;
       end
    end      
    player_poly = Players[0].polygon.index;
@@ -82,8 +81,8 @@ function level_idle ()
       end
    end
    if danger_compass then
-      e = enemies_left(Players[0]);
-      Players[0].overlays[0].text =  "残りの敵は"..e;
+      e = enemies_left();
+      Players[0].overlays[0].text = string.format( "残りの敵は%d", e);
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10);
    elseif counter_light.active then

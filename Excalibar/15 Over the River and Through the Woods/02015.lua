@@ -3,6 +3,6 @@ function level_init (rs)
    if rs then
       return;
    end
-   remove_items("phaser", "wand", "rocks");
+   remove_items(_item_phaser, _item_wand, _item_rocks);
 end
 

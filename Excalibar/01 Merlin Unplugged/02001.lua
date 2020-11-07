@@ -1,41 +1,47 @@
-camelot_visit = false;
-jurassic_visit = false;
-last_poly = nil;
 door_locked = true;
 bob_safe = false;
 bob_timer = 0;
-quake = 0;
-quake_time = 256;
+
 camelot_holodeck = 453;
 camelot_program = 721;
 camelot_exit = 826;
 camelot_holodeck_return = 451;
 holodeck_arrows1 = 452;
 holodeck_arrows2 =  449;
+
 jurassic_holodeck = 850;
 jurassic_program = 180;
 jurassic_exit = 256;
 jurassic_holodeck_return = 310;
+
 holodeck_raptor1 = 640;
 holodeck_raptor2 = 642;
 holodeck_spear = 851;
+
 bob_rest = 80;
 bob_start = 164;
 bob_trigger = 124;
 bob_safety = 905;
 quake_poly = 240;
 
-
+timers = { QuakeTimer( 256, 240, 226, 
+function() 
+    rock_poly = find_platform(242);
+    rock_poly.active = true;
+end ) 
+}
 
 function level_init (rs)
 	bob_door = find_platform(163);
-	rock_poly = find_platform(242);
+	
 
 	camelot_light = Lights[45];
 	jurassic_light = Lights[46];
 	maintdoor_light = Lights[47];
 	Players[0]:play_sound(99, 1);
-	bob = find_monster(_maint_bob);
+    bob = find_monster(_maint_bob);
+    
+        
 	if bob then
 		bob_poly = bob.polygon.index;
 		bob_safe = (poly == bob_safety);
@@ -44,13 +50,66 @@ function level_init (rs)
 		bob_safe = true;
 	end
 	door_locked = not bob_door.player_controllable;
-	if rs then
-		camelot_visit = camelot_light.active;
-		jurassic_visit = jurassic_light.active;
+    if rs then
+        if camelot_light.active then
+            enter_to[camelot_holodeck] = nil
+        end
+        if jurassic_light.active then
+            enter_to[jurassic_visit] = nil
+        end
 	end
 
 end
 
+enter_to[bob_trigger] =	function() 
+	if (bob_poly == bob_rest) and bob then
+		bob:position(-13.5, -12, 0, bob_start);
+		Players[0]:play_sound(114, 1);
+		Players[0]:play_sound(261, 1);
+		bob_poly = bob_start;
+	end
+end
+
+enter_to[quake_poly] = function()
+	activate_quake_timer(timers[1])
+    enter_to[quake_poly] = nil
+end
+
+enter_to[camelot_holodeck] = function()
+    enter_to[camelot_holodeck] = nil
+    camelot_light.active = true;
+    Players.print('ホロデックプログラム起動：キャメロット');
+    Players[0].yaw = 45;
+    Players[0].pitch = 360;
+    Players[0]:teleport(camelot_program);
+end
+
+enter_to[camelot_exit] = function()
+    Players.print('ホロデックプログラム解除：キャメロット')
+    new_item_at(_item_crossbow_bolts, holodeck_arrows1)
+    new_item_at(_item_crossbow_bolts, holodeck_arrows2)
+    Players[0].yaw = 270
+    Players[0].pitch = 360
+    Players[0]:teleport(camelot_holodeck_return)
+end
+
+enter_to[jurassic_holodeck] = function()
+    enter_to[jurassic_holodeck] = nil 
+    jurassic_light.active = true;
+    Players.print('ホロデックプログラム起動：ジュラ紀');
+    Players[0].yaw = 0;
+    Players[0].pitch = 360;
+    Players[0]:teleport(jurassic_program);
+end
+
+enter_to[jurassic_exit] = function()
+    Players.print('ホロデックプログラム解除：ジュラ紀');
+    new_item_at(_item_spear, holodeck_spear);
+    new_monster_at(_minor_raptor, holodeck_raptor1, 90);
+    new_monster_at(_minor_raptor, holodeck_raptor2, 90);
+    Players[0].yaw = 270;
+    Players[0].pitch = 360;
+end
 
 function level_idle ()
 	if door_locked and (bob_door.active or bob_safe) then
@@ -61,7 +120,6 @@ function level_idle ()
 			Players.print('ドアのロックは解除された');
 		end
 	end
-	player_poly = Players[0].polygon.index;
 	if (not door_locked) and bob and bob.valid then
 		if bob_timer > -1 then
 			bob_timer = bob_timer + 1;
@@ -74,73 +132,8 @@ function level_idle ()
 			bob_timer = -1;
 		end
 	end
-	if camelot_visit and door_locked then
-		 bob_door.active = true;
+	if camelot_light.active and door_locked then
+		bob_door.active = true;
 		door_locked = false;
-	end
-	if (last_poly ~= player_poly) then
-		last_poly = player_poly;
-		if (player_poly == bob_trigger) and (bob_poly == bob_rest) and bob then
-			bob:position(-13.5, -12, 0, bob_start);
-			Players[0]:play_sound(114, 1);
-			Players[0]:play_sound(261, 1);
-			bob_poly = bob_start;
-		end
-		if (quake == 0) and (player_poly == quake_poly) then
-			Players[0]:play_sound(226, 1);
-			quake = 1;
-		end
-		if (not camelot_visit) and (player_poly == camelot_holodeck) then
-			camelot_visit = true;
-			camelot_light.active = true;
-			Players.print('ホロデックプログラム起動：キャメロット');
-			Players[0].yaw = 45;
-			Players[0].pitch = 360;
-			Players[0]:teleport(camelot_program);
-		end
-		if (player_poly == camelot_exit) then
-			Players.print('ホロデックプログラム解除：キャメロット');
-			new_item_at(_item_crossbow_bolts, holodeck_arrows1);
-			new_item_at(_item_crossbow_bolts, holodeck_arrows2);
-			Players[0].yaw = 270;
-			Players[0].pitch = 360;
-			Players[0]:teleport(camelot_holodeck_return);
-		end
-		if (not jurassic_visit) and (player_poly == jurassic_holodeck) then
-			jurassic_visit = true;
-			jurassic_light.active = true;
-			Players.print('ホロデックプログラム起動：ジュラ紀');
-			Players[0].yaw = 0;
-			Players[0].pitch = 360;
-			Players[0]:teleport(jurassic_program);
-		end
-		if (player_poly == jurassic_exit) then
-			Players.print('ホロデックプログラム解除：ジュラ紀');
-			new_item_at(_item_spear, holodeck_spear);
-			new_monster_at(_minor_raptor, holodeck_raptor1, 90);
-			new_monster_at(_minor_raptor, holodeck_raptor2, 90);
-			Players[0].yaw = 270;
-			Players[0].pitch = 360;
-		end
-	end
-	if (quake > 0) then
-		quake = quake + 1;
-	end
-	if (quake == quake_time) then
-		rock_poly.active = true;
-		Players[0]:play_sound(226, 1);
-		quake = 0;
-	end
-	if ((quake > 15) and (quake < quake_time)) then
-		local theta;
-		for p in Players() do
-			theta = Game.global_random(360);
-			vfactor = quake;
-			if (vfactor > 240) then 
-				vfactor = 240
-			end
-		local vel = (Game.global_random(100+vfactor*0.5))/10000;
-		p:accelerate(theta, vel, 0);
-		end
-	end
+	end	
 end

@@ -73,7 +73,7 @@ function level_idle ()
       end
    end
    if danger_compass then
-      e = enemies_left(Players[0], 8);
+      e = enemies_left(8);
       if e == 0 then
 	 Players[0].overlays[0].text = "完了";
       else
