@@ -4,9 +4,10 @@ dead_timers = {};
 
 master_queue = 0;
 master_timer = 0;
+_shot_raise_dead = _shot_freeze;
+_the_dead = _white_knight;
+
 function level_init (rs)
-	ProjectileTypes["freeze"].mnemonic = "raise dead";
-	MonsterTypes["white knight"].mnemonic = "the dead";
 	if (Game.difficulty.index == 0) then
 		dead_vitality = 150;
 		dead_length = 300 * 30;
@@ -23,7 +24,7 @@ function level_init (rs)
 	Players[0]:play_sound(250, 1);
 	if rs then
 		for g in Monsters() do
-			if  (g.type == "the dead") then
+			if  (g.type == _the_dead) then
 				table.insert(dead_spells, g);
 				table.insert(dead_timers, dead_length/2);
 				master_queue = master_queue + 1;
@@ -31,20 +32,20 @@ function level_init (rs)
 		end
 		return;
 	end
-	remove_items("wand", "rocks");
+	remove_items(_item_wand, _item_rocks);
 end
 
 function level_idle ()
-   if master_queue > 0 then
-      master_timer = master_timer - 1;
-      if master_timer <= 0 then
-         master_timer = 60;
-	 Players[0]:play_sound( 257, 1);
-         master_queue = master_queue - 1;
-         if master_queue == 0 then
-            master_timer = 0;
-	 end
-      end
+   	if master_queue > 0 then
+      	master_timer = master_timer - 1;
+      	if master_timer <= 0 then
+        	master_timer = 60;
+	 		Players[0]:play_sound( 257, 1);
+         	master_queue = master_queue - 1;
+         	if master_queue == 0 then
+            	master_timer = 0;
+	 		end
+      	end
    end
    cnt = # dead_spells;
    i = 1;
@@ -64,21 +65,21 @@ function level_idle ()
 end
 
 function Triggers.projectile_detonated(type, owner, polygon, x, y, z)
-   if (type == "raise dead") then
-      floor = polygon.floor.height;
-      height = polygon.ceiling.height - floor;
-      if height < 0.8 then
-	 Players[0]:print("呪文失敗：目的地はモンスターには狭すぎる");
-	 Players[0]:play_sound(5, 1);
-	 Players[0]:fade_screen("bright");
-      else
-	 spell = Monsters.new(x, y, 0, polygon, "the dead");
-	 spell.yaw = Players[0].yaw;
-	 spell.active = true;
-	 spell.vitality = dead_vitality;
-	 table.insert(dead_spells, spell);
-	 table.insert(dead_timers, dead_length);
-	 master_queue = master_queue + 1;
-      end
-   end
+   	if (type == _shot_raise_dead) then
+		floor = polygon.floor.height;
+		height = polygon.ceiling.height - floor;
+      	if height < 0.8 then
+			Players[0]:print("呪文失敗：目的地はモンスターには狭すぎる");
+			Players[0]:play_sound(5, 1);
+			Players[0]:fade_screen("bright");
+      	else
+			spell = Monsters.new(x, y, 0, polygon, _the_dead);
+			spell.yaw = Players[0].yaw;
+			spell.active = true;
+			spell.vitality = dead_vitality;
+			table.insert(dead_spells, spell);
+			table.insert(dead_timers, dead_length);
+			master_queue = master_queue + 1;
+     	end
+   	end
 end

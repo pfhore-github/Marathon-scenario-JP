@@ -54,7 +54,7 @@ function level_idle ()
             Players[0]:play_sound(233, 1);
             task_complete = true;
         end
-        Players[0].overlays[0].text =  string.format("残りの敵は %d 体", e)
+        Players[0].overlays[0].text =  string.format("残りの敵は %d", e)
         Players[0].overlays[0].color = timer_color(e)
         idle_danger(2, 10, 606);
     end
@@ -111,7 +111,7 @@ function level_idle ()
                 Players[0]:teleport_to_level(12);
             elseif freed then
                 e = enemies_left(6);  --[[ buffer of 6 to represent unreachable monsters --]]
-                Players[0]:print(string.format('このエリアに残っている敵は %d 体', e));
+                Players[0]:print(string.format('このエリアに残っている敵は %d', e));
                 Players[0]:print('詳しい情報は城壁のパッドに入って下さい');
             else
                 Players[0]:print('地下牢に閉じ込められた者達を自由にしてからここに戻って下さい');

@@ -379,9 +379,9 @@ end
 
 function enemies_left(buffer)
     local cnt = 0
-    for g in Monsters() do
-        if not g.player then
-            local mtype = g.type;
+    for m in Monsters() do
+        if not m.player then
+            local mtype = m.type;
             if (mtype ~= _fire) and (mtype ~= _torch) and mtype.enemies["player"] then
                 cnt = cnt + 1
             end

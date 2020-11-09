@@ -113,7 +113,7 @@ function level_idle ()
          Players[0]:play_sound(233, 1);
          task_complete = true;
       end
-      Players[0].overlays[0].text = "残りの敵は" .. e;
+      Players[0].overlays[0].text = "残りの敵は " .. e;
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 239);
    end

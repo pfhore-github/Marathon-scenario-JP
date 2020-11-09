@@ -3,5 +3,5 @@ function level_init (rs)
    if rs then
       return;
    end
-   remove_items("wand", "apples");
+   remove_items(_item_wand, _item_rocks);
 end

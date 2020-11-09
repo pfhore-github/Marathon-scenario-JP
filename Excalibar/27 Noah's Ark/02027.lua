@@ -77,7 +77,7 @@ function level_idle ()
       if e == 0 then
 	 Players[0].overlays[0].text = "完了";
       else
-	 Players[0].overlays[0].text = "残りの敵は" .. e;
+	 Players[0].overlays[0].text = "残りの敵は " .. e;
       end
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 154);
