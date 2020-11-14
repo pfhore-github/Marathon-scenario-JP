@@ -7,7 +7,7 @@ function level_init (rs)
    if rs then
       return;
    end
-   remove_items("wand");
+   remove_items(_item_wand);
 end
 
 function level_idle ()

@@ -30,7 +30,7 @@ end
 
 function common_got_item(item, player)
 	got_item_sound(item, player, sword, 62);
-	if (item == "invincible") and mixed_bag then
+	if (item == _item_invincible) and mixed_bag then
 		player:play_sound(228,1);
 	else
 		got_item_sound(item, player, powerups, 19);

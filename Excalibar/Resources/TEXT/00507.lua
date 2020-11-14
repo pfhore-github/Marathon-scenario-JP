@@ -12,11 +12,9 @@ increase_power = 0;
 increase_radius = 0;
 _shot_grenade = _shot_rock;
 _grenade = _raptor_eggs;
-function common_init(rs) 
-    monsters_name["grenade"]="グレネード";
-    projectiles["grenade"]="爆発";
-    projectiles["crossbow_bolt"]="鋭い弾丸";
-end
+monsters_name["grenade"]="グレネード";
+projectiles["grenade"]="爆発";
+projectiles["crossbow_bolt"]="鋭い弾丸";
 
 function common_idle()
     local i = 0;
@@ -36,7 +34,7 @@ function common_idle()
    end
    weapon = Players[0].weapons.current;
    if (weapon ~= last_weapon) then
-        if (weapon == "lightsaber") then
+        if (weapon == _weapon_lightsaber) then
 	        Players[0]:play_sound(231,1);
         end
         last_weapon = weapon;

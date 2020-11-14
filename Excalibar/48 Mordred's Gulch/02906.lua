@@ -5,17 +5,15 @@ red_river = 112;
 blue_river = 203;
 blue_zone = 79;
 blue_pad = 374;
-function level_init(rs) 
-	monsters_name["dimorph"]="烏";
-	monsters_name["hover gat"]="レッド・デビル（赤い悪魔）";
-	monsters_name["bike cop"]="キャノン・フォダー（大砲飼料）";
-	monsters_name["trex"]="ジョー・グリーン";
-	monsters_name["cleric"]="リューク・フェーザー";
-	monsters_name["lesser knight"]="ジェーク・ブルー";
-	monsters_name["black knight"]="レーザー・デュード";
-	monsters_name["minor gat"]="マスター・ブラスター";
-	monsters_name["major gat"]="オーズ・ジュース";
-end
+monsters_name["dimorph"]="烏";
+monsters_name["hover gat"]="レッド・デビル（赤い悪魔）";
+monsters_name["bike cop"]="キャノン・フォダー（大砲飼料）";
+monsters_name["trex"]="ジョー・グリーン";
+monsters_name["cleric"]="リューク・フェーザー";
+monsters_name["lesser knight"]="ジェーク・ブルー";
+monsters_name["black knight"]="レーザー・デュード";
+monsters_name["minor gat"]="マスター・ブラスター";
+monsters_name["major gat"]="オーズ・ジュース";
 function find_platform(index)
     for plat in Platforms() do
         if( plat.polygon.index == index ) then

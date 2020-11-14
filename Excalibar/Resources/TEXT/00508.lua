@@ -19,8 +19,8 @@ end
 
 
 function common_got_item(item, player)
-   got_item_sound(item, player, powerups, 19);
-   got_item_sound(item, player, energies, 19);
+    got_item_sound(item, player, powerups, 19);
+    got_item_sound(item, player, energies, 19);
     if (item == _item_apples) then
         player:play_sound(229,1);
         life = player.life;

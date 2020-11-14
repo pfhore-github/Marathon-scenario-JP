@@ -49,7 +49,13 @@ crystal_poly = 316;
 merlinx  = -15.5;
 merliny = -21.5;
 merlin_state = -1;
-
+hq_sword = _exploding_barrel;
+_merlin = _cleric;
+_merlin2 = _lesser_knight;
+_merlin3 = _black_knight;
+merlin_state = -1;
+_sword = _barrel;
+_crystal = _raptor_eggs;
 hq_theme = "Cavern/Briefing.mp3";
 merlin_theme = "Cavern/Homecoming.mp3";
 merlin_speech = "Cavern/Merlin Speech.mp3";
@@ -80,23 +86,17 @@ sword_failsafe = 10;
 
 
 function level_init (rs)
-	MonsterTypes["exploding barrel"].mnemonic = "hq sword";
-MonsterTypes["barrel"].mnemonic = "sword";
-MonsterTypes["grenade"].mnemonic = "crystal"; -- raptor eggs
-MonsterTypes["cleric"].mnemonic = "merlin";
-MonsterTypes["lesser knight"].mnemonic = "merlin2";
-MonsterTypes["black knight"].mnemonic = "merlin3";
 	enchant_poly = Polygons[314];
 	enchant_door = find_platform(266);
 	hall_door = find_platform(297);
-in_hall = Polygons[353];
-in_forest1 = Polygons[217];
-in_forest2 = Polygons[216];
-in_forest3 = Polygons[173];
-in_forest4 = Polygons[213];
-merlin_light = Lights[36];
-exit_light = Lights[41];
-sword_light = Lights[39];
+   in_hall = Polygons[353];
+   in_forest1 = Polygons[217];
+   in_forest2 = Polygons[216];
+   in_forest3 = Polygons[173];
+   in_forest4 = Polygons[213];
+   merlin_light = Lights[36];
+   exit_light = Lights[41];
+   sword_light = Lights[39];
    merlin_light_state = merlin_light.active;
    prev_light_state = merlin_light_state;
    fog_save = save_fog();
@@ -106,8 +106,8 @@ sword_light = Lights[39];
    for g in Monsters() do 
       mtype = g.type;
       mp = g.polygonl
-      if (mtype == "crystal") then
-	 crystal_ball = g;
+      if (mtype == _crystal) then
+      	crystal_ball = g;
       end
    end
 
@@ -126,7 +126,7 @@ sword_light = Lights[39];
       --]]
       guard_greeting = true;
       sword_gone = sword_light.active;
-      got_hq_sword = (Players[0].items["sword"] > 0) or sword_gone;
+      got_hq_sword = (Players[0].items[_item_sword] > 0) or sword_gone;
       if sword_gone then
          music = end_theme;
          set_terminal_text_number(385, 1185, 6);
@@ -138,8 +138,8 @@ sword_light = Lights[39];
       merlin_light_state = merlin_light.active;
       return;
    end
-   remove_items("sword");
-   hq_sword_index = Monsters.new(1.0, 4.875, 0, hq_sword_poly, "hq sword");
+   remove_items(_item_sword);
+   hq_sword_index = Monsters.new(1.0, 4.875, 0, hq_sword_poly, hq_sword);
 end
 
 function cut_scene()
@@ -196,8 +196,8 @@ function level_idle ()
 
    --[[  Fail safe to handle when Lua doesn't return the sword because it thinks you already have one.  Let's wait 10 ticks to make sure player has the sword.  ]]
    if sword_check > 0 then
-      if Players[0].items["sword"] < 1 then
-         Players[0].items["sword"] = 1;
+      if Players[0].items[_item_sword] < 1 then
+         Players[0].items[_item_sword] = 1;
       end
       sword_check = sword_check - 1;
    end
@@ -209,37 +209,37 @@ function level_idle ()
       message_wait = message_wait - 1;
    end
    if remove_sword_flag then
-      if Players[0].items["sword"] > 0 then
-	 Players[0].items["sword"] = 0;
+      if Players[0].items[_item_sword] > 0 then
+	 Players[0].items[_item_sword] = 0;
       end
       remove_sword_flag = false;
    end
-   if (merlin_state == "merlin") and (player_enchanted) then
+   if (merlin_state == _merlin) and (player_enchanted) then
       if merlin_index and merlin_index.valid then
          merlin_index:damage(10000, "suffocation");
       end
-      merlin_index = Monsters.new(merlinx, merliny, 0, cottage_poly, "merlin2");
+      merlin_index = Monsters.new(merlinx, merliny, 0, cottage_poly, _merlin2);
       merlin_index.yaw = 180;
       Players[0]:fade_screen("long bright");
-      merlin_state = "merlin2";
+      merlin_state = _merlin2;
    end
-   if (merlin_state == "merlin2") and (spell_of_life) then
+   if (merlin_state == _merlin2) and (spell_of_life) then
       if merlin_index and merlin_index.valid then
          merlin_index:damage(10000, "suffocation");
          end
-      merlin_index = Monsters.new(merlinx, merliny, 0, cottage_poly, "merlin3");
+      merlin_index = Monsters.new(merlinx, merliny, 0, cottage_poly, _merlin3);
       merlin_index.yaw = 180;
       Music.fade(60/1000);
       Music.play(merlin_speech);
       merlin_timer = 1;
       Players[0]:fade_screen("long bright");
-      merlin_state = "mariln3";
+      merlin_state = _merlin3;
       cut_scene();
    end
    if merlin_timer > 0 then
       merlin_timer = merlin_timer + 1;
       if (merlin_timer > merlin_gives_wand) and (not has_teleport_wand) then
-         Players[0].items["spear"] = Players[0].items["spear"] + 1;
+         Players[0].items[_item_spear] = Players[0].items[_item_spear] + 1;
          has_teleport_wand = true;
       end
       if (merlin_timer > merlin_speech_length) and (not merlin_done) then
@@ -247,8 +247,8 @@ function level_idle ()
          merlin_timer = 0;
          camera_index:deactivate();
          enable_player(0);
-	 Music.fade(60/1000);
-	 Music.play(music);
+	      Music.fade(60/1000);
+	      Music.play(music);
       end
    end
    if merlin_done and (not teleport_wand_enchanted) then
@@ -273,16 +273,16 @@ function level_idle ()
             sword_index:damage(10000, "suffocation");
             end
       elseif (math.modf(sword_countdown,500) == 0) and (spawn_cnt < 7)then
-         Monsters.new(in_hall.x, in_hall.y, 0, in_hall, "ranger");
-         Monsters.new(in_forest1.x, in_forest1.y, 0, in_forest1, "white knight");
-         Monsters.new(in_forest2.x, in_forest2.y, 0,in_forest2, "novice sorcerer");
-         Monsters.new(in_forest3.x, in_forest3.y, 0, in_forest3, "magus sorcerer");
-         Monsters.new(in_forest4.x, in_forest4.y, 0, in_forest4, "soldier");
+         Monsters.new(in_hall.x, in_hall.y, 0, in_hall, _ranger);
+         Monsters.new(in_forest1.x, in_forest1.y, 0, in_forest1, _white_knight);
+         Monsters.new(in_forest2.x, in_forest2.y, 0,in_forest2, _novice_sorcerer);
+         Monsters.new(in_forest3.x, in_forest3.y, 0, in_forest3, _magus_sorcerer);
+         Monsters.new(in_forest4.x, in_forest4.y, 0, in_forest4, _soldier);
          spawn_cnt = spawn_cnt + 1;
       end
    end
    --[[  Do a special check on sword_gone, because the counter tends to get hosed when the player Cmd-Tabs out of application.  ]]
-   if (not sword_gone) and (sword_countdown <= 0) and (merlin_state == "mariln3") then
+   if (not sword_gone) and (sword_countdown <= 0) and (merlin_state == _merlin3) then
       sword_countdown = 10;
    end
    if shake_timer > 0 then
@@ -323,7 +323,7 @@ function level_idle ()
    end
    if (player_poly == hq_sword_poly) and (not got_hq_sword) then
       got_hq_sword = true;
-      Players[0].items["sword"] = 1;
+      Players[0].items[_item_sword] = 1;
       if hq_sword_index and hq_sword_index.valid then
 	 hq_sword_index:damage(10000, "suffocation");
       end
@@ -331,39 +331,39 @@ function level_idle ()
    end
    if (player_poly == enchant_on_poly) and (not enchant_fade) then
       enchant_fade = true;
-      MonsterTypes["crystal"].enemies["raptor"] = true;
-      MonsterTypes["crystal"].friends["raptor"] = false;
+      MonsterTypes[_crystal].enemies[_class_raptor] = true;
+      MonsterTypes[_crystal].friends[_class_raptor] = false;
    end
    if (player_poly == enchant_off_poly) and (enchant_fade) then
       enchant_fade = false;
-      MonsterTypes["crystal"].enemies["raptor"] = false;
-      MonsterTypes["crystal"].friends["raptor"] = true;
+      MonsterTypes[_crystal].enemies[_class_raptor] = false;
+      MonsterTypes[_crystal].friends[_class_raptor] = true;
    end
    merlin_light_state = merlin_light.active;
    if (merlin_light_state ~= prev_light_state) and (merlin_state == -1) then
       Players[0]:activate_terminal(2);
       prev_light_state = merlin_light_state;
    end;
-   if (merlin_light_state ~= prev_light_state) and (merlin_state == "merlin") then
+   if (merlin_light_state ~= prev_light_state) and (merlin_state == _merlin) then
       Players[0]:activate_terminal(3);
       prev_light_state = merlin_light_state;
    end
-   if (merlin_light_state ~= prev_light_state) and (merlin_state == "merlin2") then
+   if (merlin_light_state ~= prev_light_state) and (merlin_state == _merlin2) then
       Players[0]:activate_terminal(4);
       prev_light_state = merlin_light_state;
    end;
-   if (merlin_light_state ~= prev_light_state) and (merlin_state == "mariln3") then
+   if (merlin_light_state ~= prev_light_state) and (merlin_state == _merlin3) then
       Players[0]:activate_terminal(5);
       if (not has_teleport_wand) then
-         Players[0].items["spear"] = 1;
+         Players[0].items[_item_spear] = 1;
          has_teleport_wand = true;
       end
       prev_light_state = merlin_light_state;
    end;
-   if (not hall_open) and (Players[0].items["key"] > 0) then
+   if (not hall_open) and (Players[0].items[_item_key] > 0) then
       hall_door.active = true;
       hall_open = true;
-      remove_items("key");
+      remove_items(_item_key);
       Players[0]:print('あなたは今アヴァロンのホールにアクセスできます！');
       Players[0]:play_sound(17, 1);
    end
@@ -376,12 +376,12 @@ function level_idle ()
       if (player_poly == hud_activate) and (merlin_state == -1) then
          Players[0]:activate_terminal(2);
       end
-      if ((player_poly == cottage_talk) and (merlin_state == "merlin") and 
+      if ((player_poly == cottage_talk) and (merlin_state == _merlin) and 
     (not merlin_arrived)) then
          Players[0]:activate_terminal(3);
          merlin_arrived = true;
       end
-      if ((player_poly == cottage_talk) and (merlin_state == "merlin2") and 
+      if ((player_poly == cottage_talk) and (merlin_state == _merlin2) and 
     (not almost_merlin)) then
          Players[0]:activate_terminal(4);
          almost_merlin = true;
@@ -408,43 +408,43 @@ function level_idle ()
 	 Music.play(merlin_theme);
          music = merlin_theme;
          if (crystal_ball == nil) then
-            crystal_ball = Monsters.new(crystal_x, crystal_y, 0, crystal_poly, "crystal");
+            crystal_ball = Monsters.new(crystal_x, crystal_y, 0, crystal_poly, _crystal);
 	 end
          if merlin_left then
-	    Items.new(cottage_talk.x, cottage_talk.y, 0, cottage_talk, "spear");
+	    Items.new(cottage_talk.x, cottage_talk.y, 0, cottage_talk, _item_spear);
 	 end
       end
    end
 end
        
 function level_got_item(item, player)
-   if (item == "sword") and sword_gone then
+   if (item == _item_sword) and sword_gone then
       remove_sword_flag = true;
    end
 end
 
 function level_projectile_detonated(type, owner, polygon, x, y, z)
 
-   if (type == "lightning") then
+   if (type == _shot_lightning) then
       poly_type = polygon.type;
       if (poly_type == "must be explored") then
          Players[0]:print('その水は十分深くありません。');
-	 Players[0].items["sword"] = 1;
+	 Players[0].items[_item_sword] = 1;
          sword_check = sword_failsafe;
          return;
       end
       if (poly_type ~= "goal") then
          Players[0]:print('エクスカリバーを魔法の水へ投げなくてはなりません。');
-	 Players[0].items["sword"] = 1;
+	       Players[0].items[_item_sword] = 1;
          sword_check = sword_failsafe;
          return;
       end
-      Players[0].items["sword"] = 0;
+      Players[0].items[_item_sword] = 0;
       sword_countdown = theme_length;
-      sword_index = Monsters.new(polygon.x, polygon.y, 0, polygon, "sword");
-      merlin_index = Monsters.new(merlinx, merliny, 0, cottage_poly, "merlin");
+      sword_index = Monsters.new(polygon.x, polygon.y, 0, polygon, _sword);
+      merlin_index = Monsters.new(merlinx, merliny, 0, cottage_poly, _merlin);
       merlin_index.yaw = 180;
-      merlin_state = "merlin";
+      merlin_state = _merlin;
       Music.fade(60/1000);
       Music.play(sword_theme);
       music = sword_theme;
@@ -457,14 +457,14 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
       Polygons[148].platform.active = true;
       Polygons[360].platform.active = true;
    end
-   if (type == "fireball") then
-      Players[0].items["wand"] = 0;
+   if (type == _shot_fireball) then
+      Players[0].items[_item_wand] = 0;
       if (sword_countdown > 0) then
          if message_wait <= 0 then
             Players[0]:print('あなたは湖の妖精がエクスカリバーを受け取るのを待たなくてはなりません。');
             message_wait = 30;
 	 end
-	 Players[0].items["wand"] = 1;
+	 Players[0].items[_item_wand] = 1;
          return;
       end
       if (polygon.index ~= cottage_poly) and (polygon.index ~= cottage2) and
@@ -474,25 +474,25 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
             Players[0]:print('あなたはマーリンにこの呪文を投げなければなりません。');
             message_wait = 30;
 	 end
-         Players[0].items["wand"] = 1;
+         Players[0].items[_item_wand] = 1;
          return;
       end
       Players[0]:fade_screen("long bright");
       spell_of_life = true;
    end
-   if (type == "freeze") then
-      Players[0].items["spear"] = 0;
+   if (type == _shot_freeze) then
+      Players[0].items[_item_spear] = 0;
       if (not teleport_wand_enchanted) then
          if message_wait <= 0 then
             Players[0]:print('テレポートの杖は力を蓄えています...');
             message_wait = 30;
 	 end
-	 Players[0].items["spear"] = 1;
+	 Players[0].items[_item_spear] = 1;
          return;
       end;
       if (not merlin_done) then
          Players[0]:print('マーリンが話している間にテレポートするのは失礼です。');
-	 Players[0].items["spear"] = 1;
+	 Players[0].items[_item_spear] = 1;
          return;
       end;
       if (sword_countdown > 0) then
@@ -500,7 +500,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
             Players[0]:print('あなたは湖の妖精がエクスカリバーを受け取るのを待たなくてはなりません。');
             message_wait = 30;
 	 end
-         Players[0].items["spear"] = 1;
+         Players[0].items[_item_spear] = 1;
          return;
       end;
       Players[0]:play_sound(254, 1);
@@ -525,7 +525,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
 end
 
 function level_monster_killed(monster, player, projectile)
-   if (monster.type == "throne") then
+   if (monster.type == _throne) then
       if (not player_enchanted) then
          player_enchanted = true;
          Players[0]:print('あなたは悟られました');
@@ -533,6 +533,6 @@ function level_monster_killed(monster, player, projectile)
       if enchant_fade then
          Players[0]:fade_screen("tint blue");
       end
-      Monsters.new(enchant_poly.x, enchant_poly.y, 1, enchant_poly,"throne");
+      Monsters.new(enchant_poly.x, enchant_poly.y, 1, enchant_poly,_throne);
    end
 end

@@ -364,7 +364,7 @@ function remove_items(...)
     local args = { ... }
     for p in Players() do
         for i, v in ipairs (args) do
-        p.items[v] = 0;
+            p.items[v] = 0;
         end
     end
 end
