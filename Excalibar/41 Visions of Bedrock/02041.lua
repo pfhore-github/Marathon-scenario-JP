@@ -117,10 +117,10 @@ end
 
 function update_lighting()
     prev_lap = laps + 1;
-    if math.modf(laps, 5) == 0 then --[[ daylight lasts for two laps ]]
+    if math.fmod(laps, 5) == 0 then --[[ daylight lasts for two laps ]]
         return;
     end
-    light_clock = math.modf(light_clock + 1, 4);
+    light_clock = math.fmod(light_clock + 1, 4);
     Players[0]:print(string.format('今は %s です。', clock_str[math.floor(light_clock + 1)]));
     if (light_clock == night) and lights then
         for n = 1, 20 do
@@ -160,21 +160,21 @@ function display_stats()
 
     Players[0].overlays[0].text = string.format("ラップ: %d ", laps+1);
     Players[0].overlays[0].color = "blue";
-    Players[0].overlays[1].text = string.format("経過: %02d:%02d.%02d", 
+    Players[0].overlays[1].text = string.format("経過時間:%02d:%02d.%02d", 
         race_timer / 30 / 60,
-        math.modf(race_timer / 30, 60), math.modf(race_timer, 30) * 100 / 30);
+        math.fmod(race_timer / 30, 60), math.fmod(race_timer, 30) * 100 / 30);
     Players[0].overlays[1].color = "green";
-    Players[0].overlays[2]:clear();
-   Players[0].overlays[3].text = string.format("ラップ時間: %02d:%02d.%02d", 
+    Players[0].overlays[2].text = "        "
+    Players[0].overlays[3].text = string.format("ラップ時間:%02d:%02d.%02d", 
         lap_timer / 30 / 60,
-        math.modf(lap_timer / 30, 60), math.modf(lap_timer, 30) * 100 / 30);
-   Players[0].overlays[3].color = "yellow";
-   Players[0].overlays[4]:clear();
-   if laps > 0 then
+        math.fmod(lap_timer / 30, 60), math.fmod(lap_timer, 30) * 100 / 30);
+    Players[0].overlays[3].color = "yellow";
+    Players[0].overlays[4].text = "        "
+    if laps > 0 then
         lap_avg = lap_cum / laps;
-        Players[0].overlays[5].text = string.format("平均ラップ時間: %02d:%02d.%02d",
+        Players[0].overlays[5].text = string.format("平均ラップ時間:%02d:%02d.%02d",
             lap_avg / 30 / 60,
-            math.modf(lap_avg / 30, 60), math.modf(lap_avg, 30) * 100 / 30)
+            math.fmod(lap_avg / 30, 60), math.fmod(lap_avg, 30) * 100 / 30)
         Players[0].overlays[5].color = "red";
     end
 end
@@ -201,7 +201,7 @@ function level_got_item(type, player)
             lap_cum = lap_cum + lap_timer;
             Players[0]:print(string.format('ラップ # %d の時間は %02d:%02d.%02d',
                 laps, lap_timer / 30 / 60,
-                math.modf(lap_timer / 30, 60), math.modf(lap_timer, 30) * 100 / 30));
+                math.fmod(lap_timer / 30, 60), math.fmod(lap_timer, 30) * 100 / 30));
             lap_timer = 0;
             Players[0]:play_sound(263, 1);
             if (laps >= laps_required) and (not exit_activated) then
