@@ -19,7 +19,7 @@
 <lua resource="129"/>
 <lua resource="130"/>
 <lua resource="502"/>
-<music file="Cavern/M01.ogg" />
+<music file="Cavern/M01.mp3" />
 <load_screen file="Cavern/kronos.jpg" stretch="false" 
    progress_left="40" progress_top="20" 
    progress_right="600" progress_bottom="40">
@@ -194,7 +194,7 @@
 </level>
 
 <level index="14">
-<music file="Cavern/M14.ogg"/>
+<music file="Cavern/M14.mp3"/>
 <mml resource="603"/>
 <lua resource="129"/>
 <lua resource="130"/>
@@ -262,7 +262,7 @@
 </level>
 
 <level index="19">
-<music file="Cavern/M19.ogg"/>
+<music file="Cavern/M19.mp3"/>
 <mml resource="603"/>
 <lua resource="129"/>
 <lua resource="130"/>
@@ -318,7 +318,7 @@
 </level>
 
 <level index="23">
-<music file="Cavern/M01.ogg"/>
+<music file="Cavern/M01.mp3"/>
 <mml resource="604"/>
 <lua resource="129"/>
 <lua resource="130"/>
