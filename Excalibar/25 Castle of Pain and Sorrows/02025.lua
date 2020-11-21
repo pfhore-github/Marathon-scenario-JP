@@ -156,7 +156,6 @@ function level_idle ()
         flag_door2.player_controllable = false;
         MonsterTypes[_black_knight].enemies["player"] = false;
         MonsterTypes[_black_knight].friends["player"] = true;
---        camera:deactivate()
         enable_player(0);
         Players[0].items[_item_key] = Players[0].items[_item_key] + 1;
     end
