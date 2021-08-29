@@ -1,28 +1,25 @@
-function mediafog()
-	for p in Players() do
-		if numswimmers == 0 and p.polygon.media and p.head_below_media == true then
-			numswimmers = numswimmers + 1
-			if p.polygon.media.type == "water" then
-				Level.underwater_fog.color.r = .75
-				Level.underwater_fog.color.g = .875
-				Level.underwater_fog.color.b = 1
-			elseif p.polygon.media.type == "lava" then
-				Level.underwater_fog.color.r = 1
-				Level.underwater_fog.color.g = .5
-				Level.underwater_fog.color.b = 0
-			elseif p.polygon.media.type == "goo" then
-				Level.underwater_fog.color.r = 1
-				Level.underwater_fog.color.g = 0
-				Level.underwater_fog.color.b = 1
-			elseif p.polygon.media.type == "sewage" then
-				Level.underwater_fog.color.r = 0
-				Level.underwater_fog.color.g = 1
-				Level.underwater_fog.color.b = 0
-			else
-				Level.underwater_fog.color.r = 0
-				Level.underwater_fog.color.g = .25
-				Level.underwater_fog.color.b = 0
-			end
+function mediafog(p)
+	if p.polygon.media and p.head_below_media == true then
+		if p.polygon.media.type == "water" then
+			Level.underwater_fog.color.r = .75
+			Level.underwater_fog.color.g = .875
+			Level.underwater_fog.color.b = 1
+		elseif p.polygon.media.type == "lava" then
+			Level.underwater_fog.color.r = 1
+			Level.underwater_fog.color.g = .5
+			Level.underwater_fog.color.b = 0
+		elseif p.polygon.media.type == "goo" then
+			Level.underwater_fog.color.r = 1
+			Level.underwater_fog.color.g = 0
+			Level.underwater_fog.color.b = 1
+		elseif p.polygon.media.type == "sewage" then
+			Level.underwater_fog.color.r = 0
+			Level.underwater_fog.color.g = 1
+			Level.underwater_fog.color.b = 0
+		else
+			Level.underwater_fog.color.r = .125
+			Level.underwater_fog.color.g = .25
+			Level.underwater_fog.color.b = .125
 		end
 	end
 end
@@ -136,18 +133,8 @@ end
 
 function Triggers.init(restoring)
 	Game.proper_item_accounting = true
-	numswimmers = 0
 end
 
 function Triggers.idle()
-	if numswimmers == 0 then
-		mediafog()
-	else
-		numswimmers = 0
-		for p in Players() do
-			if p.head_below_media then
-				numswimmers = numswimmers + 1
-			end
-		end
-	end
+	mediafog(Players.local_player)
 end
