@@ -108,3 +108,11 @@ end
 function Triggers.init(restoring)
 	Game.proper_item_accounting = true
 end
+
+function Triggers.idle()
+	for p in Players() do
+		if p.extravision_duration <= 1 then
+			p.extravision_duration = 2 -- we want players to have extravision throughout the course of this level, because it's a dream
+		end
+	end
+end

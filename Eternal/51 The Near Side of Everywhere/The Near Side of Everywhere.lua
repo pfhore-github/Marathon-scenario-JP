@@ -180,4 +180,9 @@ end
 
 function Triggers.idle()
 	levelfog()
+	for p in Players() do
+		if p.extravision_duration <= 1 then
+			p.extravision_duration = 2 -- we want players to have extravision throughout the course of this level, because it's a dream
+		end
+	end
 end
