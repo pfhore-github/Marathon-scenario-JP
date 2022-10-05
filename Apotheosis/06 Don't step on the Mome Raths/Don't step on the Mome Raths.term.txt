@@ -3,16 +3,16 @@
 #UNFINISHED
 #LOGON 164
 #PICT 167
-$C5# los //' ignal. ~ocal scan ^*45643$%hite noise ::
+$C5# シグナル //' 喪失. ~ローカルスキャン ^*45643$%ホワイトノイズ ::
 
-  :: signal lost... reacquiring... ::
+  :: シグナル 喪失... 再取得... ::
 
-~$C1ausing this interference, one thing is cer$C5&43634756*$C1must as$C5#? $C1inten"$ hostile.$C5
+~$C1この干渉の原因の 1 つは、cer$C5&43634756*$C1must as$C5#? $C1inten"$ 敵対的。$C5
 
-  :: signal lost... reacquiring... ::
- :: initialising tracking protocols ::
+  :: シグナル 喪失... 再取得... ::
+ :: 追跡プロトコル初期化 ::
 
-$C1All UESC defen"_$rimeters ~~~ penetrated, @6. forces are divided. Last repor{..3{ mber of men have retrea:$:tural cave syst { no longer be conta ted
+$C1全 UESC 防"_$rimeters ~~~ 侵入された, @6. 部隊は分断された。最後の報{..3{ mber of men have retrea:$:tural cave syst { no longer be conta ted
 $C5&43634ADCEF  .3187   8A1     B61A28A34756*$C1
 "on as you loc$C5~$C1 core, try and find an exit.
 $C5&43634   EF48.3187FA   157C98B61A28  4756*$C1

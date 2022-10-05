@@ -3,33 +3,33 @@
 #UNFINISHED
 #LOGON 129
 #PICT 145
-The Pfhor attack on this base is particularly adamant. I must admit, I was surprised to find such a sparsely defended clean AI core when I first secured this facility.
+この基地へのプフォールの攻撃は特に断固としている。 正直なところ、最初にこの施設を確保したとき、これほどまばらに防御されたクリーンな AI コアを見つけたことに驚きました。
 
-The core seems more like a junction point for accelerated communication between several isolated cells. Pfhor-built AI are usually relatively centralised; it makes them easier to control.
+コアは、いくつかの孤立したセル間の通信を加速するための接合点のように見えます。 プフォールで構築された AI は通常、比較的集中化されています。 制御しやすくなります。
 
-Something is going on here that I don't yet understand.
+ここで、私がまだ理解していないことが起こっています。
 #PICT 144
-The Pfhor have destroyed the outermost perimeter with tactical explosives and have begun to move in.
+プフォールは戦術爆薬で最も外側の境界を破壊し、移動を開始しました。
 
-A series of blast doors gate the inner facility; I want you to lock each door and repel the incoming Pfhor. I will maintain a secondary lockdown until the threat at each perimeter wall is sufficiently neutralised.
+一連の爆発ドアが内部施設をゲートします。 それぞれのドアに鍵をかけ、入ってくるプフォールを撃退してほしい。 各境界壁の脅威が十分に中和されるまで、二次封鎖を維持します。
 
-I need you to hold off the Pfhor attack for as long as possible. Maintain the blockade while I attempt to mobilise forces to pull my core.
+プフォールの攻撃をできるだけ長く食い止めてほしい。 コアを引っ張るために力を動員しようとしている間、封鎖を維持してください。
 #LOGOFF 129
 #END
 #FINISHED
 #LOGON 129
 #PICT 132
-I'm afraid I've had to assume the worst about the Venator -- we've lost communications with her, and traffic on the Pfhor battle net would indicate her destruction.
+残念ながら、ヴェネターについて最悪の事態を想定しなければなりませんでした。私たちは彼女との通信を失いました。プフォア バトル ネットのトラフィックは、彼女が破壊されたことを示しています。
 
-Noah, too, is entirely incommunicado. What remains of crash pod E104-A has been cut off from the Pfhor net by impenetrable pulses of white noise.
+ノアも完全に孤立しています。 墜落ポッド E104-A の残骸は、侵入不可能なホワイト ノイズのパルスによってプフォールネットワークから遮断されました。
 
-For the time being, it would seem that we are alone.
+当分の間、私たちは一人でいるようです。
 #PICT 132
-My attempts to lift my core have failed. The defence squad I mobilised is un-reachable and presumed dead.
+コアを持ち上げる試みは失敗しました。 私が動員した防御部隊は到達不能であり、死亡したと推定されています。
 
-I'm sending you in personally to do the job.
+仕事をするためにあなたを個人的に送ります。
 
-Good luck.
+幸運を。
 #LOGOFF 129
 #INTERLEVEL TELEPORT 6
 #ENDTERMINAL 0

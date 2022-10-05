@@ -23,23 +23,23 @@ UESC 部隊の第 1 波がここに存在感を示しましたが、洞窟シス
 #UNFINISHED
 #LOGON 129
 #PICT 133
-The Pfhor have set a major dig site at this location.
+プフォールは、この場所に主要な発掘現場を設定しました。
 
-What is more interesting, however, is that the white noise permeating the communications infrastructure seems to have a local nexus within the dig tunnels. 
+しかし、さらに興味深いのは、通信インフラストラクチャに浸透するホワイト ノイズが、掘削トンネル内に局所的なつながりを持っているように見えることです。
 
-If we're lucky, we may establish a lead on what has happened to Noah.
+運が良ければ、ノアに何が起こったのか手がかりが得られるかもしれません。
 
-When I was queried the service net, I logged approximately three times as many local network nodes registered by the Pfhor data net map.
+サービス ネットに問い合わせたところ、プフォール データ ネット マップによって登録されたローカル ネットワーク ノードの約 3 倍の数がログに記録されました。
 
-This is unusual even for the clumsy approach of the Pfhor empire.
+これは、プフォール帝国の不器用なアプローチでも珍しいことです。
 #PICT 133
-Either the bloated Pfhor bureaucracy has impeded mapping of their network structure, or the Pfhor are using a network they did not install.
+肥大化したプフォールの官僚機構がネットワーク構造のマッピングを妨害しているか、プフォールがインストールしていないネットワークを使用しています。
 
-Given the unusual constant stream of network interference, I am predisposed to assume the latter.
+ネットワーク干渉の異常な絶え間ないストリームを考えると、私は後者を想定する傾向があります.
 
-My best guess is that Noah has somehow accessed these unregistered network nodes.
+私の推測では、Noah が何らかの形でこれらの未登録のネットワーク ノードにアクセスしたと考えられます。
 
-See what you can find down there.
+あなたがそこにあるものを見てください。
 #LOGOFF 129
 #ENDTERMINAL 1
 ;
@@ -48,23 +48,23 @@ See what you can find down there.
 #LOGON 235
 #PICT 166
 $C5F9FC5C6447154B2A8A289342A579063096A32A52 
-$C1fiery they fall $C5321// ~~75662ires of Orc 
-347.124.556[1463]//active[286csecu$C1_feed{ $C5
-$C1this is Tatical Operations Art/~$C5.1]hold[ 
-connecting...$C1#ificial Intelligence Isaac $C5
+$C1火のように彼らが落ちた $C5321// ~~75662オークの
+347.124.556[1463]//起動[286csecu$C1_feed{ $C5
+$C1これは戦術操作人/~$C5.1]hold[ 
+接続中...$C1#工知能イサク $C5
 ::::remote.feed.timeout..please.hold::::
-2L/0.2]//as$C1::compensating...::$C54.30.23.47] 
-F9FC5C644715::connecting...::63096A32A52 
-stream.out$C1id[ESRAI T4-HYB385ISA] of the 
-UESC Venator$C51463]//active[2860.07.04:14. 
-30.23.47]//pressured$C1transmitting on all 
-UESC- and ESR- wavelengths$C5ctivereturn[28 
-60.07.04:14.30.29.54]/$C1/pr s%$C5urereturn[1. 
-2L/0.2]//passive[2860.07.04:14.30.23.47] 
+2L/0.2]//as$C1::補完中...::$C54.30.23.47] 
+F9FC5C644715::接続中...::63096A32A52 
+stream.out$C1id[ESRAI T4-HYB385ISA] UESC 
+Venatorの$C51463]//起動[2860.07.04:14. 
+30.23.47]//圧迫$C1転送中 
+UESC- and ESR- 波長$C5クティブリターン[28 
+60.07.04:14.30.29.54]/$C1/pr 確%$C5実に戻る[1. 
+2L/0.2]//パッシブ[2860.07.04:14.30.23.47] 
 F9C$C1:7&under heavy fi&e_432$C579063$C1096A$C532A52 
-strea$C1trying to reach$C5321//be$C1inner syste_%$C5 
-60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1. 
-2860.07.04:14.30.25.49]//activereturn[28 
+strea$C1到達を試行$C5321//be$C1内部システムj%$C5 
+60.07.04:14.30.29.54//$C1}...$C5確実に戻る[1. 
+2860.07.04:14.30.25.49]//アクティブリターン[28 
 $C1fiery the Angels rise$C5 7.04:14.30.23.47] 
 F9FC5C6447154B2A8A289342A579063096A32A52
 #LOGOFF 235
@@ -74,19 +74,19 @@ F9FC5C6447154B2A8A289342A579063096A32A52
 #UNFINISHED
 #LOGON 128
 #PICT 159
-I've monitored Noah's access logs since the crash. Data he has found on the network would imply that the caves we stand in were once occupied by a single prominent species of native life-form.
+墜落以来、ノアのアクセスログを監視してきました。 彼がネットワーク上で見つけたデータは、私たちが立っている洞窟がかつて固有の生命体の1つの顕著な種によって占められていたことを意味します.
 
-We can only presume that the Pfhor presence has disturbed or eradicated what was once here.
+プフォールの存在が、かつてここにあったものを乱したか、根絶したと推測することしかできません。
 
-The resource base of the occupant Pfhor military is astounding. The usual Pfhor doublespeak and protocol mar the information I can gather. Still, the occupant forces appear to have access to unusually high castes of infantry, including an assassin cult under the direct control of Admiral Tfear.
+占領下のプフォール軍の資源基盤は驚くべきものです。 通常の プフォールのダブルスピークとプロトコルでは、収集できる情報が不足しています。 それでも、占領軍は、トフィア提督の直接の支配下にある暗殺教団を含む、歩兵の異常に高いカーストにアクセスできるようです.
 #PICT 159
-There seems, too, to be a specific concentration of bleeding-edge electronics countermeasure technologies and access to deep-mining technologies bastardised from reclaimed ESR Industrial equipment.
+また、最先端のエレクトロニクス対策技術や、回収された ESR 産業用機器から掘り出された深層採掘技術へのアクセスが特定的に集中しているようにも見えます。
 
-Whatever is happening here, the Pfhor are deadly serious about keeping this system-wide facility well-stocked.
+ここで何が起こっていようと、プフォアはこの星系全体の施設に十分な在庫を確保することに真剣に取り組んでいます。
 
-The caves you now stand in are logged in particular detail by the Pfhor. There is a lot of data to examine, so I cannot yet be too specific, but be on the lookout for anything unusual.
+あなたが今立っている洞窟は、プフォールによって特に詳細に記録されています。 調べなければならないデータがたくさんあるので、まだ具体的には言えませんが、異常がないか注意してください。
 
-I get the feeling you stand somewhere important.
+あなたがどこか重要な場所に立っているような気がします。
 #LOGOFF 128
 #ENDTERMINAL 3
 ;
@@ -94,17 +94,17 @@ I get the feeling you stand somewhere important.
 #UNFINISHED
 #LOGON 128
 #PICT 133
-We're in trouble. My core is under attack.
+困っています。 私のコアが攻撃を受けています。
 
-The Pfhor have located my core more quickly than I would have anticipated and nearly breached the final lines of defence.
+プフォールは、私が予想していたよりも早く私の核を突き止め、最終防衛線をほぼ突破しました。
 
-I think I spread our resources too thinly, but I'm not sure. I wasn't built for this kind of thinking.
+リソースを薄く広げすぎたと思いますが、よくわかりません。 私はこの種の考え方のために構築されていません。
 
-Noah would never have made this mistake.
+ノアは決してこの過ちを犯さなかったでしょう。
 
-I need your help.
+あなたの助けが必要です。
 
-Quickly!
+素早く！
 #LOGOFF 128
 #INTERLEVEL TELEPORT 5
 #ENDTERMINAL 4
