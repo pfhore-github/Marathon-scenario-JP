@@ -1,0 +1,131 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 173
+#PICT 211
+$C2Deep Survey 73A
+origin: $C6Technician 1st Class S'mr'orr$C2
+destin: $C6unit Command$C2
+ref: $C6Deep Survey 73A$C2
+stamp: requisition 
+
+
+Humbly I note instability in network nodes located near Gate Complex 03B, coupled with increased instability in network nodes located between Deep Survey 73A and Gate Complex 03B, and request immediate requisition of Defensive-Class Virals $C660443 60147 60149$C2 to attempt to establish a countermeasure blockade.
+#PICT 211
+$C2Deep Survey 73A
+origin: $C6Technician 1st Class S'mr'orr$C2
+destin: $C6unit Command$C2
+ref: $C6Deep Survey 73A$C2
+stamp: requisition 
+
+
+Humbly I implore Unit Command to consider that reduced network capacity and data instability may prove hazardous to native transport matrix Acquisition Project 1AE and current survey activities at Deep Survey Site 9FE as outlined in schematic.E432D
+
+{ error: schematic.E432D not found }
+#LOGOFF 173
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 179
+#PICT 253
+$C2internal unit files (ref: broadcast)
+#origin: $C6unit Command$C2
+desti$C1n: uni$C2t $C1bro$C2a$C1dca @;
+$C2
+$C3csecurefeed.8$C5
+                    $C1)1$C5A2EDB$C143D$C548737D$C17$C5F60$C2
+$C1there is betrayal$C52337050071011C751C94821
+$C1no greater$C5A8F8FA5C13Ethos$C1e50$C53034554D6A9F
+$C1than a lie$C5D210A10E3DEAA5011715083ACFE9C6
+$C1unbound$C5135enthro$C1ne$C5d at ElsiumA760E084D37
+$C1unceasing$C51D35AF$C1D09$C50751297CA1DBDC918A6A3E
+DAE51A757C464CA602C522FF243CB2F0CA393EFF
+D2$C17w$C5ill drink9FCF4145971B9D$C1there is pain$C5
+EB10A7FFF6C73FF806E3FEFD53C028$C1no greater$C5
+9B$C16BD$C583E6deeply35B19042B766ED$C1than a gift$C5
+65EDDBFC3C5368368B2C7760EE8800E21DF$C1taken$C5
+AD280Dof CocytusDC32A2FF3178$C1by the giver$C5
+000E00EB37EAB4CECBEB$C1E'
+#LOGOFF 179
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 172
+#PICT 194
+$C2Gate Complex 03
+origin: $C6Technician 1st Class S'mr'orr$C2
+destin: $C6personal log file$C2
+ref: $C6native transport matrix$C2
+stamp: monitored
+
+{ cmd: personal log file init }
+
+I can't shake the feeling that the interference we are witnessing in the abandoned native information network is somehow...organic.
+
+There is little chance that it is a coincidence that, each time we disturb a nest of fully-dormant natives, the network becomes almost overwhelmed briefly by seemingly random data packets.
+#PICT 194
+$C2Gate Complex 03
+origin: $C6Technician 1st Class S'mr'orr$C2
+destin: $C6personal log file$C2
+ref: $C6native transport matrix$C2
+stamp: monitored
+
+{ cmd: personal log file init }
+
+If the profile of the local caves were more friendly, we would be able to monitor local data transmission sources, but alas this is not so: it is effort enough to coax the Virals into activity.
+
+Recently, too, the natives have become notably less docile: more focussed and violent, more considered in their assaults on our facilities.
+
+I shall have to investigate further.
+#LOGOFF 172
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 179
+#PICT 178
+$C2automated network diagnostic (ref: broadcast)
+#origin:$C6 network Maintenance$C2
+destin: $C6diagnosti {5
+$C0
+$C3csecurefeed.8$C5
+               $C1:\BE$C5BECBC0CCF06793DBD2
+$C1each candle$C5EDD48sword in8ha~F2'bloo57dy5
+$C1brings flickers$C518=fi^lds of history37050
+$C1of truth$C56AA8F8FA5C13E5E228503034554D6A9F
+9we ren74.4our bla~es thr217dogma~ility6
+48~9carve aCFCAfuture5715D215$C1each candle$C5
+7F:rding to{.ur wil8$C1sings in the silence$C5
+DAE51A757C464CA602C522FF243C$C1and the dark$C5
+D245971Bset&wor2ds ablaze9D17A3EE2F8F1C2
+$C1and with each candle$C5FEFD53C0287F38D1A91F
+$C1aflame or ashade$C55B190wit98hBB0our6767743
+$C1the chorus grows$C58B76seeth2C7ing fireFB93
+    0D8DBCF9B65DDC32A2FF317875C$C181!*
+#LOGOFF 179
+#END
+#FINISHED
+#LOGON 179
+#PICT 178
+$C2automated network diagnotic (ref: broadcast)
+#origin:$C6 network Maintenance$C2
+destin: $C6diagnosti {5
+$C0
+$C3csecurefeed.8$C5
+               $C1:\BE$C5BECBC0CCF06793DBD2
+$C1each candle$C5EDD48sword in8ha~F2'bloo57dy5
+$C1brings flickers$C518=fi^lds of history37050
+$C1of truth$C56AA8F8FA5C13E5E228503034554D6A9F
+9we ren74.4our bla~es thr217dogma~ility6
+48~9carve aCFCAfuture5715D215$C1each candle$C5
+7F:rding to{.ur wil8$C1sings in the silence$C5
+DAE51A757C464CA602C522FF243C$C1and the dark$C5
+D245971Bset&wor2ds ablaze9D17A3EE2F8F1C2
+$C1and with each candle$C5FEFD53C0287F38D1A91F
+$C1aflame or ashade$C55B190wit98hBB0our6767743
+$C1the chorus grows$C58B76seeth2C7ing fireFB93
+    0D8DBCF9B65DDC32A2FF317875C$C181!*
+#LOGOFF 179
+#ENDTERMINAL 3

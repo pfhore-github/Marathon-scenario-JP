@@ -1,0 +1,117 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 164
+#PICT 167
+$C5# los //' ignal. ~ocal scan ^*45643$%hite noise ::
+
+  :: signal lost... reacquiring... ::
+
+~$C1ausing this interference, one thing is cer$C5&43634756*$C1must as$C5#? $C1inten"$ hostile.$C5
+
+  :: signal lost... reacquiring... ::
+ :: initialising tracking protocols ::
+
+$C1All UESC defen"_$rimeters ~~~ penetrated, @6. forces are divided. Last repor{..3{ mber of men have retrea:$:tural cave syst { no longer be conta ted
+$C5&43634ADCEF  .3187   8A1     B61A28A34756*$C1
+"on as you loc$C5~$C1 core, try and find an exit.
+$C5&43634   EF48.3187FA   157C98B61A28  4756*$C1
+
+           You 7.7ust hurry!$C0
+#LOGOFF 164
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 136
+#PICT 137
+$C5csecurefeed.6;89DBCFF34A8BD6CACF3EDDEF37
+ED75C0DD6C43DE417A76E59A999C7E979EC93C79
+B6D6368FB4CDE6B07AAC56C7BA76ABAB95FD9FE7
+F0F0F4EDE5AE79noa_$C1fhor att ck more effe&
+004E73D0E19991191A648F5BBAADA545F238A52D
+872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
+am rebor_osing batt*e on all fronTS:$C5g577
+50C9263B1E59849B2CDEBA932CE6B3DBD6B7ED28
+CF336F7BD6B96ECADF6B02792EAAFCCCED7B2B50
+87238"£$*(DF$%T$ ^*()^G$%F(* $%GEEGF6042
+$C1una8le to .3cate a $_itable esc76e route$C5
+404493778%_GHKJB^$_"L$ON_OMYFV587(88363)
+::::remote.feed.timeout..please.hold::::
+F5AE132B0B6EB88B3CBC0DC942D002C9801288CF
+87951^981d$C1on't know what to do$C54!5197^989
+::::remote.feed.timeout..please.hold::::
+::::remote.feed.timeout..please.hold::::
+
+::remote.feed.timeout..connection.lost::
+#LOGOFF 136
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 235
+#PICT 161
+$C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
+347.124.556[HYB565NOAtive[286csecu$C1%feed{$C5
+7898FBC.seB772F70B44FD45AC16B74$C1A] of the 
+UE.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
+6C099BCB4A3205D1AF7A96FF2D7E3F8F95E31C07
+F6042$C1emptin$C5D45AC16B74B3track%$C1&sh contact$C5
+872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
+$C1r hull ;is$C5 DC9FA3F648%^565feed{7yrf7FD
+B772F70B44FD45AC16B74B33F70B1813F5AB580D
+C5357FF70463EE8DCCC06E66F3D99CBF164C3DB7
+BD!5662_&;JHF$C1;too fa& from plane_$C5NG_5732
+::::remote.feed.timeout..please.hold::::
+42B826AC51::compensating...::4_(xiF043B5
+::::remote.feed.timeout..please.hold::::
+60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1.
+::::remote.feed.timeout..please.hold::::
+
+    ::::remote.feed..signal.loop::::
+
+           ::compensating...::
+#PICT 162
+$C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
+347.124.556[HYB565NOAtive[286csecu$C1%feed{$C5
+7898FBC.seB772F70B44FD45AC16B74$C1A] of the 
+UE.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
+6C099BCB4A3205D1AF7A96FF2D7E3F8F95E31C07
+F6042$C1empting to estab%$C5[track%$C1&sh contact$C5
+872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
+$C1r hull ;is$C5 DC9FA3F648%^565feed{7yrf7FD
+B772F70B44FD45AC16B74B33F70B1813F5AB580D
+C5357FF70463EE8DCCC06E66F3D99CBF164C3DB7
+BD!5662_&;JHF$C1;too fa& from plane_$C5NG_5732
+::::remote.feed.timeout..please.hold::::
+4251$C1&tmosph_re to at7empt evac&..&:$C54_(xi
+::::remote.feed.timeout..please.hold::::
+60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1.
+::::remote.feed.timeout..please.hold::::
+
+    ::::remote.feed..signal.loop::::
+
+           ::compensating...::
+#PICT 163
+$C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
+347.124.556[HYB565NOAtive[286csecu$C1%feed{$C5
+7898FBC.secur$C1&_SRAI T4-HYB385ISA] of the 
+UE.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
+6C099BCB4A3205D1AF7A96FF2D7E3F8F95E31C07
+F6042$C1empting to estab%$C5[track%$C1&sh contact$C5
+872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
+$C1r hull ;is buckli%_6$C5E%^565feed{7yrf7FD
+2L/0.2]//as$C1::compensating...::$C54.30.23.47
+C5357FF70463EE8DCCC06E66F3D99CBF164C3DB7
+BD!5662_&;JHF$C1;too fa& from plane_$C5NG_5732
+::::remote.feed.timeout..please.hold::::
+4251$C1&tmosph_re to at7empt evac&..&:$C54_(xi
+::::remote.feed.timeout..please.hold::::
+60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1.
+::::remote.feed.timeout..please.hold::::
+
+::::remote.feed.timeout..please.hold::::
+
+$C2::remote.feed.timeout..connection.lost::
+#LOGOFF 235
+#ENDTERMINAL 2

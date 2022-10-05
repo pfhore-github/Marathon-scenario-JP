@@ -1,0 +1,55 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 229
+$I
+We're back.
+$i
+We have a lot of work to do -- the battle has lost no ferocity since we were last in the Surrex system.
+
+As soon as we hit Surrex space, I teleported you to a Pfhor-occupied weapons production facility.
+
+Pfhor Virals are blocking long-range communications, presumably to allow them to infect or reprogram the human defensive hardware being produced here without interruption.
+
+We need access to the communications infrastructure.
+#PICT 147
+This facility is the primary software installation site for Kusama 209 Tactical Military Robots. 
+
+Although originally designed for urban pacification in all UESC-controlled cities and colonies, deployment of Kusama hardware can prove decisive in almost any land battle.
+
+The Pfhor sorely remember their defeat at Lh'owon, and do not wish to leave themselves open to exploitation through their S'pht slaves during their sacking of Surrex.
+
+They now utilise wholly-electronic units known as Virals which, though persistent, are slow and inefficient.
+#PICT 147
+
+
+Without the electronics-hacking efficiency of the S'pht to bolster their assault, the Pfhor have so far proven ineffective at land-based combat.
+
+I believe they intend to reprogram the Kusama 209 hardware to turn this tide.
+
+The plan is this: I want you to punch a hole in the Viral's communications blockade.
+
+When this is done, I will transfer all 64 billion exobytes of my core onto Axis Nader, and we can warn SurrexNet of the danger.
+#LOGOFF 129
+#END
+#FINISHED
+#LOGON 129
+#PICT 209
+
+Good work.
+
+Unfortunately, I cannot pull you out remotely. The Pfhor Virals have made a mess of the local net in this facility.
+
+If you can find and activate a hardware-based jump pad, I ought to be able to get enough of a fix on the local network to regain control of the long-range transmission equipment.
+
+By the time you reclaim this facility, SurrexNet will have access to all my knowledge of the Pfhor installation on Fenris. I'll be able to access command and control resources for human orbital defence.
+#PICT 209
+
+I presume the Pfhor will send an armed resistance from Fenris as soon as possible.
+
+Hopefully, Noah managed to cripple the Fenris planet-side network for long enough to stall them.
+
+It's time to invest in some serious hardware.
+#LOGOFF 129
+#ENDTERMINAL 0

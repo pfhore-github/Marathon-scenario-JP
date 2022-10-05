@@ -1,0 +1,105 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 128
+#PICT 131
+The Pfhor cargo craft was a Trojan horse in more ways than one. The data network on board the vessel housed a degenerative virus, which infected me.
+
+SurrexNet was the first to notice the virus and is attempting to initiate my diagnostic and repair subroutines. They could likely repair my core in a few days, though I would become temporarily inoperative.
+
+We do not have time.
+
+Your first act must be to quarantine me from the SurrexNet.
+
+I can block their transmissions or begin the counterattack against the Pfhor, but not both at once.
+
+#PICT 233
+You currently stand onboard the primary communications spire of the Axis Nader. You should be able to sever communications quickly from here.
+
+#PICT 220
+You currently stand onboard the primary communications spire of the Axis Nader. You should be able to sever communications quickly from here.
+
+Head to the spire opposite this one, and disarm the high-gain antenna relay.
+
+#PICT 234
+You currently stand onboard the primary communications spire of the Axis Nader. You should be able to sever communications quickly from here.
+
+Head to the spire opposite this one, and disarm the high-gain antenna relay.
+
+Next, take the crew lift to the base of the spire.
+
+#LOGOFF 128
+#END
+#FINISHED
+#LOGON 128
+#PICT 131
+
+
+
+Good.
+
+I accept that the Pfhor virus will likely prove fatal and that SurrexNet is my only chance of survival.
+
+I also accept that the demesne of $Iman itself$i is at stake.
+
+I recognise what must be done.
+
+Thank you, my friend. You have done well. 
+
+Our fate is nearly upon us.
+#LOGOFF 128
+#INTERLEVEL TELEPORT 20
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 164
+#PICT 167
+$C1UESC Axis Nader
+   |$C2Gold-Channel Outbound Transmissions$C1
+   |Automated Data Log
+   |
+   |transmit.intercept {457DAR.001}$C0
+
+~aven uch tim. &&:evering conne~ SurrexNe] mportant.
+
+The Pf ^^r have :: scovered a $C1cli$C0e~ worl "% jar$C1ro, $C0prev /:*$C1"$ c$C0atalogued as Fen~
+
+*found a technology whi"$ could cause the fall of $C1. ~man Em$C0pire.
+
+I am responsible for the current ass"ult, and will att:%pt to stop the Pfhor before they sack Surrex Prime.$C1 I he$C0avily advise all UESC and ESR units in the area are withdrawn until my signal is given.
+#LOGOFF 164
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 129
+#PICT 131
+
+Now, you must locate and deactivate the four terminals at the base of the $IEnigma.II$i communications encoder, this will give me the opportunity I require to sever the connection to SurrexNet.
+
+After that time, we will have no help with what we must do.
+
+Return here when you have finished.
+#LOGOFF 129
+#END
+#FINISHED
+#LOGON 128
+#PICT 131
+
+
+
+Good.
+
+I accept that the Pfhor virus will likely prove fatal and that SurrexNet is my only chance of survival.
+
+I also accept that the demesne of $Iman itself$i is at stake.
+
+I recognise what must be done.
+
+Thank you, my friend. You have done well. 
+
+Our fate is nearly upon us.
+#LOGOFF 128
+#INTERLEVEL TELEPORT 20
+#ENDTERMINAL 2

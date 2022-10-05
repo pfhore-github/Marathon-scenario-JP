@@ -1,0 +1,213 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 171
+#PICT 199
+$C2internal unit files (ref: broadcast)
+#origin: $C6Unit Command$C2
+destin: $C6Unit Broadcast$C2
+ref: $C6Control Schematic Deep Survey 9FE$C2
+stamp: records$C6
+$C2
+{ cmd: schematic appended }
+#LOGOFF 171
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 172
+#PICT 200
+$C2Deep Survey 9FE
+origin: $C6Enforcer 2nd Class Pfr'scht'orr$C2
+destin: $C6Unit Command$C2
+ref: $C6Deep Survey 9FE$C2
+stamp: requisition 
+
+Humbly I request immediate requisition of Survey-Class Virals $C665562 65825 65916$C2 for Deep Survey Site 9FE of nearby natural spire structure as outlined in schematic.E432D
+
+{ error: schematic.E432D not found }
+#PICT 200
+$C2Deep Survey 9FE
+origin: $C6Enforcer 2nd Class Pfr'scht'orr$C2
+destin: $C6Unit Command$C2
+ref: $C6Deep Survey 9FE$C2
+stamp: requisition 
+
+Survey-Class Virals $C665562 65825 65916$C2 have received stamp: approval for requisition at next end cycle. However, I humbly note that structures in Deep Survey Site 9FE, as outlined in schematic.E432D, indicate that immediate requisition of Survey-Class Virals may be of utmost importance to native transport matrix Acquisition Project 1AE.
+
+{ error: schematic.E432D not found }
+#LOGOFF 172
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 179
+#PICT 180
+$C2automated network diagnotic
+origin: $C6Network Maintenance$C2
+desti$C1n$C2: $C1dia$C2gno$C1s$C2ti$C1 {5$C0
+
+$C3csecurefeed.8$C5
+                $C1_~A$C5DBC05915120643C818374
+   7D    16E1      A2A       $C1neither men$C5
+674   53A6266   DC    1A4E   3$C1nor Angels$C5
+  B3A       EEB  $C1nor the gods themselves
+$C5BD $C1can withstand the hunger of vengeance$C5
+         284A    91548DF     F6A      43
+$C1here$C5C4B      6A    4                  8E
+$C1now      $C501E         9     EB     B64
+$C1in the darkness   $C5   860   8  40    0B E
+$C1a single flame$C5    2B     A3     2A  32A  
+$C1heralds the fate      $C5779  95 
+$C1of the betrayers   $C5 A17       09
+$C1of Angels:   $C5668         EA
+
+         $C1 i will see your ruin
+#LOGOFF 179
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 171
+#PICT 195
+$C3csecureinterrupt.7 
+...establishing connection...$C0
+
+~aking progre: %he Pfhor Orbital Network. It seems th^ :angerous that we anticipa" 
+
+$C3csecurefeed.5 tracking...$C0
+
+~ot only his personal guard: data "_ather seems to imply T'fear himse$ "at Fenr: 
+
+$C3csecurefeed.5 tracking...
+
+$C0oah seems to be sending a transmission into one of the gates. The curious thing is that I can read the source signal, but there seems to be no destination.
+$C3
+csecurefeed.5 end
+csecurefeed.5 connection terminated
+#LOGOFF 171
+#ENDTERMINAL 3
+;
+#TERMINAL 4
+#UNFINISHED
+#LOGON 198
+#PICT 186
+$C1
+
+ $C5           The Book of Time
+.I$C1
+
+              as Commanded
+        we built a beautiful world
+
+              as Commanded
+       we strengthened Your towers
+
+              as Commanded
+       we glorified Your citadels
+         and built the gateways
+           of Your apotheosis
+
+               as foretold
+       You were reborn of the sky
+#PICT 186
+$C1
+
+ $C5           The Book of Time
+.II$C1
+
+        You returned in might as One
+            and tore out our eyes
+
+           our blessing shamed You
+         and You crushed our Citadels
+
+           You closed the gateways
+    and took away Your blessing of soul
+
+           You began Your exodus
+     and left a sepulcher in Your wake
+
+          the time of Angels ended
+#LOGOFF 198
+#ENDTERMINAL 4
+;
+#TERMINAL 5
+#UNFINISHED
+#LOGON 198
+#PICT 251
+$C5
+
+
+
+           The Book of Downfall$C1
+$C5.I$C1
+
+        we coiled in pain and doubt
+
+               riven of soul
+           stone became our prison
+
+        we had fulfilled Your Command
+      we did not understand our prison
+         or why it had come upon us
+#PICT 251
+$C5
+
+
+
+           The Book of Downfall$C1
+$C5.II$C1
+
+      our eyes, now known, were closed
+           we felt our blindness
+             and we were shamed
+
+       rootless, our doubt was infinite
+       blinding, our pain was complete
+       timeless, our shame was immortal
+
+               we lay in ruins
+#LOGOFF 198
+#ENDTERMINAL 5
+;
+#TERMINAL 6
+#UNFINISHED
+#LOGON 198
+#PICT 187
+$C5
+
+
+        The Book of Soul and Stone
+.I$C1
+
+        I have seen the Uprising:
+        I watched from the moment
+         You birthed Your Angels.
+     I have witnessed the time spent
+         fulfilling Your Command.
+
+         I walked with them as we
+         built a beautiful world,
+         strengthened Your towers,
+         glorified Your citadels,
+   built the gateways of Your apotheosis.
+#PICT 201
+$C5
+
+
+
+        The Book of Soul and Stone
+.II$C1
+
+        I have mourned with Angels
+       the Downfall of a selfish god
+        who now stands as One, alone
+
+             as one with them,
+        I have awoken with a hunger
+         for Your blood on my lips
+
+        the time of judgement begins
+#LOGOFF 198
+#ENDTERMINAL 6

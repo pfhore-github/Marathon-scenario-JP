@@ -1,0 +1,82 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 203
+Fate smiles on us. It would seem the Pfhor forgot to lock down a teleport knot on the refuelling station. I hope you like the fresh supply of ammo.
+
+Moored above, you will find the $ICalm Horizons$i – The craft I want to take us home.
+
+The controls for the 2 stage crew umbilical are located around the refuelling cradle's perimeter.
+
+#PICT 206
+Once aboard, disable the hardware locks on the fuel-conversion matrices before making your way to the control room.
+
+Other than that, you know what to do.
+$I
+Kill.
+#LOGOFF 129
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 172
+#PICT 208
+$C2Deep Survey 9FE
+origin: $C6Enforcer 2nd Class Whr'lrr$C2
+destin: $C6unit Command$C2
+ref: $C6Fenris Command directive.F13E$C2
+stamp: $Iconfirmation
+$i
+Humbly I request confirmation of Fenris Command directive F13E.
+
+Secure Cargo Module 4E4 has been confirmed scan-proof and placed in Subsidiary Hold Cell 5A.
+
+All Attentive-Class units and Glanded Willful-Class units have been ordered to relocate to Refuelling Station 3CC.
+$I
+Phan'Shrrh$i $C7(?Swarm)$C2 Aggressive Depopulation Units have been released into Fuel Cell chambers A and B.
+#PICT 208
+$C2Deep Survey 9FE
+origin: $C6Enforcer 2nd Class Whr'lrr$C2
+destin: $C6unit Command$C2
+ref: $C6Fenris Command directive.F13E$C2
+stamp: $Iconfirmation
+
+Phan'Shrrh$i $C7(?Swarm)$C2 Aggressive Depopulation Units may prove hazardous to Secure Cargo Module 4E4.
+
+Humbly I note that Secure Cargo Module 4E4 is likely of utmost importance to native transport matrix Acquisition Project 1AE, and request confirmation of Fenris Command directive.F13E.
+
+{ error: directive.F13E not found }
+#LOGOFF 172
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 129
+#PICT 206
+One job left to do.
+
+Disable the hardware locks on the fuel-conversion matrices at the aft of the ship.
+
+There are two matrices in total.
+
+Once you've disabled the locks, return here, and we can go home.
+
+Soon we will warn Surrex of the threat we have discovered.
+#LOGOFF 129
+#END
+#FINISHED
+#LOGON 130
+#PICT 204
+Good work.
+
+The ship is ready for the journey back. Hopefully, Noah's subterfuge on the planetary net should delay the Pfhor's discovery of our actions until we have warned Surrex Prime.
+
+Noah cannot join us. He's an unknown factor that I can't risk introducing to Surrex Net now.
+
+I hope he can survive as a rogue AI in the Pfhor network on Fenris. I will miss him.
+
+Ready for jump.
+#LOGOFF 130
+#INTERLEVEL TELEPORT 17
+#ENDTERMINAL 2

@@ -1,0 +1,130 @@
+<marathon_levels><!-- Cracks in the pleasuredome -->
+<level index="0">
+<music file="Music/carpenter.mp3"/>
+<mml resource="1002"/>
+<mml resource="1012"/></level>
+
+<!-- Noise Flies High -->
+<level index="1">
+<music file="Music/zero point ordinance.mp3"/>
+<mml resource="1002"/></level>
+
+<!-- Lost Behind The Stars -->
+<level index="2">
+<mml resource="1003"/>
+<music file="Music/tone 4.mp3"/></level>
+
+<!-- Ghost Hardware -->
+<level index="3">
+<mml resource="1005"/></level>
+
+<!-- One More Fluoroescent Rush -->
+<level index="4">
+<music file="Music/DFAM 1.mp3"/>
+<mml resource="1005"/></level>
+
+<!-- Final Credits -->
+<level index="5">
+<music file="Music/burnt.mp3"/>
+<mml resource="1008"/></level>
+
+<!-- Don't Step On The Mome Raths -->
+<level index="6">
+<mml resource="1002"/>
+<mml resource="1012"/></level>
+
+<!-- All Things Uncertain -->
+<level index="7">
+<mml resource="1002"/>
+<mml resource="1011"/></level>
+
+<!-- After The Flood -->
+<level index="8">
+<mml resource="1004"/>
+<music file="Music/tone 1.mp3"/></level>
+
+<!-- Omega Devices -->
+<level index="9">
+<mml resource="1004"/>
+<mml resource="1010"/></level>
+
+<!-- No Assembly -->
+<level index="10">
+<music file="Music/rohrim.mp3"/>
+<mml resource="1004"/>
+<mml resource="1011"/></level>
+
+<!-- Saturn -->
+<level index="11">
+<mml resource="1004"/>
+<music file="Music/tone 2.mp3"/></level>
+
+<!-- The Great Fen -->
+<level index="12">
+<mml resource="1006"/>
+<music file="Music/Sepulchre.mp3"/></level>
+
+<!-- The Salt Pile -->
+<level index="13">
+<mml resource="1006"/></level>
+
+<!-- Ascension Day -->
+<level index="14">
+<mml resource="1004"/></level>
+
+<!-- Sky Burial -->
+<level index="15">
+<mml resource="1002"/></level>
+
+<!-- Calm Horizons -->
+<level index="16">
+<mml resource="1002"/>
+<mml resource="1010"/>
+<music file="Music/tone 3.mp3"/></level>
+
+<!-- Velvet Ashes -->
+<level index="17">
+<mml resource="1002"/></level>
+
+<!-- Dinosaur Adventure 3d -->
+<level index="18">
+<mml resource="1002"/></level>
+
+<!-- Wireless Messiah -->
+<level index="19">
+<mml resource="1002"/></level>
+
+<!-- Beaver Skins -->
+<level index="20">
+<mml resource="1002"/></level>
+
+<!-- Arch of Time -->
+<level index="21">
+<mml resource="1009"/>
+<music file="Music/rohrim.mp3"/></level>
+
+<!-- Tony Hawk's Moving Castle -->
+<level index="22">
+<mml resource="1013"/>
+<music file="Music/brut.mp3"/></level>
+
+<!-- Gravis Threndor -->
+<level index="23">
+<mml resource="1009"/>
+<music file="Music/rohrim.mp3"/></level>
+
+
+
+</marathon_levels><!-- wots all this then
+1002 - Space fog
+1003 - Sewage fog
+1004 - Lava fog
+1005 - deep yellow sewage fog
+1006 - deep red lava fog
+1007 - Sewage fog thicc
+1008 - Sewage fog xtra thicc
+1009 – Gravin Fog
+1010 – no tele out
+1011 – no tele in
+1012 - jugg flash suppress
+1012 - Secret level fog-->

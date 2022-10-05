@@ -1,0 +1,110 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 157
+この惑星上のプフォールの存在全体は、自然に発生する洞窟形成を貫通する方向に向けられているようです。
+
+私は、彼らが戦争用金属のために惑星を掘り起こすつもりであると推測しています. これは、ローカルの プフォールデータ ネットの複雑さを説明するのに役立ちます。
+
+ノアは、洞窟の岩石の密度と電磁プロファイルについてローカル ネットに質問しているようです。彼は、洞窟が爆撃やテレポーテーションから適切に保護されると考えているに違いありません。
+#PICT 157
+UESC 部隊の第 1 波がここに存在感を示しましたが、洞窟システム内から動員され、鉱山からのチャンネルを拒否するプフォアの援軍から激しい攻撃を受けました。
+
+あなたの役割は、彼らの防御を支援し、この施設が置かれている洞窟群を偵察することです。
+
+おそらく、彼らは単にこの惑星のストリップマイニングを行っているに過ぎませんが、プフォールが何かを探しているのではないかと思わずにはいられません。
+
+あなたが見つけることができるものを参照してください。
+#LOGOFF 129
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 129
+#PICT 133
+The Pfhor have set a major dig site at this location.
+
+What is more interesting, however, is that the white noise permeating the communications infrastructure seems to have a local nexus within the dig tunnels. 
+
+If we're lucky, we may establish a lead on what has happened to Noah.
+
+When I was queried the service net, I logged approximately three times as many local network nodes registered by the Pfhor data net map.
+
+This is unusual even for the clumsy approach of the Pfhor empire.
+#PICT 133
+Either the bloated Pfhor bureaucracy has impeded mapping of their network structure, or the Pfhor are using a network they did not install.
+
+Given the unusual constant stream of network interference, I am predisposed to assume the latter.
+
+My best guess is that Noah has somehow accessed these unregistered network nodes.
+
+See what you can find down there.
+#LOGOFF 129
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 235
+#PICT 166
+$C5F9FC5C6447154B2A8A289342A579063096A32A52 
+$C1fiery they fall $C5321// ~~75662ires of Orc 
+347.124.556[1463]//active[286csecu$C1_feed{ $C5
+$C1this is Tatical Operations Art/~$C5.1]hold[ 
+connecting...$C1#ificial Intelligence Isaac $C5
+::::remote.feed.timeout..please.hold::::
+2L/0.2]//as$C1::compensating...::$C54.30.23.47] 
+F9FC5C644715::connecting...::63096A32A52 
+stream.out$C1id[ESRAI T4-HYB385ISA] of the 
+UESC Venator$C51463]//active[2860.07.04:14. 
+30.23.47]//pressured$C1transmitting on all 
+UESC- and ESR- wavelengths$C5ctivereturn[28 
+60.07.04:14.30.29.54]/$C1/pr s%$C5urereturn[1. 
+2L/0.2]//passive[2860.07.04:14.30.23.47] 
+F9C$C1:7&under heavy fi&e_432$C579063$C1096A$C532A52 
+strea$C1trying to reach$C5321//be$C1inner syste_%$C5 
+60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1. 
+2860.07.04:14.30.25.49]//activereturn[28 
+$C1fiery the Angels rise$C5 7.04:14.30.23.47] 
+F9FC5C6447154B2A8A289342A579063096A32A52
+#LOGOFF 235
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 128
+#PICT 159
+I've monitored Noah's access logs since the crash. Data he has found on the network would imply that the caves we stand in were once occupied by a single prominent species of native life-form.
+
+We can only presume that the Pfhor presence has disturbed or eradicated what was once here.
+
+The resource base of the occupant Pfhor military is astounding. The usual Pfhor doublespeak and protocol mar the information I can gather. Still, the occupant forces appear to have access to unusually high castes of infantry, including an assassin cult under the direct control of Admiral Tfear.
+#PICT 159
+There seems, too, to be a specific concentration of bleeding-edge electronics countermeasure technologies and access to deep-mining technologies bastardised from reclaimed ESR Industrial equipment.
+
+Whatever is happening here, the Pfhor are deadly serious about keeping this system-wide facility well-stocked.
+
+The caves you now stand in are logged in particular detail by the Pfhor. There is a lot of data to examine, so I cannot yet be too specific, but be on the lookout for anything unusual.
+
+I get the feeling you stand somewhere important.
+#LOGOFF 128
+#ENDTERMINAL 3
+;
+#TERMINAL 4
+#UNFINISHED
+#LOGON 128
+#PICT 133
+We're in trouble. My core is under attack.
+
+The Pfhor have located my core more quickly than I would have anticipated and nearly breached the final lines of defence.
+
+I think I spread our resources too thinly, but I'm not sure. I wasn't built for this kind of thinking.
+
+Noah would never have made this mistake.
+
+I need your help.
+
+Quickly!
+#LOGOFF 128
+#INTERLEVEL TELEPORT 5
+#ENDTERMINAL 4

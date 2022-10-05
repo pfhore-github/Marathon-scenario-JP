@@ -1,0 +1,57 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 179
+#PICT 252
+$C2Comm relay 34c
+origin:$C6 network Maintenance$C2
+destin: $C6diagnosti {5
+$C0
+$C3csecurefeed.8$C1
+
+     all tyrants must be silenced
+
+            the heart of Angels
+         must be left to Angels
+
+     you stand at a nexus
+     but for now,
+     your path remains here$C4
+
+                   $C1i will allow
+       the silence of the Pfhor
+#LOGOFF 179
+#END
+#FINISHED
+#LOGON 179
+#PICT 254
+$C2Node unknown: network down/corrupted?
+origin:$C6 null$C2
+destin: $C6nu~ {5
+$C0
+$C3csecurefeed.8$C1
+
+     the coiling path of chaos
+     sleeps in a star
+
+                  it has come to pass
+     that the cold, hard path of void
+               is the greatest threat
+                  this universe knows$C4
+#PICT 254
+$C2Node unknown: network down/corrupted
+origin:$C6 null$C2
+destin: $C6nu~ {5
+$C0
+$C3csecurefeed.8$C1
+
+     when the time is right
+     justice will be done
+     though the heavens fall
+
+       for now, however, and as ever
+                 a sword must return
+    for the final days of its master$C4
+#LOGOFF 179
+#INTERLEVEL TELEPORT 15
+#ENDTERMINAL 0

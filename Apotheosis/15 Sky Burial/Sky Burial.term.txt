@@ -1,0 +1,81 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 128
+#PICT 202
+Welcome to deep orbit, Fenris system. You are currently standing on the remains of the UESC Venator.
+
+Pfhor Virals are stationed on board the Venator, probing the remaining databanks for information. 
+
+Thankfully, they haven't noticed that the Venator's flight computer contains the only remaining record in the Fenris system of safe low-orbit flightpaths near Surrex Prime. We need that information to avoid folding into Surrex in the centre of the Pfhor assault.
+#PICT 239
+Before his destruction, Isaac, The Venator's operations AI, isolated the flight computer. You'll need to restore backup power to access the hardware. As soon as you find the data, I'll pull you out.
+
+#LOGOFF 128
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 128
+#PICT 240
+We must return to Surrex.
+
+I assumed that the Pfhor were merely using the native transport matrix to increase production efficiency: to help them amass an offensive force swiftly.
+ 
+However, the presence of T'fear's resource pool, combined with the abnormally high levels of cutting-edge mining and electronics countermeasure technology, leads me to believe, within reasonable doubt, the Pfhor have a higher goal here.
+
+The Pfhor intend to use the native transport matrix to instantaneously transfer entire Battle Groups into and out of the heat of battle.
+#PICT 240
+
+If the Pfhor position a gate within combat range of Surrex, or Sol, they could instantly manoeuvre an unstoppable offensive force.
+
+The Pfhor presence at Fenris alone is threat enough to Surrex.
+
+If the Pfhor were to position gates on client worlds of combatant slaves, within reach of the hindmost creche, or near the deployment of a Trih Xeem...
+
+You must hurry.
+#LOGOFF 128
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 128
+#PICT 131
+
+I wasn't sure I'd see you again.
+
+Noah's programme is increasingly erratic, although not directly hostile – his activity has wreaked havoc on the Pfhor planetside network, providing us with the single available opportunity to warn SurrexNet.
+
+I find it unusual, however, that Noah continues to function within such a fragmented data network.
+#PICT 131
+
+Scan logs on the orbital network by the Pfhor Virals indicate that the latent planetside network has only received a relatively small node mapping, owing to its sheer size.
+
+The Pfhor believe that the native species are connected to this network somehow. Perhaps Noah can be found somewhere in the middle.
+#LOGOFF 128
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 128
+#PICT 241
+$C1UESC Venator
+CoordMap Nav.Log.0001B
+> _ 
+> TASK.OUT Nav.Log.0001B
+begin remote transfer
+   ...
+   ...
+successful
+> _
+#PICT 204
+This is the data I was looking for.
+
+Well done.
+
+I have monitored all Pfhor data logs since gaining access to the orbital network. The Pfhor have recently refuelled a medium-sized assault craft capable of the journey back to Surrex. 
+
+We're going home.
+#LOGOFF 128
+#INTERLEVEL TELEPORT 16
+#ENDTERMINAL 3

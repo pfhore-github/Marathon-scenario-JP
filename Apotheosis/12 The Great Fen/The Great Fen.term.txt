@@ -1,0 +1,109 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 198
+#PICT 180
+$C1
+
+
+$C5 36734  CCDE0 C3543D4 B364F837748  3CAF$C1
+
+$C5ADD336734CC4B364F8DE0C3543D3771DE8483CAF
+E679506A26our bein{s472Ffor3gedE441EE3DA
+$C1the intruders$C5EC2of rage and976defia~473A
+$C1withhold knowledge$C5C9with//trength to709B
+DAtrample9B3D2E1weak an$/..:8foolish2176
+$C1the information is key$C5314A22A450ABD1C954
+2AB2and so we march703A2041F643751A2DC1F
+$C1we must know$C571Bwith burni3B3ng brandsF64
+8A2A4768D989temple%729s ablaze9433F8BBCC
+D6ECDEon^our pat236h to{glory8F3&..D1778
+
+  DD336734CC4 4F8D E0 C35  D3771  DE8
+#LOGOFF 198
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 198
+#PICT 185
+$C5
+
+
+      The Book Of Uprising
+.I$C1
+
+          before time
+we swam deeply in the Great Fen
+our eyes were closed and unknown
+and the Low Caves were our home
+
+  the Two were born of the sky
+     the might of the Yah Roh
+   the splendour of the Pth Yah
+
+        and with the Two
+           time began
+#PICT 185
+$C5
+
+
+       The Book Of Uprising
+.II
+
+$C1   the Two split the Great Fen
+    and the Low Caves ran dry
+
+   the Two spoke unto the stone
+     and our eyes were opened
+
+  the Two blessed us with metal
+       we swam in the sky
+and the Low Caves became our home
+#PICT 185
+$C5
+
+
+       The Book Of Uprising$C1
+$C5.III$C1
+
+   the Two blessed us with soul
+      and knowledge of stone
+
+    the Two spoke the Command
+    and joyfully, we accepted
+
+   the Two swam beyond the sky
+      and passed beyond time
+#PICT 185
+$C5
+
+
+       The Book Of Uprising$C1
+$C5.IIII$C1
+
+    as we fulfilled the Command
+         the gateways opened
+   and soul and stone blessed us
+
+      our thoughts grew deep
+   and we housed our blessings
+         in great Citadels
+
+     the time of Angels began
+#LOGOFF 198
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 171
+#PICT 224
+$C2internal unit files (ref: broadcast)
+#origin: $C6Unit Command$C2
+destin: $C6Unit Broadcast$C2
+ref: $C6Control Schematic Deep Survey 8FE$C2
+stamp: records$C6
+$C2
+{ cmd: schematic appended }
+#LOGOFF 171
+#ENDTERMINAL 2

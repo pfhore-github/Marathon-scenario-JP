@@ -1,0 +1,251 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 198
+#PICT 185
+$C1
+
+
+           darya required you
+
+          to detonate the core
+
+            of this station
+
+
+
+           i will allow this
+
+
+
+             a locked gate
+
+          can indeed be forced
+#LOGOFF 198
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 139
+$C1deus ex machina
+#PICT 212
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+#PICT 214
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+#PICT 213
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+
+2) Flush external core heat sinks.
+#PICT 215
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+
+2) Flush external core heat sinks.
+
+3) Use an automated unit to break the root node.
+#PICT 216
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+
+2) Flush external core heat sinks.
+
+3) Use an automated unit to break the root node.
+
+If no automated unit is available, break the root node and retreat to the hardware teleport junction at the top of the core shielding.
+#PICT 216
+$C6
+
+
+
+
+
+
+
+= = = = = = = = = = = = = = = = = = = =$C0
+$C1WARNING:$C2 Once this procedure is completed, You will have approximately 1.5 minutes before core detonation$C0
+$C6= = = = = = = = = = = = = = = = = = = =
+#PICT 223
+$C1
+          a well placed whisper
+
+       can open the mouth of hell
+
+
+          a well placed scream
+
+           and heaven herself
+
+         will open to judgement
+
+
+
+       fiat justicia ruat caelum
+#PICT 223
+$C1
+          a well placed whisper
+
+       can open the mouth of hell
+
+
+          a well placed scream
+
+           and heaven herself
+
+         will open to judgement
+
+
+
+       fiat justicia ruat caelum
+
+
+
+      $C4       $C1$Bwe are noah
+#LOGOFF 139
+$C1machina angelorum est
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 236
+#PICT 257
+There’s been a persistent itch chasing me through the decades, it flares up in dreams, taunts from the corners of my vision, “you should have finished it the first time.”
+
+Two years and change of furious hydrocortisone application, we might have scratched that one. Lockdown can make you do strange things, didn’t you hear?
+
+A small village of co-conspirators assembled along endless tracts of secret Discord channels helped me get here. Their generosity and dedication humbles me.
+
+Thank you to them, and to you for playing.
+
+– Hypersleep
+
+
+#PICT 255
+$C2Previously in Io’mandra,
+
+Rings of smoke wash over you, playing off the flickering lantern light illuminating your seat overhanging the crusty piers of Krakenholt below. Dredger takes another pull at his pipe and grins in your general direction.
+
+“Now that’s quite the story I must admit, one of a kind just like you claimed. Couldn’t understand the half of it…angels in the system and all that.”
+
+Moving his feet from their rest atop the petrified sea chest chained to his wrist he leans forward, head tilted to watch for prying ears.
+
+#PICT 255
+$C2“Not sure how your story is gonna help me get into the vaults under Faaldrang but it’s given me ideas and a deals’a deal. To find what you’re looking for you’ll need to journey to the Elemental Chaos and make your way to the bottom of the caldera below the Jeweled City. There’s a foundation of an old lyceum still there. Stories say if you can piece together the high draconic that’s etched into its stones, the saga it tells lets you shape the world to your liking.”
+
+#PICT 255
+$C2Shoutout to Shappie for finding the gem that is the original Apotheosis. Wouldn’t be writing this if you hadn’t.
+
+Special thanks to my parents who listen to me ramble about Marathon and watch my live runs even though they don’t understand much of what's going on.
+
+All roads lead to…
+
+– Ares 540
+
+#PICT 258
+$C4When reached for commentary, Cryos responded:
+
+"I'd write a long winded essay about why 1/16 is a better fraction than 1/8 when it comes to texture snapping, but I doubt I'll have the time for that."
+
+He then spent several hours sending over the accompanying screenshots of exclusive behind the scenes development material.
+
+#PICT 259
+$C4When reached for commentary, Cryos responded:
+
+"I'd write a long winded essay about why 1/16 is a better fraction than 1/8 when it comes to texture snapping, but I doubt I'll have the time for that."
+
+He then spent several hours sending over the accompanying screenshots of exclusive behind the scenes development material.
+
+#PICT 260
+$C4When reached for commentary, Cryos responded:
+
+"I'd write a long winded essay about why 1/16 is a better fraction than 1/8 when it comes to texture snapping, but I doubt I'll have the time for that."
+
+He then spent several hours sending over the accompanying screenshots of exclusive behind the scenes development material.
+
+#PICT 256
+$C1For no real reason, here’s an AI-generated picture of Beyoncé as the Doctor.
+
+Big thanks to the main creators of this scenario for all the hard work they put in while I was busy contributing to $IWhere Monsters Are in Dreams$i, $IEternal$i, $ITempus Irae Redux$i, $IMarathon Chronicles$i, $IHellpak$i, $ITrojan SE$i… come to think of it, basically every active scenario except $IPhoenix$i (and I still remastered the music for that).
+
+On that note, thanks to iZotope for RX, which I used for all remasters and remixes found here; and to W’rkncacnter and treellama for their help with Lua over the years (even if I didn’t really need it for $IApotheosis$i); and, bedgrudgingly, to Microsoft for Visual Studio Code (I always regret trying to write Lua without it).
+
+And, not least, thanks to you for playing.
+
+#PICT 256
+$C1Obligatory plugs: $ITempus Irae$i, $IRubicon$i, $IEternal$i, $IPhoenix$i, $IBlauwe Vingers$i, $IGemini Station$i, $IMegiddo Game$i, $IMissed Island$i,  $IPfh’Joueur$i, $IReturn to Marathon$i, $IYuge$i. If you’ve missed out on some, go fix that.
+
+$IHellpak$i should be out about the same time this is out; if you enjoy weird challenges, that’ll be right up your alley. Even if not, go check out the OST; it slaps.
+
+And I hope you can someday experience $IWhere Monsters Are in Dreams$i and (if I ever finish it) $IMarathon Chronicles$i; with all luck, they’ll blow your mind. (hypersleep has contributed maps to both and graphics to the former – if you enjoyed $IApotheosis$i, there’s your reason to play them.)
+
+Cheers,
+Aaron
+
+#PICT 261
+It's-a me, RADIX; I played the older, unfinished Apotheosis Non-X a few years ago, then drew and wrote some things which were used for the basis of other things in X.
+
+It's been quite an experience, watching Apotheosis evolve from a near-final beta with 90% stock Infinity assets to its properly 'total-converted' form.
+
+#PICT 225
+$C2Since I did such a poor job imitating it, I'd like to give a tribute to the incredible, whimsical imagination of Richard Dierkes 
+
+– cassis
+
+***PREPARE FOR TELEPORT***
+
+#PICT 225
+$C2Since I did such a poor job imitating it, I'd like to give a tribute to the incredible, whimsical imagination of Richard Dierkes 
+
+– cassis
+
+***PREPARE FOR TELEPORT***
+***RIDICULOUSLY HARD SECRET LEVEL***
+
+#PICT 225
+$C2Since I did such a poor job imitating it, I'd like to give a tribute to the incredible, whimsical imagination of Richard Dierkes 
+
+– cassis
+
+***PREPARE FOR TELEPORT***
+***RIDICULOUSLY HARD SECRET LEVEL***
+***YOU CAN'T TURN BACK ANYWAY***
+
+
+#LOGOFF 236
+#INTERLEVEL TELEPORT 22
+#ENDTERMINAL 2

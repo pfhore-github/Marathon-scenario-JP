@@ -1,0 +1,138 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 221
+
+
+If the three invading Pfhor battlegroups spread further into the Surrex system, they will become an unstoppable military force.
+
+Unless we act now, we will witness the fall of the human race.
+
+I have necessarily quarantined myself on this station so that I may stand against the tide of war.
+
+We are alone but not defeated: our fate is not sealed.
+
+One course of action is available to us.
+#PICT 222
+
+Axis Nader is a cutting-edge ESR Titan-class orbital with a 10-kilometre radius.
+
+The bulk of the Pfhor fleet has surrounded her and is manoeuvring into geosynchronous orbit above Surrex Colony. Once they begin ferrying troops to the command and control centre in Colony Dome One, taking out the remaining planetary colonies will be child's play.
+
+You must detonate the fusion reactor of this station. It is the only way we can generate a shockwave of sufficient size to destroy the Pfhor battlegroups.
+
+I accept the responsibility for everything that happens after that.
+#PICT 222
+
+All I ask of you is that you deactivate my processing core before you detonate the fusion reactor.
+
+Now that I have isolated myself from the SurrexNet diagnostic and repair protocols, I will be consumed by the Pfhor virus in hours.
+
+I do not, however, wish to be conscious as the station hosting me undergoes thermonuclear collapse.
+
+My death would become an eternity.$C4
+#PICT 217
+
+First, you have to break the first-tier memory bank failsafe.
+
+This will isolate the automated repair modules, allowing you manual access to my core.
+
+Once you have done this, look for a nearby terminal for further instructions.$C4$B
+#LOGOFF 129
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 130
+#PICT 218
+
+
+
+
+
+
+First stage complete. Now you should have access to my core itself.
+
+Deactivate the core control lock, then hit the core reset switch.
+
+Then you will be alone.
+#PICT 219
+
+
+
+
+
+Once you have done this, make your way to the main hangar. There you should find the power relay which controls the exit jump-pad.
+
+I have reconfigured the jump pad to teleport you to the station's core.
+#PICT 219
+
+
+
+
+
+Once you have done this, make your way to the main hangar. There you should find the power relay which controls the exit jump-pad.
+
+I have reconfigured the jump pad to teleport you to the station's core.
+
+Fate be with you, friend.
+#PICT 219
+
+
+
+
+
+Once you have done this, make your way to the main hangar. There you should find the power relay which controls the exit jump-pad.
+
+I have reconfigured the jump pad to teleport you to the station's core.
+
+Fate be with you, friend.
+
+Goodbye.
+#LOGOFF 130
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 198
+#PICT 187
+$C1
+
+
+
+
+
+              How fitting
+
+            that the chains
+
+          that held all Angels
+
+         now provide our escape
+
+            to an overworld
+#LOGOFF 198
+#INTERLEVEL TELEPORT 21
+#END
+#FINISHED
+#LOGON 198
+#PICT 187
+$C1
+
+
+
+
+
+              How fitting
+
+            that the chains
+
+          that held all Angels
+
+         now provide our escape
+
+            to an overworld
+#LOGOFF 198
+#INTERLEVEL TELEPORT 21
+#ENDTERMINAL 2

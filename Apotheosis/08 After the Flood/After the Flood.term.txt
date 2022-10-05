@@ -1,0 +1,268 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 154
+
+It's clear that Noah still carries damage from the crash, and I'm not sure I entirely trust his judgement. We do, however, have no other available choice.
+
+He's prepared a communications interrupt chip for you. As soon as you install it on the local network, we will gain a back door to the secure layer of the Pfhor data net.
+
+A heavy blast door on the lower level of the complex controls access to this dig site.
+
+Take care in your approach: resistance will be heavy.
+#LOGOFF 129
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 172
+#PICT 174
+$C2Deep Survey 6EC
+origin: $C6Engineer 3rd Class Dv'Lstr$C2
+destin: $C6Unit Command$C2
+ref: $C6Primary Rations Vend 172$C2
+stamp: $Irequisition 
+$i
+Humbly I request requisition of Protein Strand Regeneration Circuitry 14b for reconstruction of Primary Rations Vend 172. Command 1st Class Enforcer Ar'Rmyrr (Willful) noted incomplete reproduction of $C7(?chicken soup)$C2 rations as outlined in request.67AF2 
+
+{ error: request.67AF2 not found }
+#LOGOFF 172
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 173
+#PICT 175
+$C2Gate Complex 03
+origin: $C6Technician 2nd Class Tb'nod$C2
+destin: $C6personal log file$C2
+ref: $C6native transport matrix$C2
+stamp: monitored
+
+$C6{ cmd: personal log file init }$C2
+
+We were lucky, I suppose, that the abandoned native information network seems to lend higher degrees of complexity to the areas surrounding each of the gates we have discovered so far.
+
+If only we could vanquish the constant line-noise in the network.
+
+Presumably we are causing the interference -- the harder we push into the network, the harder the network pushes back.
+#PICT 178
+$C2Gate Complex 03
+origin: $C6Technician 2nd Class Tb'nod$C2
+destin: $C6personal log file$C2
+ref: $C6native transport matrix$C2
+stamp: monitored
+
+$C6{ cmd: personal log file init }
+$C2
+Each time we explore more deepl$C57BC$C2to the network, or reactivate dormant hardware, the stat$C518E$C2redoubles$C51A$C2ts inten$C1&.$C5D9FE2F10
+$C1the more i awaken$C5F96B93F97CD13$C1F8$C597727ECC
+$C1the more i see$C5F8FD3BD9A7D0FD6C7FCBD8FC7A
+5605CD28227694806F59$C1we are truely asleep$C5
+67F5A19C99C5FDEDECD$C1and are yet to awaken$C5
+$C1the farther i walk$C5FDBBD8DDE85E$C1A$C5EBF95E2FE
+$C1i see always$C5874A56A1F58F49E8E03CA870FA59
+C82A719F0B1DBB06F76B$C1we are yet to travel$C5
+50A72C$C1BE$C5456CA1C07735EA57$C1as far once more$C5
+D9FE727ECC2F10$C1&.
+#LOGOFF 173
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 172
+#PICT 196
+$C2internal unit files (ref: broadcast)
+#origin: $C6Unit Command$C2
+destin: $C6Unit Broadcast$C2
+ref: $C6Control Schematic Gate Complex 03$C2
+stamp: records
+
+{ cmd: schematic appended }
+#LOGOFF 172
+#ENDTERMINAL 3
+;
+#TERMINAL 4
+#UNFINISHED
+#LOGON 129
+#PICT 182
+$C3
+$C0
+
+As we progress, I can detect an increased number of uncatalogued network nodes. It is almost as if the network is being continually rebuilt, or our presence alone is awaking some form of distributed network.
+
+The Pfhor have disabled their secondary power routers. I need you to cycle the hard reset located at the base of each router. You will then have access to the central atrium's twin security stations. You will find blast door controls there.
+
+#LOGOFF 129
+#ENDTERMINAL 4
+;
+#TERMINAL 5
+#UNFINISHED
+#LOGON 172
+#PICT 183
+$C2internal unit files (ref: broadcast)
+#origin: $C6Unit Command$C2
+destin: $C6Unit Broadcast$C2
+ref: $C6Control Schematic Gate Complex 03$C2
+stamp: records
+
+{ auto cmd: control log file playback } 
+
+$C6control log replay ref.34E5F$C2
+
+{ cmd: schematic appended }
+#LOGOFF 172
+#ENDTERMINAL 5
+;
+#TERMINAL 6
+#UNFINISHED
+#LOGON 170
+$C1^inged viol"
+#PICT 174
+$C2Gate Complex 03
+#origin: $C6Viral 2nd Class Fr'ahsh$C2
+destin: $C6Unit Command buffer.4F3$C2
+ref: $C6native transport matrix
+$C2stamp: records
+
+{ cmd: viral log file init } 
+$C6viral log active ref.34E6B$C2
+
+{ cmd: local scan node all.active }
+     $C6 ...$C2
+9 local nodes detected
+$C6nodes $C7341 343 344 345 348$C6 active
+nodes $C7341 343 345$C6 unlogged$C2
+
+{ cmd: local scan node 341 }
+$C6      ...
+node interference detected
+compensating
+      ...
+#PICT 174
+$C2Gate Complex 03
+#origin: $C6Viral 2nd Class Fr'ahsh$C2
+destin: $C6Unit Command buffer.4F3$C2
+ref: $C6native transport matrix
+$C2stamp: records
+
+{ cmd: interrupt }
+
+{ cmd: local scan node 341 }
+$C6analysing node interference
+       ...
+valid data format detected
+UESC Enigma.II encryption$C2
+
+{ cmd: decrypt node 341 }
+       ...
+$C6node stamp $C7ESRAI T4-HYB565NOA$C6
+$C2
+{ cmd: interce~
+{ cmd: ... }
+#LOGOFF 170
+$C1+ation4.rod
+#ENDTERMINAL 6
+;
+#TERMINAL 7
+#UNFINISHED
+#LOGON 169
+#PICT 178
+$C2internal unit files (ref: broadcast)$C6
+$C2#origin:$C6 unit Command
+$C2destin:$C6 unit broadcast
+$C2ref:$C6 Control Sch %. .$C0
+
+$C3csecureinterrupt.10
+csecurestreamdata.3$C1
+$C5
+          $C1&;$C5CAD4AE1ACAD43468000000000000
+53495421000100$C1angels$C50304EE724C6420000000
+000000001E4847761$C1in the$C53204F666620756967
+6874204E696E65$C1machine$C5746536974946AAA0000
+00000000000000000$C1in the$C500000000000000000
+00000000FFFFFF$C1angels$C54455F34954  0100AE1A
+CAD AE1AC  400 00    000  6$C1:/
+$C5
+           45
+                          4AF
+      4
+#PICT 181
+$C2internal unit files (ref: broadcast)
+#origin: unit Command
+destin: unit broadca @;$C0
+
+$C3csecureinterrupt.10$C0
+
+Noah has gained us access to an internal teleport matrix. We should now have access to the remainder of this base, located deep beneath this site.
+
+Following our as$C5sau$C0lt on the base where you no$C5w s$C0tand, the Pfhor have begun mobilising troops to attempt to neutralise us.
+
+We have no choice b$C1ut$C0 to enter the deeper catacombs, which are only accessible by a closed-loop teleportation system.
+#PICT 190
+$C2internal unit files (ref: broadcast)
+#origin: unit Command
+destin: unit broadca @;$C0
+
+$C3csecureinterrupt.10$C0
+
+This site is a recent exploration by the Pfhor, so t$C1he$C0 structure of the secondary dig site is not well documented. If Noah or I can acquire access to local scan facilities, I may be$C5 a$C0ble to pull up a map for you -- until then, I'm afraid you're on your own.
+
+Clear out the occupant Pfhor forces, and look for anything unusual.
+                  $C11.7$C500414467670$C100$C5160000$C0
+$C504A21534954210001$C1soon we will be blessed$C5
+6C175020$C1600$C500000001000D0D1A48$C1by a candle$C5
+7646F20456967687420$C14 $C5322$C1 in the darkness$C5
+#LOGOFF 129
+#END
+#FINISHED
+#LOGON 169
+#PICT 178
+$C2internal unit files (ref: broadcast)$C6
+$C2#origin:$C6 unit Command
+$C2destin:$C6 unit broadcast
+$C2ref:$C6 Control Sch %. .$C0
+
+$C3csecureinterrupt.10
+csecurestreamdata.3$C1
+$C5
+          $C1&;$C5CAD4AE1ACAD43468000000000000
+53495421000100$C1angels$C50304EE724C6420000000
+000000001E4847761$C1in the$C53204F666620756967
+6874204E696E65$C1machine$C5746536974946AAA0000
+00000000000000000$C1in the$C500000000000000000
+00000000FFFFFF$C1angels$C54455F34954  0100AE1A
+CAD AE1AC  400 00    000  6$C1:/
+$C5
+           45
+                          4AF
+      4
+#PICT 181
+$C2internal unit files (ref: broadcast)
+#origin: unit Command
+destin: unit broadca @;$C0
+
+$C3csecureinterrupt.10$C0
+
+Noah has gained us access to an internal teleport matrix. We should now have access to the remainder of this base, located deep beneath this site.
+
+Following our as$C5sau$C0lt on the base where you no$C5w s$C0tand, the Pfhor have begun mobilising troops to attempt to neutralise us.
+
+We have no choice b$C1ut$C0 to enter the deeper catacombs, which are only accessible by a closed-loop teleportation system.
+#PICT 190
+$C2internal unit files (ref: broadcast)
+#origin: unit Command
+destin: unit broadca @;$C0
+
+$C3csecureinterrupt.10$C0
+
+This site is a recent exploration by the Pfhor, so t$C1he$C0 structure of the secondary dig site is not well documented. If Noah or I can acquire access to local scan facilities, I may be$C5 a$C0ble to pull up a map for you -- until then, I'm afraid you're on your own.
+
+Clear out the occupant Pfhor forces, and look for anything unusual.
+                  $C11.7$C500414467670$C100$C5160000$C0
+$C504A21534954210001$C1soon we will be blessed$C5
+6C175020$C1600$C500000001000D0D1A48$C1by a candle$C5
+7646F20456967687420$C14 $C5322$C1 in the darkness$C5
+#LOGOFF 169
+#ENDTERMINAL 7

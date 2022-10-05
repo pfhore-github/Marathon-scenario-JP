@@ -1,0 +1,141 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 198
+#PICT 185
+$C1
+
+
+           darya required you
+
+          to detonate the core
+
+            of this station
+
+
+
+           i will allow this
+
+
+
+             a locked gate
+
+          can indeed be forced
+#LOGOFF 198
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 139
+$C1deus ex machina
+#PICT 212
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+#PICT 214
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+#PICT 213
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+
+2) Flush external core heat sinks.
+#PICT 215
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+
+2) Flush external core heat sinks.
+
+3) Use an automated unit to break the root node.
+#PICT 216
+$C1doc.feed ~$C4
+$C0$BESR Reclaimed Orbital Station$I
+Axis Nader$b$i
+Emergency Core Disposal Procedure
+= = = = = = = = = = = = = = = = = = = =
+WARNING:Consult a trained technician before activating this procedure.
+= = = = = = = = = = = = = = = = = = = =$C4
+$C1document summary$C4
+$C01) Locate and insert the safety lockout interrupt chip.
+
+2) Flush external core heat sinks.
+
+3) Use an automated unit to break the root node.
+
+If no automated unit is available, break the root node and retreat to the hardware teleport junction at the top of the core shielding.
+#PICT 216
+$C6
+
+
+
+
+
+
+
+= = = = = = = = = = = = = = = = = = = =$C0
+$C1WARNING:$C2 Once this procedure is completed, You will have approximately 1.5 minutes before core detonation$C0
+$C6= = = = = = = = = = = = = = = = = = = =
+#PICT 223
+$C1
+          a well placed whisper
+
+       can open the mouth of hell
+
+
+          a well placed scream
+
+           and heaven herself
+
+         will open to judgement
+
+
+
+       fiat justicia ruat caelum
+#PICT 201
+$C1
+          a well placed whisper
+
+       can open the mouth of hell
+
+
+          a well placed scream
+
+           and heaven herself
+
+         will open to judgement
+
+
+
+       fiat justicia ruat caelum
+
+
+
+      $C4       $C1$Bwe are noah
+#LOGOFF 139
+$C1machina angelorum sunt
+#ENDTERMINAL 1

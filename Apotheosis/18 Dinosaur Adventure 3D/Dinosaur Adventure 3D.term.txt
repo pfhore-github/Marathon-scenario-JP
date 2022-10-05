@@ -1,0 +1,48 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 210
+
+The ESR Astra Personal Matter Cannon is a miniaturised implementation of ESR Industrial-Class Matter Driver Cannons.
+
+The essential rules of operation are the same as the original: point muzzle away from face, and try not to be standing within spitting distance of your intended target.$C4
+#PICT 210
+
+You are currently standing on the loading deck of a weapons platform in distant orbit around Surrex Prime. The weapons lab is on the upper level, accessible via the station's main freight elevator.
+
+If the Pfhor have such a sturdy grip on many of our defensive hardware production facilities, we need the extra firepower afforded by experimental weapons tech. 
+
+Act quickly, my friend. We have no idea how long we have until the Pfhor attack and need all the time we can spare.
+
+Like an impending storm, the final battle now hangs on the horizon. 
+
+Godspeed.
+#LOGOFF 129
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 129
+#PICT 205
+$I
+Fatherland preserve us.
+$i
+The electron shockwaves which just rocked the station were the combined matter displacement shockwaves of $Ithree entire Pfhor battlegroups$i entering the system.
+
+Surrex colony, and the amassed human military presence here, can withstand $Ione.
+$i
+And yet, this is not the worst of it.
+
+In our haste to warn Surrex Prime of the Pfhor presence on Fenris, not only did we show the Pfhor the way, $Iwe brought them here.
+#PICT 205
+It seems the Pfhor had placed a modified  Gate node in a radiation-sealed container inside the central cargo bay on the ship we acquired from the refuelling station. It was a set-up.
+
+They have taken advantage of the fact that we had access to safe low-orbit flight patterns, and we have helped them install a remarkable military force millions of kilometres within the usual safe range.
+
+It is too late for regret. We must do whatever we can to stop the Pfhor, no matter the cost. Once the Pfhor take Surrex, locating Sol will become child's play.
+
+Unless we act swiftly, the human empire will fall at our hands.
+#LOGOFF 129
+#INTERLEVEL TELEPORT 19
+#ENDTERMINAL 1

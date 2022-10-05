@@ -1,0 +1,9 @@
+<marathon>
+
+<!-- jugg flash suppress -->
+	<faders>
+		<fader index="9" initial_opacity="0.25" period="1000">
+		</fader>
+	</faders>
+
+</marathon>

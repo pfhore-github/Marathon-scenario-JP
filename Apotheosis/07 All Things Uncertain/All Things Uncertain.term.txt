@@ -1,0 +1,130 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 179
+$C2~achina..hold//
+#PICT 178
+$C2uni$       _"
+
+{ cmd: transfer log file init }
+
+$C3csecurestream.8 
+$C4
+81129638414606681695789005144064 bytes copied 
+
+$C2{ cmd: transfer log file purge }
+
+$C6   ...
+purged$C2
+
+{ cmd: ... }
+#LOGOFF 179
+$C2:lding ce?
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 179
+#PICT 180
+$C59157463210975164813012467985102468715392
+7D06F7B3FDAB60F3C4FDBB$C1D8$C5DDE85EAEBF95E2FE
+E7D83DB89FD5874A56A1F58F49E8E03CA870FA59
+::::remote.feed.timeout..please.hold::::
+$C1After seven days$C5wha%..622.you se$C1_33$C5 now/
+$C1and seven nights,$C5i87like a dim :GF4F3age
+5605CD28227694806F597E94B12251FF7676076E
+::::remote.feed.timeout..please.hold::::
+67F5A19C99C5FDEDECD3E87E165F295B20EE7F96
+in a^47EG74_mirror $C1a well-placed whisper$C5
+_on we$C1 sha%$C5ce to34ace $C1and the maw yawns.
+$C5C82A719F0B1DBB06F76BD852FDFE1C81EFF3EC0B
+::::remote.feed.timeout..please.hold::::
+Now that I walk amo$C1ng Ang"4$C53442_, I have
+$C1For now, you are free.$C5_r the ways of man
+9157463210975164813012467985102468715392
+::::remote.feed.timeout..please.hold::::
+D3FB3F7F153345F8FD3BD9A7D0FD6C7FCBD8FC7A
+99FA7940907E96B0C50D6CE9F778FD42BAAFD75F
+C096E8F5B3FDAD634B04FE95B85FAED7AF661599
+#LOGOFF 179
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 179
+#PICT 180
+$C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
+Fier:va/=l:ngels ro$C1se,D$C57E3F8F95E31C07D5F
+ & as they ros{..}56197807D7127870A358BF
+$C1I will reunite sword and scabbard:$C5E5AE79
+$C1there is for you an exit.$C5D437E979EC93C79
+:eep thun_19/ roll'dA932CE6B3DBD6B7ED286
+A9C7C48CA2BE892D40 aroun$C1d t$C5heir shor://4
+indignant burnin_45AC16B74B33:47:th the4
+fire$C1sBC$C56F1278F158Aof Orc2BD6F1153293A86F
+CF336F7BD6B96ECA$C1You must help me awaken.$C5
+F5AE132B0B6EB88$C1My thoughts lie in ruins.$C5
+004E73D0E19991191A648F5BBAADA545F238A52D
+7EBEAnd Bostons $C1An$C5gelF0C$C1F7$C54BC1812C3FE67C
+22F7D790B95FC28A047!_2"ied aloud3F665622
+F01B71DF004664F5C19CC167C08DF453CACC025F
+$C1soul and stone$C5B07AAC56C7BA76ABAB95FD9FE7
+$C1will no longer be my shackles$C5CBF164C3DB7
+5F5C8FB:s they flew0C8EA49F629697A95F473
+ACF3710ECDC9::hro' the da$C1rk n$C5ight.$C1 $C5C65FC
+3EEE1BD191F46360A599FA465D7FC0EACCFD129D
+#LOGOFF 179
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 130
+#PICT 177
+
+
+
+
+
+Praise be to the fatherland; we are saved!
+
+Noah has returned to us. He is not entirely what he was before the crash, but he has returned to us.
+
+No matter: he seems to be in working order. We have work to do.
+
+He has located an imperfection in the shielding surrounding a deep dig site on Fenris.
+#PICT 177
+
+
+
+
+We will require a temporary shelter from Pfhor attack before mobilising our remaining resources back to Surrex. If we can lock down a dig site, we will be safe from Pfhor bombardment or teleport attack.
+
+While Noah handles access to the planet-side network, I'll see what I can do about scanning the orbital network for a route out of this system.
+
+I'd like you to explore the dig site and eliminate any resistance you may encounter.
+#LOGOFF 130
+#INTERLEVEL TELEPORT 8
+#END
+#FINISHED
+#LOGON 130
+#PICT 177
+
+
+
+
+
+Praise be to the fatherland, we are saved!
+
+Noah has returned to us. He is not entirely what he was before the crash, but right now, we have work to do.
+
+He has located a detachment of UESC forces bunkered down in the foothills above a deep dig-site on Fenris.
+#PICT 177
+
+
+We will require a temporary shelter from Pfhor attack before we can mobilise our remaining resources back to Surrex. Once we're embedded, I'll see what I can do about scanning the orbital network for a route out of this system.
+
+I'd like you to infiltrate the dig site, and eliminate any resistance you may encounter.
+
+#LOGOFF 130
+#INTERLEVEL TELEPORT 8
+#ENDTERMINAL 3

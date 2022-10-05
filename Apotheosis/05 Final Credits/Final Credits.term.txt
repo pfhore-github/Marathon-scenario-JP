@@ -1,0 +1,35 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 129
+#PICT 145
+The Pfhor attack on this base is particularly adamant. I must admit, I was surprised to find such a sparsely defended clean AI core when I first secured this facility.
+
+The core seems more like a junction point for accelerated communication between several isolated cells. Pfhor-built AI are usually relatively centralised; it makes them easier to control.
+
+Something is going on here that I don't yet understand.
+#PICT 144
+The Pfhor have destroyed the outermost perimeter with tactical explosives and have begun to move in.
+
+A series of blast doors gate the inner facility; I want you to lock each door and repel the incoming Pfhor. I will maintain a secondary lockdown until the threat at each perimeter wall is sufficiently neutralised.
+
+I need you to hold off the Pfhor attack for as long as possible. Maintain the blockade while I attempt to mobilise forces to pull my core.
+#LOGOFF 129
+#END
+#FINISHED
+#LOGON 129
+#PICT 132
+I'm afraid I've had to assume the worst about the Venator -- we've lost communications with her, and traffic on the Pfhor battle net would indicate her destruction.
+
+Noah, too, is entirely incommunicado. What remains of crash pod E104-A has been cut off from the Pfhor net by impenetrable pulses of white noise.
+
+For the time being, it would seem that we are alone.
+#PICT 132
+My attempts to lift my core have failed. The defence squad I mobilised is un-reachable and presumed dead.
+
+I'm sending you in personally to do the job.
+
+Good luck.
+#LOGOFF 129
+#INTERLEVEL TELEPORT 6
+#ENDTERMINAL 0

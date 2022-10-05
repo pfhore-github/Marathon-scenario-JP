@@ -1,0 +1,214 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 128
+#PICT 192
+
+
+
+
+
+That was $Iastounding$i. 
+
+The gate you just entered transported you to this location $Iinstantly$i.
+
+No molecular disassembly, no expulsion of waste heat or usage of energy, $Inothing$i. It quite simply defies explanation! 
+
+The tactical implications are $Iterrifying$i.
+#PICT 192
+
+
+
+I had assumed that the purpose of the dig sites was to strip mine the planet for resources. Instead, it seems the Pfhor built these installations to locate and unearth the transport gates.
+
+We have to stop the Pfhor. A logical first step would be to claim this facility.
+
+Do what you do best.
+
+#LOGOFF 128
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 172
+#PICT 156
+$C2internal unit files (ref: broadcast)
+#origin: $C6unit Command$C2
+destin:$C6 unit broadcast$C2
+ref: $C6Control Schematic Gate Complex 03B$C2
+stamp: records
+
+{ cmd: schematic appended }
+#PICT 178
+$C2internal unit files (ref: broadcast)
+origin: $C6unit Command$C2
+destin: unit $C1b$C2r $C1$_er"$C0
+
+$C3csecureinterrupt.10
+csecurestreamdata.3$C1
+    $C5                   $C1@'$C56AEA1CC05D4968B$C1
+the blossoming$C53499875AA82C5BBDE3E0F0D1E2
+$C1of each candle$C523CEC07071CF91417BD8B60737
+$C1brings flickers$C5B376DF816BA3E622FCFCBF867
+$C1of truth$C581B1A3A7A0FA3DAD4BF36516D4BEC4DA
+A8D6A79F00A6B7$C1%.
+$C3csecurestreamdata.7$C1
+#LOGOFF 172
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 171
+#PICT 195
+$C2internal unit files (ref: broadcast)
+#origin: $C6unit Command$C2
+destin: un$C1it b$C2r$C1 $_er"$C0
+
+$C3csecureinterrupt.10
+csecurestreamdata.3$C0
+
+The gate you passed through shares an electromagnetic profile with local rock formations. 
+
+The geological profile suggests the planet was once covered almost entirely in ocean. A cave system of this complexity would almost certainly have been flooded in its natural state. This would imply that the system is artificial and predates the Pfhor presence here by millions of years.
+
+#PICT 195
+$C2internal unit files (ref: broadcast)
+#origin: $C6unit Command$C2
+destin: un$C1it b$C2r$C1 $_er"$C0
+
+$C3csecureinterrupt.10
+csecurestreamdata.3
+
+$C0
+
+I've detected a hardware lock on the top floor, closing off the rest of this site.
+
+That should be your next target.
+
+Move out.
+#LOGOFF 171
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 171
+$C2*ve awo.
+#PICT 180
+$C6internal unit files (ref: broadcast)
+#orig$C1in$C6: u$C1n &&]$C0
+
+$C3csecureinterrupt.10$C0
+$C1
+$C5F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
+F5F6F599E8A8CE74BF50B6CFF2BCE3F2332072DC
+$C1something has awoken in me:$C538335535C772C
+8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
+7C5B483D065BF2E01E1DF71E61F53CE46C03D782
+7D0BD3B7FB1B6CCB186BCE0D3$C1countless years$C5
+6676754D4E7675B14CA1$C1of absolute betrayal$C5
+B5E3E31B37B2A55D5DE3E36082E207D3F26A6E5F
+8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
+$C1an ageless lie$C59F1F1FC7A53D9FBF74097BC7DA
+D7852983F8477AFE2AAD4824485C7000FBAE552A
+B5E3E31B37B2A55D5DE3E36082E207D3F26A6E5F
+778516279F05446$C1blind pain$C502E5470EAAF5A9C
+F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
+D7852983F8477AFE2AAD4824485C7000FBAE552A
+#LOGOFF 171
+#ENDTERMINAL 3
+;
+#TERMINAL 4
+#UNFINISHED
+#LOGON 128
+#PICT 237
+
+The only limiting factor in the range of a hardware-based teleportation matrix is the habit of the particle data to diverge over time.
+
+All sensors monitoring your passage through the gate hardware, however, indicate that no data transfer occurred at all: the matter moved from one location to another, instantly. 
+
+The terrifying implication here is that transport between gates has no maximum range. 
+
+We have to hope the Pfhor do not understand this.
+
+#PICT 238
+According to Pfhor data logs in the local net, the gate network you used to enter this site has a hardwired transport sequence, which they are attempting to override.
+
+Indeed, harmonic resonance at discovered gate facilities would imply that all the gates connect on a fundamental level and that free transport across the whole network may be possible.
+#PICT 238
+This connection could prove critical: potentially, we can use this information to cripple the gate network in one fell swoop.
+
+The full logs are on the Pfhor orbital network. I'll see what I can do to establish a connection: in the meantime, continue the assault on this facility.
+
+Activating the nearby security switch will grant access to the top floor of the facility.
+#LOGOFF 128
+#ENDTERMINAL 4
+;
+#TERMINAL 5
+#UNFINISHED
+#LOGON 179
+#PICT 178
+$C2internal unit files (ref: broadcast)
+#origin: $C6unit Command$C2
+dest$C1in$C2: un$C1it$C2 b$C1roadca @;$C0
+
+$C3csecureinterrupt.10$C0
+$C5
+8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7$C1
+$C5FA92BD9CBD3C775FCD6EB0E566B38335535C772C
+$C1even gods$C565BFdo not think that i came782
+$C1leave footsteps$C56186to bring peace061EB56
+6676754D4E7675B14CA170FD7AA1A0592727B52D
+8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
+D55C6D6AFC7$C1they will be held accountable$C5
+B6249F1F1FC7A53D9FBF74097BC7DA$C1at the end$C5
+6676754D4E7675B14CA170FD7AA1A0592727B52D
+B5E3E31B3i did not come 6A6E5FEEA6B9CC5D
+$C1of the hammer$C55EF70to bring peace702E70EA
+$C1of the gods$C577AFE2AAD482448but a sword52A
+F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
+8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
+#LOGOFF 179
+#ENDTERMINAL 5
+;
+#TERMINAL 6
+#UNFINISHED
+#LOGON 128
+#PICT 133
+
+
+Noah believes he knows the location of the gate network control nexus.
+
+I cannot trust the source of his information. Since his rebuild inside the planetary net, he seems to possess an almost symbiotic awareness of the network's entities. The boundaries between his routines and the wider Fenris net are becoming harder to define.
+
+#PICT 133
+
+If he is right, we may be in a position to use the network itself to our advantage.
+
+For the time being, continue your mission. You draw close to the hardware-protected memory banks. If the Pfhor are prepared to protect them so absolutely, perhaps they contain the access algorithms to the orbital network.
+
+This could be the chance we are looking for.
+#LOGOFF 128
+#ENDTERMINAL 6
+;
+#TERMINAL 7
+#UNFINISHED
+#LOGON 128
+#PICT 133
+Perfect.
+
+I have the orbital network access algorithms. Until the Pfhor notice my presence, I should have unimpeded access to their network. I'm going to attempt to access the logs on the orbital network. Hopefully I'll figure out whats going on, and find us . way h-me. ..
+
+#PICT 153
+Perfect.
+
+I have the orbital network access algorithms. Until the Pfhor notice my presence, I should have unimpeded access to their network. I'm going to attempt to access the logs on the orbital network. Hopefully I'll figure out whats going on, and find us . way h-me. ..
+
+$C5
+
+soon.
+
+but first we must see.
+
+#LOGOFF 188
+#INTERLEVEL TELEPORT 11
+#ENDTERMINAL 7
