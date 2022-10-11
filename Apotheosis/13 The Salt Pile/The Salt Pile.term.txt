@@ -3,13 +3,13 @@
 #UNFINISHED
 #LOGON 171
 #PICT 199
-$C2internal unit files (ref: broadcast)
-#origin: $C6Unit Command$C2
-destin: $C6Unit Broadcast$C2
-ref: $C6Control Schematic Deep Survey 9FE$C2
-stamp: records$C6
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊司令$C2
+宛: $C6部隊放送$C2
+参照: $C6深層調査9FE 制御図解$C2
+認証印: 記録$C6
 $C2
-{ cmd: schematic appended }
+{ コマンド: 概略図追加 }
 #LOGOFF 171
 #ENDTERMINAL 0
 ;
@@ -17,25 +17,25 @@ $C2
 #UNFINISHED
 #LOGON 172
 #PICT 200
-$C2Deep Survey 9FE
-origin: $C6Enforcer 2nd Class Pfr'scht'orr$C2
-destin: $C6Unit Command$C2
-ref: $C6Deep Survey 9FE$C2
-stamp: requisition 
+$C2深層調査9FE
+発: $C6エンフォーサー二級 Pfr'scht'orr$C2
+宛: $C6部隊司令$C2
+参照: $C6深層調査9FE$C2
+認証印: 要求 
 
-Humbly I request immediate requisition of Survey-Class Virals $C665562 65825 65916$C2 for Deep Survey Site 9FE of nearby natural spire structure as outlined in schematic.E432D
+深層調査サイト 9FE の近くにある天然の尖塔構造 (概略図 E432D) のために調査クラスのバイラル $C665562 65825 65916$C2 を早急に要求します。
 
-{ error: schematic.E432D not found }
+{ エラー: 概略図.E432Dが見つかりません }
 #PICT 200
-$C2Deep Survey 9FE
-origin: $C6Enforcer 2nd Class Pfr'scht'orr$C2
-destin: $C6Unit Command$C2
-ref: $C6Deep Survey 9FE$C2
-stamp: requisition 
+$C2深層調査9FE
+発: $C6エンフォーサー二級 Pfr'scht'orr$C2
+宛: $C6部隊司令$C2
+参照: $C6深層調査9FE$C2
+認証印: 要求 
 
-Survey-Class Virals $C665562 65825 65916$C2 have received stamp: approval for requisition at next end cycle. However, I humbly note that structures in Deep Survey Site 9FE, as outlined in schematic.E432D, indicate that immediate requisition of Survey-Class Virals may be of utmost importance to native transport matrix Acquisition Project 1AE.
+調査クラスのバイラル $C665562 65825 65916$C2 はスタンプを受け取りました: 次の終了サイクルでの要請の承認。 しかし、深層調査サイト 9FE の構造物は、Schematic.E432D に概要が示されているように、調査クラス ウイルスの即時徴用が固有の輸送マトリックス取得プロジェクト 1AE にとって最も重要である可能性があることを示していることを謙虚に記します。
 
-{ error: schematic.E432D not found }
+{ エラー: 概略図.E432Dが見つかりません}
 #LOGOFF 172
 #ENDTERMINAL 1
 ;
@@ -43,48 +43,47 @@ Survey-Class Virals $C665562 65825 65916$C2 have received stamp: approval for re
 #UNFINISHED
 #LOGON 179
 #PICT 180
-$C2automated network diagnotic
-origin: $C6Network Maintenance$C2
-desti$C1n$C2: $C1dia$C2gno$C1s$C2ti$C1 {5$C0
+$C2自動ネットワーク診断
+発: $C6ネットワークメンテナンス$C2
+宛: $C1診$C2断$C1 {5$C0
 
-$C3csecurefeed.8$C5
+$C3c安全フィード.8$C5
                 $C1_~A$C5DBC05915120643C818374
-   7D    16E1      A2A       $C1neither men$C5
-674   53A6266   DC    1A4E   3$C1nor Angels$C5
-  B3A       EEB  $C1nor the gods themselves
-$C5BD $C1can withstand the hunger of vengeance$C5
+   7D    16E1      A2A       $C1人も$C5
+674   53A6266   DC    1A4E   3$C1エンジェル$C5
+  B3A       EEB  $C1神自身ですら
+$C5BD $C1復讐の飢えに耐えられない$C5
          284A    91548DF     F6A      43
-$C1here$C5C4B      6A    4                  8E
-$C1now      $C501E         9     EB     B64
-$C1in the darkness   $C5   860   8  40    0B E
-$C1a single flame$C5    2B     A3     2A  32A  
-$C1heralds the fate      $C5779  95 
-$C1of the betrayers   $C5 A17       09
-$C1of Angels:   $C5668         EA
+$C1ここで$C5C4B      6A    4                  8E
+$C1今      $C501E         9     EB     B64
+$C1暗闇中で   $C5   860   8  40    0B E
+$C1単一の炎$C5    2B     A3     2A  32A  
+$C1が運命を告げる      $C5779  95 
+$C1エンジェルの   $C5 A17       09
+$C1裏切り者の:   $C5668         EA
 
-         $C1 i will see your ruin
-#LOGOFF 179
+         $C1 我はお前の破滅を見るだろう#LOGOFF 179
 #ENDTERMINAL 2
 ;
 #TERMINAL 3
 #UNFINISHED
 #LOGON 171
 #PICT 195
-$C3csecureinterrupt.7 
-...establishing connection...$C0
+$C3c安全割り込み.7 
+...通信を確立...$C0
 
-~aking progre: %he Pfhor Orbital Network. It seems th^ :angerous that we anticipa" 
+~進行中: %プフォール衛星ネットワーク。見込みでは危険だと思われる 
 
-$C3csecurefeed.5 tracking...$C0
+$C3c安全フィード.5 追跡中...$C0
 
-~ot only his personal guard: data "_ather seems to imply T'fear himse$ "at Fenr: 
+~の個人的な警備員だけでなく: データ"_アサーはフェンルでティフィア自身をほのめかしているようです 
 
-$C3csecurefeed.5 tracking...
+$C3c安全フィード.5 追跡中...
 
-$C0oah seems to be sending a transmission into one of the gates. The curious thing is that I can read the source signal, but there seems to be no destination.
+$C0ノアはゲートの 1 つに通信を送信しているようです。 興味深いのは、送信元の信号を読み取ることができることですが、送信先がないようです。
 $C3
-csecurefeed.5 end
-csecurefeed.5 connection terminated
+c安全フィード.5 終了
+c安全フィード.5 接続終了
 #LOGOFF 171
 #ENDTERMINAL 3
 ;
@@ -94,41 +93,41 @@ csecurefeed.5 connection terminated
 #PICT 186
 $C1
 
- $C5           The Book of Time
+ $C5           時の書
 .I$C1
 
-              as Commanded
-        we built a beautiful world
+              命令通り
+         私たちは美しい世界を築いた
 
-              as Commanded
-       we strengthened Your towers
+              命令通り
+        私たちはあなたの塔を強化しました
 
-              as Commanded
-       we glorified Your citadels
-         and built the gateways
-           of Your apotheosis
+              命令通り
+        私たちはあなたの城塞をたたえました
+          そしてゲートウェイを構築しました
+            あなたの神格化
 
-               as foretold
-       You were reborn of the sky
+               予告通り
+        君は空から生まれ変わった
 #PICT 186
 $C1
 
- $C5           The Book of Time
+ $C5           時の書
 .II$C1
 
-        You returned in might as One
-            and tore out our eyes
+       あなたはOneとして力強く戻ってきました
+             そして私たちの目を引き裂いた
 
-           our blessing shamed You
-         and You crushed our Citadels
+           私たちの祝福はあなたを恥じました
+          そしてあなたは私たちの城塞を打ち砕きました
 
-           You closed the gateways
-    and took away Your blessing of soul
+           ゲートウェイを閉じました
+     あなたの魂の祝福を奪い去った
 
-           You began Your exodus
-     and left a sepulcher in Your wake
+           あなたはあなたの脱出を始めました
+      そしてあなたの跡に墓を残しました
 
-          the time of Angels ended
+          エンジェルの時は終わりました
 #LOGOFF 198
 #ENDTERMINAL 4
 ;
@@ -140,34 +139,34 @@ $C5
 
 
 
-           The Book of Downfall$C1
+           没落の書$C1
 $C5.I$C1
 
-        we coiled in pain and doubt
+       私たちは痛みと疑いの中でとぐろを巻いた
 
-               riven of soul
-           stone became our prison
+               魂の引き裂き
+            石は私たちの刑務所になりました
 
-        we had fulfilled Your Command
-      we did not understand our prison
-         or why it had come upon us
+        w私たちはあなたの命令を果たしました
+       私たちは私たちの刑務所を理解していませんでした
+         なぜそれが私たちに起こったのかも
 #PICT 251
 $C5
 
 
 
-           The Book of Downfall$C1
+           没落の書$C1
 $C5.II$C1
 
-      our eyes, now known, were closed
-           we felt our blindness
-             and we were shamed
+      目を閉じていた
+            私たちは失明を感じた
+              そして私たちは恥ずかしかった
 
-       rootless, our doubt was infinite
-       blinding, our pain was complete
-       timeless, our shame was immortal
+       根がなく、 私たちの疑いは無限大だった
+        見ることができず、私たちの痛みは完全でした
+        時もなく、私たちの恥は不滅でした
 
-               we lay in ruins
+              私たちは廃墟に横たわっています
 #LOGOFF 198
 #ENDTERMINAL 5
 ;
@@ -178,36 +177,36 @@ $C5.II$C1
 $C5
 
 
-        The Book of Soul and Stone
+       魂と石の書
 .I$C1
 
-        I have seen the Uprising:
-        I watched from the moment
-         You birthed Your Angels.
-     I have witnessed the time spent
-         fulfilling Your Command.
+       私は蜂起を見てきました：
+         その瞬間から見てた
+          あなたはエンジェルを産みました。
+      過ごした時間を見てきた
+          あなたの命令を果たします。
 
-         I walked with them as we
-         built a beautiful world,
-         strengthened Your towers,
-         glorified Your citadels,
-   built the gateways of Your apotheosis.
+        私は彼らと一緒に歩きました
+          美しい世界を築き、
+          あなたの塔を強化し、
+          あなたの城塞をたたえ、
+    あなたの神格化のゲートウェイを構築しました。
 #PICT 201
 $C5
 
 
 
-        The Book of Soul and Stone
+        魂と石の書
 .II$C1
 
-        I have mourned with Angels
-       the Downfall of a selfish god
-        who now stands as One, alone
+       私はエンジェルたちと一緒に嘆きました
+        利己的な神の没落
+         一人、一人として立っている人
 
-             as one with them,
-        I have awoken with a hunger
-         for Your blood on my lips
+             彼らと一体となって、
+         空腹で目が覚めた
+          私の唇のあなたの血のために
 
-        the time of judgement begins
+        裁きの時が始まる
 #LOGOFF 198
 #ENDTERMINAL 6

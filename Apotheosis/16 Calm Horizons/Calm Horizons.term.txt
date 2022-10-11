@@ -3,18 +3,18 @@
 #UNFINISHED
 #LOGON 129
 #PICT 203
-Fate smiles on us. It would seem the Pfhor forgot to lock down a teleport knot on the refuelling station. I hope you like the fresh supply of ammo.
+運命は私たちに微笑みました。 プフォールは給油ステーションのテレポート ノットをロックするのを忘れていたようです。 弾薬の新たな供給を気に入っていただければ幸いです。
 
-Moored above, you will find the $ICalm Horizons$i – The craft I want to take us home.
+上に係留されているのは、$Iカーム・ホリズン$i – 私が私たちを家に持ち帰りたい宇宙船です。
 
-The controls for the 2 stage crew umbilical are located around the refuelling cradle's perimeter.
+2 段階のクルー アンビリカルのコントロールは、給油クレードルの周囲に配置されています。
 
 #PICT 206
-Once aboard, disable the hardware locks on the fuel-conversion matrices before making your way to the control room.
+乗船したら、制御室に向かう前に、燃料変換マトリックスのハードウェア ロックを無効にします。
 
-Other than that, you know what to do.
+それ以外は、あなたは何をすべきかを知っています。
 $I
-Kill.
+殺してください
 #LOGOFF 129
 #ENDTERMINAL 0
 ;
@@ -22,31 +22,31 @@ Kill.
 #UNFINISHED
 #LOGON 172
 #PICT 208
-$C2Deep Survey 9FE
-origin: $C6Enforcer 2nd Class Whr'lrr$C2
-destin: $C6unit Command$C2
-ref: $C6Fenris Command directive.F13E$C2
-stamp: $Iconfirmation
+$C2詳細調査 9FE
+発: $C6エンフォーサー２級 Whr'lrr$C2
+宛: $C6部隊司令$C2
+参照: $C6フェンリス司令官。F13E$C2
+参照印: $I確認
 $i
-Humbly I request confirmation of Fenris Command directive F13E.
+何卒、フェンリス司令部指令F13Eの確認をお願い致します。
 
-Secure Cargo Module 4E4 has been confirmed scan-proof and placed in Subsidiary Hold Cell 5A.
+セキュア カーゴ モジュール 4E4 はスキャンプルーフであることが確認されており、サブホールド セル 5A に配置されています。
 
-All Attentive-Class units and Glanded Willful-Class units have been ordered to relocate to Refuelling Station 3CC.
+すべてのアテンティブ クラス ユニットとグランド ウィルフル クラス ユニットは、給油ステーション 3CC に移動するように命令されました。
 $I
-Phan'Shrrh$i $C7(?Swarm)$C2 Aggressive Depopulation Units have been released into Fuel Cell chambers A and B.
+Phan'Shrrh$i $C7(?群れ)$C2 積極的な過疎化 部隊が燃料電池チャンバー A と B に解放されました。
 #PICT 208
-$C2Deep Survey 9FE
-origin: $C6Enforcer 2nd Class Whr'lrr$C2
-destin: $C6unit Command$C2
-ref: $C6Fenris Command directive.F13E$C2
-stamp: $Iconfirmation
+$C2詳細調査 9FE
+発: $C6エンフォーサー２級 Whr'lrr$C2
+宛: $C6部隊司令$C2
+参照: $C6フェンリス司令官。F13E$C2
+参照印: $I確認
 
-Phan'Shrrh$i $C7(?Swarm)$C2 Aggressive Depopulation Units may prove hazardous to Secure Cargo Module 4E4.
+Phan'Shrrh$i $C7(?群れ)$C2 積極的な過疎化部隊は、セキュア カーゴ モジュール 4E4 にとって危険であることが判明する可能性があります。
 
-Humbly I note that Secure Cargo Module 4E4 is likely of utmost importance to native transport matrix Acquisition Project 1AE, and request confirmation of Fenris Command directive.F13E.
+セキュア カーゴ モジュール 4E4 はネイティブ トランスポート マトリックス取得プロジェクト 1AE にとって最も重要である可能性が高いことを謙虚に認識し、フェンリス コマンド ディレクティブ.F13E の確認を要求します。
 
-{ error: directive.F13E not found }
+{ エラー: 指令.F13Eが見つかりません }
 #LOGOFF 172
 #ENDTERMINAL 1
 ;
@@ -54,29 +54,29 @@ Humbly I note that Secure Cargo Module 4E4 is likely of utmost importance to nat
 #UNFINISHED
 #LOGON 129
 #PICT 206
-One job left to do.
+やり残した仕事は一つ。
 
-Disable the hardware locks on the fuel-conversion matrices at the aft of the ship.
+船尾にある燃料変換マトリックスのハードウェア ロックを無効にします。
 
-There are two matrices in total.
+全部で 2 つのマトリックスがあります。
 
-Once you've disabled the locks, return here, and we can go home.
+ロックを解除したら、ここに戻ってください。家に帰りましょう。
 
-Soon we will warn Surrex of the threat we have discovered.
+まもなく、発見した脅威について Surrex に警告します。
 #LOGOFF 129
 #END
 #FINISHED
 #LOGON 130
 #PICT 204
-Good work.
+よくできました。
 
-The ship is ready for the journey back. Hopefully, Noah's subterfuge on the planetary net should delay the Pfhor's discovery of our actions until we have warned Surrex Prime.
+船は帰りの準備ができています。 願わくば、ノアの惑星ネットでの巧妙な策略が、サレックス プライムに警告するまで、プフォールによる私たちの行動の発見を遅らせてくれることを願っています。
 
-Noah cannot join us. He's an unknown factor that I can't risk introducing to Surrex Net now.
+ノアは参加できません。 彼は未知の要素であり、今さら サレックス ネットに導入する危険を冒すことはできません。
 
-I hope he can survive as a rogue AI in the Pfhor network on Fenris. I will miss him.
+彼がフェンリスのプフォールネットワークでローグ AI として生き残れることを願っています。 私は彼がいなくて寂しいです。
 
-Ready for jump.
+ジャンプ準備完了。
 #LOGOFF 130
 #INTERLEVEL TELEPORT 17
 #ENDTERMINAL 2

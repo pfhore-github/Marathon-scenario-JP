@@ -3,30 +3,30 @@
 #UNFINISHED
 #LOGON 128
 #PICT 131
-The Pfhor cargo craft was a Trojan horse in more ways than one. The data network on board the vessel housed a degenerative virus, which infected me.
+プフォール貨物船は、複数の点でトロイの木馬でした。 船内のデータネットワークには、私に感染した変性ウイルスが含まれていました。
 
-SurrexNet was the first to notice the virus and is attempting to initiate my diagnostic and repair subroutines. They could likely repair my core in a few days, though I would become temporarily inoperative.
+サレックスネットはこのウイルスに最初に気づいて、私の診断と修復のサブルーチンを開始しようとしています。 数日でコアを修復できる可能性がありますが、一時的に動作不能になります。
 
-We do not have time.
+時間がありません。
 
-Your first act must be to quarantine me from the SurrexNet.
+あなたの最初の行動は、私をサレックスネットから隔離することです。
 
-I can block their transmissions or begin the counterattack against the Pfhor, but not both at once.
+私は彼らの通信をブロックするか、プフォールに対する反撃を開始することができますが、両方を同時に行うことはできません。
 
 #PICT 233
-You currently stand onboard the primary communications spire of the Axis Nader. You should be able to sever communications quickly from here.
+あなたは現在、アクシス ネーダーの主要な通信塔に乗っています。 ここからなら、すぐに通信を切断できるはずです。
 
 #PICT 220
-You currently stand onboard the primary communications spire of the Axis Nader. You should be able to sever communications quickly from here.
+あなたは現在、アクシス ネーダーの主要な通信塔に乗っています。 ここからなら、すぐに通信を切断できるはずです。
 
-Head to the spire opposite this one, and disarm the high-gain antenna relay.
+この反対側の尖塔に向かい、高ゲイン アンテナ リレーを解除します。
 
 #PICT 234
-You currently stand onboard the primary communications spire of the Axis Nader. You should be able to sever communications quickly from here.
+あなたは現在、アクシス ネーダーの主要な通信塔に乗っています。 ここからなら、すぐに通信を切断できるはずです。
 
-Head to the spire opposite this one, and disarm the high-gain antenna relay.
+この反対側の尖塔に向かい、高ゲイン アンテナ リレーを解除します。
 
-Next, take the crew lift to the base of the spire.
+次に、クルー リフトに乗って尖塔の基部に向かいます。
 
 #LOGOFF 128
 #END
@@ -36,17 +36,17 @@ Next, take the crew lift to the base of the spire.
 
 
 
-Good.
+良い。
 
-I accept that the Pfhor virus will likely prove fatal and that SurrexNet is my only chance of survival.
+私は、プフォールウイルスが致命的であることが証明される可能性が高く、サレックスネットが生き残る唯一のチャンスであることを受け入れます。
 
-I also accept that the demesne of $Iman itself$i is at stake.
+私はまた、$I人間の領地そのもの$iが危機に瀕していることも認めます。
 
-I recognise what must be done.
+やるべきことは認識しています。
 
-Thank you, my friend. You have done well. 
+友よありがとう。 あなたはよくやった。
 
-Our fate is nearly upon us.
+私たちの運命はもうすぐです。
 #LOGOFF 128
 #INTERLEVEL TELEPORT 20
 #ENDTERMINAL 0
@@ -56,18 +56,18 @@ Our fate is nearly upon us.
 #LOGON 164
 #PICT 167
 $C1UESC Axis Nader
-   |$C2Gold-Channel Outbound Transmissions$C1
-   |Automated Data Log
+   |$C2ゴールド チャネルのアウトバウンド伝送$C1
+   |自動データログ
    |
-   |transmit.intercept {457DAR.001}$C0
+   |通信.割り込み {457DAR.001}$C0
 
 ~aven uch tim. &&:evering conne~ SurrexNe] mportant.
 
-The Pf ^^r have :: scovered a $C1cli$C0e~ worl "% jar$C1ro, $C0prev /:*$C1"$ c$C0atalogued as Fen~
+プフォ ^^ールは ::かつてフェン～とカタログ化されたジ$C1ャロ$C0の世界を発見
 
-*found a technology whi"$ could cause the fall of $C1. ~man Em$C0pire.
+*$C1人類の帝$C0国の崩壊を引き起こす可能性のある技術を発見した
 
-I am responsible for the current ass"ult, and will att:%pt to stop the Pfhor before they sack Surrex Prime.$C1 I he$C0avily advise all UESC and ESR units in the area are withdrawn until my signal is given.
+私は現在の攻撃の責任を負っており、プフォールがサレックスプライムを略奪する前に %pt を阻止するつもりです。$C1私は、$C0私の信号が送られるまで、その地域のすべての UESC と ESR ユニットを撤退させるよう、熱心にアドバイスします。
 #LOGOFF 164
 #ENDTERMINAL 1
 ;
@@ -76,11 +76,11 @@ I am responsible for the current ass"ult, and will att:%pt to stop the Pfhor bef
 #LOGON 129
 #PICT 131
 
-Now, you must locate and deactivate the four terminals at the base of the $IEnigma.II$i communications encoder, this will give me the opportunity I require to sever the connection to SurrexNet.
+次に、$IEnigma.II$i 通信エンコーダーのベースにある 4 つの端末を見つけて非アクティブ化する必要があります。これにより、サレックスネット への接続を切断するために必要な機会が得られます。
 
-After that time, we will have no help with what we must do.
+その時が来れば、私たちは何をしなければならないのか、何の助けにもなりません。
 
-Return here when you have finished.
+終わったらここに戻ってください。
 #LOGOFF 129
 #END
 #FINISHED
@@ -89,17 +89,17 @@ Return here when you have finished.
 
 
 
-Good.
+良い。
 
-I accept that the Pfhor virus will likely prove fatal and that SurrexNet is my only chance of survival.
+私は、プフォールウイルスが致命的であることが証明される可能性が高く、サレックスネットが生き残る唯一のチャンスであることを受け入れます。
 
-I also accept that the demesne of $Iman itself$i is at stake.
+私はまた、$I人間の領地そのもの$iが危機に瀕していることも認めます。
 
-I recognise what must be done.
+やるべきことは認識しています。
 
-Thank you, my friend. You have done well. 
+友よありがとう。 あなたはよくやった。
 
-Our fate is nearly upon us.
+私たちの運命はもうすぐです。
 #LOGOFF 128
 #INTERLEVEL TELEPORT 20
 #ENDTERMINAL 2

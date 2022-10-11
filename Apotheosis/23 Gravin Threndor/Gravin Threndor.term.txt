@@ -6,88 +6,88 @@
 $C1
 
 
-           darya required you
+          ダリアはあなたを必要としました
 
-          to detonate the core
+           コアを爆発させる
 
-            of this station
-
-
-
-           i will allow this
+             このステーションの
 
 
 
-             a locked gate
+            私はこれを許可します
 
-          can indeed be forced
+
+
+              ロックされたゲート
+
+           確かに強制できる
 #LOGOFF 198
 #ENDTERMINAL 0
 ;
 #TERMINAL 1
 #UNFINISHED
 #LOGON 139
-$C1deus ex machina
+$C1機械仕掛けの神
 #PICT 212
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
 #PICT 214
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 #PICT 213
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 
-2) Flush external core heat sinks.
+2) 外部コア ヒートシンクをフラッシュします。
 #PICT 215
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 
-2) Flush external core heat sinks.
+2) 外部コア ヒートシンクをフラッシュします。
 
-3) Use an automated unit to break the root node.
+3) 自動化されたユニットを使用して、ルート ノードを壊します。
 #PICT 216
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 
-2) Flush external core heat sinks.
+2) 外部コア ヒートシンクをフラッシュします。
 
-3) Use an automated unit to break the root node.
+3) 自動化されたユニットを使用して、ルート ノードを壊します。
 
-If no automated unit is available, break the root node and retreat to the hardware teleport junction at the top of the core shielding.
+自動化されたユニットが利用できない場合は、ルート ノードを破壊し、コア シールドの上部にあるハードウェア テレポート ジャンクションまで後退します。
 #PICT 216
 $C6
 
@@ -98,44 +98,44 @@ $C6
 
 
 = = = = = = = = = = = = = = = = = = = =$C0
-$C1WARNING:$C2 Once this procedure is completed, You will have approximately 1.5 minutes before core detonation$C0
+$C1警告:$C2 この手順が完了すると、核爆発まで約 1.5 分かかります$C0
 $C6= = = = = = = = = = = = = = = = = = = =
 #PICT 223
 $C1
-          a well placed whisper
+  よく配置されたささやき
 
-       can open the mouth of hell
-
-
-          a well placed scream
-
-           and heaven herself
-
-         will open to judgement
+        地獄の口を開くことができます
 
 
+           よく配置された悲鳴
 
-       fiat justicia ruat caelum
-#PICT 201
+            そして天国そのもの
+
+          判断に開かれます
+
+
+
+      正義が行われますように、天国が突入しますように
+#PICT 223
 $C1
-          a well placed whisper
+よく配置されたささやき
 
-       can open the mouth of hell
-
-
-          a well placed scream
-
-           and heaven herself
-
-         will open to judgement
+        地獄の口を開くことができます
 
 
+           よく配置された悲鳴
 
-       fiat justicia ruat caelum
+            そして天国そのもの
+
+          判断に開かれます
 
 
 
-      $C4       $C1$Bwe are noah
+      正義が行われますように、天国が突入しますように
+
+
+
+      $C4       $C1$B我々はノアである
 #LOGOFF 139
-$C1machina angelorum sunt
+$C1天使のエンジン
 #ENDTERMINAL 1

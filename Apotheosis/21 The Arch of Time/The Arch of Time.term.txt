@@ -6,88 +6,88 @@
 $C1
 
 
-           darya required you
+          ダリアはあなたを必要としました
 
-          to detonate the core
+           コアを爆発させる
 
-            of this station
-
-
-
-           i will allow this
+             このステーションの
 
 
 
-             a locked gate
+            私はこれを許可します
 
-          can indeed be forced
+
+
+              ロックされたゲート
+
+           確かに強制できる
 #LOGOFF 198
 #ENDTERMINAL 0
 ;
 #TERMINAL 1
 #UNFINISHED
 #LOGON 139
-$C1deus ex machina
+$C1機械仕掛けの神
 #PICT 212
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
 #PICT 214
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 #PICT 213
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 
-2) Flush external core heat sinks.
+2) 外部コア ヒートシンクをフラッシュします。
 #PICT 215
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 
-2) Flush external core heat sinks.
+2) 外部コア ヒートシンクをフラッシュします。
 
-3) Use an automated unit to break the root node.
+3) 自動化されたユニットを使用して、ルート ノードを壊します。
 #PICT 216
 $C1doc.feed ~$C4
-$C0$BESR Reclaimed Orbital Station$I
+$C0$BESR回収された軌道ステーション$I
 Axis Nader$b$i
-Emergency Core Disposal Procedure
+緊急コア処分手順
 = = = = = = = = = = = = = = = = = = = =
-WARNING:Consult a trained technician before activating this procedure.
+警告: この手順を実行する前に、訓練を受けた技術者に相談してください。
 = = = = = = = = = = = = = = = = = = = =$C4
-$C1document summary$C4
-$C01) Locate and insert the safety lockout interrupt chip.
+$C1文書要約$C4
+$C01) 安全ロックアウト割り込みチップを見つけて挿入します。
 
-2) Flush external core heat sinks.
+2) 外部コア ヒートシンクをフラッシュします。
 
-3) Use an automated unit to break the root node.
+3) 自動化されたユニットを使用して、ルート ノードを壊します。
 
-If no automated unit is available, break the root node and retreat to the hardware teleport junction at the top of the core shielding.
+自動化されたユニットが利用できない場合は、ルート ノードを破壊し、コア シールドの上部にあるハードウェア テレポート ジャンクションまで後退します。
 #PICT 216
 $C6
 
@@ -98,152 +98,150 @@ $C6
 
 
 = = = = = = = = = = = = = = = = = = = =$C0
-$C1WARNING:$C2 Once this procedure is completed, You will have approximately 1.5 minutes before core detonation$C0
+$C1警告:$C2 この手順が完了すると、核爆発まで約 1.5 分かかります$C0
 $C6= = = = = = = = = = = = = = = = = = = =
 #PICT 223
 $C1
-          a well placed whisper
+  よく配置されたささやき
 
-       can open the mouth of hell
-
-
-          a well placed scream
-
-           and heaven herself
-
-         will open to judgement
+        地獄の口を開くことができます
 
 
+           よく配置された悲鳴
 
-       fiat justicia ruat caelum
+            そして天国そのもの
+
+          判断に開かれます
+
+
+
+      正義が行われますように、天国が突入しますように
 #PICT 223
 $C1
-          a well placed whisper
+よく配置されたささやき
 
-       can open the mouth of hell
-
-
-          a well placed scream
-
-           and heaven herself
-
-         will open to judgement
+        地獄の口を開くことができます
 
 
+           よく配置された悲鳴
 
-       fiat justicia ruat caelum
+            そして天国そのもの
+
+          判断に開かれます
 
 
 
-      $C4       $C1$Bwe are noah
+      正義が行われますように、天国が突入しますように
+
+
+
+      $C4       $C1$B我々はノアである
 #LOGOFF 139
-$C1machina angelorum est
+$C1天使のエンジン
 #ENDTERMINAL 1
 ;
 #TERMINAL 2
 #UNFINISHED
 #LOGON 236
 #PICT 257
-There’s been a persistent itch chasing me through the decades, it flares up in dreams, taunts from the corners of my vision, “you should have finished it the first time.”
+何十年にもわたって私を追いかけてきたしつこいかゆみがあり、それは夢の中で燃え上がり、私のビジョンの隅から「あなたは最初にそれを終わらせるべきだった」と嘲笑します。
 
-Two years and change of furious hydrocortisone application, we might have scratched that one. Lockdown can make you do strange things, didn’t you hear?
+2 年と猛烈なヒドロコルチゾン アプリケーションの変更、私たちはその 1 つを傷つけた可能性があります。 ロックダウンは奇妙なことをさせることがありますよね？
 
-A small village of co-conspirators assembled along endless tracts of secret Discord channels helped me get here. Their generosity and dedication humbles me.
+私がここにたどり着くのを助けてくれたのは、果てしなく続く秘密の Discord チャンネルに沿って集まった共謀者の小さな村でした。 彼らの寛大さと献身は私を謙虚にします.
 
-Thank you to them, and to you for playing.
+彼らと、遊んでくれてありがとう。
 
 – Hypersleep
 
 
 #PICT 255
-$C2Previously in Io’mandra,
+$C以前はイオマンドラで、
 
-Rings of smoke wash over you, playing off the flickering lantern light illuminating your seat overhanging the crusty piers of Krakenholt below. Dredger takes another pull at his pipe and grins in your general direction.
+煙の輪があなたの上を洗い流し、下のクラーケンホルトの無愛想な桟橋に突き出た座席を照らす、ちらつきのあるランタンの光を放ちます。 ドレッジャーはパイプをもう一度引っ張って、あなたの一般的な方向ににやにや笑います。
 
-“Now that’s quite the story I must admit, one of a kind just like you claimed. Couldn’t understand the half of it…angels in the system and all that.”
+「それは私が認めなければならない話であり、あなたが主張したような類のない話です. 半分も理解できませんでした...システム内の天使とそのすべて."
 
-Moving his feet from their rest atop the petrified sea chest chained to his wrist he leans forward, head tilted to watch for prying ears.
-
-#PICT 255
-$C2“Not sure how your story is gonna help me get into the vaults under Faaldrang but it’s given me ideas and a deals’a deal. To find what you’re looking for you’ll need to journey to the Elemental Chaos and make your way to the bottom of the caldera below the Jeweled City. There’s a foundation of an old lyceum still there. Stories say if you can piece together the high draconic that’s etched into its stones, the saga it tells lets you shape the world to your liking.”
+手首に鎖でつながれた石化した海の箱の上に足を動かし、前かがみになり、頭を傾けて詮索好きな耳を監視します。
 
 #PICT 255
-$C2Shoutout to Shappie for finding the gem that is the original Apotheosis. Wouldn’t be writing this if you hadn’t.
+$C2“あなたの話がどのように私が Faaldrang の下の金庫室に入るのに役立つかはわかりませんが、それは私にアイデアと取引を与えてくれました。 探しているものを見つけるには、Elemental Chaos に移動し、Jeweled City の下のカルデラの底に向かう必要があります。 昔の高校の土台が残っています。 石に刻み込まれた高位の竜をつなぎ合わせることができれば、それが語る物語によって世界を思い通りに形作ることができると物語は語っています。”
 
-Special thanks to my parents who listen to me ramble about Marathon and watch my live runs even though they don’t understand much of what's going on.
+#PICT 255
+$C2オリジナルのApotheosisである宝石を見つけてくれたShappieに感謝します。 そうでなかったら、あなたはこれを書いていなかっただろう。
 
-All roads lead to…
+何が起こっているのかあまり理解していないにもかかわらず、私がマラソンについてとりとめのない話を聞いたり、私のライブランを見たりするのを聞いてくれる両親に特に感謝します.
 
 – Ares 540
 
 #PICT 258
-$C4When reached for commentary, Cryos responded:
+$C4コメントを求めると、Cryos は次のように答えました。
 
-"I'd write a long winded essay about why 1/16 is a better fraction than 1/8 when it comes to texture snapping, but I doubt I'll have the time for that."
+"テクスチャ スナップに関しては、なぜ 1/16 が 1/8 よりも優れた分数であるかについて、長々としたエッセイを書きたいと思いますが、その時間があるとは思えません。"
 
-He then spent several hours sending over the accompanying screenshots of exclusive behind the scenes development material.
+その後、彼は数時間かけて、開発の舞台裏の独占資料のスクリーンショットを添付して送信しました。
 
 #PICT 259
-$C4When reached for commentary, Cryos responded:
+$C4コメントを求めると、Cryos は次のように答えました。
 
-"I'd write a long winded essay about why 1/16 is a better fraction than 1/8 when it comes to texture snapping, but I doubt I'll have the time for that."
+"テクスチャ スナップに関しては、なぜ 1/16 が 1/8 よりも優れた分数であるかについて、長々としたエッセイを書きたいと思いますが、その時間があるとは思えません。"
 
-He then spent several hours sending over the accompanying screenshots of exclusive behind the scenes development material.
+その後、彼は数時間かけて、開発の舞台裏の独占資料のスクリーンショットを添付して送信しました。
 
 #PICT 260
-$C4When reached for commentary, Cryos responded:
+$C4コメントを求めると、Cryos は次のように答えました。
 
-"I'd write a long winded essay about why 1/16 is a better fraction than 1/8 when it comes to texture snapping, but I doubt I'll have the time for that."
+"テクスチャ スナップに関しては、なぜ 1/16 が 1/8 よりも優れた分数であるかについて、長々としたエッセイを書きたいと思いますが、その時間があるとは思えません。"
 
-He then spent several hours sending over the accompanying screenshots of exclusive behind the scenes development material.
-
-#PICT 256
-$C1For no real reason, here’s an AI-generated picture of Beyoncé as the Doctor.
-
-Big thanks to the main creators of this scenario for all the hard work they put in while I was busy contributing to $IWhere Monsters Are in Dreams$i, $IEternal$i, $ITempus Irae Redux$i, $IMarathon Chronicles$i, $IHellpak$i, $ITrojan SE$i… come to think of it, basically every active scenario except $IPhoenix$i (and I still remastered the music for that).
-
-On that note, thanks to iZotope for RX, which I used for all remasters and remixes found here; and to W’rkncacnter and treellama for their help with Lua over the years (even if I didn’t really need it for $IApotheosis$i); and, bedgrudgingly, to Microsoft for Visual Studio Code (I always regret trying to write Lua without it).
-
-And, not least, thanks to you for playing.
+その後、彼は数時間かけて、開発の舞台裏の独占資料のスクリーンショットを添付して送信しました。
 
 #PICT 256
-$C1Obligatory plugs: $ITempus Irae$i, $IRubicon$i, $IEternal$i, $IPhoenix$i, $IBlauwe Vingers$i, $IGemini Station$i, $IMegiddo Game$i, $IMissed Island$i,  $IPfh’Joueur$i, $IReturn to Marathon$i, $IYuge$i. If you’ve missed out on some, go fix that.
+$C1本当の理由はありませんが、これはビヨンセが医者として AI によって生成された画像です。
 
-$IHellpak$i should be out about the same time this is out; if you enjoy weird challenges, that’ll be right up your alley. Even if not, go check out the OST; it slaps.
+このシナリオの主な作成者には、私が $IWhere Monsters Are in Dreams$i、$IEternal$i、$ITempus Irae Redux$i、$IMarathon Chronicles$i、$IHellpak$i、$ITrojan SE$i... 考えてみると、基本的に$IPhoenix$i (そして、そのために音楽をリマスタリングしました)を除くすべてのアクティブなシナリオ。忙しく貢献している間に多大な労力を費やしてくれたことに感謝します。
 
-And I hope you can someday experience $IWhere Monsters Are in Dreams$i and (if I ever finish it) $IMarathon Chronicles$i; with all luck, they’ll blow your mind. (hypersleep has contributed maps to both and graphics to the former – if you enjoyed $IApotheosis$i, there’s your reason to play them.)
+その点については、ここにあるすべてのリマスターとリミックスに使用した iZotope for RX に感謝します。 そして、何年にもわたって Lua を支援してくれた W'rkncacnter と treellama に感謝します ($IApotheosis$i のために本当に必要ではなかったとしても)。 そして、しぶしぶ、Microsoft for Visual Studio Code (それなしで Lua を書こうとしたことをいつも後悔しています)。
 
-Cheers,
-Aaron
+そして、少なくとも、プレイしていただきありがとうございます。 
+
+#PICT 256
+$C1必須プラグ: $ITempus Irae$i, $IRubicon$i, $IEternal$i, $IPhoenix$i, $IBlauwe Vingers$i, $IGemini Station$i, $IMegiddo Game$i, $IMissed Island$i, $IPfh Joueur$i, $IReturn to Marathon$i, $IYuge$i. 見逃したものがある場合は、修正してください。
+
+$IHellpak$i は、これがリリースされるのとほぼ同時にリリースされるはずです。 奇妙な挑戦を楽しむなら、それはあなたの路地にぴったりです。 そうでない場合でも、OST をチェックしてください。 それは平手打ちします。
+
+そして、いつの日か $IWhere Monsters Are in Dreams$i と (私がそれを読み終えた場合) $IMarathon Chronicles$i を体験できることを願っています。 運が良ければ、彼らはあなたの心を吹き飛ばします。 (hypersleep は両方にマップを提供し、前者にグラフィックを提供しました。$IApotheosis$i を楽しんだのなら、それらをプレイする理由があります。)
+
+乾杯、
+アーロン
 
 #PICT 261
-It's-a me, RADIX; I played the older, unfinished Apotheosis Non-X a few years ago, then drew and wrote some things which were used for the basis of other things in X.
+それは私、RADIXです。 私は数年前に古い未完成の Apotheosis Non-X をプレイし、それから X の他のものの基礎として使用されるいくつかのものを描き、書きました。
 
-It's been quite an experience, watching Apotheosis evolve from a near-final beta with 90% stock Infinity assets to its properly 'total-converted' form.
+Apotheosis が 90% のストック Infinity アセットを持つほぼ最終的なベータから、適切に「完全に変換された」形式に進化するのを見るのは、かなりの経験でした。
 
 #PICT 225
-$C2Since I did such a poor job imitating it, I'd like to give a tribute to the incredible, whimsical imagination of Richard Dierkes 
+$C2真似が下手だったので、Richard Dierkes の信じられないほど気まぐれな想像力に敬意を表したいと思います。
 
 – cassis
 
-***PREPARE FOR TELEPORT***
+***テレポート準備***
 
 #PICT 225
-$C2Since I did such a poor job imitating it, I'd like to give a tribute to the incredible, whimsical imagination of Richard Dierkes 
+$C2真似が下手だったので、Richard Dierkes の信じられないほど気まぐれな想像力に敬意を表したいと思います。
 
 – cassis
 
-***PREPARE FOR TELEPORT***
-***RIDICULOUSLY HARD SECRET LEVEL***
+***テレポート準備***
+***途方もなくハードなシークレットレベル***
 
 #PICT 225
-$C2Since I did such a poor job imitating it, I'd like to give a tribute to the incredible, whimsical imagination of Richard Dierkes 
+$C2真似が下手だったので、Richard Dierkes の信じられないほど気まぐれな想像力に敬意を表したいと思います。
 
 – cassis
 
-***PREPARE FOR TELEPORT***
-***RIDICULOUSLY HARD SECRET LEVEL***
-***YOU CAN'T TURN BACK ANYWAY***
+***テレポート準備***
+***途方もなくハードなシークレットレベル***
+***とにかく後戻りはできない***
 
 
 #LOGOFF 236

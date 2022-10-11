@@ -7,17 +7,18 @@ $C5# シグナル //' 喪失. ~ローカルスキャン ^*45643$%ホワイトノ
 
   :: シグナル 喪失... 再取得... ::
 
-~$C1この干渉の原因の 1 つは、cer$C5&43634756*$C1must as$C5#? $C1inten"$ 敵対的。$C5
+~$C1この干渉の原因の 1 つは、cer$C5&43634756*$C1$C5#? $C1inten"$ 敵対的に。$C5
 
   :: シグナル 喪失... 再取得... ::
  :: 追跡プロトコル初期化 ::
 
-$C1全 UESC 防"_$rimeters ~~~ 侵入された, @6. 部隊は分断された。最後の報{..3{ mber of men have retrea:$:tural cave syst { no longer be conta ted
+$C1全 UESC 防"_$rimeters ~~~ 侵入された, @6. 部隊は分断された。最後の報{..3{ 人員のメンバーは撤:$:自然の洞窟は {
+もはや含まれていない
 $C5&43634ADCEF  .3187   8A1     B61A28A34756*$C1
-"on as you loc$C5~$C1 core, try and find an exit.
+"コアを見つ$C5~$C1 出口を見つけて脱出を試み
 $C5&43634   EF48.3187FA   157C98B61A28  4756*$C1
 
-           You 7.7ust hurry!$C0
+           急がなくてはな7.7ません!$C0
 #LOGOFF 164
 #ENDTERMINAL 0
 ;
@@ -28,22 +29,22 @@ $C5&43634   EF48.3187FA   157C98B61A28  4756*$C1
 $C5csecurefeed.6;89DBCFF34A8BD6CACF3EDDEF37
 ED75C0DD6C43DE417A76E59A999C7E979EC93C79
 B6D6368FB4CDE6B07AAC56C7BA76ABAB95FD9FE7
-F0F0F4EDE5AE79noa_$C1fhor att ck more effe&
+F0F0F4EDE5AE79noa_$C1フォールはより効率的に攻&
 004E73D0E19991191A648F5BBAADA545F238A52D
 872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
-am rebor_osing batt*e on all fronTS:$C5g577
+全最前線でのリボローシングバト*ルTS:$C5g577
 50C9263B1E59849B2CDEBA932CE6B3DBD6B7ED28
 CF336F7BD6B96ECADF6B02792EAAFCCCED7B2B50
 87238"£$*(DF$%T$ ^*()^G$%F(* $%GEEGF6042
-$C1una8le to .3cate a $_itable esc76e route$C5
+$C1脱3路を.3つけることができ9い$C5
 404493778%_GHKJB^$_"L$ON_OMYFV587(88363)
-::::remote.feed.timeout..please.hold::::
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 F5AE132B0B6EB88B3CBC0DC942D002C9801288CF
-87951^981d$C1on't know what to do$C54!5197^989
-::::remote.feed.timeout..please.hold::::
-::::remote.feed.timeout..please.hold::::
+87951^981d$C1にをすべきかわかりません$C54!5197^989
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 
-::remote.feed.timeout..connection.lost::
+::::リモート.フィード.タイムアウト..接続.喪失::::
 #LOGOFF 136
 #ENDTERMINAL 1
 ;
@@ -52,66 +53,66 @@ F5AE132B0B6EB88B3CBC0DC942D002C9801288CF
 #LOGON 235
 #PICT 161
 $C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
-347.124.556[HYB565NOAtive[286csecu$C1%feed{$C5
-7898FBC.seB772F70B44FD45AC16B74$C1A] of the 
-UE.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
+347.124.556[HYB565NOAtive[286csecu$C1%フィード{$C5
+7898FBC.seB772F70B44FD45AC16B74$C1A] UESCの 
+.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
 6C099BCB4A3205D1AF7A96FF2D7E3F8F95E31C07
-F6042$C1emptin$C5D45AC16B74B3track%$C1&sh contact$C5
+F6042$C1emptin$C5D45AC16B74B3track%$C1&sh 接触$C5
 872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
 $C1r hull ;is$C5 DC9FA3F648%^565feed{7yrf7FD
 B772F70B44FD45AC16B74B33F70B1813F5AB580D
 C5357FF70463EE8DCCC06E66F3D99CBF164C3DB7
-BD!5662_&;JHF$C1;too fa& from plane_$C5NG_5732
-::::remote.feed.timeout..please.hold::::
-42B826AC51::compensating...::4_(xiF043B5
-::::remote.feed.timeout..please.hold::::
-60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1.
-::::remote.feed.timeout..please.hold::::
+BD!5662_&;JHF$C1;遠すぎ& プレーンから_$C5NG_5732
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+42B826AC51::補完中...::4_(xiF043B5
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+60.07.04:14.30.29.54//$C1}...$C5s確実に戻る[1.
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 
-    ::::remote.feed..signal.loop::::
+    ::::リモート.フィード..信号.ループ::::
 
-           ::compensating...::
+           ::補完中...::
 #PICT 162
 $C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
-347.124.556[HYB565NOAtive[286csecu$C1%feed{$C5
-7898FBC.seB772F70B44FD45AC16B74$C1A] of the 
-UE.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
+347.124.556[HYB565NOAtive[286csecu$C1%フィード{$C5
+7898FBC.seB772F70B44FD45AC16B74$C1A] UESC 
+%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
 6C099BCB4A3205D1AF7A96FF2D7E3F8F95E31C07
-F6042$C1empting to estab%$C5[track%$C1&sh contact$C5
+F6042$C1確立中%$C5[トラック%$C1&sh 接続$C5
 872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
-$C1r hull ;is$C5 DC9FA3F648%^565feed{7yrf7FD
+$C1r hull ;is$C5 DC9FA3F648%^565フィード{7yrf7FD
 B772F70B44FD45AC16B74B33F70B1813F5AB580D
 C5357FF70463EE8DCCC06E66F3D99CBF164C3DB7
-BD!5662_&;JHF$C1;too fa& from plane_$C5NG_5732
-::::remote.feed.timeout..please.hold::::
+BD!5662_&;JHF$C1;遠すぎ& プレーンから_$C5NG_5732
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 4251$C1&tmosph_re to at7empt evac&..&:$C54_(xi
-::::remote.feed.timeout..please.hold::::
-60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1.
-::::remote.feed.timeout..please.hold::::
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+60.07.04:14.30.29.54//$C1}...$C5確実に戻る[1.
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 
-    ::::remote.feed..signal.loop::::
+    ::::リモート.フィード..信号.ループ::::
 
-           ::compensating...::
+           ::補完中...::
 #PICT 163
 $C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
-347.124.556[HYB565NOAtive[286csecu$C1%feed{$C5
-7898FBC.secur$C1&_SRAI T4-HYB385ISA] of the 
-UE.%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
+347.124.556[HYB565NOAtive[286csecu$C1%フィード{$C5
+7898FBC.secur$C1&_SRAI T4-HYB385ISA] UESCの
+%.$C587238"£$*(DF$%T$ ^*()^G$%F(* $%GEEG
 6C099BCB4A3205D1AF7A96FF2D7E3F8F95E31C07
-F6042$C1empting to estab%$C5[track%$C1&sh contact$C5
+F6042$C1確立中%$C5[トラック%$C1&sh 接続$C5
 872387FDBD!(&"&*BDBDE&^A*&CB&^"(_%JHS478
-$C1r hull ;is buckli%_6$C5E%^565feed{7yrf7FD
-2L/0.2]//as$C1::compensating...::$C54.30.23.47
+$C1r hull ;is buckli%_6$C5E%^565フィード{7yrf7FD
+2L/0.2]//as$C1::確立中...::$C54.30.23.47
 C5357FF70463EE8DCCC06E66F3D99CBF164C3DB7
-BD!5662_&;JHF$C1;too fa& from plane_$C5NG_5732
-::::remote.feed.timeout..please.hold::::
-4251$C1&tmosph_re to at7empt evac&..&:$C54_(xi
-::::remote.feed.timeout..please.hold::::
-60.07.04:14.30.29.54//$C1}...$C5ssurereturn[1.
-::::remote.feed.timeout..please.hold::::
+BD!5662_&;JHF$C1;遠すぎ& プレーンから_$C5NG_5732
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+4251$C1&tmosph_re to 隔離試行中&..&:$C54_(xi
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+60.07.04:14.30.29.54//$C1}...$C5確実に戻る[1.
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 
-::::remote.feed.timeout..please.hold::::
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 
-$C2::remote.feed.timeout..connection.lost::
+::::リモート.フィード.タイムアウト..接続.喪失::::
 #LOGOFF 235
 #ENDTERMINAL 2

@@ -3,55 +3,55 @@
 #UNFINISHED
 #LOGON 179
 #PICT 252
-$C2Comm relay 34c
-origin:$C6 network Maintenance$C2
-destin: $C6diagnosti {5
+$C2っ通信リレー 34c
+発:$C6 ネットワークメンテナンス$C2
+宛: $C6診断{5
 $C0
-$C3csecurefeed.8$C1
+$C3c安全フィード.8$C1
 
-     all tyrants must be silenced
+     すべての暴君は沈黙しなければならない
 
-            the heart of Angels
-         must be left to Angels
+             エンジェルの心は
+          エンジェルに任せるべき
 
-     you stand at a nexus
-     but for now,
-     your path remains here$C4
+      お前は連鎖に立っています
+      しかし、今のところ、
+      お前の道はここに残る$C4
 
-                   $C1i will allow
-       the silence of the Pfhor
+                   $C1我は許す
+        プフォールの沈黙
 #LOGOFF 179
 #END
 #FINISHED
 #LOGON 179
 #PICT 254
-$C2Node unknown: network down/corrupted?
-origin:$C6 null$C2
-destin: $C6nu~ {5
+$C2ノード不明: ネットワークがダウンしているか破損している？
+発:$C6 なし$C2
+宛: $C6な~ {5
 $C0
-$C3csecurefeed.8$C1
+$C3c安全フィード.8$C1
 
-     the coiling path of chaos
-     sleeps in a star
+     混沌の渦巻く道
+      星に眠る
 
-                  it has come to pass
-     that the cold, hard path of void
-               is the greatest threat
-                  this universe knows$C4
+                   それは実現しました
+      虚空の冷たくて硬い道
+                最大の脅威です
+                   この宇宙は知っている$C4
 #PICT 254
-$C2Node unknown: network down/corrupted
-origin:$C6 null$C2
-destin: $C6nu~ {5
+$C2ノード不明: ネットワークがダウンしているか破損している？
+発:$C6 なし$C2
+宛: $C6な~ {5
 $C0
-$C3csecurefeed.8$C1
+$C3c安全フィード.8$C1
 
-     when the time is right
-     justice will be done
-     though the heavens fall
+     時が来れば
+      正義が行われる
+      天が落ちても
 
-       for now, however, and as ever
-                 a sword must return
-    for the final days of its master$C4
+        ただし、今のところ、これまでどおり
+                  剣は返さなければならない
+     その主人の最後の日々のために$C4
 #LOGOFF 179
 #INTERLEVEL TELEPORT 15
 #ENDTERMINAL 0

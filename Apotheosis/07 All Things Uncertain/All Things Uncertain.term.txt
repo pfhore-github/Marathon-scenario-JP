@@ -6,18 +6,18 @@ $C2~achina..hold//
 #PICT 178
 $C2uni$       _"
 
-{ cmd: transfer log file init }
+{ コマンド: 転送ログ・ファイル初期化 }
 
-$C3csecurestream.8 
+$C3c安全ストリーム.8 
 $C4
-81129638414606681695789005144064 bytes copied 
+81129638414606681695789005144064 バイトコピー
 
-$C2{ cmd: transfer log file purge }
+$C2{ コマンド: 転送ログファイル抹消 }
 
 $C6   ...
-purged$C2
+抹消完了$C2
 
-{ cmd: ... }
+{ コマンド: ... }
 #LOGOFF 179
 $C2:lding ce?
 #ENDTERMINAL 0
@@ -29,20 +29,20 @@ $C2:lding ce?
 $C59157463210975164813012467985102468715392
 7D06F7B3FDAB60F3C4FDBB$C1D8$C5DDE85EAEBF95E2FE
 E7D83DB89FD5874A56A1F58F49E8E03CA870FA59
-::::remote.feed.timeout..please.hold::::
-$C1After seven days$C5wha%..622.you se$C1_33$C5 now/
-$C1and seven nights,$C5i87like a dim :GF4F3age
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+$C1７日後$C5おまえ%..622.が見るもの$C1_33$C5 今/
+$C1そして７つの夜,$C5i87薄暗いように :GF4F3年
 5605CD28227694806F597E94B12251FF7676076E
-::::remote.feed.timeout..please.hold::::
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 67F5A19C99C5FDEDECD3E87E165F295B20EE7F96
-in a^47EG74_mirror $C1a well-placed whisper$C5
-_on we$C1 sha%$C5ce to34ace $C1and the maw yawns.
+ a^47EG74_鏡の中で $C1適切なささやき$C5
+_on we$C1 sha%$C5ce to34ace $C1そしてあくびする。
 $C5C82A719F0B1DBB06F76BD852FDFE1C81EFF3EC0B
-::::remote.feed.timeout..please.hold::::
-Now that I walk amo$C1ng Ang"4$C53442_, I have
-$C1For now, you are free.$C5_r the ways of man
+::::リモート.フィード.タイムアウト..お待ち.ください::::
+今、私はその中を歩い$C1ています。エンジ"4$C53442_,
+$C1いまは、おまえは自由だC5_r 人の道
 9157463210975164813012467985102468715392
-::::remote.feed.timeout..please.hold::::
+::::リモート.フィード.タイムアウト..お待ち.ください::::
 D3FB3F7F153345F8FD3BD9A7D0FD6C7FCBD8FC7A
 99FA7940907E96B0C50D6CE9F778FD42BAAFD75F
 C096E8F5B3FDAD634B04FE95B85FAED7AF661599
@@ -54,24 +54,24 @@ C096E8F5B3FDAD634B04FE95B85FAED7AF661599
 #LOGON 179
 #PICT 180
 $C56CDD762763E6F9786B570CF52C8FBDD33A97B1C5
-Fier:va/=l:ngels ro$C1se,D$C57E3F8F95E31C07D5F
- & as they ros{..}56197807D7127870A358BF
-$C1I will reunite sword and scabbard:$C5E5AE79
-$C1there is for you an exit.$C5D437E979EC93C79
-:eep thun_19/ roll'dA932CE6B3DBD6B7ED286
-A9C7C48CA2BE892D40 aroun$C1d t$C5heir shor://4
-indignant burnin_45AC16B74B33:47:th the4
-fire$C1sBC$C56F1278F158Aof Orc2BD6F1153293A86F
-CF336F7BD6B96ECA$C1You must help me awaken.$C5
-F5AE132B0B6EB88$C1My thoughts lie in ruins.$C5
+Fier:va/=l:ジェルは上$C1がる,D$C57E3F8F95E31C07D5F
+ & 奴らが上が{..}56197807D7127870A358BF
+$C1剣と鞘を再会する予定である:$C5E5AE79
+$C1おまえには出口がある。$C5D437E979EC93C79
+:深く thun_19/ roll'dA932CE6B3DBD6B7ED286
+A9C7C48CA2BE892D40 奴らの$C1周 t$C5り://4
+怒りに燃え_45AC16B74B33:47:th the4
+炎$C1sBC$C56F1278F158Aof Orc2BD6F1153293A86F
+CF336F7BD6B96ECA$C1我が目覚めるのを助けねばならぬ$C5
+F5AE132B0B6EB88$C1我の思考は廃墟に横たわる$C5
 004E73D0E19991191A648F5BBAADA545F238A52D
-7EBEAnd Bostons $C1An$C5gelF0C$C1F7$C54BC1812C3FE67C
-22F7D790B95FC28A047!_2"ied aloud3F665622
+7EBEそしてボストンの $C1天$C5使F0C$C1F7$C54BC1812C3FE67C
+22F7D790B95FC28A047!_2"大声で3F665622
 F01B71DF004664F5C19CC167C08DF453CACC025F
-$C1soul and stone$C5B07AAC56C7BA76ABAB95FD9FE7
-$C1will no longer be my shackles$C5CBF164C3DB7
-5F5C8FB:s they flew0C8EA49F629697A95F473
-ACF3710ECDC9::hro' the da$C1rk n$C5ight.$C1 $C5C65FC
+$C1魂と石$C5B07AAC56C7BA76ABAB95FD9FE7
+$C1はもはや我の枷にあらず$C5CBF164C3DB7
+5F5C8FB:s 奴らは逃げた0C8EA49F629697A95F473
+ACF3710ECDC9::hro' 闇$C1の$C5夜.$C1 $C5C65FC
 3EEE1BD191F46360A599FA465D7FC0EACCFD129D
 #LOGOFF 179
 #ENDTERMINAL 2
@@ -85,23 +85,23 @@ ACF3710ECDC9::hro' the da$C1rk n$C5ight.$C1 $C5C65FC
 
 
 
-Praise be to the fatherland; we are saved!
+祖国に賛美を。 私たちは救われました！
 
-Noah has returned to us. He is not entirely what he was before the crash, but he has returned to us.
+ノアが帰ってきました。 彼は墜落前の状態ではありませんが、私たちに戻ってきました。
 
-No matter: he seems to be in working order. We have work to do.
+関係ありません：彼は正常に機能しているようです。 やらなければならない仕事があります。
 
-He has located an imperfection in the shielding surrounding a deep dig site on Fenris.
+彼は、フェンリスの深部発掘現場周辺のシールドに欠陥があることを突き止めました。
 #PICT 177
 
 
 
 
-We will require a temporary shelter from Pfhor attack before mobilising our remaining resources back to Surrex. If we can lock down a dig site, we will be safe from Pfhor bombardment or teleport attack.
+残りのリソースを動員してサレックスに戻す前に、プフォールの攻撃から一時的に避難する必要があります。 発掘現場を封鎖できれば、プフォールの砲撃やテレポート攻撃から守られます。
 
-While Noah handles access to the planet-side network, I'll see what I can do about scanning the orbital network for a route out of this system.
+ノアが惑星側ネットワークへのアクセスを処理している間、私はこの星系からのルートを求めて軌道ネットワークをスキャンすることについて何ができるか見ていきます.
 
-I'd like you to explore the dig site and eliminate any resistance you may encounter.
+発掘現場を探索して、遭遇する可能性のある抵抗を排除してほしいです。
 #LOGOFF 130
 #INTERLEVEL TELEPORT 8
 #END
@@ -113,17 +113,17 @@ I'd like you to explore the dig site and eliminate any resistance you may encoun
 
 
 
-Praise be to the fatherland, we are saved!
+祖国に賛美あれ、私たちは救われました！
 
-Noah has returned to us. He is not entirely what he was before the crash, but right now, we have work to do.
+ノアが帰ってきました。 彼は墜落前の状態ではありませんが、今はやるべきことがあります。
 
-He has located a detachment of UESC forces bunkered down in the foothills above a deep dig-site on Fenris.
+彼は、フェンリスの深い発掘現場の上の丘陵地帯にバンカーを置いた UESC 部隊の分遣隊を見つけました。
 #PICT 177
 
 
-We will require a temporary shelter from Pfhor attack before we can mobilise our remaining resources back to Surrex. Once we're embedded, I'll see what I can do about scanning the orbital network for a route out of this system.
+残りの資源をサレックスに動員する前に、プフォアの攻撃から一時的に避難する必要があります。 埋め込まれたら、軌道ネットワークをスキャンしてこの星系から出るルートを探すために何ができるか見てみましょう。
 
-I'd like you to infiltrate the dig site, and eliminate any resistance you may encounter.
+発掘現場に潜入して抵抗を排除してほしい。
 
 #LOGOFF 130
 #INTERLEVEL TELEPORT 8

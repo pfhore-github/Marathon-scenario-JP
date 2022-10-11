@@ -3,25 +3,25 @@
 #UNFINISHED
 #LOGON 173
 #PICT 211
-$C2Deep Survey 73A
-origin: $C6Technician 1st Class S'mr'orr$C2
-destin: $C6unit Command$C2
-ref: $C6Deep Survey 73A$C2
-stamp: requisition 
+$C2深層調査 73A
+発: $C6技術者１級S'mr'orr$C2
+宛: $C6部隊司令$C2
+参照ref: $C6深層調査 73A$C2
+認証印: 要求 
 
 
-Humbly I note instability in network nodes located near Gate Complex 03B, coupled with increased instability in network nodes located between Deep Survey 73A and Gate Complex 03B, and request immediate requisition of Defensive-Class Virals $C660443 60147 60149$C2 to attempt to establish a countermeasure blockade.
+謹んで私は、ゲート複合体 03B の近くに位置するネットワーク ノードの不安定性と、ディープ サーベイ 73A とゲート複合体 03B の間に位置するネットワーク ノードの不安定性の増大に注目し、そして防御クラスのウイルス $C660443 60147 60149$C2 の即時徴用を要求して、対抗手段の封鎖を確立します。
 #PICT 211
-$C2Deep Survey 73A
-origin: $C6Technician 1st Class S'mr'orr$C2
-destin: $C6unit Command$C2
-ref: $C6Deep Survey 73A$C2
-stamp: requisition 
+$C2深層調査 73A
+発: $C6技術者１級S'mr'orr$C2
+宛: $C6部隊司令$C2
+参照ref: $C6深層調査 73A$C2
+認証印: 要求 
 
 
-Humbly I implore Unit Command to consider that reduced network capacity and data instability may prove hazardous to native transport matrix Acquisition Project 1AE and current survey activities at Deep Survey Site 9FE as outlined in schematic.E432D
+ネットワーク容量の減少とデータの不安定性がネイティブのトランスポート マトリックス取得プロジェクト 1AE と概要.E432Dで図示された深層調査場所9FE での現在の調査活動にとって危険であることが判明する可能性があることを検討するよう部隊司令に懇願します。
 
-{ error: schematic.E432D not found }
+{ エラー: 概要.E432Dが見つかりません }
 #LOGOFF 173
 #ENDTERMINAL 0
 ;
@@ -29,23 +29,23 @@ Humbly I implore Unit Command to consider that reduced network capacity and data
 #UNFINISHED
 #LOGON 179
 #PICT 253
-$C2internal unit files (ref: broadcast)
-#origin: $C6unit Command$C2
-desti$C1n: uni$C2t $C1bro$C2a$C1dca @;
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊司令$C2
+$C1宛: 部$C2隊 $C1放$C2送$C1 @;
 $C2
-$C3csecurefeed.8$C5
+$C3c安全フィード.8$C5
                     $C1)1$C5A2EDB$C143D$C548737D$C17$C5F60$C2
-$C1there is betrayal$C52337050071011C751C94821
-$C1no greater$C5A8F8FA5C13Ethos$C1e50$C53034554D6A9F
-$C1than a lie$C5D210A10E3DEAA5011715083ACFE9C6
-$C1unbound$C5135enthro$C1ne$C5d at ElsiumA760E084D37
-$C1unceasing$C51D35AF$C1D09$C50751297CA1DBDC918A6A3E
+$C1裏切りがある$C52337050071011C751C94821
+$C1嘘$C5A8F8FA5C13Eより$C150$C53034554D6A9F
+$C1も大きな$C5D210A10E3DEAA5011715083ACFE9C6
+$C1エルシウムで$C5135即位する$C1束縛$C5のないA760E084D37
+$C1絶え間なく$C51D35AF$C1D09$C50751297CA1DBDC918A6A3E
 DAE51A757C464CA602C522FF243CB2F0CA393EFF
-D2$C17w$C5ill drink9FCF4145971B9D$C1there is pain$C5
-EB10A7FFF6C73FF806E3FEFD53C028$C1no greater$C5
-9B$C16BD$C583E6deeply35B19042B766ED$C1than a gift$C5
-65EDDBFC3C5368368B2C7760EE8800E21DF$C1taken$C5
-AD280Dof CocytusDC32A2FF3178$C1by the giver$C5
+D2$C17$C5溺れ9FCF4145971B9D$C1与えたものによって$C5
+EB10A7FFF6C73FF806E3FEFD53C028$C1コキトスから$C5
+9B$C16BD$C583E6deeply35B19042B766ED$C1奪われた$C5
+65EDDBFC3C5368368B2C7760EE8800E21DF$C1贈り物よりも$C5
+AD280大きなDDC32A2FF3178$C1痛みはない$C5
 000E00EB37EAB4CECBEB$C1E'
 #LOGOFF 179
 #ENDTERMINAL 1
@@ -54,31 +54,31 @@ AD280Dof CocytusDC32A2FF3178$C1by the giver$C5
 #UNFINISHED
 #LOGON 172
 #PICT 194
-$C2Gate Complex 03
-origin: $C6Technician 1st Class S'mr'orr$C2
-destin: $C6personal log file$C2
-ref: $C6native transport matrix$C2
-stamp: monitored
+$C2ゲート複合物 03
+発: $C6技術者第１級 S'mr'orr$C2
+宛: $C6個人ログファイル$C2
+参照: $C6ネイティブ転送マトリックス$C2
+認証印: 監視中
 
-{ cmd: personal log file init }
+{ コマンド: 個人ログファイル初期化 }
 
-I can't shake the feeling that the interference we are witnessing in the abandoned native information network is somehow...organic.
+放棄されたネイティブ情報ネットワークで私たちが目撃している干渉は、どういうわけか...有機的であるという感覚を揺るがすことはできません.
 
-There is little chance that it is a coincidence that, each time we disturb a nest of fully-dormant natives, the network becomes almost overwhelmed briefly by seemingly random data packets.
+完全に休眠状態にあるネイティブの巣を妨害するたびに、ランダムに見えるデータ パケットによってネットワークが一時的にほぼ圧倒されるのが偶然である可能性はほとんどありません。
 #PICT 194
-$C2Gate Complex 03
-origin: $C6Technician 1st Class S'mr'orr$C2
-destin: $C6personal log file$C2
-ref: $C6native transport matrix$C2
-stamp: monitored
+$C2ゲート複合物 03
+発: $C6技術者第１級 S'mr'orr$C2
+宛: $C6個人ログファイル$C2
+参照: $C6ネイティブ転送マトリックス$C2
+認証印: 監視中
 
-{ cmd: personal log file init }
+{ コマンド: 個人ログファイル初期化 }
 
-If the profile of the local caves were more friendly, we would be able to monitor local data transmission sources, but alas this is not so: it is effort enough to coax the Virals into activity.
+地元の洞窟のプロファイルがより友好的であれば、地元のデータ送信ソースを監視できますが、残念ながらそうではありません。バイラルを活動に誘導するのに十分な努力です.
 
-Recently, too, the natives have become notably less docile: more focussed and violent, more considered in their assaults on our facilities.
+最近もまた、先住民は著しく従順ではなくなりました。より集中的で暴力的になり、私たちの施設への攻撃はより考慮されています。
 
-I shall have to investigate further.
+さらに調査する必要があります。
 #LOGOFF 172
 #ENDTERMINAL 2
 ;
@@ -86,46 +86,46 @@ I shall have to investigate further.
 #UNFINISHED
 #LOGON 179
 #PICT 178
-$C2automated network diagnostic (ref: broadcast)
-#origin:$C6 network Maintenance$C2
-destin: $C6diagnosti {5
+$C2自動ネットワーク診断 (参照: 放送)
+#発:$C6 ネットワークメンテナンス$C2
+宛: $C6診断 {5
 $C0
-$C3csecurefeed.8$C5
+$C3c安全フィード.8$C5
                $C1:\BE$C5BECBC0CCF06793DBD2
-$C1each candle$C5EDD48sword in8ha~F2'bloo57dy5
-$C1brings flickers$C518=fi^lds of history37050
-$C1of truth$C56AA8F8FA5C13E5E228503034554D6A9F
-9we ren74.4our bla~es thr217dogma~ility6
-48~9carve aCFCAfuture5715D215$C1each candle$C5
-7F:rding to{.ur wil8$C1sings in the silence$C5
-DAE51A757C464CA602C522FF243C$C1and the dark$C5
-D245971Bset&wor2ds ablaze9D17A3EE2F8F1C2
-$C1and with each candle$C5FEFD53C0287F38D1A91F
-$C1aflame or ashade$C55B190wit98hBB0our6767743
-$C1the chorus grows$C58B76seeth2C7ing fireFB93
+$C1それぞれの蝋燭$C5EDD48血まみれの8ha~F2'剣575
+$C1ちらつきをもたらす$C518=真実の歴史の37050
+$C1場^を$C56AA8F8FA5C13E5E228503034554D6A9F
+9我々は ren74.4我々の bla~es thr217ドグマ~ility6
+48~9刻む aCFCA未来5715D215$C1それぞれの蝋燭$C5
+7F:rding to{.ur wil8$C1沈黙の歌C5
+DAE51A757C464CA602C522FF243C$C1そして暗闇$C5
+D245971Bset&wor2ds a燃える9D17A3EE2F8F1C2
+$C1そしてそれぞれの蝋燭で$C5FEFD53C0287F38D1A91F
+$C1炎または陰$C55B190wit98hBB0我々の6767743
+$C1コーラスが育つ$C58B76沸き2C7立つ炎FB93
     0D8DBCF9B65DDC32A2FF317875C$C181!*
 #LOGOFF 179
 #END
 #FINISHED
 #LOGON 179
 #PICT 178
-$C2automated network diagnotic (ref: broadcast)
-#origin:$C6 network Maintenance$C2
-destin: $C6diagnosti {5
+$C2自動ネットワーク診断 (参照: 放送)
+#発:$C6 ネットワークメンテナンス$C2
+宛: $C6診断 {5
 $C0
-$C3csecurefeed.8$C5
+$C3c安全フィード.8$C5
                $C1:\BE$C5BECBC0CCF06793DBD2
-$C1each candle$C5EDD48sword in8ha~F2'bloo57dy5
-$C1brings flickers$C518=fi^lds of history37050
-$C1of truth$C56AA8F8FA5C13E5E228503034554D6A9F
-9we ren74.4our bla~es thr217dogma~ility6
-48~9carve aCFCAfuture5715D215$C1each candle$C5
-7F:rding to{.ur wil8$C1sings in the silence$C5
-DAE51A757C464CA602C522FF243C$C1and the dark$C5
-D245971Bset&wor2ds ablaze9D17A3EE2F8F1C2
-$C1and with each candle$C5FEFD53C0287F38D1A91F
-$C1aflame or ashade$C55B190wit98hBB0our6767743
-$C1the chorus grows$C58B76seeth2C7ing fireFB93
+$C1それぞれの蝋燭$C5EDD48血まみれの8ha~F2'剣575
+$C1ちらつきをもたらす$C518=真実の歴史の37050
+$C1場^を$C56AA8F8FA5C13E5E228503034554D6A9F
+9我々は ren74.4我々の bla~es thr217ドグマ~ility6
+48~9刻む aCFCA未来5715D215$C1それぞれの蝋燭$C5
+7F:rding to{.ur wil8$C1沈黙の歌C5
+DAE51A757C464CA602C522FF243C$C1そして暗闇$C5
+D245971Bset&wor2ds a燃える9D17A3EE2F8F1C2
+$C1そしてそれぞれの蝋燭で$C5FEFD53C0287F38D1A91F
+$C1炎または陰$C55B190wit98hBB0我々の6767743
+$C1コーラスが育つ$C58B76沸き2C7立つ炎FB93
     0D8DBCF9B65DDC32A2FF317875C$C181!*
 #LOGOFF 179
 #ENDTERMINAL 3

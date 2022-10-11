@@ -8,22 +8,22 @@
 
 
 
-That was $Iastounding$i. 
+それは$I驚くべきこと$iでした。
 
-The gate you just entered transported you to this location $Iinstantly$i.
+あなたが入ったばかりのゲートは、あなたを $I即座に$iこの場所に移動させました。
 
-No molecular disassembly, no expulsion of waste heat or usage of energy, $Inothing$i. It quite simply defies explanation! 
+分子の分解も、廃熱の排出も、エネルギーの使用もありません。 それはまったく説明に逆らいます！
 
-The tactical implications are $Iterrifying$i.
+戦術的な意味は、$I恐ろしい$i です。
 #PICT 192
 
 
 
-I had assumed that the purpose of the dig sites was to strip mine the planet for resources. Instead, it seems the Pfhor built these installations to locate and unearth the transport gates.
+採掘現場の目的は、惑星から資源を採掘することだと思っていました。 代わりにプフォールは輸送ゲートを見つけて発掘するためにこれらの施設を建設したようです。
 
-We have to stop the Pfhor. A logical first step would be to claim this facility.
+プフォールを止めなければなりません。 論理的な最初のステップは、この機能を要求することです。
 
-Do what you do best.
+あなたが最善を尽くすことをしてください。
 
 #LOGOFF 128
 #ENDTERMINAL 0
@@ -32,27 +32,27 @@ Do what you do best.
 #UNFINISHED
 #LOGON 172
 #PICT 156
-$C2internal unit files (ref: broadcast)
-#origin: $C6unit Command$C2
-destin:$C6 unit broadcast$C2
-ref: $C6Control Schematic Gate Complex 03B$C2
-stamp: records
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊司令$C2
+宛:$C6 部隊放送$C2
+参照: $C6制御概要ゲート コンプレックス 03B$C2
+認証印: 記録
 
-{ cmd: schematic appended }
+{ コマンド: 概要追加 }
 #PICT 178
-$C2internal unit files (ref: broadcast)
-origin: $C6unit Command$C2
-destin: unit $C1b$C2r $C1$_er"$C0
+$C2内部部隊ファイル (参照: 放送)
+発: $C6部隊司令$C2
+宛: 部隊 $C1ブ$C2ル $C1$_er"$C0
 
-$C3csecureinterrupt.10
-csecurestreamdata.3$C1
+$C3c安全割り込み.10
+c安全ストリームデータ.3$C0
     $C5                   $C1@'$C56AEA1CC05D4968B$C1
-the blossoming$C53499875AA82C5BBDE3E0F0D1E2
-$C1of each candle$C523CEC07071CF91417BD8B60737
-$C1brings flickers$C5B376DF816BA3E622FCFCBF867
-$C1of truth$C581B1A3A7A0FA3DAD4BF36516D4BEC4DA
+それぞれの蝋燭の$C53499875AA82C5BBDE3E0F0D1E2
+$C1開花は$C523CEC07071CF91417BD8B60737
+$C1真実のちらつきを$C5B376DF816BA3E622FCFCBF867
+$C1引き起こす$C581B1A3A7A0FA3DAD4BF36516D4BEC4DA
 A8D6A79F00A6B7$C1%.
-$C3csecurestreamdata.7$C1
+$C3c安全ストリームデータ.7$C1
 #LOGOFF 172
 #ENDTERMINAL 1
 ;
@@ -60,32 +60,32 @@ $C3csecurestreamdata.7$C1
 #UNFINISHED
 #LOGON 171
 #PICT 195
-$C2internal unit files (ref: broadcast)
-#origin: $C6unit Command$C2
-destin: un$C1it b$C2r$C1 $_er"$C0
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊司令$C2
+宛: 部$C1隊 ブ$C2ル$C1 $_er"$C0
 
-$C3csecureinterrupt.10
-csecurestreamdata.3$C0
+$C3c安全割り込み.10
+c安全ストリームデータ.3$C0
 
-The gate you passed through shares an electromagnetic profile with local rock formations. 
+通過したゲートは、局所的な岩層と電磁プロファイルを共有しています。
 
-The geological profile suggests the planet was once covered almost entirely in ocean. A cave system of this complexity would almost certainly have been flooded in its natural state. This would imply that the system is artificial and predates the Pfhor presence here by millions of years.
+地質学的プロファイルは、惑星がかつてほぼ完全に海で覆われていたことを示唆しています。 この複雑な洞窟システムは、自然状態ではほぼ間違いなく浸水していたでしょう。 これは、このシステムが人工的なものであり、ここでのプフォールの存在より何百万年も前から存在していたことを意味します。
 
 #PICT 195
-$C2internal unit files (ref: broadcast)
-#origin: $C6unit Command$C2
-destin: un$C1it b$C2r$C1 $_er"$C0
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊司令$C2
+宛: 部$C1隊 ブ$C2ル$C1 $_er"$C0
 
-$C3csecureinterrupt.10
-csecurestreamdata.3
+$C3c安全割り込み.10
+c安全ストリームデータ.3$C0
 
 $C0
 
-I've detected a hardware lock on the top floor, closing off the rest of this site.
+最上階にハードウェア ロックがあり、この場所の残りの部分が閉鎖されていることを検出しました。
 
-That should be your next target.
+それが次のターゲットになるはずです。
 
-Move out.
+移動してください。
 #LOGOFF 171
 #ENDTERMINAL 2
 ;
@@ -94,24 +94,24 @@ Move out.
 #LOGON 171
 $C2*ve awo.
 #PICT 180
-$C6internal unit files (ref: broadcast)
-#orig$C1in$C6: u$C1n &&]$C0
+$C6内部部隊ファイル (参照: 放送)
+#$C1発$C6: u$C1n &&]$C0
 
-$C3csecureinterrupt.10$C0
+$C3c安全割り込み.10$C0
 $C1
 $C5F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
 F5F6F599E8A8CE74BF50B6CFF2BCE3F2332072DC
-$C1something has awoken in me:$C538335535C772C
+$C1何かが我の中で目覚めた:$C538335535C772C
 8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
 7C5B483D065BF2E01E1DF71E61F53CE46C03D782
-7D0BD3B7FB1B6CCB186BCE0D3$C1countless years$C5
-6676754D4E7675B14CA1$C1of absolute betrayal$C5
+7D0BD3B7FB1B6CCB186BCE0D3$C1数え切れぬ年の$C5
+6676754D4E7675B14CA1$C1絶対的な裏切り$C5
 B5E3E31B37B2A55D5DE3E36082E207D3F26A6E5F
 8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
-$C1an ageless lie$C59F1F1FC7A53D9FBF74097BC7DA
+$C1永遠の嘘$C59F1F1FC7A53D9FBF74097BC7DA
 D7852983F8477AFE2AAD4824485C7000FBAE552A
 B5E3E31B37B2A55D5DE3E36082E207D3F26A6E5F
-778516279F05446$C1blind pain$C502E5470EAAF5A9C
+778516279F05446$C1盲目の痛み$C502E5470EAAF5A9C
 F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
 D7852983F8477AFE2AAD4824485C7000FBAE552A
 #LOGOFF 171
@@ -122,24 +122,24 @@ D7852983F8477AFE2AAD4824485C7000FBAE552A
 #LOGON 128
 #PICT 237
 
-The only limiting factor in the range of a hardware-based teleportation matrix is the habit of the particle data to diverge over time.
+ハードウェア ベースのテレポーテーション マトリックスの範囲における唯一の制限要因は、粒子データが時間とともに発散する傾向です。
 
-All sensors monitoring your passage through the gate hardware, however, indicate that no data transfer occurred at all: the matter moved from one location to another, instantly. 
+しかし、ゲート ハードウェアの通過を監視しているすべてのセンサーは、データ転送がまったく行われていないことを示しています。物質は、ある場所から別の場所に即座に移動しました。
 
-The terrifying implication here is that transport between gates has no maximum range. 
+ここで恐ろしいのは、ゲート間の輸送には最大範囲がないということです。
 
-We have to hope the Pfhor do not understand this.
+プフォールがこれを理解していないことを願っています。
 
 #PICT 238
-According to Pfhor data logs in the local net, the gate network you used to enter this site has a hardwired transport sequence, which they are attempting to override.
+ローカル ネットのプフォールデータ ログによると、あなたがこのサイトに入るために使用したゲート ネットワークには、配線されたトランスポート シーケンスがあり、それを上書きしようとしています。
 
-Indeed, harmonic resonance at discovered gate facilities would imply that all the gates connect on a fundamental level and that free transport across the whole network may be possible.
+実際、発見されたゲート施設での高調波共鳴は、すべてのゲートが基本的なレベルで接続されており、ネットワーク全体での自由な輸送が可能である可能性があることを意味します。
 #PICT 238
-This connection could prove critical: potentially, we can use this information to cripple the gate network in one fell swoop.
+この接続は重要であることが判明する可能性があります。潜在的に、この情報を使用して、ゲートネットワークを一挙に無効にすることができます。
 
-The full logs are on the Pfhor orbital network. I'll see what I can do to establish a connection: in the meantime, continue the assault on this facility.
+完全なログは プフォール軌道ネットワークにあります。 接続を確立するために何ができるか見てみましょう。それまでの間、この施設への攻撃を続けてください。
 
-Activating the nearby security switch will grant access to the top floor of the facility.
+近くのセキュリティ スイッチをオンにすると、施設の最上階へのアクセスが許可されます。
 #LOGOFF 128
 #ENDTERMINAL 4
 ;
@@ -147,24 +147,24 @@ Activating the nearby security switch will grant access to the top floor of the 
 #UNFINISHED
 #LOGON 179
 #PICT 178
-$C2internal unit files (ref: broadcast)
-#origin: $C6unit Command$C2
-dest$C1in$C2: un$C1it$C2 b$C1roadca @;$C0
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊司令$C2
+$C1宛$C2: 部$C1隊$C2 放$C1送 @;$C0
 
 $C3csecureinterrupt.10$C0
 $C5
 8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7$C1
 $C5FA92BD9CBD3C775FCD6EB0E566B38335535C772C
-$C1even gods$C565BFdo not think that i came782
-$C1leave footsteps$C56186to bring peace061EB56
+$C1神でさえ$C565BF我が来たとは思うまい782
+$C1足跡を残す$C56186平和をもたらすために061EB56
 6676754D4E7675B14CA170FD7AA1A0592727B52D
 8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
-D55C6D6AFC7$C1they will be held accountable$C5
-B6249F1F1FC7A53D9FBF74097BC7DA$C1at the end$C5
+D55C6D6AFC7$C1奴らは責任を問われる$C5
+B6249F1F1FC7A53D9FBF74097BC7DA$C1終わりにて$C5
 6676754D4E7675B14CA170FD7AA1A0592727B52D
-B5E3E31B3i did not come 6A6E5FEEA6B9CC5D
-$C1of the hammer$C55EF70to bring peace702E70EA
-$C1of the gods$C577AFE2AAD482448but a sword52A
+B5E3E31B3我は来なかった6A6E5FEEA6B9CC5D
+$C1ハンマーの$C55EF70平和をもたらすために702E70EA
+$C1神の$C577AFE2AAD482448剣を除いて52A
 F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
 8C9D3E8D1DC61E3BA6DD626CDF3E1D55C6D6AFC7
 #LOGOFF 179
@@ -176,17 +176,17 @@ F5F6F6CFF2BCE3F2332072DC599E8A8CE74BF50B
 #PICT 133
 
 
-Noah believes he knows the location of the gate network control nexus.
+ノアは、ゲート ネットワーク コントロール ネクサスの場所を知っていると信じています。
 
-I cannot trust the source of his information. Since his rebuild inside the planetary net, he seems to possess an almost symbiotic awareness of the network's entities. The boundaries between his routines and the wider Fenris net are becoming harder to define.
+彼の情報源は信用できなません。 惑星ネット内での再構築以来、彼はネットワークの実体についてほぼ共生意識を持っているようです。 彼のルーチンとより広いフェンリス ネットとの境界線を定義するのはますます難しくなっています。
 
 #PICT 133
 
-If he is right, we may be in a position to use the network itself to our advantage.
+彼が正しければ、私たちはネットワーク自体を有利に利用できる立場にあるかもしれません。
 
-For the time being, continue your mission. You draw close to the hardware-protected memory banks. If the Pfhor are prepared to protect them so absolutely, perhaps they contain the access algorithms to the orbital network.
+とりあえず任務続行してくだし。 ハードウェアで保護されたメモリ バンクに近づいてください。プフォールが完全に保護する準備ができている場合、軌道ネットワークへのアクセス アルゴリズムが含まれている可能性があります。
 
-This could be the chance we are looking for.
+これは私たちが探しているチャンスかもしれません。
 #LOGOFF 128
 #ENDTERMINAL 6
 ;
@@ -194,20 +194,20 @@ This could be the chance we are looking for.
 #UNFINISHED
 #LOGON 128
 #PICT 133
-Perfect.
+完璧です。
 
-I have the orbital network access algorithms. Until the Pfhor notice my presence, I should have unimpeded access to their network. I'm going to attempt to access the logs on the orbital network. Hopefully I'll figure out whats going on, and find us . way h-me. ..
+私は軌道ネットワーク アクセス アルゴリズムを持っています。 プフォールが私の存在に気付くまで、私は彼らのネットワークに妨げられずにアクセスできるはずです。 軌道ネットワークのログにアクセスしてみます。 うまくいけば、私は何が起こっているのかを理解し、私たちを見つけます. way h-me. ..
 
 #PICT 153
-Perfect.
+完璧です。
 
-I have the orbital network access algorithms. Until the Pfhor notice my presence, I should have unimpeded access to their network. I'm going to attempt to access the logs on the orbital network. Hopefully I'll figure out whats going on, and find us . way h-me. ..
+私は軌道ネットワーク アクセス アルゴリズムを持っています。 プフォールが私の存在に気付くまで、私は彼らのネットワークに妨げられずにアクセスできるはずです。 軌道ネットワークのログにアクセスしてみます。 うまくいけば、私は何が起こっているのかを理解し、私たちを見つけます. way h-me. ..
 
 $C5
 
-soon.
+すぐに。
 
-but first we must see.
+しかし、まずは会わなければならない。
 
 #LOGOFF 188
 #INTERLEVEL TELEPORT 11

@@ -4,20 +4,20 @@
 #LOGON 129
 #PICT 210
 
-The ESR Astra Personal Matter Cannon is a miniaturised implementation of ESR Industrial-Class Matter Driver Cannons.
+ESR Astra 個人物質砲は、ESR 工業クラス物質ドライバー砲の小型化された実装です。
 
-The essential rules of operation are the same as the original: point muzzle away from face, and try not to be standing within spitting distance of your intended target.$C4
+操作の基本的なルールはオリジナルと同じです。銃口を顔から離し、意図したターゲットの距離内に立たないようにしてください。$C4
 #PICT 210
 
-You are currently standing on the loading deck of a weapons platform in distant orbit around Surrex Prime. The weapons lab is on the upper level, accessible via the station's main freight elevator.
+あなたは現在、サレックスプライムの遠い軌道にある武器プラットフォームの積載デッキに立っています。 武器実験室は上層階にあり、ステーションのメイン貨物エレベーターからアクセスできます。
 
-If the Pfhor have such a sturdy grip on many of our defensive hardware production facilities, we need the extra firepower afforded by experimental weapons tech. 
+プフォールが防衛用ハードウェア生産施設の多くをこれほどまでに強力に掌握しているのであれば、実験的な武器技術によって提供される追加の火力が必要です。
 
-Act quickly, my friend. We have no idea how long we have until the Pfhor attack and need all the time we can spare.
+すぐに行動してください、友よ。 プフォール の攻撃まであとどのくらいかかるかわかりませんが、できる限りの時間が必要です。
 
-Like an impending storm, the final battle now hangs on the horizon. 
+差し迫った嵐のように、最後の戦いが今、地平線にかかっています。
 
-Godspeed.
+ゴッドスピード。
 #LOGOFF 129
 #ENDTERMINAL 0
 ;
@@ -26,23 +26,23 @@ Godspeed.
 #LOGON 129
 #PICT 205
 $I
-Fatherland preserve us.
+祖国は私たちを守ってくださいます。
 $i
-The electron shockwaves which just rocked the station were the combined matter displacement shockwaves of $Ithree entire Pfhor battlegroups$i entering the system.
+ステーションを揺るがした電子衝撃波は、星系に侵入した $I3 の プフォール戦闘グループ$i全体の物質変位衝撃波の組み合わせでした。
 
-Surrex colony, and the amassed human military presence here, can withstand $Ione.
+サレックスの植民地、そしてここに集められた人間の軍事的存在は、$Iひとつは$i耐えることができます
 $i
-And yet, this is not the worst of it.
+それでも、これは最悪ではありません。
 
-In our haste to warn Surrex Prime of the Pfhor presence on Fenris, not only did we show the Pfhor the way, $Iwe brought them here.
+急いでサレックス プライムにフェンリスにプフォールが存在することを警告し、プフォールに道を示しただけでなく、$I彼らをここに連れてきました。$i
 #PICT 205
-It seems the Pfhor had placed a modified  Gate node in a radiation-sealed container inside the central cargo bay on the ship we acquired from the refuelling station. It was a set-up.
+プフォールは、我々が給油所から入手した船の中央貨物室にある放射能封じされたコンテナに改造されたゲートノードを配置したようです。 セットアップでした。
 
-They have taken advantage of the fact that we had access to safe low-orbit flight patterns, and we have helped them install a remarkable military force millions of kilometres within the usual safe range.
+彼らは、私たちが安全な低軌道飛行パターンにアクセスできたという事実を利用して、通常の安全な範囲内に何百万キロも離れたところに驚くべき軍事力を設置するのを支援してきました.
 
-It is too late for regret. We must do whatever we can to stop the Pfhor, no matter the cost. Once the Pfhor take Surrex, locating Sol will become child's play.
+後悔しても遅い。 プフォール を止めるためにできることは何でもしなければなりません。犠牲を払っても構いません。 プフォール が サレックスを取得すると、太陽系の位置を特定するのは簡単なことになります。
 
-Unless we act swiftly, the human empire will fall at our hands.
+早急に行動しなければ、人間の帝国は私たちの手に落ちてしまいます。
 #LOGOFF 129
 #INTERLEVEL TELEPORT 19
 #ENDTERMINAL 1

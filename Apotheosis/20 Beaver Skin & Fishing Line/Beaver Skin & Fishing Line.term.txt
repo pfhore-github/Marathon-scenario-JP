@@ -5,40 +5,40 @@
 #PICT 221
 
 
-If the three invading Pfhor battlegroups spread further into the Surrex system, they will become an unstoppable military force.
+侵略してくる 3 つのプフォール戦隊がさらにサレックス星系に拡散すれば、彼らは無敵の軍事力となるでしょう。
 
-Unless we act now, we will witness the fall of the human race.
+私たちが今行動しなければ、人類の崩壊を目の当たりにするでしょう。
 
-I have necessarily quarantined myself on this station so that I may stand against the tide of war.
+戦争の流れに逆らうために、私は必然的にこのステーションに隔離されました。
 
-We are alone but not defeated: our fate is not sealed.
+私たちは孤独ですが、負けていません。私たちの運命は決まっていません。
 
-One course of action is available to us.
+1 つの行動方針が利用可能です。
 #PICT 222
 
-Axis Nader is a cutting-edge ESR Titan-class orbital with a 10-kilometre radius.
+アクシス ネーダーは、半径 10 キロメートルの最先端の ESR タイタン クラス軌道です。
 
-The bulk of the Pfhor fleet has surrounded her and is manoeuvring into geosynchronous orbit above Surrex Colony. Once they begin ferrying troops to the command and control centre in Colony Dome One, taking out the remaining planetary colonies will be child's play.
+プフォール艦隊の大部分がその船を取り囲み、サレックス コロニー上空の静止軌道に向けて操縦中です。 コロニー ドーム 1 の指揮統制センターに軍隊を輸送し始めたら、残りの惑星コロニーを破壊するのは簡単なことです。
 
-You must detonate the fusion reactor of this station. It is the only way we can generate a shockwave of sufficient size to destroy the Pfhor battlegroups.
+このステーションの核融合炉を爆発させなければなりません。 プフォールの戦闘群を破壊するのに十分な大きさの衝撃波を生成できる唯一の方法です。
 
-I accept the responsibility for everything that happens after that.
+その後の一切の責任は私にあります。
 #PICT 222
 
-All I ask of you is that you deactivate my processing core before you detonate the fusion reactor.
+あなたにお願いするのは、核融合炉を爆発させる前に、私のプロセッシング コアを無効にすることだけです。
 
-Now that I have isolated myself from the SurrexNet diagnostic and repair protocols, I will be consumed by the Pfhor virus in hours.
+サレックス の診断および修復プロトコルから自分自身を隔離した今、私は数時間でプフォールウイルスに侵食されるでしょう。
 
-I do not, however, wish to be conscious as the station hosting me undergoes thermonuclear collapse.
+しかし、私をホストしているステーションが熱核崩壊を起こしているので、私は意識したくありません。
 
-My death would become an eternity.$C4
+私の死は永遠になるだろう$C4
 #PICT 217
 
-First, you have to break the first-tier memory bank failsafe.
+まず、第 1 層のメモリ バンクのフェイルセーフを解除する必要があります。
 
-This will isolate the automated repair modules, allowing you manual access to my core.
+これにより、自動修復モジュールが分離され、私のコアに手動でアクセスできるようになります。
 
-Once you have done this, look for a nearby terminal for further instructions.$C4$B
+これが完了したら、近くの端末を探して詳細な手順を確認してください。$C4$B
 #LOGOFF 129
 #ENDTERMINAL 0
 ;
@@ -52,44 +52,44 @@ Once you have done this, look for a nearby terminal for further instructions.$C4
 
 
 
-First stage complete. Now you should have access to my core itself.
+第一段階完了。 これで、私のコア自体にアクセスできるはずです。
 
-Deactivate the core control lock, then hit the core reset switch.
+コア制御ロックを無効にしてから、コア リセット スイッチを押します。
 
-Then you will be alone.
+それからあなたは一人になります。
 #PICT 219
 
 
 
 
 
-Once you have done this, make your way to the main hangar. There you should find the power relay which controls the exit jump-pad.
+これが完了したら、メイン格納庫に向かいます。 そこには、出口ジャンプパッドを制御するパワーリレーがあります。
 
-I have reconfigured the jump pad to teleport you to the station's core.
+ステーションのコアにテレポートできるように、ジャンプ パッドを再構成しました。
 #PICT 219
 
 
 
 
 
-Once you have done this, make your way to the main hangar. There you should find the power relay which controls the exit jump-pad.
+これが完了したら、メイン格納庫に向かいます。 そこには、出口ジャンプパッドを制御するパワーリレーがあります。
 
-I have reconfigured the jump pad to teleport you to the station's core.
+ステーションのコアにテレポートできるように、ジャンプ パッドを再構成しました。
 
-Fate be with you, friend.
+運命よ、友よ。
 #PICT 219
 
 
 
 
 
-Once you have done this, make your way to the main hangar. There you should find the power relay which controls the exit jump-pad.
+これが完了したら、メイン格納庫に向かいます。 そこには、出口ジャンプパッドを制御するパワーリレーがあります。
 
-I have reconfigured the jump pad to teleport you to the station's core.
+ステーションのコアにテレポートできるように、ジャンプ パッドを再構成しました。
 
-Fate be with you, friend.
+運命よ、友よ。
 
-Goodbye.
+さようなら。
 #LOGOFF 130
 #ENDTERMINAL 1
 ;
@@ -103,15 +103,15 @@ $C1
 
 
 
-              How fitting
+              どのように合うか
 
-            that the chains
+             その鎖
 
-          that held all Angels
+           すべてのエンジェルを抱えていた
 
-         now provide our escape
+          今私たちの脱出を提供します
 
-            to an overworld
+             オーバーワールドへ
 #LOGOFF 198
 #INTERLEVEL TELEPORT 21
 #END
@@ -124,15 +124,15 @@ $C1
 
 
 
-              How fitting
+              どのように合うか
 
-            that the chains
+             その鎖
 
-          that held all Angels
+           すべてのエンジェルを抱えていた
 
-         now provide our escape
+          今私たちの脱出を提供します
 
-            to an overworld
+             オーバーワールドへ
 #LOGOFF 198
 #INTERLEVEL TELEPORT 21
 #ENDTERMINAL 2

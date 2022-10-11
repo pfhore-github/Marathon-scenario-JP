@@ -4,52 +4,52 @@
 #LOGON 129
 #PICT 229
 $I
-We're back.
+私たちは帰ってきました。
 $i
-We have a lot of work to do -- the battle has lost no ferocity since we were last in the Surrex system.
+私たちにはやるべきことがたくさんあります。私たちがサレックス星系に最後にいたときから、戦いは獰猛さを失っていません。
 
-As soon as we hit Surrex space, I teleported you to a Pfhor-occupied weapons production facility.
+サレックスの領域に到達するとすぐに、プフォアが占拠している武器生産施設にあなたをテレポートさせました。
 
-Pfhor Virals are blocking long-range communications, presumably to allow them to infect or reprogram the human defensive hardware being produced here without interruption.
+プフォールバイラルは長距離通信をブロックしています。おそらく、ここで生産されている人間の防御ハードウェアに感染したり、中断することなく再プログラムしたりできるようにするためです。
 
-We need access to the communications infrastructure.
+通信インフラへのアクセスが必要です。
 #PICT 147
-This facility is the primary software installation site for Kusama 209 Tactical Military Robots. 
+この施設は、Kusama 209 タクティカル ミリタリー ロボットの主要なソフトウェア インストール サイトです。
 
-Although originally designed for urban pacification in all UESC-controlled cities and colonies, deployment of Kusama hardware can prove decisive in almost any land battle.
+もともとは UESC が管理するすべての都市と植民地で都市を鎮圧するために設計されていましたが、クサマ のハードウェアの配備は、ほとんどすべての陸戦で決定的であることが証明されます。
 
-The Pfhor sorely remember their defeat at Lh'owon, and do not wish to leave themselves open to exploitation through their S'pht slaves during their sacking of Surrex.
+プフォールはロウォンでの敗北を痛感しており、サレックスを略奪している間、スフトの奴隷による搾取にさらされることを望んでいません。
 
-They now utilise wholly-electronic units known as Virals which, though persistent, are slow and inefficient.
+彼らは現在、バイラルとして知られる完全電子ユニットを利用していますが、これは持続的ではありますが、遅くて非効率的です.
 #PICT 147
 
 
-Without the electronics-hacking efficiency of the S'pht to bolster their assault, the Pfhor have so far proven ineffective at land-based combat.
+スフトの攻撃を強化するための電子機器ハッキングの効率がなければ、プフォールはこれまでのところ陸上での戦闘では効果がないことが証明されています。
 
-I believe they intend to reprogram the Kusama 209 hardware to turn this tide.
+この潮流を変えるために、クサマ 209 ハードウェアを再プログラムするつもりだと思います。
 
-The plan is this: I want you to punch a hole in the Viral's communications blockade.
+計画は次のとおりです。バイラルの通信封鎖に穴を開けてほしいのです。
 
-When this is done, I will transfer all 64 billion exobytes of my core onto Axis Nader, and we can warn SurrexNet of the danger.
+これが完了したら、コアの 640 億エキソバイトすべてを Axis Nader に転送し、サレックスネット に危険を警告できます。
 #LOGOFF 129
 #END
 #FINISHED
 #LOGON 129
 #PICT 209
 
-Good work.
+よくできました。
 
-Unfortunately, I cannot pull you out remotely. The Pfhor Virals have made a mess of the local net in this facility.
+残念ながら、あなたをリモートで引き抜くことはできません。プフォールバイラルは、この施設のローカル ネットをめちゃくちゃにしました。
 
-If you can find and activate a hardware-based jump pad, I ought to be able to get enough of a fix on the local network to regain control of the long-range transmission equipment.
+ハードウェア ベースのジャンプ パッドを見つけて有効化できれば、長距離伝送装置の制御を取り戻すのに十分な修正をローカル ネットワークに適用できるはずです。
 
-By the time you reclaim this facility, SurrexNet will have access to all my knowledge of the Pfhor installation on Fenris. I'll be able to access command and control resources for human orbital defence.
+あなたがこの施設を取り戻すまでに、サレックスネット はフェンリス のプフォール施設に関する私のすべての知識にアクセスできるようになります。 人間の軌道防衛のためのコマンド アンド コントロール リソースにアクセスできるようになります。
 #PICT 209
 
-I presume the Pfhor will send an armed resistance from Fenris as soon as possible.
+私は、プフォールができるだけ早くフェンリスから武力抵抗を送るだろうと推測している.
 
-Hopefully, Noah managed to cripple the Fenris planet-side network for long enough to stall them.
+願わくば、ノアがフェンリスの惑星側ネットワークを停止させるのに十分な時間、機能を停止させることができました。
 
-It's time to invest in some serious hardware.
+本格的なハードウェアに投資する時が来ました。
 #LOGOFF 129
 #ENDTERMINAL 0

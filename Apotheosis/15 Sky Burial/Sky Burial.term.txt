@@ -3,13 +3,13 @@
 #UNFINISHED
 #LOGON 128
 #PICT 202
-Welcome to deep orbit, Fenris system. You are currently standing on the remains of the UESC Venator.
+フェンリス星系深軌道へようこそ。 あなたは現在、UESC ヴェネター の残骸の上に立っています。
 
-Pfhor Virals are stationed on board the Venator, probing the remaining databanks for information. 
+プフォールバイラルは ヴェネターに搭載されており、残りのデータバンクで情報を調べています。
 
-Thankfully, they haven't noticed that the Venator's flight computer contains the only remaining record in the Fenris system of safe low-orbit flightpaths near Surrex Prime. We need that information to avoid folding into Surrex in the centre of the Pfhor assault.
+ありがたいことに、彼らはヴェネターのフライト コンピューターに、サレックス プライム付近の安全な低軌道飛行経路のフェンリス システムに唯一残っている記録が含まれていることに気付いていません。 プフォー攻撃の中心でサレックスに巻き込まれないようにするために、その情報が必要です。
 #PICT 239
-Before his destruction, Isaac, The Venator's operations AI, isolated the flight computer. You'll need to restore backup power to access the hardware. As soon as you find the data, I'll pull you out.
+彼が破壊される前に、ヴェネターのオペレーション AI であるアイザックは、フライト コンピューターを隔離しました。 ハードウェアにアクセスするには、バックアップ電源を復元する必要があります。 データが見つかり次第、引き抜きます。
 
 #LOGOFF 128
 #ENDTERMINAL 0
@@ -18,22 +18,21 @@ Before his destruction, Isaac, The Venator's operations AI, isolated the flight 
 #UNFINISHED
 #LOGON 128
 #PICT 240
-We must return to Surrex.
+サレックスに戻らなければなりません。
 
-I assumed that the Pfhor were merely using the native transport matrix to increase production efficiency: to help them amass an offensive force swiftly.
+私は、プフォールが生産効率を高めるためにネイティブの輸送マトリックスを使用しているだけだと考えていました。
  
-However, the presence of T'fear's resource pool, combined with the abnormally high levels of cutting-edge mining and electronics countermeasure technology, leads me to believe, within reasonable doubt, the Pfhor have a higher goal here.
+しかし、ティフィアのリソース プールの存在と、異常に高いレベルの最先端の採掘および電子機器対策技術を組み合わせることで、プフォール はここでより高い目標を持っていると、合理的な疑いの範囲内で信じることができます。
 
-The Pfhor intend to use the native transport matrix to instantaneously transfer entire Battle Groups into and out of the heat of battle.
-#PICT 240
+プフォールは、ネイティブのトランスポート マトリックスを使用して、戦闘グループ全体を即座に移動させ、戦闘の最中に移動させようとしています。#PICT 240
 
-If the Pfhor position a gate within combat range of Surrex, or Sol, they could instantly manoeuvre an unstoppable offensive force.
+プフォールが サレックス または 太陽系の戦闘範囲内にゲートを配置した場合、止められない攻撃力を即座に操作できます。
 
-The Pfhor presence at Fenris alone is threat enough to Surrex.
+フェンリスでのプフォールの存在だけでも、サレックスにとって十分な脅威です。
 
-If the Pfhor were to position gates on client worlds of combatant slaves, within reach of the hindmost creche, or near the deployment of a Trih Xeem...
+プフォールが捕虜の奴隷世界にゲートを配置するとしたら、王座の後ろの手の届く範囲か、タリ・ジームの配置の近くに...
 
-You must hurry.
+急がなければなりません。
 #LOGOFF 128
 #ENDTERMINAL 1
 ;
@@ -42,16 +41,16 @@ You must hurry.
 #LOGON 128
 #PICT 131
 
-I wasn't sure I'd see you again.
+あなたにまた会えるとは確信していませんでした。
 
-Noah's programme is increasingly erratic, although not directly hostile – his activity has wreaked havoc on the Pfhor planetside network, providing us with the single available opportunity to warn SurrexNet.
+ノアのプログラムは、直接敵対的ではありませんが、ますます不安定になっています。彼の活動は、プフォール 惑星側ネットワークに大混乱をもたらし、サレックス・ネットに警告する唯一の利用可能な機会を提供してくれました。
 
-I find it unusual, however, that Noah continues to function within such a fragmented data network.
+しかし、ノアがこのように断片化されたデータ ネットワーク内で機能し続けていることは珍しいと思います。
 #PICT 131
 
-Scan logs on the orbital network by the Pfhor Virals indicate that the latent planetside network has only received a relatively small node mapping, owing to its sheer size.
+プフォールバイラル による軌道ネットワークのスキャン ログは、潜在的な惑星側ネットワークがその巨大なサイズのために、比較的小さなノード マッピングしか受信していないことを示しています。
 
-The Pfhor believe that the native species are connected to this network somehow. Perhaps Noah can be found somewhere in the middle.
+プフォールは、在来種が何らかの形でこのネットワークに接続されていると信じています。 たぶん、ノアは真ん中のどこかにいるでしょう。
 #LOGOFF 128
 #ENDTERMINAL 2
 ;
@@ -59,23 +58,23 @@ The Pfhor believe that the native species are connected to this network somehow.
 #UNFINISHED
 #LOGON 128
 #PICT 241
-$C1UESC Venator
-CoordMap Nav.Log.0001B
+$C1UESC ヴェネター
+座標マップ Nav.Log.0001B
 > _ 
 > TASK.OUT Nav.Log.0001B
-begin remote transfer
+リモート転送開始
    ...
    ...
-successful
+成功
 > _
 #PICT 204
-This is the data I was looking for.
+探していたデータです。
 
-Well done.
+素晴らしい。
 
-I have monitored all Pfhor data logs since gaining access to the orbital network. The Pfhor have recently refuelled a medium-sized assault craft capable of the journey back to Surrex. 
+軌道ネットワークへのアクセスを取得して以来、すべての プフォールデータ ログを監視しました。 プフォールは最近、サレックスに戻ることができる中型のアサルト クラフトに燃料を補給しました。
 
-We're going home.
+私たちは家に帰ります。
 #LOGOFF 128
 #INTERLEVEL TELEPORT 16
 #ENDTERMINAL 3

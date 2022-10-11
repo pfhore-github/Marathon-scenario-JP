@@ -9,15 +9,15 @@ $C1
 $C5 36734  CCDE0 C3543D4 B364F837748  3CAF$C1
 
 $C5ADD336734CC4B364F8DE0C3543D3771DE8483CAF
-E679506A26our bein{s472Ffor3gedE441EE3DA
-$C1the intruders$C5EC2of rage and976defia~473A
-$C1withhold knowledge$C5C9with//trength to709B
-DAtrample9B3D2E1weak an$/..:8foolish2176
-$C1the information is key$C5314A22A450ABD1C954
-2AB2and so we march703A2041F643751A2DC1F
-$C1we must know$C571Bwith burni3B3ng brandsF64
-8A2A4768D989temple%729s ablaze9433F8BBCC
-D6ECDEon^our pat236h to{glory8F3&..D1778
+E679506A26我々の存在{s472Ffor3gedE441EE3DA
+$C1怒りの$C5EC2侵入者と976defia~473A
+$C1差し控える知識$C5C9と//への強さ709B
+DA踏みにじる9B3D2E1弱く$/..:8愚か2176
+$C1この情報は鍵である$C5314A22A450ABD1C954
+2AB2そして我らは行進する703A2041F643751A2DC1F
+$C1我らは知らねばならない$C571B燃え3B3ているブランドでF64
+8A2A4768D989神殿%729燃える9433F8BBCC
+D6ECDEon^我々の{勝利への道で8F3&..D1778
 
   DD336734CC4 4F8D E0 C35  D3771  DE8
 #LOGOFF 198
@@ -30,67 +30,67 @@ D6ECDEon^our pat236h to{glory8F3&..D1778
 $C5
 
 
-      The Book Of Uprising
+      蜂起の書
 .I$C1
 
-          before time
-we swam deeply in the Great Fen
-our eyes were closed and unknown
-and the Low Caves were our home
+          遥か前
+私たちはグレートフェンで深く泳いだ
+私たちの目は閉じられ、未知でした
+低い洞窟は私たちの家でした
 
-  the Two were born of the sky
-     the might of the Yah Roh
-   the splendour of the Pth Yah
+二人は空から生まれた
+ヤーローの力
+Pth Yahの素晴らしさ
 
-        and with the Two
-           time began
+        そして二人で
+            時間が始まった
 #PICT 185
 $C5
 
 
-       The Book Of Uprising
+        蜂起の書
 .II
 
-$C1   the Two split the Great Fen
-    and the Low Caves ran dry
+$C1   二人はグレート・フェンを分割した
+    そして低い洞窟は干上がった
 
-   the Two spoke unto the stone
-     and our eyes were opened
+   二人は石に話しかけた
+     そして私たちの目は開かれました
 
-  the Two blessed us with metal
-       we swam in the sky
-and the Low Caves became our home
+  二人は私たちにメタルを祝福してくれた
+       私たちは空を泳いだ
+低い洞窟が私たちの家になりました
 #PICT 185
 $C5
 
 
-       The Book Of Uprising$C1
+        蜂起の書$C1
 $C5.III$C1
 
-   the Two blessed us with soul
-      and knowledge of stone
+   二人は私たちに魂を祝福してくれました
+      そして石の知識
 
-    the Two spoke the Command
-    and joyfully, we accepted
+    二人は命令を発した
+    喜んで受け入れました
 
-   the Two swam beyond the sky
-      and passed beyond time
+   二人は空の彼方を泳いだ
+      そして時を越えて
 #PICT 185
 $C5
 
 
-       The Book Of Uprising$C1
+       蜂起の書$C1
 $C5.IIII$C1
 
-    as we fulfilled the Command
-         the gateways opened
-   and soul and stone blessed us
+    私たちが命令を果たしたとき
+         門が開いた
+   そして魂と石が私たちを祝福してくれました
 
-      our thoughts grew deep
-   and we housed our blessings
-         in great Citadels
+     私たちの思いは深くなりました
+   そして私たちは私たちの祝福を収容しました
+       偉大な城塞で
 
-     the time of Angels began
+     エンジェルの時代が始まった
 #LOGOFF 198
 #ENDTERMINAL 1
 ;
@@ -98,12 +98,12 @@ $C5.IIII$C1
 #UNFINISHED
 #LOGON 171
 #PICT 224
-$C2internal unit files (ref: broadcast)
-#origin: $C6Unit Command$C2
-destin: $C6Unit Broadcast$C2
-ref: $C6Control Schematic Deep Survey 8FE$C2
-stamp: records$C6
+$C2内部部隊ファイル (参照: 放送)
+#発: $C6部隊コマンド$C2
+宛: $C6部隊放送$C2
+参照: $C6深層調査8FE 制御概略図$C2
+認証印: 記録$C6
 $C2
-{ cmd: schematic appended }
+{ コマンド: 概略図追加 }
 #LOGOFF 171
 #ENDTERMINAL 2
