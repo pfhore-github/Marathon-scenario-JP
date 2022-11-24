@@ -85,19 +85,19 @@ P3R514
 $C0データログ: UESC ジンジャーブレッド マン 
 脱出ポッド E-086F
 81129638414606681695789005144064 バイトコピー完了 $C4
-$C1  an&5./       .e[871] $C4
+$C1  an&5./        .e[871] $C4
 $C0TASK.OUT: ESRAI T4-HYB457DAR.bak 成功 
 
 一つおきの仮想= 61 $C1
-     fi6e t5he an4 [ ] fe$C4
+     fi6e t5he an4 [ ] fe$C4
 $C0データログ: UESC ジンジャーブレッド マン
-脱出ポッド E-104A $C1       lO"$ $C4
+脱出ポッド E-104A $C1       lO"$ $C4
 $C081129638414606681695789005144064 バイトコピー
 TASK.OUT: ESRAI T4-HYB565NOA.bak 成功 
 一つおきの O7 er Vi7 al = 0.161616 
 一#つおき^の 3^Rr Vir $C1
-          ASSERT FIRED IN LOG.c 
-               >LINE 49566
+        ASSERT FIRED IN LOG.c
+               >LINE 49566
 #LOGOFF 139
 ERR-
 #ENDTERMINAL 3
