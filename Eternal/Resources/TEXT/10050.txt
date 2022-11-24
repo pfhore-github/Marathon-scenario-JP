@@ -1,0 +1,24 @@
+<marathon>
+
+	<player>
+		<!-- starting gear: sweet FA -->
+		<item index="0" type="0"/>
+		<item index="1" type="0"/>
+		<item index="2" type="0"/>
+		<item index="3" type="0"/>
+		<item index="4" type="0"/>
+		<item index="5" type="0"/>
+		<item index="6" type="0"/>
+		<item index="7" type="0"/>
+		<item index="8" type="0"/>
+
+	</player>
+
+	<items>
+		<item index="1" maximum="2"/> <!-- Cronus -->
+		<item index="3" maximum="1"/> <!-- Ouranos -->
+		<item index="22" maximum="2"/> <!-- Grav Blades -->
+		<item index="34" maximum="1"/> <!-- Wave Motion Cannon -->
+	</items>
+
+</marathon>

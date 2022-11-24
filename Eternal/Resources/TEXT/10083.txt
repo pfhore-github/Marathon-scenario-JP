@@ -1,0 +1,10 @@
+<marathon>
+	<!-- puts Water & Waterfall into the Waterfall slot -->
+	<sounds>
+		<ambient index="6" sound="251"/>
+	</sounds>
+	<!-- sets Water to use the Waterfall sound slot -->
+	<liquid index="0">
+		<sound type="5" which="6"/>
+	</liquid>
+</marathon>

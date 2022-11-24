@@ -1,0 +1,101 @@
+Triggers = {}
+
+function move(target, destination)
+	target:position(target.x, target.y, target.z, Level._goal[destination])
+end
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Global:goals()
+	Level.stash["names"] = "physics7"
+
+	-- set display title for HUD
+	Level.stash["maintitle"] = "The Midpoint of Somewhere"
+	Level.stash["subtitle"] = string.format("Mediet%cs alicuius loc%c", 135, 146)
+end
+
+function Triggers.idle()
+	Global:spacemediafog(Players.local_player)
+	Global:idlemain()
+	for p in Players() do
+		if Level._goal[2] == p.polygon or Level._goal[1] == p.polygon then
+			local x
+			if Level._goal[2] == p.polygon then
+				x = 2
+			else
+				x = 1
+			end
+			if p.pitch < -20 then
+				if x == 2 and p.z < 6 then
+					move(p, 1)
+				elseif x == 1 and p.z >= 6 then
+					move(p, 2)
+				end
+			elseif p.pitch < 0 then
+				if x == 2 and p.z < 3 then
+					move(p, 1)
+				elseif x == 1 and p.z >= 3 then
+					move(p, 2)
+				end
+			elseif p.pitch < 10 then
+				if x == 2 and p.z < 0.5 then
+					move(p, 1)
+				elseif x == 1 and p.z >= 0.5 then
+					move(p, 2)
+				end
+			elseif p.pitch < 20 then
+				if x == 2 and p.z < -2 then
+					move(p, 1)
+				elseif x == 1 and p.z >= -2 then
+					move(p, 2)
+				end
+			else
+				if x == 2 and p.z < -5 then
+					move(p, 1)
+				elseif x == 1 and p.z >= -5 then
+					move(p, 2)
+				end
+			end
+		end
+		--[[if Level._goal[2] == p.polygon then
+			if (p.z < 6 and p.pitch < -20) or (p.z < 3 and p.pitch < 0) or (p.z < 0.5 and p.pitch < 10) or (p.z < -2 and p.pitch < 20) or (p.z < -5) then
+				move(p, 1)
+			end
+		elseif Level._goal[1] == p.polygon then
+			if (p.z >= 6 and p.pitch < -20) or (p.z >= 3 and p.pitch < 0) or (p.z >= 0.5 and p.pitch < 10) or (p.z >= -2 and p.pitch < 20) or (p.z >= -5) then
+				move(p, 2)
+			end
+		end--]]
+	end
+	for m in Monsters() do
+		if m.valid then
+			if Level._goal[2] == m.polygon and m.z <= -5 and not (MonsterTypes[m.type.mnemonic].flies) and not (MonsterTypes[m.type.mnemonic].floats) then
+				move(m, 1)
+			end
+		end
+	end
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end

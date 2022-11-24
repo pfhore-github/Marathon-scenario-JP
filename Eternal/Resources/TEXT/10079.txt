@@ -1,6 +1,6 @@
-<marathon>
-	<sounds
-		teleport_in="1"
-		teleport_out="237"
-	/>
+<marathon>
+	<!-- puts Rubicon's Alien Harmonics sound into the S'pht Door slot -->
+	<sounds>
+		<ambient index="9" sound="224"/>
+	</sounds>
 </marathon>

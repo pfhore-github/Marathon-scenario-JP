@@ -1,0 +1,6 @@
+<marathon>
+	<interface>
+		<!-- Dark green to Haxor's grey-green -->
+		<color index="21" red="0.3" green="0.7" blue="0.3" />
+	</interface>
+</marathon>

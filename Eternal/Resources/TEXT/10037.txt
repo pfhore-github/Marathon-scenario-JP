@@ -1,5 +1,5 @@
 <marathon>
   <stringset index="135">
-    <string index="09">[タイムスタンプ　不明]</string>
+    <string index="09">[タイムスタンプ 不明]</string>
   </stringset>
 </marathon>

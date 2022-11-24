@@ -1,0 +1,117 @@
+<marathon>
+	<!-- Standard physics -->
+	<motion_sensor>
+		<assign monster="0" type="0"/> <!-- Player -->
+		<assign monster="1" type="1"/> <!-- Flappyboi -->
+		<assign monster="2" type="1"/> <!-- Wasp -->
+		<assign monster="3" type="1"/> <!-- Looker -->
+		<assign monster="4" type="1"/> <!-- Minor Compiler -->
+		<assign monster="5" type="1"/> <!-- Major Compiler -->
+		<assign monster="6" type="1"/> <!-- Blue Compiler -->
+		<assign monster="7" type="0"/> <!-- S'pht Civilian -->
+		<assign monster="8" type="1"/> <!-- Minor Fighter -->
+		<assign monster="9" type="1"/> <!-- Major Fighter -->
+		<assign monster="10" type="1"/> <!-- Minor Projectile Fighter -->
+		<assign monster="11" type="1"/> <!-- Major Projectile Fighter -->
+		<assign monster="12" type="0"/> <!-- Green Bob -->
+		<assign monster="13" type="0"/> <!-- Blue Bob -->
+		<assign monster="14" type="0"/> <!-- Security Bob -->
+		<assign monster="15" type="0"/> <!-- Hathor -->
+		<assign monster="16" type="1"/> <!-- Minor Drone -->
+		<assign monster="17" type="1"/> <!-- Major Drone -->
+		<assign monster="18" type="1"/> <!-- Big Minor Drone -->
+		<assign monster="19" type="1"/> <!-- Big Major Drone -->
+		<assign monster="20" type="0"/> <!-- MADD -->
+		<assign monster="21" type="1"/> <!-- Minor Cyborg -->
+		<assign monster="22" type="1"/> <!-- Major Cyborg -->
+		<assign monster="23" type="1"/> <!-- Minor Flame Cyborg -->
+		<assign monster="24" type="1"/> <!-- Major Flame Cyborg -->
+		<assign monster="25" type="1"/> <!-- VacEnforcer -->
+		<assign monster="26" type="1"/> <!-- Flame Enforcer -->
+		<assign monster="27" type="1"/> <!-- Minor Hunter -->
+		<assign monster="28" type="1"/> <!-- Major Hunter -->
+		<assign monster="29" type="1"/> <!-- Minor Trooper -->
+		<assign monster="30" type="1"/> <!-- Major Trooper -->
+		<assign monster="31" type="1"/> <!-- Controller Cyborg -->
+		<assign monster="32" type="1"/> <!-- Mother of All Hunters -->
+		<assign monster="33" type="1"/> <!-- Hulk -->
+		<assign monster="34" type="1"/> <!-- Incredible Hulk -->
+		<assign monster="35" type="1"/> <!-- F'lickta -->
+		<assign monster="36" type="0"/> <!-- Minor Defender -->
+		<assign monster="37" type="0"/> <!-- Major Defender -->
+		<assign monster="38" type="1"/> <!-- Minor Juggernaut -->
+		<assign monster="39" type="1"/> <!-- Major Juggernaut -->
+		<assign monster="40" type="1"/> <!-- Skitter -->
+		<assign monster="41" type="1"/> <!-- Nightmare -->
+		<assign monster="42" type="1"/> <!-- Phantasm -->
+		<assign monster="43" type="0"/> <!-- Green VacBob -->
+		<assign monster="44" type="0"/> <!-- Blue VacBob -->
+		<assign monster="45" type="0"/> <!-- Security VacBob -->
+		<assign monster="46" type="0"/> <!-- Jjaro Orb -->
+	</motion_sensor>
+	
+	<overhead_map>
+		<assign_live monster="0" type="-1"/> <!-- Player -->
+		<assign_live monster="1" type="1"/> <!-- Flappyboi -->
+		<assign_live monster="2" type="1"/> <!-- Wasp -->
+		<assign_live monster="3" type="1"/> <!-- Looker -->
+		<assign_live monster="4" type="1"/> <!-- Minor Compiler -->
+		<assign_live monster="5" type="1"/> <!-- Major Compiler -->
+		<assign_live monster="6" type="1"/> <!-- Blue Compiler -->
+		<assign_live monster="7" type="0"/> <!-- S'pht Civilian -->
+		<assign_live monster="8" type="1"/> <!-- Minor Fighter -->
+		<assign_live monster="9" type="1"/> <!-- Major Fighter -->
+		<assign_live monster="10" type="1"/> <!-- Minor Projectile Fighter -->
+		<assign_live monster="11" type="1"/> <!-- Major Projectile Fighter -->
+		<assign_live monster="12" type="0"/> <!-- Green Bob -->
+		<assign_live monster="13" type="0"/> <!-- Blue Bob -->
+		<assign_live monster="14" type="0"/> <!-- Security Bob -->
+		<assign_live monster="15" type="0"/> <!-- Hathor -->
+		<assign_live monster="16" type="1"/> <!-- Minor Drone -->
+		<assign_live monster="17" type="1"/> <!-- Major Drone -->
+		<assign_live monster="18" type="1"/> <!-- Big Minor Drone -->
+		<assign_live monster="19" type="1"/> <!-- Big Major Drone -->
+		<assign_live monster="20" type="0"/> <!-- MADD -->
+		<assign_live monster="21" type="1"/> <!-- Minor Cyborg -->
+		<assign_live monster="22" type="1"/> <!-- Major Cyborg -->
+		<assign_live monster="23" type="1"/> <!-- Minor Flame Cyborg -->
+		<assign_live monster="24" type="1"/> <!-- Major Flame Cyborg -->
+		<assign_live monster="25" type="1"/> <!-- VacEnforcer -->
+		<assign_live monster="26" type="1"/> <!-- Flame Enforcer -->
+		<assign_live monster="27" type="1"/> <!-- Minor Hunter -->
+		<assign_live monster="28" type="1"/> <!-- Major Hunter -->
+		<assign_live monster="29" type="1"/> <!-- Minor Trooper -->
+		<assign_live monster="30" type="1"/> <!-- Major Trooper -->
+		<assign_live monster="31" type="1"/> <!-- Controller Cyborg -->
+		<assign_live monster="32" type="1"/> <!-- Mother of All Hunters -->
+		<assign_live monster="33" type="1"/> <!-- Hulk -->
+		<assign_live monster="34" type="1"/> <!-- Incredible Hulk -->
+		<assign_live monster="35" type="1"/> <!-- F'lickta -->
+		<assign_live monster="36" type="0"/> <!-- Minor Defender -->
+		<assign_live monster="37" type="0"/> <!-- Major Defender -->
+		<assign_live monster="38" type="1"/> <!-- Minor Juggernaut -->
+		<assign_live monster="39" type="1"/> <!-- Major Juggernaut -->
+		<assign_live monster="40" type="1"/> <!-- Skitter -->
+		<assign_live monster="41" type="1"/> <!-- Nightmare -->
+		<assign_live monster="42" type="1"/> <!-- Phantasm -->
+		<assign_live monster="43" type="0"/> <!-- Green VacBob -->
+		<assign_live monster="44" type="0"/> <!-- Blue VacBob -->
+		<assign_live monster="45" type="0"/> <!-- Security VacBob -->
+		<assign_live monster="46" type="0"/> <!-- Jjaro Orb -->
+
+		<assign_dead coll="2" type="-1"/> <!-- Juggernaut -->
+		<assign_dead coll="3" type="-1"/> <!-- Flappyboi, Wasp, Looker -->
+		<assign_dead coll="5" type="-1"/> <!-- Hunter -->
+		<assign_dead coll="6" type="-1"/> <!-- Player -->
+		<assign_dead coll="8" type="-1"/> <!-- Trooper -->
+		<assign_dead coll="9" type="-1"/> <!-- Fighter, Skitter -->
+		<assign_dead coll="10" type="-1"/> <!-- Defender, Nightmare -->
+		<assign_dead coll="11" type="-1"/> <!-- F'lickta, Drinniol -->
+		<assign_dead coll="12" type="-1"/> <!-- Bob, Jjaro Bob, VacBob, Jjaro Orb -->
+		<assign_dead coll="13" type="-1"/> <!-- Hathor -->
+		<assign_dead coll="14" type="-1"/> <!-- VacEnforcer, Flame Enforcer -->
+		<assign_dead coll="15" type="-1"/> <!-- Pfhor Drone, MADD -->
+		<assign_dead coll="16" type="-1"/> <!-- Compiler, S'pht Civilian, Phantasm -->
+		<assign_dead coll="31" type="-1"/> <!-- Cyborg, Cyborg Controller -->
+	</overhead_map>
+</marathon>

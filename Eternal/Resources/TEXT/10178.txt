@@ -1,0 +1,1 @@
+<marathon>	<interface>			<!-- Change blue to dark green -->		<color index="25" red="0" green=".5" blue="0" />	</interface></marathon>

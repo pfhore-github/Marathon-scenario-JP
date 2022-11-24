@@ -1,0 +1,12 @@
+<marathon>
+	<!-- adjust tint for minor ouch -->
+	<player>
+	        <damage index="18" fade="28"/>
+	</player>
+
+<!--	<faders>
+		<fader index="17">
+			<color red="1" green="0" blue="1" />
+		</fader>
+	</faders>-->
+</marathon>

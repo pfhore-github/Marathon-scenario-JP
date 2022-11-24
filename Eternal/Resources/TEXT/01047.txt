@@ -1,0 +1,138 @@
+Triggers = {}
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.start_refuel(class, p, side)
+	Global:start_refuel(class, p, side)
+end
+
+function Triggers.end_refuel(class, p, side)
+	Global:end_refuel(class, p, side)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Global:goals()
+	Level.stash["names"] = "physics1"
+
+	-- set display title for HUD
+	Level.stash["maintitle"] = "The Philosophy of Time Travel"
+	Level.stash["subtitle"] = "Philosophia itineris temporis"
+end
+
+function Triggers.idle()
+	for p in Players() do
+		Global:failuredream(p, true)
+		if p.polygon.media and not p.dead then
+			local oxydrain = 0
+			if p.polygon.media.type == "jjaro" and p.polygon.media ~= 5 then
+				oxydrain = 4
+			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[7]) then
+				oxydrain = 3
+			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[2]) then
+				oxydrain = 2
+			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[3]) then
+				oxydrain = 2
+			elseif p.polygon.media.type == "water" and Global:open(Level._goal[2]) then
+				oxydrain = 3
+			elseif p.polygon.media.type == "water" and Global:open(Level._goal[3]) then
+				oxydrain = 3
+			elseif p.polygon.media.type == "water" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) then
+				oxydrain = 2
+			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) then
+				oxydrain = 2
+			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) then
+				oxydrain = 2
+			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) then
+				oxydrain = 2
+			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
+				oxydrain = 1
+			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
+				oxydrain = 1
+			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
+				oxydrain = 1
+			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[1]) then
+				oxydrain = 1
+			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[1]) then
+				oxydrain = 1
+			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[1]) then
+				oxydrain = 1
+			end
+			Global:drainoxygen(p, oxydrain)
+		end
+	end
+	if Game.ticks % 7 == 0 then
+		for m in Monsters() do
+			if m.polygon.media and m.type.impact_effect ~= "civilian fusion blood splash" and m.action ~= "dying hard" and m.action ~= "dying soft" and m.action ~= "dying flaming" and m.action ~= "being hit" then
+				if m.type.class == "yeti" or m.type.class == "bob" or m.type.class == "fighter" or m.type.class == "enforcer" then
+					m._canbreathe = true
+					if m.polygon.media.type == "jjaro" and m.polygon.media ~= 5 then
+						m._canbreathe = false
+					elseif Global:open(Level._goal[2]) or Global:open(Level._goal[3]) then
+						if m.polygon.media.type == "water" then
+							m._canbreathe = false
+						elseif Global:open(Level._goal[4]) then
+							if m.polygon.media.type == "lava" then
+								m._canbreathe = false
+							elseif m.polygon.media.type == "goo" and Global:open(Level._goal[5]) then
+									m._canbreathe = false
+							end
+						elseif Global:open(Level._goal[1]) and m.polygon.media.type == "goo" then
+							m._canbreathe = false
+						end
+					elseif Global:open(Level._goal[7]) then
+						if m.polygon.media.type == "sewage" then
+							m._canbreathe = false
+						elseif Global:open(Level._goal[6]) then
+							if m.polygon.media.type == "water" then
+								m._canbreathe = false
+							elseif Global:open(Level._goal[4]) then
+								if m.polygon.media.type == "lava" then
+									m._canbreathe = false
+								elseif m.polygon.media.type == "goo" and Global:open(Level._goal[5]) then
+									m._canbreathe = false
+								end
+							elseif Global:open(Level._goal[1]) and m.polygon.media.type == "goo" then
+								m._canbreathe = false
+							end
+						end
+					end
+					if m._canbreathe == false then
+						m._canbreathe = true
+						if not m.active then
+							m:move_by_path(Level._goal[8])
+						elseif m.type.class == "yeti" and Game.ticks % 2 == 0 then
+							m:damage(4, "suffocation")
+						elseif Game.ticks % 4 == 0 then
+							m:damage(1, "suffocation")
+						elseif m.action ~= "attacking close" and m.action ~= "attacking far" and m.life > 0 then
+							m:move_by_path(Level._goal[8])
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end

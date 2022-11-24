@@ -1,0 +1,1 @@
+<marathon>	<interface>			<!-- Change blue to dark azure -->		<color index="25" red="0" green=".25" blue=".5" />	</interface></marathon>

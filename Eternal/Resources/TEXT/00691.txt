@@ -1,0 +1,39 @@
+Triggers = {}
+
+function monstermnemonic(m)
+	return MonsterNames:standard(m)
+end
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Level.stash["names"] = "standard"
+end
+
+function Triggers.idle()
+	Global:mediafog(Players.local_player)
+	Global:idlemain()
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end

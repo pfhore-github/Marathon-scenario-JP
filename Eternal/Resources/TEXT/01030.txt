@@ -1,0 +1,91 @@
+-- precipitation constants
+CollectionsUsed = { 22 }
+precipitation_collection = 22
+precipitation_sequence = 26
+precipitation_gravity = .03
+precipitation_wind = .01
+
+function build_pool()
+	Level._pool = {}
+	for i=1,precipitation_count do
+		local x, y, z, p, t = uniform.xyz_in_triangle_list(Level._triangles)
+		local e = Ephemera.new(x, y, z, p, precipitation_collection, precipitation_sequence, 0)
+		e._triangle = t
+		e._originalpoly = p
+		table.insert(Level._pool, e)
+	end
+end
+
+Triggers = {}
+
+function precipitationpoly(p)
+	if p.ceiling.transfer_mode == "landscape" then
+		return true
+	else
+		return false
+	end
+end
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged_dream(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile) -- dream version
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.terminal_enter(t, p)
+	Global:terminal_enter(t, p)
+end
+
+function Triggers.terminal_exit(t, p)
+	Global:terminal_exit(t, p)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Global:initprecipitation(512)
+	Level.stash["names"] = "jjaro"
+	Level.stash["ignore"] = "28"
+
+	if not restoring or Level.stash["FAIL"] == "TRUE" then
+		-- suffocation/teleportation constants
+		Level._playersuff = -10
+		Level._monstersuff1 = -1
+		Level._monstersuff2 = -2
+		Level._teleportpoly = 2005
+
+		-- fog/lightning variables
+		Level._fogtimer = 420
+		Level._brightness = .125
+		Level._thundertimer = 0
+		Level._depth = 42
+		Level._darken = false
+	end
+
+	-- set display title for HUD
+	Level.stash["maintitle"] = "The Land in the Sky"
+	Level.stash["subtitle"] = string.format("Terra in firm%cment%c", 135, 151)
+end
+
+function Triggers.idle()
+	Global:idleprecipitation()
+	Global:brownlightning(10)
+	Global:successdream(Level._playersuff, Level._monstersuff1, Level._monstersuff2, Level._teleportpoly)
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end

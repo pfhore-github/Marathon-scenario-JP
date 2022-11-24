@@ -1,83 +1,1621 @@
-<marathon_levels><!-- Marathon Eternal X 1.2.1 Map --><!-- Prólogus: Fátum (Prologue: Destiny) -->	<level index="0"> <!-- Látus procul núllíus locí (The Far Side of Nowhere) -->		<!--<mml resource="10001"/>-->		<mml resource="10013"/>		<mml resource="10020"/>		<mml resource="10030"/>		<mml resource="10043"/>		<mml resource="10050"/>		<mml resource="10064"/>		<mml resource="10072"/>		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="1"/>		</load_screen>	</level><!-- Caput únum - Memoria (Chapter 1 - Memory) -->	<level index="1"> <!-- Deja Vu All Over Again -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10051"/>		<mml resource="10064"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/Landing.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="2"> <!-- Septococcal Pfhoryngitis -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10052"/>		<mml resource="10064"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/Chomber.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="3"> <!-- Dysmentria -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10052"/>		<mml resource="10065"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/Flippant.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="4"> <!-- Sakhmet Rising -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10053"/>		<mml resource="10064"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/Flowers.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="5"> <!-- Unwired -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10053"/>		<mml resource="10064"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/WhatAboutBob.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="6"> <!-- Roots and Radicals -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10053"/>		<mml resource="10064"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/Rushing.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="7"> <!-- Úniversum tangéns (The Tangent Universe) -->		<!--<mml resource="10000"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10030"/>		<mml resource="10042"/>		<mml resource="10053"/>		<mml resource="10066"/>		<mml resource="10072"/>		<mml resource="10075"/>		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="8"> <!-- Core Done Blew -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10024"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10053"/>		<mml resource="10064"/>		<mml resource="10076"/>		<music file="Eternal-Data/Music/Craig/NewPacificReprise.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="9"> <!-- Heart of Fusion -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10024"/>		<mml resource="10031"/>		<mml resource="10040"/>		<mml resource="10053"/>		<mml resource="10064"/>
-		<mml resource="10076"/>		<music file="Eternal-Data/Music/Tommy/Illusions.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level>	<level index="10"> <!-- Dormíre, fortuító somniáre (To Sleep, Perchance to Dream) -->		<!--<mml resource="10000"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10036"/>		<mml resource="10042"/>		<mml resource="10053"/>		<mml resource="10061"/>		<mml resource="10078"/>		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="0"/>		</load_screen>	</level><!-- Caput duo - Inimícus (Chapter 2 - Enemy) -->	<level index="11"> <!-- Hysterical Womb -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10053"/>		<mml resource="10065"/>
-		<mml resource="10072"/>		<music file="Eternal-Data/Music/Craig/Chomber.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="12"> <!-- A Friend in Need -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10025"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10054"/>		<mml resource="10065"/>		<mml resource="10072"/>		<mml resource="10073"/>		<music file="Eternal-Data/Music/Craig/Leela.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="13"> <!-- Unlucky Pfhor Some -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10025"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10072"/>		<mml resource="10073"/>		<music file="Eternal-Data/Music/Craig/Freedom.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="14"> <!-- Unpfhorseen -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10025"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10072"/>		<mml resource="10073"/>		<mml resource="10074"/>		<music file="Eternal-Data/Music/Craig/NewPacificReprise.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="15"> <!-- Killing the Giants as They Sleep -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10072"/>		<music file="Eternal-Data/Music/Tommy/IronGates.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="16"> <!-- Pissing on the Corporation -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10025"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10072"/>		<mml resource="10073"/>		<music file="Eternal-Data/Music/Tommy/Carbon.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="17"> <!-- Receptor vítális (The Living Receiver) -->		<!--<mml resource="10000"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10030"/>		<mml resource="10042"/>		<mml resource="10055"/>		<mml resource="10066"/>		<mml resource="10072"/>		<mml resource="10075"/>		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="18"> <!-- My Kingdom Pfhor a Horse -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10025"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10072"/>		<mml resource="10073"/>		<music file="Eternal-Data/Music/Craig/LeelaAcoustic.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="19"> <!-- Burning Down the Corporation -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10025"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10072"/>		<mml resource="10073"/>		<music file="Eternal-Data/Music/Craig/NewPacific.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level>	<level index="20"> <!-- Terra est inánis et vacua (The World Is Hollow) ...et tangébam caelum (...and I have touched the sky) -->		<!--<mml resource="10000"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10036"/>		<mml resource="10042"/>		<mml resource="10055"/>		<mml resource="10061"/>		<mml resource="10079"/>		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="0" blue="1"/>		</load_screen>	</level><!-- Caput tres - Prophétía (Chapter 3 - Prophecy) -->	<level index="21"> <!-- S'pht'ia -->		<!--<mml resource="10001"/>-->		<mml resource="10012"/>		<mml resource="10022"/>		<mml resource="10033"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10062"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Tommy/Carbon.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="22"> <!-- Let Sleeping Gods Die -->		<!--<mml resource="10001"/>-->		<mml resource="10012"/>		<mml resource="10022"/>		<mml resource="10033"/>		<mml resource="10041"/>		<mml resource="10055"/>		<mml resource="10062"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/AliensAgain.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="23"> <!-- She Is the Dark One -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10024"/>		<mml resource="10033"/>		<mml resource="10043"/>		<mml resource="10055"/>		<mml resource="10062"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/ChomberUnderCover.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="24"> <!-- S'pht Happens -->		<!--<mml resource="10001"/>-->		<mml resource="10012"/>		<mml resource="10022"/>		<mml resource="10034"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10062"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Tommy/IronGates.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="25"> <!-- Eat S'pht and Die -->		<!--<mml resource="10001"/>-->		<mml resource="10012"/>		<mml resource="10020"/>		<mml resource="10034"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10062"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/Guardians.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="26"> <!-- Second to Last of the Mohicans -->		<!--<mml resource="10001"/>-->		<mml resource="10012"/>		<mml resource="10020"/>		<mml resource="10034"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10071"/>		<mml resource="10073"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/Rapture.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="27"> <!-- Mortuí tortí (The Manipulated Dead) -->		<!--<mml resource="10000"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10030"/>		<mml resource="10042"/>		<mml resource="10055"/>		<mml resource="10066"/>		<mml resource="10072"/>		<mml resource="10075"/>		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="28"> <!-- Third Rock from Lh'owon -->		<!--<mml resource="10001"/>-->		<mml resource="10013"/>		<mml resource="10020"/>		<mml resource="10034"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10063"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Tommy/Illusions.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="29"> <!-- Flight of Icarus -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10034"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10062"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/FlowersInTheWoods.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level>	<level index="30"> <!-- Terra in firmámentó (The Land in the Sky) -->		<!--<mml resource="10000"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10036"/>		<mml resource="10042"/>		<mml resource="10055"/>		<mml resource="10061"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="0"/>		</load_screen>	</level><!-- Caput quattuor - Légátum (Chapter 4 - Legacy) -->	<level index="31"> <!-- Pfhor får lamm -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10065"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/Rapture.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="32"> <!-- The Incredible Hulk -->		<!--<mml resource="10001"/>-->		<mml resource="10013"/>		<mml resource="10023"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10055"/>		<mml resource="10063"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Tommy/Carbon.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="33"> <!-- Babylon X -->		<!--<mml resource="10001"/>-->		<mml resource="10013"/>		<mml resource="10023"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10063"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Tommy/Illusions.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="34"> <!-- Dread Not -->		<!--<mml resource="10001"/>-->		<mml resource="10013"/>		<mml resource="10020"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10063"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/Leela.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="35"> <!-- Bug-Eyed in Space -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10065"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/ChomberUnderCover.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="36"> <!-- Run, Coward! -->		<!--<mml resource="10001"/>-->		<mml resource="10013"/>		<mml resource="10020"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10063"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/FatMan.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="37"> <!-- Décipula praesidí (The Ensurance Trap) -->		<!--<mml resource="10001"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10030"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10066"/>		<mml resource="10072"/>		<mml resource="10075"/>		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="38"> <!-- Once More Unto the Breach... -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10065"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/FlowersInTheWoods.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="39"> <!-- Genie in a Bottle -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10035"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10065"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/AliensAgain.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level>	<level index="40"> <!-- Volitáns in lacúná (Floating in the Void) --> 		<!--<mml resource="10000"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10036"/>		<mml resource="10042"/>		<mml resource="10056"/>		<mml resource="10061"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0.5" green="0.5" blue="0.5"/>		</load_screen>	</level><!-- Caput quínque - Antíquitás (Chapter 5 - Antiquity) -->	<level index="41"> <!-- Échús Eden (Echoes of Eden) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10020"/>		<mml resource="10036"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/ChomberUnderCover.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="42"> <!-- Mortuí vívunt in catacumbis (The Dead Live in the Catacombs) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10020"/>		<mml resource="10036"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/Flowers.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="43"> <!-- Haec caverna nón fórmátió nátúrális est (This Cave Is Not a Natural Formation) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10036"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Tommy/IronGates.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="44"> <!-- Profundus in cavernís (Deep Into the Grotto) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10036"/>		<mml resource="10040"/>		<mml resource="10056"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/LeelaDance.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="45"> <!-- Rána explóde corpus spírámentí (Frog Blast the Vent Core) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10020"/>		<mml resource="10036"/>		<mml resource="10040"/>		<mml resource="10057"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Nick/FlowersInTheWoods.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="46"> <!-- Teneó affectum malum de hóc (I've Got a Bad Feeling About This) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10020"/>		<mml resource="10036"/>		<mml resource="10040"/>		<mml resource="10057"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10077"/>		<music file="Eternal-Data/Music/Craig/Landing.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="47"> <!-- Philosophia itineris temporis (The Philosophy of Time Travel) -->		<!--<mml resource="10000"/>-->		<mml resource="10014"/>		<mml resource="10020"/>		<mml resource="10030"/>		<mml resource="10042"/>		<mml resource="10057"/>		<mml resource="10066"/>		<mml resource="10072"/>		<mml resource="10075"/>
-		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="48"> <!-- Hic nuntius sé délébó (This Message Will Self-Destruct) -->		<!--<mml resource="10001"/>-->		<mml resource="10015"/>		<mml resource="10020"/>		<mml resource="10032"/>		<mml resource="10040"/>		<mml resource="10057"/>		<mml resource="10065"/>		<mml resource="10071"/>		<mml resource="10072"/>		<music file="Eternal-Data/Music/Craig/FatMan.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="49"> <!-- Coíbámus ólim in hortó (We Met Once in the Garden) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10032"/>		<mml resource="10041"/>		<mml resource="10057"/>		<mml resource="10061"/>		<mml resource="10071"/>		<mml resource="10072"/>		<music file="Eternal-Data/Music/Craig/WhatAboutBob.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level>	<level index="50"> <!-- Ubínam gigantés cecidérunt (Where Giants Have Fallen) -->		<!--<mml resource="10001"/>-->		<mml resource="10011"/>		<mml resource="10021"/>		<mml resource="10032"/>		<mml resource="10043"/>		<mml resource="10057"/>		<mml resource="10061"/>		<mml resource="10071"/>
-		<mml resource="10072"/>		<music file="Eternal-Data/Music/Craig/Splash.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="0" green="1" blue="1"/>		</load_screen>	</level><!-- Epilogus - Aeternitás (Epilogue - Eternity) -->	<level index="51"> <!-- Látus propinquum omnium locórum (The Near Side of Everywhere) --> 		<!--<mml resource="10000"/>-->		<mml resource="10013"/>		<mml resource="10020"/>		<mml resource="10037"/>		<mml resource="10042"/>		<mml resource="10057"/>		<mml resource="10063"/>		<mml resource="10072"/>		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false"progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">			<color index="0" red="0" green="0" blue="0"/>			<color index="1" red="1" green="1" blue="1"/>		</load_screen>	</level></marathon_levels>
+<marathon_levels>
 
-<!-- Key to scripts:
+<!-- Marathon Eternal X 1.3 Map -->
+
+<!-- Prólogus: Fátum (Prologue: Destiny) -->
+
+	<level index="0"> <!-- The Far Side of Nowhere (Látus procul núllíus locí) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1000"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10020"/>
+		<mml resource="10030"/>
+		<mml resource="10043"/>
+		<mml resource="10050"/>
+		<mml resource="10062"/>
+		<mml resource="10075"/>
+		<mml resource="10080"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+<!-- Caput únum - Memoria (Chapter 1 - Memory) -->
+
+	<level index="1"> <!-- Deja Vu All Over Again -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1001"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10051"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Craig/Landing.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="2"> <!-- Septococcal Pfhoryngitis -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="691"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10052"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Various/CorySolarMatrixChomberFlowers.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="3"> <!-- Dysmentria -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="690"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10052"/>
+		<mml resource="10065"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<music file="Eternal-Data/Music/Various/CraigCoryAaronFlippant.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="4"> <!-- Sakhmet Rising -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1004"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10053"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Various/CorySolarFlowers.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="5"> <!-- Remedial Chaos Theory -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="691"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10053"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Various/CoryAustinMatrixAaronWhatFlowersRushing.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="6"> <!-- Roots and Radicals -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1006"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10053"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Various/CorySolarDanRushingHunter.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="7"> <!-- The Tangent Universe (Úniversum tangéns) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1007"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10030"/>
+		<mml resource="10042"/>
+		<mml resource="10053"/>
+		<mml resource="10060"/>
+		<mml resource="10072"/>
+		<mml resource="10075"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Craig/SwirlsWoodwind.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="8"> <!-- Core Done Blew -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="690"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10024"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10053"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Cory/PfhorTrilogy.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="9"> <!-- Heart of Fusion -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="690"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10024"/>
+		<mml resource="10031"/>
+		<mml resource="10040"/>
+		<mml resource="10053"/>
+		<mml resource="10064"/>
+		<mml resource="10076"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Solar-Tron/NoFlowersPart2.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="10"> <!-- To Sleep, Perchance to Dream (Dormíre, fortuító somniáre) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1010"/>
+		<mml resource="10001"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10010"/>
+		<mml resource="10020"/>
+		<mml resource="10036"/>
+		<mml resource="10042"/>
+		<mml resource="10053"/>
+		<mml resource="10064"/>
+		<mml resource="10077"/>
+		<mml resource="10083"/>
+		<mml resource="10084"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+<!-- Caput duo - Inimícus (Chapter 2 - Enemy) -->
+
+	<level index="11"> <!-- Enantiodromia -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1011"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10004"/>
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10054"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10074"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10179"/> <!-- $C7 = dark red -->
+		<music file="Eternal-Data/Music/Various/BobCraigMatrixChomber.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="12"> <!-- A Friend in Need -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1012"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10004"/>
+		<mml resource="10015"/>
+		<mml resource="10025"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10054"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10073"/>
+		<mml resource="10091"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Cory/Leela.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="13"> <!-- Unlucky Pfhor Some -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1013"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10025"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10073"/>
+		<mml resource="10079"/>
+		<mml resource="10091"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Various/DanCraigFreedom.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="14"> <!-- Unity of Opposites -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="692"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10025"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10073"/>
+		<mml resource="10074"/>
+		<mml resource="10091"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Dan/PfhorTrilogy.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="15"> <!-- Killing the Giants as They Sleep -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1015"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10091"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<music file="Eternal-Data/Music/Various/DanCoryBobCraigLandingPhasmidia.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="16"> <!-- Pissing on the Corporation -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="692"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10004"/>
+		<mml resource="10015"/>
+		<mml resource="10025"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10073"/>
+		<mml resource="10091"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<music file="Eternal-Data/Music/Various/CoryAustinDanAliens.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="17"> <!-- The Living Receiver (Receptor vítális) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1017"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10030"/>
+		<mml resource="10042"/>
+		<mml resource="10055"/>
+		<mml resource="10060"/>
+		<mml resource="10072"/>
+		<mml resource="10075"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Craig/Swirls.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="18"> <!-- My Kingdom Pfhor a Horse -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1018"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10004"/>
+		<mml resource="10015"/>
+		<mml resource="10025"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10073"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Craig/LeelaAcoustic.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="19"> <!-- Burning Down the Corporation -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1019"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10004"/>
+		<mml resource="10015"/>
+		<mml resource="10025"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10072"/>
+		<mml resource="10073"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Various/MatrixCraigLandingNewPacificComplete.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="20"> <!-- The World Is Hollow (Terra est inánis et vacua) ...and I have touched the sky (...et tangébam caelum) -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1020"/>
+		<mml resource="10001"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10010"/>
+		<mml resource="10025"/>
+		<mml resource="10036"/>
+		<mml resource="10042"/>
+		<mml resource="10055"/>
+		<mml resource="10065"/>
+		<mml resource="10078"/>
+		<mml resource="10083"/>
+		<mml resource="10085"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="0" blue="1"/>
+		</load_screen>
+	</level>
+
+<!-- Caput tres - Prophétía (Chapter 3 - Prophecy) -->
+
+	<level index="21"> <!-- This S'pht Again?! -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1021"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10012"/>
+		<mml resource="10022"/>
+		<mml resource="10033"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10092"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Tommy/Carbon.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="22"> <!-- Let Sleeping Gods Die -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1022"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10012"/>
+		<mml resource="10022"/>
+		<mml resource="10033"/>
+		<mml resource="10041"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10092"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Various/BobCraigAliens.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="23"> <!-- She Is the Dark One -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1023"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10024"/>
+		<mml resource="10033"/>
+		<mml resource="10043"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10092"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Solar-Tron/BecomeLikeWater.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="24"> <!-- The Abyss Gazes Also -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1024"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10012"/>
+		<mml resource="10020"/>
+		<mml resource="10034"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10093"/>
+		<mml resource="10138"/> <!-- $C3 = dark green (vanilla lol) -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Tommy/IronGates.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="25"> <!-- ...how deep the rabbit hole goes -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1025"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10010"/>
+		<mml resource="10020"/>
+		<mml resource="10034"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10093"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Various/CraigMatrixSolarBobDanTekGuardians.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="26"> <!-- Second to Last of the Mohicans -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1026"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10012"/>
+		<mml resource="10020"/>
+		<mml resource="10034"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10073"/>
+		<mml resource="10093"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Various/AustinAaronRapture.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="27"> <!-- Mortuí tortí (The Manipulated Dead) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1027"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10030"/>
+		<mml resource="10042"/>
+		<mml resource="10055"/>
+		<mml resource="10060"/>
+		<mml resource="10072"/>
+		<mml resource="10075"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/BobDanFlowersSwirls.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="28"> <!-- The Midpoint of Somewhere (Medietás alicuius locí) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1028"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10020"/>
+		<mml resource="10034"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10075"/>
+		<mml resource="10094"/>
+		<mml resource="10138"/> <!-- $C3 = dark green (vanilla lol) -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Various/DanBobLeela.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="29"> <!-- Waiting for Black Metal Records to Come in the Mail -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1029"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10021"/>
+		<mml resource="10034"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10073"/>
+		<mml resource="10094"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10177"/> <!-- $C7 = dark yellow -->
+		<music file="Eternal-Data/Music/Tommy/Illusions.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+	<level index="30"> <!-- The Land in the Sky (Terra in firmámentó) -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1030"/>
+		<mml resource="10001"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10010"/>
+		<mml resource="10020"/>
+		<mml resource="10036"/>
+		<mml resource="10042"/>
+		<mml resource="10055"/>
+		<mml resource="10062"/>
+		<mml resource="10070"/>
+		<mml resource="10083"/>
+		<mml resource="10084"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="0"/>
+		</load_screen>
+	</level>
+
+<!-- Caput quattuor - Légátum (Chapter 4 - Legacy) -->
+
+	<level index="31"> <!-- Pfhor får lamm -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1031"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10020"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10082"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10179"/> <!-- $C7 = dark red -->
+		<music file="Eternal-Data/Music/Austin/NewPacificComplete.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="32"> <!-- The Incredible Hulk -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1032"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10023"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10055"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10132"/> <!-- $C3 = green-grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Solar-Tron/NewPacificHfarl.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="33"> <!-- Babylon X -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1033"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10023"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10132"/> <!-- $C3 = green-grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10178"/> <!-- $C7 = dark green -->
+		<music file="Eternal-Data/Music/Austin/WhatAboutBob.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="34"> <!-- Eádem, sed aliter (Likewise, but Differently) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1034"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10020"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10079"/>
+		<mml resource="10095"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Craig/Leela.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="35"> <!-- Bug-Eyed in Space -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="693"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10065"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10082"/>
+		<mml resource="10095"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10179"/> <!-- $C7 = dark red -->
+		<music file="Eternal-Data/Music/Various/AustinBobFlippant.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="36"> <!-- Run, Coward! -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1036"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10013"/>
+		<mml resource="10020"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10079"/>
+		<mml resource="10081"/>
+		<mml resource="10096"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/AustinBobCraigFatMan.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="37"> <!-- The Ensurance Trap (Décipula praesidí) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1037"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10030"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10060"/>
+		<mml resource="10072"/>
+		<mml resource="10075"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/CoryMatrixSwirls.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="38"> <!-- Once More Unto the Breach... -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="693"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10065"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10082"/>
+		<mml resource="10095"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10179"/> <!-- $C7 = dark red -->
+		<music file="Eternal-Data/Music/Various/AustinBobFreedom.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="39"> <!-- Genie in a Bottle -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1039"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10035"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10065"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10082"/>
+		<mml resource="10096"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10179"/> <!-- $C7 = dark red -->
+		<music file="Eternal-Data/Music/Craig/Rapture.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+	<level index="40"> <!-- Floating in the Void (Volitáns in lacúná) --> 
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1040"/>
+		<mml resource="10001"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10011"/>
+		<mml resource="10023"/>
+		<mml resource="10036"/>
+		<mml resource="10042"/>
+		<mml resource="10056"/>
+		<mml resource="10063"/>
+		<mml resource="10070"/>
+		<mml resource="10083"/>
+		<mml resource="10084"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Craig/SwirlsPiano.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0.5" green="0.5" blue="0.5"/>
+		</load_screen>
+	</level>
+
+<!-- Caput quínque - Antíquitás (Chapter 5 - Antiquity) -->
+
+	<level index="41"> <!-- Echoes of Eden (Échús Eden) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1041"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10020"/>
+		<mml resource="10036"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10061"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Nick/ChomberUnderCover.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="42"> <!-- The Dead Live in the Catacombs (Mortuí vívunt in catacumbis) -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1042"/>
+		<mml resource="10000"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10020"/>
+		<mml resource="10036"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10061"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/CraigBobFlowers.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="43"> <!-- Haec caverna nón fórmátió nátúrális (This Cave Is Not a Natural Formation) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1043"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10010"/>
+		<mml resource="10021"/>
+		<mml resource="10036"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10061"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10075"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10131"/> <!-- $C3 = dark grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/AustinCraigRushing.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="44"> <!-- Dark Grotto of the Lethe (Obscúra crypta Léthés) -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1044"/>
+		<mml resource="10000"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10021"/>
+		<mml resource="10036"/>
+		<mml resource="10040"/>
+		<mml resource="10056"/>
+		<mml resource="10061"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Nick/LeelaDance.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="45"> <!-- Rána explóde corpus spírámentí (Frog Blast the Vent Core) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1045"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10020"/>
+		<mml resource="10036"/>
+		<mml resource="10040"/>
+		<mml resource="10057"/>
+		<mml resource="10061"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Nick/FlowersInTheWoods.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="46"> <!-- Teneó affectum malum dé hóc (I've Got a Bad Feeling About This) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1046"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10020"/>
+		<mml resource="10036"/>
+		<mml resource="10040"/>
+		<mml resource="10057"/>
+		<mml resource="10061"/>
+		<mml resource="10070"/>
+		<mml resource="10071"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/NickAustinAerival.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="47"> <!-- The Philosophy of Time Travel (Philosophia itineris temporis) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1047"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10014"/>
+		<mml resource="10020"/>
+		<mml resource="10030"/>
+		<mml resource="10042"/>
+		<mml resource="10057"/>
+		<mml resource="10060"/>
+		<mml resource="10072"/>
+		<mml resource="10075"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Austin/Swirls.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="48"> <!-- This Message Will Self-Destruct (Hic núntius sésé ipsum délébit) -->
+		<lua resource="420"/>
+		<lua resource="422"/>
+		<lua resource="1048"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10015"/>
+		<mml resource="10020"/>
+		<mml resource="10032"/>
+		<mml resource="10040"/>
+		<mml resource="10057"/>
+		<mml resource="10065"/>
+		<mml resource="10071"/>
+		<mml resource="10072"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Austin/CyberThrashMedley.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="49"> <!-- We Met Once in the Garden (Coíbámus ólim in hortó) -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1049"/>
+		<mml resource="10000"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10021"/>
+		<mml resource="10032"/>
+		<mml resource="10041"/>
+		<mml resource="10057"/>
+		<mml resource="10061"/>
+		<mml resource="10071"/>
+		<mml resource="10073"/>
+		<mml resource="10080"/>
+		<mml resource="10081"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10169"/> <!-- $C6 = dark red (vanilla lol. also... nice) -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Various/BobCraigCorySplashWhatAboutSpirals.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+	<level index="50"> <!-- Where Giants Have Fallen (Ubínam gigantés cecidérunt) -->
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1050"/>
+		<mml resource="10000"/>
+		<!--<mml resource="10002"/>-->
+		<mml resource="10011"/>
+		<mml resource="10021"/>
+		<mml resource="10032"/>
+		<mml resource="10043"/>
+		<mml resource="10057"/>
+		<mml resource="10061"/>
+		<mml resource="10071"/>
+		<mml resource="10080"/>
+		<mml resource="10081"/>
+		<mml resource="10083"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Craig/Splash.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="0" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+<!-- Epilogus - Aeternitás (Epilogue - Eternity) -->
+
+	<level index="51"> <!-- The Near Side of Everywhere (Látus propinquum omnium locórum) --> 
+		<lua resource="420"/>
+		<lua resource="421"/>
+		<lua resource="422"/>
+		<lua resource="1051"/>
+		<!--<mml resource="10003"/>-->
+		<mml resource="10013"/>
+		<mml resource="10020"/>
+		<mml resource="10037"/>
+		<mml resource="10042"/>
+		<mml resource="10057"/>
+		<mml resource="10062"/>
+		<mml resource="10075"/>
+		<mml resource="10080"/>
+		<mml resource="10090"/>
+		<mml resource="10130"/> <!-- $C3 = light grey -->
+		<mml resource="10143"/> <!-- $C4 = azure -->
+		<mml resource="10155"/> <!-- $C5 = orange -->
+		<mml resource="10166"/> <!-- $C6 = yellow -->
+		<mml resource="10174"/> <!-- $C7 = dark azure -->
+		<music file="Eternal-Data/Music/Bob/Swirls.ogg"/>
+		<load_screen file="Eternal-Data/Images/Loading.png" stretch="false" progress_left="32" progress_top="239" progress_right="608" progress_bottom="245">
+			<color index="0" red="0" green="0" blue="0"/>
+			<color index="1" red="1" green="1" blue="1"/>
+		</load_screen>
+	</level>
+
+</marathon_levels>
+
+<!-- Key to resources:
 
 128 Master XML (this)
 
-1501 Chapter 1 Screen
-1511 Chapter 2 Screen
-1521 Chapter 3 Screen
-1531 Chapter 4 Screen
-1541 Chapter 5 Screen
+Lua Scripts
+420 Global
+421 Uniform (used for precipitation levels)
+422 Monster names (ill-fated attempt to specify monster names through a function)
+690 Standard                         - now only used in Dysmentria, but possibly useful as a template
+691 Media fog (daytime)              - used in Septococcal Pfhoryngitis and Remedial Chaos Theory
+692 Chapter 2 rebellion, purple rain - used in Unity of Opposites and Pissing on the Corporation
+693 Chapter 4 rebellion              - used in Bug-Eyed in Space and Once More Unto the Breach
+10xx = specific to level xx (counting from 00)
 
-10000 View - Dream (deprecated - use Lua "forced extravision" script)
-10001 View - Real (deprecated - no need for any script)
+Images
+1500  Prologue: Destiny (All or Nothing)
+1501 Chapter 1: Memory
+1511 Chapter 2: Enemy
+1521 Chapter 3: Prophecy
+1531 Chapter 4: Legacy
+1541 Chapter 5: Antiquity
+1551  Epilogue: Eternity (Dialectical Synthesis)
+1599 Final Credits
+add 10,000 for 24-bit versions
 
-10011 Media Fog - Water
-10012 Media Fog - Lava
-10013 Media Fog - Jjaro
-10014 Media Fog - Sewage
-10015 Media Fog - Pfhor
+Miscellaneous
+10000 Water 1x charger becomes 3x
+10001 Monsters become translucent (for dreams)
+10002 View - Real (deprecated - no need for any script)
+10003 View - Dream (deprecated - currently uses Lua "forced extravision", and may use other methods in the future)
+10004 Gives Minor Ouch fader magenta tint
 
-10020 Air - Black Space
-10021 Air - Blue Mist
-10022 Air - Orange Haze
-10023 Air - White Snow
-10024 Air - Grey Fog
-10025 Air - Purple Haze
+Fog (Liquid)
+10010 Water (Night)
+10011 Water (Day)
+10012 Lava
+10013 Jjaro
+10014 Sewage
+10015 Pfhor
 
-10030 Time - Prologue (2905 CE)
-10031 Time - Marathon (2794 CE)
-10032 Time - Pfhor War (2881 CE)
-10033 Time - Clan Wars (811 CE)
-10034 Time - Conquest (1811 CE)
-10035 Time - Rebellion (8317 BCE)
-10036 Time - Sphere (65,000,000 BCE)
-10037 Time - Unknown
+Fog (Air)
+10020 Black Space
+10021 Blue Mist
+10022 Orange Haze
+10023 White Snow
+10024 Grey Fog
+10025 Purple Haze
 
+Timestamps
+10030 Prologue (2905 CE)
+10031 Marathon (2794 CE)
+10032 Pfhor War (2881 CE)
+10033 Clan Wars (811 CE)
+10034 Conquest (1811 CE)
+10035 Rebellion (8317 BCE)
+10036 Arx (65,000,000 BCE)
+10037 Unknown
+
+Teleportation
 10040 Teleport (regular)
 10041 No teleport out
 10042 No teleport (either side)
 10043 No teleport in
 
-10051 Inventory - after L00 (The Far Side of Nowhere) - adds fusion pistols
-10052 Inventory - after L01 (Deja Vu All Over Again) - adds staff and pellet gun
-10053 Inventory - after L03 (Dysmentria) - adds havoc rifle
-10054 Inventory - after L11 (Hysterical Womb) - adds napalm cannon
-10055 Inventory - after L12 (A Friend in Need) - adds fusion cannon
-10056 Inventory - after L32 (The Incredible Hulk) - adds wave motion cannon
-10057 Inventory - after L44 (Deep Into the Grotto) - adds gravitronic blades
+Starting Inventory
+10050       L00 (The Far Side of Nowhere) - sweet FA
+10051 After L00 (The Far Side of Nowhere) - adds fusion pistols
+10052 After L01 (Deja Vu All Over Again) - adds staff and pellet gun
+10053 After L03 (Dysmentria) - adds havoc rifle
+10054 After L10 (To Sleep, Perchance to Dream) - adds napalm cannon
+10055 After L12 (A Friend in Need) - adds fusion cannon
+10056 After L32 (The Incredible Hulk) - adds wave motion cannon
+10057 After L44 (Dark Grotto of the Lethe) - adds gravitronic blades
 
-10061 Media - Water Set
-10062 Media - Lava Set
-10063 Media - Jjaro Set
-10064 Media - Human Set
-10065 Media - Pfhor Set
-10066 Media - Inti Station
+Media Assignments
+10060 Inti Station (doesn't use liquids)
+10061 Water Set
+10062 Lava Set
+10063 Jjaro Set
+10064 Human Set
+10065 Pfhor Set
 
-10071 Sounds - Pfh'Joueur (used for Lh'owon, Drinniol rebellion, and Forerunner levels)
-10072 Sounds - Rubicon (used for 2881 and Inti Station; mixed with 10071 in This Message... and onward)
-10073 Sounds - Add rain to wind sounds
-10074 Sounds - Rubicon Alien Harmonics (separate because it is LOUD)
-10075 Sounds - Rubicon Alien Harmonics in Siren 2 slot
-10076 Sounds - Marathon 1
-10077 Sounds - Default Teleport
-10078 Sounds - M1 Teleport Out, Rubicon Teleport In10079 Sounds - Rubicon Teleport Out, M2 Teleport In
-index of added sounds:
+Sounds
+10070 Default Teleport
+10071 Pfh'Joueur Fan & Machinery (used for Lh'owon, Drinniol rebellion, and Forerunner levels)
+10072 Rubicon (used for Inti Station and 2881, apart from Jjaro levels; mixed with 10071 in This Message...)
+10073 Wind, Night Wind -> Rain & Wind, Rain & Night Wind
+10074  Alien Harmonics -> Rubicon Alien Harmonics (separate because it is LOUD)
+10075  Siren 2 (Alarm) -> Rubicon Alien Harmonics
+10076 Marathon 1
+10077 Ch1 success dream: M1 Teleport Out, Rubicon Teleport In, mostly M1 doors/platforms/switches
+10078 Ch2 success dream: Rubicon Teleport Out, M2 Teleport In, mostly Rubicon Pfhor doors/platforms/switches
+10079   Dream Ambience -> Rubicon Alien Harmonics
+10080 Rubicon Teleport
+10081  Alien Harmonics -> Extended Alien Harmonics (separated because it is unsettling)
+10082  Alien Harmonics -> Spaceship Whir
+10083        Waterfall -> Water & Waterfall; Water uses Waterfall slot
+10084             Wind -> Dream Ambience & Wind
+10085             Wind -> Dream Ambience, Wind, & Rain
 
+Monster Interface Colours
+10090 Standard
+10091 Tycho rebellion
+10092 S'pht Civil War
+10093 Pfhor invasion of Lh'owon
+10094 Pfhor battle on K'lia
+10095 Drinniol rebellion - Friendly Drinniol
+10096 Drinniol rebellion - Friendly Drinniol, drones, and juggernauts; hostile orbs
+
+Terminal Colours
+
+10130 $C3 Dark green ->   Hathor's lighter grey, #B3B3B3
+10131 $C3 Dark green ->   Sakhmet's darker grey, #808080
+10132 $C3 Dark green ->      Haxor's green-grey, #4DB34D
+10138 $C3 Dark green ->   the UESC's dark green, #008000 (vanilla lol)
+
+10143 $C4 Cyan       ->       the Jjaro's azure, #0080FF
+
+10155 $C5 Yellow     ->                  orange, #FF8000
+
+10166 $C6 Dark red   ->      the S'pht's yellow, #FFE700
+10169 $C6 Dark red   ->    the Pfhor's dark red, #800000 (vanilla lol)
+
+10174 $C7 Blue       ->  the Jjaro's dark azure, #004080
+10177 $C7 Blue       -> the S'pht's dark yellow, #807400
+10178 $C7 Blue       ->   the USEC's dark green, #008000
+10179 $C7 Blue       ->    the Pfhor's dark red, #800000
+10112 $C7 Blue       ->                 magenta, #FF00FF
+
+(the vanilla scripts are in there because apparently the game
+otherwise defaults to whatever was in the previous level)
+
+penultimate digit = old colour
+0   green
+1   white
+2   red
+3   dark green
+4   cyan
+5   yellow
+6   dark red
+7   blue
+
+final digit:
+|new    |0      |1      |2      |3      |4      |5      |6      |7      |8      |9      |
+|colours|#b3b3b3|#808080|#4db34d|#0080ff|#004080|#ff8000|#ffe700|#807400|#008000|#800000|
+
+
+index of added/changed sounds:
+
+  #  added/changed sound            old sound (if applicable)
+  6: breathing
+ 30: nightmare exploding
+ 36: grenade launcher reloading     magnum reloading
+ 38: grenade launcher firing
+ 39: grenade exploding
+ 41: fusion pistol firing
+ 45: dream ambience & wind          rocket exploding
+ 47: dream ambience, wind & rain    rocket launcher firing
+ 48: scatter rifle firing           flamethrower
+ 66: bullet flyby                   cyborg hit
+ 69: scatter rifle hit              cyborg projectile hit
+ 70: scatter rifle flyby            cyborg projectile flyby
+ 82: skitter attack                 assimilated bob chatter
+ 99: rubicon dream ambience         s'pht door (empty)
+112: phantasm attack                medium water splash (unused)
+114: phantasm death                 walking in lava (unused)
+118: hulk attack                    medium lava splash (unused)
+120: hulk death                     walking in sewage (unused)
+124: looker activate                medium sewage splash (unused)
+126: looker dying                   walking in goo (unused)
+127: looker exploding               exit goo (unused)
+128: wasp activate                  enter goo (unused)
+129: wasp attack                    small goo splash (unused)
+130: wasp chatter/death             medium goo splash (unused)
+131: skitter dying                  large goo splash (unused)
+132: fusion cannon firing charged   
+136: scatter shotgun firing         shotgun firing
+137: nightmare dying                shotgun reloading
+150: hunter activate
+152: nightmare firing               hunter dying (unused)
+165: wasp goo impact                f'lickta projectile sewage flyby (unused)
+183: wave motion cannon firing      flappyboi falling (unused)
+185: wave motion cannon impact      flappyboi exploding (unused)
+207: spaceship whir                 assvacbob chatter
 215: rain & night wind
 216: rain, wind, & thunder
 217: pfh'joueur chimes
 218: pfh'joueur fan
 219: pfh'joueur light machinery
 220: pfh'joueur heavy machinery
-221: rubicon pfhor ship #2 (lower pitched - matches m2 pfhor ship #1 better)
-222: rubicon pfhor ship #1 (higher pitched - matches m2 pfhor ship #2 better)
-223: rubicon weird ship noise found in 'lava' sound effect
+221: rubicon pfhor ship #2 (lower pitched - closer to m2 pfhor ship #1)
+222: rubicon pfhor ship #1 (higher pitched - closer to m2 pfhor ship #2)
+223: extended jjaro ship/alien harmonics (only used in prologue, chapter 5, inti station, and run coward because it's way more unsettling)
 224: rubicon alien harmonics
 225: rubicon transformer
 226: rubicon electric hum
@@ -105,10 +1643,275 @@ index of added sounds:
 248: marathon door closing
 249: marathon door opening
 250: marathon door obstructed/locked
-251: marathon platform starting
+251: water + waterfall (was "marathon platform starting", but that's a shortened "s'pht platform starting", so it's been repurposed)
 252: marathon platform stopping
 253: m1 pfhor door opening
 254: m1 pfhor door closing
 255: m1 pfhor door obstructed/locked
+
+still usable:
+
+0: startup
+14: puzzle switch
+35: magnum firing
+167: f'lickta lava flyby (maybe?)
+
+  #  id      sound                              vanilla (if different)
+  1: 10000 - M2 teleport in
+  0: 10005 - Startup
+  2: 10011 - M2 teleport out
+  3: 10020 - Crushed
+  5: 10030 - Absorbed
+  6: 10035 - Breathing                          unused 1 (Breathing)
+  7: 10040 - Oxygen Warning
+  8: 10050 - Suffocation
+  9: 10060 - Energy Refuel
+ 10: 10070 - Oxygen Refuel
+ 11: 10080 - Can’t Toggle M2 Switch
+ 12: 10090 - M2 Switch On
+ 13: 10100 - M2 Switch Off
+ 14: 10110 - Unused                             Puzzle Switch
+ 15: 10120 - M2 Chip Insertion
+ 16: 10130 - M2 Pattern Buffer
+ 18: 10150 - Adjust Volume
+ 19: 10160 - Got Powerup
+ 20: 10170 - Get Item
+ 21: 11000 - Bullet Ricochet
+ 22: 11010 - Metallic Ricochet
+ 23: 11020 - Empty Gun
+ 34: 11030 - Fist Hitting
+ 35: 11040 - Unused                             Magnum Firing
+ 36: 11050 - Grenade Launcher Reload            Magnum Reloading
+ 37: 11060 - Assault Rifle Firing
+ 38: 11070 - Grenade Launcher Firing
+ 39: 11080 - Grenade Exploding
+ 40: 11090 - Grenade Flyby
+ 41: 11100 - Fusion Pistol Firing
+ 42: 11110 - Fusion Exploding
+ 43: 11120 - Fusion Flyby
+ 44: 11130 - Fusion Charging
+ 45: 11140 - Dream Ambience & Wind              Rocket Exploding
+ 46: 11150 - WMC Flyby                          Rocket Flyby
+ 47: 11160 - Dream Ambience, Wind, & Rain       Rocket Firing
+ 48: 11170 - Scatter Rifle Firing               Flamethrower
+ 49: 11180 - Body Falling
+ 50: 11190 - Body Exploding
+ 51: 11200 - Bullet Hit Flesh
+134: 11210 - Assault Rifle Reloading
+136: 11220 - Scatter Shotgun Firing             Shotgun Firing
+137: 11230 - Nightmare Dying                    Shotgun Reloading
+141: 11240 - Computer Login
+142: 11250 - Computer Logout
+143: 11260 - Computer Page
+135: 11270 - Assault Rifle Shell Casings
+ 17: 11280 - Destroy Control Panel
+132: 11290 - Fusion Cannon Firing Charged       Fusion Pistol Firing Charged
+138: 11300 - Ball Bounce
+139: 11310 - You Are It
+140: 11320 - Got Ball
+133: 11330 - Major Fusion Charged
+ 24: 12000 - S’pht Door Closing (mislabelled as “Opening” in defaults)
+ 25: 12010 - S’pht Door Opening (mislabelled as “Closing” in defaults)
+ 26: 12020 - S’pht Door Obstructed
+ 27: 12030 - S’pht Platform Starting
+ 28: 12040 - S’pht Platform Stopping
+ 32: 12080 - Heavy S’pht Platform Starting
+ 33: 12090 - Heavy S’pht Platform Stopping
+144: 13000 - Heavy S’pht Door
+145: 13010 - Heavy S’pht Door Opening
+146: 13020 - Heavy S’pht Door Closing
+147: 13030 - Heavy S’pht Door Open
+148: 13040 - Heavy S’pht Door Closed
+149: 13050 - Heavy S’pht Door Obstructed
+150: 13055 - Hunter Activate
+ 90: 14000 - Water
+ 91: 14010 - Sewage
+ 92: 14020 - Lava
+ 93: 14030 - Goo
+ 94: 14040 - Underwater
+ 95: 14050 - Wind
+ 96: 14060 - Waterfall
+ 97: 14070 - Siren
+ 98: 14080 - Fan
+100: 14100 - S’pht Platform
+101: 14120 - Alien Harmonics (Jjaro Ship)
+102: 14130 - Heavy S’pht Platform
+103: 14140 - Light Machinery
+104: 14150 - Heavy Machinery
+105: 14160 - Transformer
+106: 14170 - Sparking Transformer
+169: 14180 - Machine Binder
+170: 14190 - Machine Bookpress
+171: 14200 - Machine Puncher
+172: 14210 - Electric Hum
+173: 14220 - Alarm
+174: 14230 - Night Wind
+201: 14240 - Alien Noise 1 (Pfhor Ship #1)
+202: 14250 - Alien Noise 2 (Pfhor Ship #2)
+  4: 14260 - Jjaro Ship Creak
+107: 14500 - Water Drip
+175: 14510 - Surface Explosion
+176: 14520 - Underground Explosion
+186: 14530 - Lamp Exploding
+ 29: 14540 - Loon
+187: 14545 - Pfhor Platform Starting
+188: 14550 - Pfhor Platform Stopping
+189: 14560 - Pfhor Platform
+190: 14570 - Pfhor Door Closing (mislabelled as “Opening” in defaults)
+191: 14580 - Pfhor Door Opening (mislabelled as “Closing” in defaults)
+192: 14590 - Pfhor Door Obstructed
+193: 14600 - Pfhor Door
+194: 14610 - Pfhor Switch On
+195: 14620 - Pfhor Switch Off
+196: 14630 - Juggernaut Firing
+197: 14640 - Juggernaut Warning
+198: 14650 - Juggernaut Exploding
+199: 14660 - Juggernaut Start Attack
+200: 14670 - Enforcer Exploding
+ 71: 15000 - Drone Activate
+ 72: 15010 - Drone Start Attack
+ 73: 15020 - Drone Attack
+ 74: 15030 - Drone Dying
+ 75: 15040 - Drone Death
+ 76: 15050 - Drone Projectile Hit
+ 77: 15060 - Drone Projectile Flyby
+ 64: 15100 - Cyborg Moving
+ 65: 15110 - Cyborg Attack
+ 66: 15120 - Bullet Flyby                       Cyborg Hit
+ 67: 15130 - Cyborg Death
+ 68: 15140 - Cyborg Projectile Bounce
+ 69: 15150 - Scatter Rifle Hit                  Cyborg Projectile Hit
+ 70: 15155 - Scatter Rifle Flyby                Cyborg Projectile Flyby
+ 59: 15200 - S’pht Attack
+ 60: 15210 - S’pht Death
+ 61: 15220 - S’pht Hit
+ 62: 15230 - S’pht Projectile Flyby
+ 63: 15240 - S’pht Projectile Hit
+ 52: 15300 - Fighter Activate
+ 53: 15310 - Fighter Wail
+ 54: 15320 - Fighter Scream
+ 55: 15330 - Fighter Chatter
+ 56: 15340 - Fighter Attack
+ 57: 15350 - Fighter Projectile Hit
+ 58: 15360 - Fighter Projectile Flyby
+ 78: 15400 - Bob Wail
+ 79: 15410 - Bob Scream
+ 80: 15420 - Bob Hit
+ 81: 15430 - Bob Chatter
+ 82: 15440 - Assimilated Bob Chatter
+ 83: 15450 - Bob Trash Talk
+ 84: 15460 - Bob Apology
+ 85: 15470 - Bob Activation
+ 86: 15480 - Bob Clear
+ 87: 15490 - Bob Angry (Stop Shooting Me You Bastard)
+ 88: 15500 - Bob Secure
+ 89: 15510 - Bob Kill the Player
+151: 15610 - Hunter Attack
+152: 15615 - Nightmare Firing                   Hunter Dying
+153: 15630 - Hunter Landing
+154: 15640 - Hunter Exploding
+155: 15650 - Hunter Projectile Hit
+156: 15660 - Hunter Projectile Flyby
+157: 15700 - Enforcer Activate
+158: 15710 - Enforcer Attack
+159: 15720 - Enforcer Projectile Hit
+160: 15730 - Enforcer Projectile Flyby
+161: 15800 - F’lickta Melee Attack
+162: 15810 - F’lickta Melee Hit
+163: 15820 - F’lickta Projectile Attack
+166: 15830 - F’lickta Projectile Lava Hit
+167: 15840 - F’lickta Projectile Lava Flyby
+168: 15850 - F’lickta Dying
+164: 15860 - F’lickta Projectile Sewage Hit
+165: 15870 - Wasp Goo Impact                    F’lickta Projectile Sewage Flyby
+177: 16000 - S’pht’Kr Attack
+178: 16010 - S’pht’Kr Projectile Hit
+179: 16020 - S’pht’Kr Projectile Flyby
+180: 16030 - S’pht’Kr Being Hit
+181: 16040 - S’pht’Kr Exploding
+182: 17000 - Flappyboi Chatter
+183: 17010 - Wave Motion Cannon Firing          Flappyboi Falling
+184: 17020 - Flappyboi Flapping
+185: 17030 - Wave Motion Cannon Impact          Flappyboi Exploding
+ 30: 18000 - Nightmare Exploding                SMG Firing
+ 31: 18010 - Scatter Rifle Reloading            SMG Reloading
+203: 18100 - VacBob Wail
+204: 18110 - VacBob Scream
+205: 18120 - VacBob Hit
+206: 18130 - VacBob Chatter
+207: 18140 - Assimilated VacBob Chatter
+208: 18150 - VacBob Trash Talk
+209: 18160 - VacBob Apology
+210: 18170 - VacBob Activation
+211: 18180 - VacBob Clear
+212: 18190 - VacBob Angry (Stop Shooting Me You Bastard)
+213: 18200 - VacBob Secure
+214: 18210 - VacBob Kill the Player
+108: 19000 - Walking in Water
+109: 19010 - Exiting Water
+110: 19020 - Entering Water
+115: 19060 - Entering Lava
+116: 19070 - Exiting Lava
+111: 19100 - Small Water Splash
+112: 19105 - Phantasm Attack                    Medium Water Splash
+113: 19120 - Large Water Splash
+114: 19125 - Phantasm Death                     Walking in Lava
+117: 19130 - Small Lava Splash
+118: 19135 - Hulk Attack                        Medium Lava Splash
+119: 19150 - Large Lava Splash
+120: 19155 - Hulk Death                         Walking in Sewage
+122: 19170 - Entering Sewage
+121: 19180 - Exiting Sewage
+123: 19190 - Small Sewage Splash
+124: 19195 - Looker Activate                    Medium Sewage Splash
+125: 19210 - Large Sewage Splash
+126: 19215 - Looker Dying                       Walking in Goo
+127: 19225 - Looker Exploding                   Exiting Goo
+128: 19235 - Wasp Activate                      Entering Goo
+129: 19245 - Wasp Attack                        Small Goo Splash
+130: 19255 - Wasp Chatter/Death                 Medium Goo Splash
+131: 19265 - Skitter Dying                      Large Goo Splash
+215: 30005 - Night Wind & Rain
+216: 30010 - Wind, Rain, & Thunder
+217: 30015 - Pfh’Joueur Chimes
+ 99: 30020 - Dream Ambience                     S'pht Door
+218: 30025 - Pfh’Joueur Fan
+219: 30030 - Pfh’Joueur Light Machinery
+220: 30035 - Pfh’Joueur Heavy Machinery
+221: 30040 - Rubicon Pfhor Ship #2
+222: 30045 - Rubicon Pfhor Ship #1
+223: 30050 - extended Jjaro Ship/Alien Harmonics
+224: 30055 - Rubicon Alien Harmonics
+225: 30060 - Rubicon Transformer
+226: 30065 - Rubicon Electric Hum
+227: 30070 - Rubicon UESG Platform Start
+228: 30075 - Rubicon UESG Platform Moving
+229: 30080 - Rubicon UESG Platform Stop
+230: 30085 - Rubicon Heavy UESG Platform Start
+231: 30090 - Rubicon Heavy UESG Platform Moving
+232: 30095 - Rubicon Heavy UESG Platform Stop
+233: 30100 - Rubicon Pfhor Platform Start
+234: 30105 - Rubicon Pfhor Platform Moving
+235: 30110 - Rubicon Pfhor Platform Stop
+236: 30115 - Rubicon Teleport In
+237: 30120 - Rubicon Teleport Out
+238: 30125 - Rubicon Can’t Toggle Switch
+239: 30130 - Rubicon Switch On
+240: 30135 - Rubicon Switch Off
+241: 30140 - Rubicon Chip Insertion
+242: 30145 - Rubicon Pattern Buffer
+243: 30155 - M1 Teleport In
+244: 30160 - M1 Teleport Out
+245: 30165 - M1 Can’t Toggle Switch
+246: 30170 - M1 Switch On
+247: 30175 - M1 Switch Off
+248: 30180 - Marathon Door Closing
+249: 30185 - Marathon Door Opening
+250: 30190 - Marathon Door Obstructed/Locked
+251: 30195 - Water + Waterfall
+252: 30200 - Marathon Platform Stopping
+253: 30205 - M1 Pfhor Door Opening
+254: 30210 - M1 Pfhor Door Closing
+255: 30215 - M1 Pfhor Door Obstructed/Locked
 
 -->

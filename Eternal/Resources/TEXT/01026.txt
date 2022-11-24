@@ -1,0 +1,101 @@
+CollectionsUsed = { 23 }
+precipitation_collection = 23
+precipitation_sequence = 21
+precipitation_gravity = 1/4
+precipitation_wind = 0
+
+Triggers = {}
+
+function precipitationpoly(p)
+	if p.ceiling.transfer_mode == "landscape" and p.ceiling.collection == 28 and p.ceiling.texture_index == 0 then
+		return true
+	else
+		return false
+	end
+end
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function countPfhor()
+	local livingPfhor = 0 -- count Pfhor and drones; exclude flappybois (the S'pht won't care about them) and juggernauts (you must kill them all)
+	for m in Monsters() do
+		if m.type == "minor fighter" or m.type == "major fighter" or m.type == "minor projectile fighter" or m.type == "major projectile fighter"
+		or m.type == "minor trooper" or m.type == "major trooper" or m.type == "minor hunter" or m.type == "major hunter" or m.type == "minor enforcer"
+		or m.type == "major enforcer" or m.type == "mother of all hunters" or m.type == "minor compiler" or m.type == "major compiler"
+		or m.type == "minor drone" or m.type == "major drone" or m.type =="big minor drone" or m.type == "big major drone" then
+			livingPfhor = livingPfhor + 1
+		end
+	end
+	return livingPfhor
+end
+
+function countJuggernauts()
+	local livingJuggernauts = 0
+	for m in Monsters() do
+		if m.type == "minor compiler" or m.type == "major compiler" or m.type == "minor juggernaut" or m.type == "major juggernaut" then
+			livingJuggernauts = livingJuggernauts + 1 -- "compilers" are damaged juggernauts in this part of the game
+		end
+	end
+	return livingJuggernauts
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Global:initprecipitation(512)
+	Level.stash["names"] = "physics6"
+
+	if not restoring or Level.stash["FAIL"] == "TRUE" then
+		-- fog variables
+		Level._fogtimer = 420
+		Level._thundertimer = 0
+		Level._brightness = .125
+		Level._depth = 42
+		Level._darken = false
+
+		-- mission state
+		if countPfhor() <= Global:exterminationlimit() and countJuggernauts() == 0 then
+			Tags[3].active = true
+			Level._completed = true
+		else
+			Level._completed = false
+		end
+	end
+end
+
+function Triggers.idle()
+	Global:idlemain()
+	Global:idleprecipitation()
+	Global:brownlightning(7)
+	Global:playerconveyor()
+	Global:monsterconveyor()
+	Global:itemconveyor()
+	if not Level._completed and Game.ticks % 30 == 0 then
+		if countPfhor() <= Global:exterminationlimit() and countJuggernauts() == 0 then
+			Tags[3].active = true
+			Level._completed = true -- mark the level complete if sufficiently few Pfhor survive (quantity is difficulty-dependent)
+		end
+		--[[ if Game.ticks % 900 == 0 then
+			Players.print(countPfhor()) -- printing number of living Pfhor every half-minute; debug feature
+		end --]]
+	end
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end
+
+-- Incorporates scripting by Gregory Smith (precipitation), Aaron Freed (fog/lightning effects/conveyor belt/etc.), and others

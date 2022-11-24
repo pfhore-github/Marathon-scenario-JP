@@ -1,0 +1,199 @@
+MonsterNames = {}
+
+function Global:standardnames(m)
+	if m == 0 then
+		return "flappyboi"
+	elseif m == 1 then
+		return "wasp"
+	elseif m == 2 then
+		return "looker"
+	elseif m == 3 then
+		return "min s'pht"
+	elseif m == 4 then
+		return "maj s'pht"
+	elseif m == 5 then
+		return "blue s'pht"
+	elseif m == 6 then
+		return "civilian s'pht"
+	elseif m == 7 then
+		return "min fighter"
+	elseif m == 8 then
+		return "maj fighter"
+	elseif m == 9 then
+		return "min proj fighter"
+	elseif m == 10 then
+		return "maj proj fighter"
+	elseif m == 11 then
+		return "crew bob"
+	elseif m == 12 then
+		return "sci bob"
+	elseif m == 13 then
+		return "sec bob"
+	elseif m == 14 then
+		return "pompeia"
+	elseif m == 15 then
+		return "min drone"
+	elseif m == 16 then
+		return "maj drone"
+	elseif m == 17 then
+		return "big min drone"
+	elseif m == 18 then
+		return "big maj drone"
+	elseif m == 19 then
+		return "madd"
+	elseif m == 20 then
+		return "min tank"
+	elseif m == 21 then
+		return "maj tank"
+	elseif m == 22 then
+		return "min rifle tank"
+	elseif m == 23 then
+		return "maj rifle tank"
+	elseif m == 24 then
+		return "vac enforcer"
+	elseif m == 25 then
+		return "flame enforcer"
+	elseif m == 26 then
+		return "min hunter"
+	elseif m == 27 then
+		return "maj hunter"
+	elseif m == 28 then
+		return "maj trooper"
+	elseif m == 29 then
+		return "min trooper"
+	elseif m == 30 then
+		return "controller cyborg"
+	elseif m == 31 then
+		return "moah"
+	elseif m == 32 then
+		return "drinniol"
+	elseif m == 33 then
+		return "cyborg drinniol"
+	elseif m == 34 then
+		return "f'lickta"
+	elseif m == 35 then
+		return "min s'pht'kr"
+	elseif m == 36 then
+		return "maj s'pht'kr"
+	elseif m == 37 then
+		return "min jugg"
+	elseif m == 38 then
+		return "maj jugg"
+	elseif m == 39 then
+		return "skitter"
+	elseif m == 40 then
+		return "nightmare"
+	elseif m == 41 then
+		return "phantasm"
+	elseif m == 42 then
+		return "crew vacbob"
+	elseif m == 43 then
+		return "sci vacbob"
+	elseif m == 44 then
+		return "sec vacbob"
+	elseif m == 45 then
+		return "orb"
+	end
+end
+
+function Global:physics1names(m)
+	if m == 33 then
+		return "uncharged jug"
+	elseif m == 34 then
+		return "charging jug"
+	else
+		return Global:standardnames(m)
+	end
+end
+
+function Global:physics5names(m)
+	if m == 20 then
+		return "s'pht'shr"
+	elseif m == 21 then
+		return "s'pht'yor"
+	elseif m == 22 then
+		return "s'pht'kah"
+	elseif m == 23 then
+		return "s'pht'hra"
+	elseif m == 19 then
+		return "s'pht'kr"
+	elseif m == 35 then
+		return "s'pht'mnr"
+	elseif m == 36 then
+		return "s'pht'lhar"
+	elseif m == 39 then
+		return "potato anus"
+	elseif m == 40 then
+		return "mothrid"
+	elseif m == 41 then
+		return "grendel"
+	else
+		return Global:standardnames(m)
+	end
+end
+
+function Global:physics6names(m)
+	if m == 3 then
+		return "uncharged jug"
+	elseif m == 4 then
+		return "charging jug"
+	elseif m == 20 then
+		return "s'pht'shr"
+	elseif m == 21 then
+		return "s'pht'yor"
+	elseif m == 22 then
+		return "s'pht'kah"
+	elseif m == 23 then
+		return "s'pht'hra"
+	elseif m == 35 then
+		return "s'pht'mnr"
+	elseif m == 36 then
+		return "s'pht'lhar"
+	elseif m == 39 then
+		return "potato anus"
+	elseif m == 40 then
+		return "mothrid"
+	elseif m == 41 then
+		return "grendel"
+	else
+		return Global:standardnames(m)
+	end
+end
+
+function Global:physics7names(m)
+	if m == 39 then
+		return "potato anus"
+	elseif m == 40 then
+		return "mothrid"
+	elseif m == 41 then
+		return "grendel"
+	else
+		return Global:standardnames(m)
+	end
+end
+
+function Global:jjaronames(m)
+	if m == 11 then
+		return "crew jjaro"
+	elseif m == 12 then
+		return "sci jjaro"
+	elseif m == 13 then
+		return "sec jjaro"
+	else
+		return Global:standardnames(m)
+	end
+end
+
+function Global:physics11names(m)
+	if m == 11 then
+		return "crew jjaro"
+	elseif m == 12 then
+		return "sci jjaro"
+	elseif m == 13 then
+		return "sec jjaro"
+	elseif m == 14 then
+		return "hathor"
+	else
+		return Global:standardnames(m)
+	end
+end

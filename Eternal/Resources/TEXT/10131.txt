@@ -1,0 +1,6 @@
+<marathon>
+	<interface>
+		<!-- Dark green to Sakhmet's grey -->
+		<color index="21" red="0.5" green="0.5" blue="0.5" />
+	</interface>
+</marathon>

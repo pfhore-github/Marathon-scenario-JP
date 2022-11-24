@@ -1,0 +1,6 @@
+<marathon>
+	<!-- puts Spaceship Whir into the Jjaro Ship slot -->
+	<sounds>
+		<ambient index="27" sound="207"/>
+	</sounds>
+</marathon>

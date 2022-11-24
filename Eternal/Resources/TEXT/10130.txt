@@ -1,0 +1,6 @@
+<marathon>
+	<interface>
+		<!-- Dark green to Hathor's brighter grey -->
+		<color index="21" red="0.7" green="0.7" blue="0.7" />
+	</interface>
+</marathon>

@@ -1,0 +1,6 @@
+<marathon>
+	<!-- puts Dream Ambience, Wind, & Rain into the Wind slot -->
+	<sounds>
+		<ambient index="5" sound="47"/>
+	</sounds>
+</marathon>

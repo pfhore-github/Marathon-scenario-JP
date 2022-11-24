@@ -1,0 +1,81 @@
+Triggers = {}
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.terminal_enter(t, p)
+	if t == 3 and not Level._bobdead then -- activates Bobs when the player reads the S'pht history terminal Leela is looking for
+		for m in Monsters() do
+			if m.valid and m.type == "green bob" then
+				m.active = true
+				m.life = Game.random(m.life)
+			end
+		end
+	end
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.monster_killed(monster, aggressor_player, projectile)
+	-- note: at least one polygon that's normally inaccessible must be set as "Must be explored", or this script will break
+	-- note to self: find a less janky method to set this (repair mission or something)
+	if monster.type == "green bob" and not Level._bobdead then
+		for p in Polygons() do
+			if p.type == "must be explored" then
+				p.visible_on_automap = true -- so that the game doesn't regard the mission as unfinished
+				p.type = 2
+				for a in Annotations() do
+					if a.polygon == p then
+						a.text = "" -- so that the annotation for mapmakers' benefit doesn't show up on the automap
+					end
+				end
+			end
+		end
+		for f in Platforms() do
+			if f.polygon.floor.z < -20 then
+				f.active = true -- activates a platform that kills Bobs when we get to Leela's message
+			end
+		end
+		Level._bobdead = true
+	end
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 21, 21, 21, 21, 21, 0, 450)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 21, 21, 21, 21, 21, 0, 450)
+	Level.stash["names"] = "physics5"
+	if not restoring then
+		for p in Players() do
+			if not p.dead then
+				if p.life < 450 then
+					p.life = 450 -- since players start immediately above lava, restore their life to 450
+					p:fade_screen("green")
+					p:play_sound("got powerup")
+				end
+			end
+		end
+		Level._bobdead = false
+	end
+end
+
+function Triggers.idle()
+	Global:idlemain()
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end

@@ -1,5 +1,5 @@
 <marathon>
   <stringset index="135">
-    <string index="09">[タイムスタンプ～8317[紀元前]－11.14]</string>
+    <string index="09">[タイムスタンプ-8317[紀元前]-11.14]</string>
   </stringset>
 </marathon>

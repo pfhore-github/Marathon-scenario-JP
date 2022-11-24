@@ -1,0 +1,7 @@
+<marathon>
+	<!-- Rubicon teleport sounds -->
+	<sounds 
+		teleport_in="236"
+		teleport_out="237"
+	/>
+</marathon>

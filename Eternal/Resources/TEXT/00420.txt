@@ -1,0 +1,1274 @@
+Global = {}
+
+function Global:standardnames(m)
+	if m == "minor tick" then
+		return "flappyboi"
+	elseif m == "major tick" then
+		return "wasp"
+	elseif m == "kamikaze tick" then
+		return "looker"
+	elseif m == "minor compiler" then
+		if Level.stash["names"] == "physics6" then
+			return "uncharged jug"
+		else
+			return "min s'pht"
+		end
+	elseif m == "major compiler" then
+		if Level.stash["names"] == "physics6" then
+			return "charging jug"
+		else
+			return "maj s'pht"
+		end
+	elseif m == "minor invisible compiler" then
+		return "blue s'pht"
+	elseif m == "major invisible compiler" then
+		return "civilian s'pht"
+	elseif m == "minor fighter" then
+		return "min fighter"
+	elseif m == "major fighter" then
+		return "maj fighter"
+	elseif m == "minor projectile fighter" then
+		return "min proj fighter"
+	elseif m == "major projectile fighter" then
+		return "maj proj fighter"
+	elseif m == "green bob" then
+		if Level.stash["names"] == "jjaro" or Level.stash["names"] == "physics11" then
+			return "crew jjaro"
+		else
+			return "crew bob"
+		end
+	elseif m == "blue bob" then
+		if Level.stash["names"] == "jjaro" or Level.stash["names"] == "physics11" then
+			return "sci jjaro"
+		else
+			return "sci bob"
+		end
+	elseif m == "security bob" then
+		if Level.stash["names"] == "jjaro" or Level.stash["names"] == "physics11" then
+			return "sec jjaro"
+		else
+			return "sec bob"
+		end
+	elseif m == "explodabob" then
+		if Level.stash["names"] == "physics11" then
+			return "hathor"
+		else
+			return "pompeia"
+		end
+	elseif m == "minor drone" then
+		return "min drone"
+	elseif m == "major drone" then
+		return "maj drone"
+	elseif m == "big minor drone" then
+		return "big min drone"
+	elseif m == "big major drone" then
+		return "big maj drone"
+	elseif m == "possessed drone" then
+		if Level.stash["names"] == "physics5" then
+			return "s'pht'kr"
+		else
+			return "madd"
+		end
+	elseif m == "minor cyborg" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" then
+			return "s'pht'shr"
+		else
+			return "min tank"
+		end
+	elseif m == "major cyborg" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" then
+			return "s'pht'yor"
+		else
+			return "maj tank"
+		end
+	elseif m == "minor flame cyborg" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" then
+			return "s'pht'kah"
+		else
+			return "min rifle tank"
+		end
+	elseif m == "major flame cyborg" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" then
+			return "s'pht'hra"
+		else
+			return "maj rifle tank"
+		end
+	elseif m == "minor enforcer" then
+		return "vac enforcer"
+	elseif m == "major enforcer" then
+		return "flame enforcer"
+	elseif m == "minor hunter" then
+		return "min hunter"
+	elseif m == "major hunter" then
+		return "maj hunter"
+	elseif m == "minor trooper" then
+		return "maj trooper"
+	elseif m == "major trooper" then
+		return "min trooper"
+	elseif m == "mother of all cyborgs" then
+		return "controller cyborg"
+	elseif m == "mother of all hunters" then
+		return "moah"
+	elseif m == "sewage yeti" then
+		return "drinniol"
+	elseif m == "water yeti" then
+		if Level.stash["names"] == "physics1"then
+			return "uncharged jug"
+		else
+			return "cyborg drinniol"
+		end
+	elseif m == "lava yeti" then
+		if Level.stash["names"] == "physics1" then
+			return "charging jug"
+		else
+			return "f'lickta"
+		end
+	elseif m == "minor defender" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" then
+			return "s'pht'mnr"
+		else
+			return "min s'pht'kr"
+		end
+	elseif m == "major defender" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" then
+			return "s'pht'lhar"
+		else
+			return "maj s'pht'kr"
+		end
+	elseif m == "minor juggernaut" then
+		return "min jugg"
+	elseif m == "major juggernaut" then
+		return "maj jugg"
+	elseif m == "tiny pfhor" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" or Level.stash["names"] == "physics7" then
+			return "potato anus"
+		else
+			return "skitter"
+		end
+	elseif m == "tiny bob" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" or Level.stash["names"] == "physics7" then
+			return "mothrid"
+		else
+			return "nightmare"
+		end
+	elseif m == "tiny yeti" then
+		if Level.stash["names"] == "physics5" or Level.stash["names"] == "physics6" or Level.stash["names"] == "physics7" then
+			return "grendel"
+		else
+			return "phantasm"
+		end
+	elseif m == "green vacbob" then
+		return "crew vacbob"
+	elseif m == "blue vacbob" then
+		return "sci vacbob"
+	elseif m == "security vacbob" then
+		return "sec vacbob"
+	elseif m == "explodavacbob" then
+		return "orb"
+	end
+end
+
+function Global:time_string(t)
+	if t <= 0 then
+		return "0:00:00.000";
+	else
+		local ticks = tonumber(t)
+		local q = ticks / 30 -- quotient
+		local r = ticks % 30 -- remainder
+
+		local h = string.format("%01.f", math.floor(q / 3600))
+		local m = string.format("%02.f", math.floor((q / 60) - (60 * h)))
+		local s = string.format("%02.f", math.floor(q - (3600 * h) - (60 * m)))
+		local ms = string.format("%03.0f", 33.33 * r)
+		return h..":"..m..":"..s.."."..ms
+	end
+end
+
+function Global:clear_overlays(p)
+	p.overlays[0]:clear()
+	p.overlays[1]:clear()
+	p.overlays[2]:clear()
+	if #Players > 1 then
+		p.overlays[3]:clear()
+		p.overlays[4]:clear()
+	end
+end
+
+function Global:map_overlays(p)
+	if p.hotkey == 10 then
+		if p._hotkeypressed then
+			if p._hotkeypressed < Game.ticks - 3 then
+				p._hotkeypressed = Game.ticks
+				p._hotkey = not p._hotkey
+			elseif p._hotkeypressed == Game.ticks - 3 then
+				p._hotkeypressed = Game.ticks
+			end
+		else
+			p._hotkeypressed = Game.ticks
+			p._hotkey = not p._hotkey
+		end
+	end
+
+	if p.has_map_open and not p._hotkey then
+		Global:clear_overlays(p)
+		p.overlays[0].text = p.hotkey_bindings[10].key .. ": Secret stats"
+		p.overlays[0].color = "white"
+	elseif p._hotkey then
+		p.overlays[0].text = Global:time_string(Game.ticks)
+		p.overlays[0].color = "white"
+		p.overlays[1].text = "Secrets:"
+		if #Players > 1 then
+			p.overlays[2].text = string.format("You: %d/%d L (%d/%d T)", p.items["alien weapon ammo"], Level._secrets, p.items["key"], Game._totalsecrets)
+			p.overlays[2].color = "green"
+			p.overlays[3].text = " "
+			p.overlays[4].text = string.format("Everyone: %d/%d L (%d/%d T)", p.items["orange ball"], Level._secrets, p.items["blue ball"], Game._totalsecrets)
+			p.overlays[4].color = "cyan"
+		else
+			p.overlays[2].text = string.format("%d/%d L (%d/%d T)", p.items["alien weapon ammo"], Level._secrets, p.items["key"], Game._totalsecrets)
+			p.overlays[2].color = "green"
+		end
+	else
+		Global:clear_overlays(p)
+	end
+
+	local target = p:find_target(true)
+	if is_monster(target) then
+		Level.stash["targetmonster"] = tostring(target.type)
+		Level.stash["targetindex"] = tostring(target.index)
+	else
+		if target then
+			Level.stash["target"] = tostring(target)
+		else
+			Level.stash["target"] = ""
+		end
+		Level.stash["targetmonster"] = ""
+		if target then
+			if target.index then
+				Level.stash["targetindex"] = tostring(target.index)
+			end
+		end
+	end
+
+	Global:secretstash(p.items["alien weapon ammo"], p.items["key"])
+end
+
+function Global:secretstash(local_secrets, total_secrets)
+	Level.stash["secretcounter"] = string.format("%d/%d L (%d/%d T)", local_secrets, Level._secrets, total_secrets, Game._totalsecrets)
+end
+
+function Global:cleanup()
+	local local_secrets = 0
+	local total_secrets = 0
+	for p in Players() do
+		local_secrets = local_secrets + p.items["alien weapon ammo"]
+		total_secrets = total_secrets + p.items["key"]
+	end
+	Global:secretstash(local_secrets, total_secrets)
+end
+
+function Global:build_pool()
+	Level._pool = {}
+	for i=1,precipitation_count do
+		local x, y, z, p, t = uniform.xyz_in_triangle_list(Level._triangles)
+		local e = Ephemera.new(x, y, z, p, precipitation_collection, precipitation_sequence, 0)
+		e._triangle = t
+		e._originalpoly = p
+		table.insert(Level._pool, e)
+	end
+end
+
+function Global:ephemeraquality()
+	if Ephemera.quality == "ultra" then
+		return 4
+	elseif Ephemera.quality == "high" then
+		return 3
+	elseif Ephemera.quality == "medium" then
+		return 2
+	elseif Ephemera.quality == "low" then
+		return 1
+	else
+		return 0
+	end
+end
+
+function Global:initprecipitation(multiplier)
+	if Game.version >= "20210222" and Ephemera.quality ~= "off" then
+		-- we're using ephemera, so use a render random function
+		uniform.random = Game.random_local
+
+		-- modify amount of precipitation based on rendering settings
+		precipitation_count = multiplier * Global:ephemeraquality()
+
+		local polygon_list = {}
+		for p in Polygons() do
+			if precipitationpoly(p) then
+				table.insert(polygon_list, p)
+			end
+		end
+		Level._triangles = uniform.build_triangle_list(polygon_list)
+		Global:build_pool()
+	end
+end
+
+function Global:idleprecipitation()
+	if Game.version >= "20210222" and Ephemera.quality ~= "off" then
+		local pool = Level._pool
+		local position = pool[1].position
+
+		for i = 1,precipitation_count do
+			local e = pool[i]
+			if e.rendered then
+				local p = e.polygon
+
+				-- to do wind, add it to e.x and e.y, and use p:find_polygon to find
+				-- the new polygon. You'll also have to track the original polygon
+				-- the ephemera was in to reset it when it goes out of bounds
+				local newpoly = p:find_polygon (e.x, e.y, e.x + precipitation_wind, e.y + precipitation_wind)
+				if newpoly then
+					position(e, e.x + precipitation_wind, e.y + precipitation_wind, e.z - precipitation_gravity, newpoly)
+					if e.z < e.polygon.floor.height then
+						local x, y = uniform.xy_in_triangle(e._triangle)
+						e:position(x, y, e._originalpoly.ceiling.height, e._originalpoly)
+					elseif e.z > e.polygon.ceiling.height then
+						local x, y = uniform.xy_in_triangle(e._triangle)
+						e:position(x, y, e._originalpoly.floor.height, e._originalpoly)
+					end
+					if e.polygon.media then
+						if e.z < e.polygon.media.height then
+							local x, y = uniform.xy_in_triangle(e._triangle)
+							e:position(x, y, e._originalpoly.ceiling.height, e._originalpoly)
+						end
+					end
+				else
+					local x, y = uniform.xy_in_triangle(e._triangle)
+					e:position(x, y, e._originalpoly.ceiling.height, e._originalpoly)
+				end
+			end
+		end
+	end
+end
+
+function Global:dream(p)
+	if p.extravision_duration <= 1 then
+		p.extravision_duration = 2 -- we want players to have extravision throughout the course of this level, because it's a dream
+	end
+end
+
+function Global:successdream(playersuff, monstersuff1, monstersuff2, teleportpoly)
+	Global:map_overlays(Players.local_player)
+	for p in Players() do
+		if p.polygon.floor.transfer_mode == "landscape" then
+			if p.z < playersuff then
+				if not p._teleport and not p.dead then
+					p:teleport(teleportpoly)
+					p._teleport = true -- if we keep sending teleport instructions every tick, they'll never actually teleport - this way, they will
+				end
+			else
+				p._teleport = false -- player is not teleporting *yet*. not setting this can cause some issues with saved games and so on.
+			end
+		end
+		Global:dream(p)
+	end
+	for m in Monsters() do
+		if not m.player then
+			if m.type ~= "minor juggernaut" and m.type ~= "major juggernaut" and m.type ~= "minor drone" and m.type ~= "major drone"
+			and m.type ~= "big minor drone" and m.type ~= "big major drone" and m.type~="tiny bob" and m.type ~="tiny yeti" then
+			-- exclude flying monsters from suffocation deaths
+				if not m.dead then
+					if m.z < monstersuff2 then
+						m:damage(12,"suffocation") -- monster below major suffocation constant - kill faster
+					elseif m.z < monstersuff1 then
+						m:damage(4,"suffocation") -- monster between minor and major suffocation constants - kill slower
+					end
+				end
+				if m.z < monstersuff2 then
+					m.external_velocity = 0 -- stop monster from flying off at comically fast velocity due to suffocation damage
+				end
+			elseif m.z < monstersuff2 and not m.dead then -- stop flying monsters from moving below a certain point
+				if m.life > 0 then
+					m:position(m.x, m.y, monstersuff2, m.polygon)
+				end
+				m.external_velocity = 0 -- again, stop monster from flying off due to suffocation damage
+			end
+		end
+	end
+end
+
+function Global:goals()
+	Level._goal = {}
+	for g in Goals() do
+		Level._goal[g.id] = g.polygon -- use goals to avoid tracking polygon numbers
+	end
+end
+
+function Global:open(p) -- determines whether a door is open
+	return p.ceiling.z > p.floor.z
+end
+
+function Global:drainoxygen(p, oxydrain)
+	if not p.dead then -- draining oxygen from dead players causes a Lua warning, so let's not do that
+		if oxydrain > 0 and not p._terminal then -- player is not at terminal; we can drain oxygen from them
+			local n = 0
+			for n = 1,oxydrain do -- cycle to check for breathing sound threshold for each bit of oxygen we drain
+				p.oxygen = p.oxygen - 1
+				if n > 1 then -- not actually draining oxygen yet if n = 1, since Eternal restores oxygen outside media
+					Global:oxygensounds(p)
+				end
+			end
+			if oxydrain > 1 and (Game.difficulty == "major damage" or Game.difficulty == "total carnage")
+			and (p.action_flags.left_trigger or p.action_flags.right_trigger) then
+				p.oxygen = p.oxygen - 1 -- game drains oxygen faster on TC and MD if player is firing weapon
+				Global:oxygensounds(p)
+			end
+			if p.oxygen < 0 then -- we have to kill the player manually if their oxygen is at or below 0
+				p.invincibility_duration = 0 -- and we have to remove their invincibility, since otherwise they're immune to suffocation damage
+				p:damage(p.life + 1, "suffocation")
+			end
+			p._lastoxydrain = Game.ticks
+			p._lastoxygen = p.oxygen
+		elseif p._terminal then -- Eternal restores 1 oxygen point per tick. to keep their oxygen constant at terminals, drain 1 oxygen point per tick
+			p.oxygen = p.oxygen - 1
+		end
+	end
+end
+
+function Global:start_refuel(class, p, side)
+	if class == "oxygen recharger" then
+		p._terminal = true -- we're just going to treat this like a terminal, because otherwise they'll keep recharging oxygen indefinitely
+	end
+end
+
+function Global:end_refuel(class, p, side)
+	if class == "oxygen recharger" then
+		p._terminal = false -- they've stopped recharging, so we can go back to draining their oxygen now
+	end
+end
+
+function Global:oxygensounds(p)
+	-- plays breathing and oxygen warning sounds when oxygen is deplenishing to mimic normal game behaviour
+	if p.oxygen > 900 then
+		if p.oxygen % 900 == 899 and not p.dead then
+			p:play_sound("breathing", 1)
+		end
+	else
+		if p.oxygen % 450 == 449 and not p.dead then
+			p:play_sound("oxygen warning", 1)
+		end
+	end
+end
+
+function Global:mediafog(p)
+	-- updates under-media fog for players based on what media type they're under. daytime levels only
+	if p.polygon.media and p.head_below_media then
+		if p.polygon.media.type == "water" then
+			Level.underwater_fog.color.r = 3/4
+			Level.underwater_fog.color.g = 7/8
+			Level.underwater_fog.color.b = 1
+		elseif p.polygon.media.type == "lava" then
+			Level.underwater_fog.color.r = 1
+			Level.underwater_fog.color.g = .5
+			Level.underwater_fog.color.b = 0
+		elseif p.polygon.media.type == "goo" then
+			Level.underwater_fog.color.r = 1
+			Level.underwater_fog.color.g = 0
+			Level.underwater_fog.color.b = 1
+		elseif p.polygon.media.type == "sewage" then
+			Level.underwater_fog.color.r = 0
+			Level.underwater_fog.color.g = 1
+			Level.underwater_fog.color.b = 0
+		else
+			Level.underwater_fog.color.r = 1/8
+			Level.underwater_fog.color.g = 1/4
+			Level.underwater_fog.color.b = 1/8
+		end
+	end
+end
+
+function Global:nightmediafog(p)
+	-- updates under-media fog for players based on what media type they're under, for nighttime levels
+	if p.polygon.media and p.head_below_media then
+		if p.polygon.media.type == "water" then
+			Level.underwater_fog.color.r = 0
+			Level.underwater_fog.color.g = 1/8
+			Level.underwater_fog.color.b = 1/4
+		elseif p.polygon.media.type == "lava" then
+			Level.underwater_fog.color.r = .5
+			Level.underwater_fog.color.g = .25
+			Level.underwater_fog.color.b = 0
+		elseif p.polygon.media.type == "goo" then
+			Level.underwater_fog.color.r = 1/4
+			Level.underwater_fog.color.g = 0
+			Level.underwater_fog.color.b = 1/4
+		elseif p.polygon.media.type == "sewage" then
+			Level.underwater_fog.color.r = 0
+			Level.underwater_fog.color.g = 1/4
+			Level.underwater_fog.color.b = 0
+		else
+			Level.underwater_fog.color.r = 1/8
+			Level.underwater_fog.color.g = 1/4
+			Level.underwater_fog.color.b = 1/8
+		end
+	end
+end
+
+function Global:spacemediafog(p)
+	-- updates under-media fog for players based on what media type they're under, for space levels
+	if p.polygon.media and p.head_below_media then
+		if p.polygon.media.type == "water" then
+			Level.underwater_fog.color.r = 0
+			Level.underwater_fog.color.g = 1/16
+			Level.underwater_fog.color.b = 1/8
+		elseif p.polygon.media.type == "lava" then
+			Level.underwater_fog.color.r = 1/4
+			Level.underwater_fog.color.g = 1/8
+			Level.underwater_fog.color.b = 0
+		elseif p.polygon.media.type == "goo" then
+			Level.underwater_fog.color.r = 1/8
+			Level.underwater_fog.color.g = 0
+			Level.underwater_fog.color.b = 1/8
+		elseif p.polygon.media.type == "sewage" then
+			Level.underwater_fog.color.r = 0
+			Level.underwater_fog.color.g = 1/8
+			Level.underwater_fog.color.b = 0
+		else
+			Level.underwater_fog.color.r = 1/16
+			Level.underwater_fog.color.g = 1/8
+			Level.underwater_fog.color.b = 1/16
+		end
+	end
+end
+
+function Global:fogstart(foglimit)
+	-- Decrement time remaining until next explosion
+	Level._fogtimer = Level._fogtimer - 1
+
+	-- Fluctuate fog brightness and depth a bit
+	if Level._darken then
+		if Level._brightness > foglimit then
+			-- Reduce fog brightness
+			Level._brightness = Level._brightness - 0.0005
+			Level._depth = Level._depth - 0.05
+		else
+			-- We've gotten as dark as we're getting; time to start incrementing again
+			Level._darken = false
+		end
+	elseif Level._brightness < foglimit * 2 then
+		-- Increase fog brightness
+		Level._brightness = Level._brightness + 0.0005
+		Level._depth = Level._depth + 0.05
+	else
+		-- We've gotten as bright as we're getting outside an explosion; time to start decrementing again
+		Level._darken = true
+	end
+end
+
+function Global:thunder()
+	if Level._thundertimer > 0 then
+		-- Decrease thunder counter if greater than 0
+		Level._thundertimer = Level._thundertimer - 1
+		if Level._thundertimer == 0 then
+			-- Play thunder sound
+			pitch = (200 + Game.random(200)) / 300
+			for p in Players() do
+				p:play_sound("surface explosion", pitch)
+			end
+		end
+	end
+end
+
+function Global:lightning(tag)
+	if Level._fogtimer == 30 then
+		-- Activate/deactivate level lights 21-40 for lightning effect
+		Tags[tag].active = true
+	elseif Level._fogtimer == 0 then
+		-- Set next lightning interval (random from 7 to 21 seconds)
+		Level._fogtimer = 210 + Game.random(420)
+		-- Deactivate lightning effect
+		Tags[tag].active = false
+	end
+end
+
+function Global:purplelightning(tag)
+	Global:fogstart(.125)
+	Global:thunder()
+
+	if Level._fogtimer > 30 then
+		-- Normal fog values
+		Level.fog.color.r = Level._brightness
+		Level.fog.color.g = 0
+		Level.fog.color.b = Level._brightness
+		Level.fog.depth = Level._depth
+	else
+		-- Fog flicker effect to simulate lightning
+		local mult = 1 + (Level._fogtimer * (300 + Game.random(300)) / 6300)
+		Level.fog.color.r = Level._brightness * mult
+		Level.fog.color.g = ((Level._brightness * mult) - Level._brightness) * .7
+		Level.fog.color.b = Level._brightness * mult
+		Level.fog.depth = Level._depth
+	end
+
+	Global:lightning(tag)
+end
+
+function Global:bluelightning(tag)
+	Global:fogstart(.125)
+	Global:thunder()
+
+	if Level._fogtimer > 30 then
+		-- Normal fog values
+		Level.fog.color.r = Level._brightness
+		Level.fog.color.g = Level._brightness * .5
+		Level.fog.color.b = 0
+		Level.fog.depth = Level._depth
+	else
+		-- Fog flicker effect to simulate lightning
+		local mult = 1 + (Level._fogtimer * (300 + Game.random(300)) / 6300)
+		Level.fog.color.r = Level._brightness * mult
+		Level.fog.color.g = ((Level._brightness * mult * .85) - (Level._brightness * .35))
+		Level.fog.color.b = ((Level._brightness * mult) - Level._brightness) * .7
+		Level.fog.depth = Level._depth
+	end
+
+	Global:lightning(tag)
+end
+
+function Global:brownlightning(tag)
+	Global:fogstart(.125)
+	Global:thunder()
+
+	if Level._fogtimer > 30 then
+		-- Normal fog values
+		Level.fog.color.r = Level._brightness
+		Level.fog.color.g = Level._brightness * .5
+		Level.fog.color.b = 0
+		Level.fog.depth = Level._depth
+	else
+		-- Fog flicker effect to simulate lightning
+		local mult = 1 + (Level._fogtimer * (300 + Game.random(300)) / 6300)
+		Level.fog.color.r = Level._brightness * mult
+		Level.fog.color.g = ((Level._brightness * mult * .85) - (Level._brightness * .35))
+		Level.fog.color.b = ((Level._brightness * mult) - Level._brightness) * .7
+		Level.fog.depth = Level._depth
+	end
+
+	Global:lightning(tag)
+end
+
+function Global:orangefog()
+	Global:fogstart(.1)
+
+	if Level._fogtimer == 42 then
+		-- time for explosion! (brought to you by Michael Bay)
+		pitch = (200 + Game.random(200)) / 300
+		for p in Players() do
+			p:play_sound("juggernaut exploding", pitch)
+		end
+	end
+
+	if Level._fogtimer > 42 then
+		-- outside of explosion interval - use normal fog behaviour
+		Level.fog.color.r = Level._brightness
+		Level.fog.color.g = Level._brightness / 2
+		Level.fog.color.b = 0
+		Level.fog.depth = Level._depth
+	else
+		-- an explosion just happened - employ flicker effect
+		mult = 1 + (Level._fogtimer * (300 + Game.random(300)) / 6300)
+		Level.fog.color.r = Level._brightness * mult
+		Level.fog.color.g = Level._brightness * mult / 2
+		Level.fog.color.b = 0
+		Level.fog.depth = Level._depth
+	end
+
+	if Level._fogtimer == 0 then
+		-- set a new random interval before the next explosion
+		Level._fogtimer = 420 + Game.random(666)
+	end
+end
+
+function Global:playerconveyor() -- I absolutely could not resist this name
+	for p in Players() do
+		Global:conveyor(p)
+	end
+end
+
+function Global:monsterconveyor()
+	for m in Monsters() do
+		Global:conveyor(m)
+	end
+end
+
+function Global:itemconveyor()
+	for i in Items() do
+		Global:conveyor(i)
+	end
+end
+
+function Global:conveyor(q)
+	-- move stuff based on floor texture transfer mode
+	-- WARNING: this script currently has unstable behaviour if it's used with uneven floor heights; thus, conveyors shouldn't border polygons with lower floor heights
+	-- I plan to debug this when time permits
+	if q.z == q.polygon.floor.z then
+		if q.polygon.floor.transfer_mode == "horizontal slide" then
+			local z = q.polygon:find_polygon(q.x, q.y, q.x - (1/256), q.y)
+			if z.floor.z == q.polygon.floor.z then
+				q:position(q.x - (1/256), q.y, q.z, z)
+			end
+		elseif q.polygon.floor.transfer_mode == "fast horizontal slide" then
+			local z = q.polygon:find_polygon(q.x, q.y, q.x - (1/128), q.y)
+			if z.floor.z == q.polygon.floor.z then
+				q:position(q.x - (1/128), q.y, q.z, z)
+			end
+		elseif q.polygon.floor.transfer_mode == "vertical slide" then
+			local z = q.polygon:find_polygon(q.x, q.y, q.x, q.y - (1/256))
+			if z.floor.z == q.polygon.floor.z then
+				q:position(q.x, q.y - (1/256), q.z, z)
+			end
+		elseif q.polygon.floor.transfer_mode == "fast vertical slide" then
+			local z = q.polygon:find_polygon(q.x, q.y, q.x, q.y - (1/128))
+			if z.floor.z == q.polygon.floor.z then
+				q:position(q.x, q.y - (1/128), q.z, z)
+			end
+		end
+	end
+end
+
+function Global:exterminationlimit()
+	-- number of enemies we'll permit the player to leave alive
+	if Game.difficulty == "kindergarten" then
+		return 7
+	elseif Game.difficulty == "easy" then
+		return 6
+	elseif Game.difficulty == "normal" then
+		return 5
+	elseif Game.difficulty == "major damage" then
+		return 4
+	elseif Game.difficulty == "total carnage" then
+		return 3
+	end
+end
+
+function Global:plural(x)
+	if x ~= 1 then
+		return "S"
+	else
+		return ""
+	end
+end
+
+function Global:hudsecrets()
+	-- update stash data for HUD
+	Level.stash["localsecrets"] = string.format("OF %d LOCAL SECRET",Level._secrets) .. Global:plural(Level._secrets)
+	Level.stash["totalsecrets"] = string.format("OF %d TOTAL SECRET",Game._totalsecrets) .. Global:plural(Game._totalsecrets)
+end
+
+function Global:updatesecrets()
+	-- update secret counter at level start
+	local c = 0
+	for i in ItemStarts() do
+		if i.type == "alien weapon ammo" then -- count secrets on level
+			c = c + 1 -- one for each secret
+		end
+	end
+
+	-- update total possible secrets
+	Level._secrets = c
+	if Game._totalsecrets then
+		Game._totalsecrets = Game._totalsecrets + c
+	else
+		Game._totalsecrets = c
+	end
+
+	Global:hudsecrets()
+end
+
+function Global:loadfailure()
+	-- tell players if their secrets failed to load
+	if Level.stash["FAIL"] == "TRUE" or #Players > 1 then -- inform players that their saved game data got corrupted
+		for p in Players() do
+			Global:loadfailure_player(p)
+		end
+	end
+end
+
+function Global:loadfailure_player(p)
+	-- used in cases where there's already a "for p in Players" loop
+	if Level.stash["FAIL"] == "TRUE" then -- inform the player that their saved game data got corrupted
+		if Game.ticks == Level._timeentered - Game.ticks + 1 then
+			p:play_sound("you are it")
+			p:print("Failed to restore cached data from saved game or previous level.")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 101 then
+			p:play_sound("siren")
+			p:print("This means your stats on the total possible secrets to this point will be corrupted - sorry. :C")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 201 then
+			p:play_sound("alarm")
+			p:print("If you care, you may wish to try reloading an old save and see if that fixes the problem.")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 301 and #Players > 1 then
+			p:print("Also, be warned: If you're not all running this version of Eternal, you *will* desync, and probably quickly.")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 401 and #Players > 1 then
+			p:print("Make sure everyone's running the same version of the map, shapes, sounds, and scripts, just to be safe.")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 501 and #Players > 1 then
+			p:print("Also, make sure that any plugins people are using don't modify the gameplay.")
+		end
+	elseif #Players > 1 then
+		if Game.ticks == Level._timeentered - Game.ticks + 1 then
+			p:print("Be warned: If you're not all running this version of Eternal, you *will* desync, and probably quickly.")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 101 and #Players > 1 then
+			p:print("Make sure everyone's running the same version of the map, shapes, sounds, and scripts, just to be safe.")
+		elseif Game.ticks == Level._timeentered - Game.ticks + 201 and #Players > 1 then
+			p:print("Also, make sure that any plugins people are using don't modify the gameplay.")
+		end
+	end
+end
+
+function Global:got_item(type, p)
+
+	if type == "pistol" then -- fusion pistol
+		if p.items["pistol"] > 2 then
+			p.items["pistol"] = 2
+			p.items["pistol ammo"] = p.items["pistol ammo"] + 1
+		end
+
+	elseif type == "fusion pistol" then -- fusion cannon
+		if p.items["fusion pistol"] > 1 then
+			p.items["fusion pistol"] = 1
+			p.items["pistol ammo"] = p.items["pistol ammo"] + 1
+		end
+
+	elseif type == "assault rifle" then -- pfhor staff
+		if p.items["assault rifle"] > 1 then
+			p.items["assault rifle"] = 1
+			p.items["assault rifle ammo"] = p.items["assault rifle ammo"] + 1
+		end
+
+	elseif type == "missile launcher" then -- havoc rifle
+		if p.items["missile launcher"] > 1 then
+			p.items["missile launcher"] = 1
+			p.items["missile launcher ammo"] = p.items["missile launcher ammo"] + 1
+			p.items["assault rifle grenades"] = p.items["assault rifle grenades"] + 1
+		end
+
+	elseif type == "alien weapon" then -- napalm cannon
+		if p.items["alien weapon"] > 1 then
+			p.items["alien weapon"] = 1
+			p.items["shotgun ammo"] = p.items["shotgun ammo"] + 1
+		end
+
+	elseif type == "flamethrower" then -- scatter rifle
+		if p.items["flamethrower"] > 1 then
+			p.items["flamethrower"] = 1
+			p.items["flamethrower ammo"] = p.items["flamethrower ammo"] + 1
+		end
+
+	elseif type == "shotgun" then -- gravitronic blades
+		if p.items["shotgun"] > 2 then
+			p.items["shotgun"] = 2
+			p.items["smg ammo"] = p.items["smg ammo"] + 1
+		end
+
+	elseif type == "smg" then -- wave motion cannon
+		if p.items["smg"] > 1 then
+			p.items["smg"] = 1
+			p.items["smg ammo"] = p.items["smg ammo"] + 1
+		end
+
+	elseif type == "assault rifle ammo" then -- staff charge
+		if p.items["assault rifle"] < 1 then
+			p.items["assault rifle ammo"] = p.items["assault rifle ammo"] - 1
+			p.items["assault rifle"] = 1
+		end
+
+	elseif type == "assault rifle grenades" then -- grenades
+		if p.items["missile launcher"] < 1 then
+			p.items["assault rifle grenades"] = p.items["assault rifle grenades"] - 1
+			p.items["missile launcher"] = 1
+		end
+
+	elseif type == "missile launcher ammo" then -- havoc rifle ammo
+		if p.items["missile launcher"] < 1 then
+			p.items["missile launcher ammo"] = p.items["missile launcher ammo"] - 1
+			p.items["missile launcher"] = 1
+		else
+			p.items["assault rifle grenades"] = p.items["assault rifle grenades"] + 1
+		end
+
+	elseif type == "shotgun ammo" then -- napalm cannon ammo
+		if p.items["alien weapon"] < 1 then
+			p.items["shotgun ammo"] = p.items["shotgun ammo"] - 1
+			p.items["alien weapon"] = 1
+		end
+
+	elseif type == "flamethrower ammo" then -- scatter rifle ammo
+		if p.items["flamethrower"] < 1 then
+			p.items["flamethrower ammo"] = p.items["flamethrower ammo"] - 1
+			p.items["flamethrower"] = 1
+		end
+
+	elseif type == "fusion pistol ammo" then -- mislabelled fusion pistol ammo
+		p.items["pistol ammo"] = p.items["pistol ammo"] + p.items["fusion pistol ammo"]
+		p.items["fusion pistol ammo"] = 0
+
+	elseif type == "alien weapon ammo" then -- "level secrets found by player" counter
+		p.items["key"] = p.items["key"] + 1 -- increment "total secrets found by player" counter
+		if #Players > 1 then -- network game
+			for z in Players() do
+				z.items["blue ball"] = z.items["blue ball"] + 1 -- increment all players' "level secrets found by everyone" counter
+				z.items["orange ball"] = z.items["orange ball"] + 1 -- increment all players' "total secrets found by everyone" counter
+			end
+		end
+	end
+end
+
+function Global:ch2_rebellion(restoring)
+	-- set Cyborgs and Compilers as friendly to the player and Bobs
+	-- used in "A Friend in Need", "Unlucky Pfhor Some", "Unity of Opposites", "Killing the Giants as They Sleep", and "Pissing on the Corporation"
+	for t in MonsterTypes() do
+		if t.class == "bob" or t.class == "defender" then
+			t.friends["compiler"] = true
+			t.enemies["compiler"] = false
+			t.friends["cyborg"] = true
+			t.enemies["cyborg"] = false
+		elseif t.class == "cyborg" or t.class == "compiler" then
+			t.friends["player"] = true
+			t.enemies["player"] = false
+			t.friends["bob"] = true
+			t.enemies["bob"] = false
+			t.friends["defender"] = true
+			t.enemies["defender"] = false
+			t.friends["madd"] = true
+			t.enemies["madd"] = false
+			t.friends["compiler"] = true
+			t.enemies["compiler"] = false
+			t.friends["cyborg"] = true
+			t.enemies["cyborg"] = false
+			t.friends["fighter"] = false
+			t.enemies["fighter"] = true
+			t.friends["trooper"] = false
+			t.enemies["trooper"] = true
+			t.friends["hunter"] = false
+			t.enemies["hunter"] = true
+			t.friends["enforcer"] = false
+			t.enemies["enforcer"] = true
+			t.friends["juggernaut"] = false
+			t.enemies["juggernaut"] = true
+			t.friends["drone"] = false
+			t.enemies["drone"] = true
+			if not restoring then
+				t.alien = false
+			end
+		elseif t.class == "fighter" or t.class == "trooper" or t.class == "hunter" or t.class == "enforcer" or t.class == "juggernaut" or t.class == "drone" then
+			t.friends["cyborg"] = false
+			t.enemies["cyborg"] = true
+			t.friends["compiler"] = false
+			t.friends["compiler"] = true
+		end
+	end
+end
+
+function Global:ch4_hostilehulks(restoring)
+	-- set Drinniol as hostile to the player
+	-- used in "Pfhor får lamm", "The Incredible Hulk", and "Babylon X"
+	for t in MonsterTypes() do
+		if t.class == "yeti" then
+			t.enemies["player"] = true
+			t.friends["player"] = false
+			if not restoring then
+				t.alien = true
+			end
+		end
+	end
+end
+
+function Global:ch4_friendlydrones(restoring)
+	-- set drones and Juggernauts as friendly to the player and Drinniol (and orbs as hostile to everything else)
+	-- used in "Run, Coward!" and "Genie in a Bottle"
+	-- breaks in "Bug-Eyed in Space" and "Once More unto the Breach", or we'd use it there too. though i may have just been bad at testing at 5 am
+	for t in MonsterTypes() do
+		if t.class == "juggernaut" or t.class == "drone" then
+			t.enemies["player"] = false
+			t.friends["player"] = true
+			t.enemies["yeti"] = false
+			t.friends["yeti"] = true
+			t.enemies["fighter"] = true
+			t.friends["fighter"] = false
+			t.enemies["trooper"] = true
+			t.friends["trooper"] = false
+			t.enemies["hunter"] = true
+			t.friends["hunter"] = false
+			t.enemies["enforcer"] = true
+			t.friends["enforcer"] = false
+			t.enemies["possessed drone"] = true
+			t.friends["possessed drone"] = false
+			if not restoring then
+				t.alien = false
+			end
+		elseif t.class == "fighter" or t.class == "trooper" or t.class == "hunter" or t.class == "enforcer" then
+			t.enemies["drone"] = true
+			t.friends["drone"] = false
+			t.enemies["juggernaut"] = true
+			t.friends["juggernaut"] = false
+			t.enemies["possessed drone"] = true
+			t.friends["possessed drone"] = false
+		elseif t.class == "yeti" then
+			t.enemies["drone"] = false
+			t.friends["drone"] = true
+			t.enemies["juggernaut"] = false
+			t.friends["juggernaut"] = true
+			t.enemies["possessed drone"] = true
+			t.friends["possessed drone"] = false
+		elseif t.class == "possessed drone" then
+			t.enemies["player"] = true
+			t.friends["player"] = false
+			t.enemies["bob"] = true
+			t.friends["bob"] = false
+			t.enemies["madd"] = true
+			t.friends["madd"] = false
+			t.friends["possessed drone"] = false
+			t.enemies["defender"] = true
+			t.friends["defender"] = false
+			if not restoring then
+				t.alien = true
+			end
+		else
+			t.enemies["possessed drone"] = true
+			t.friends["possessed drone"] = false
+		end
+	end
+end
+
+function Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	if projectile then
+		if projectile.type == "armageddon electricity" then
+			-- multiply players' staff damage to monsters (multiplying damage manually to avoid ridiculous knockback)
+			if monster.type == "major tick" or monster.type == "minor drone" or monster.type == "major drone"
+			or monster.type == "big minor drone" or monster.type == "big major drone" or monster.type == "possessed drone" then
+				monster.life = monster.life - (damage_amount * 8) -- wasps and drones are weak to staff
+			else
+				monster.life = monster.life - (damage_amount * 4)
+			end
+		end
+	end
+end
+
+function Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	if projectile then
+		if (victim.weapons.current.type == "smg" or victim.weapons.current.type == "shotgun") then
+			if projectile.type == "shotgun bullet" or projectile.type == "smg bullet" then
+				victim.life = victim.life + damage_amount -- make players immune to WMC and grav blades while wielding either
+			end
+		elseif projectile.type == "armageddon electricity" then
+			victim.life = victim.life - (damage_amount * 4)
+			if victim.life < 0 then
+				Players:damage(1, "suffocation")
+			end
+		end
+	end
+end
+
+function Global:player_damaged_dream(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile) -- used in success dreams
+	if not aggressor_player then
+		victim.life = victim.life + damage_amount -- make players immune to all damage sources that aren't players
+	else
+		Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	end
+end
+
+function Global:player_killed(player, aggressor_player, action, projectile)
+	player._deathtime = Game.ticks -- record player death time for sake of network game revival
+end
+
+function Global:player_revived(p, fusion_ammo, staff_charges, havoc_rifle_ammo, scatter_rifle_ammo, napalm_cannon_ammo, zero_point_modules, player_life)
+	if fusion_ammo > p.items["pistol ammo"] then
+		p.items["pistol ammo"] = fusion_ammo
+	end
+	if staff_charges > p.items["assault rifle ammo"] then
+		p.items["assault rifle ammo"] = staff_charges
+	end
+	if havoc_rifle_ammo > p.items["missile launcher ammo"] then
+		p.items["missile launcher ammo"] = havoc_rifle_ammo
+	end
+	if scatter_rifle_ammo > p.items["flamethrower ammo"] then
+		p.items["flamethrower ammo"] = scatter_rifle_ammo
+	end
+	if napalm_cannon_ammo > p.items["shotgun ammo"] then
+		p.items["shotgun ammo"] = napalm_cannon_ammo
+	end
+	if zero_point_modules > p.items["smg ammo"] then
+		p.items["smg ammo"] = zero_point_modules
+	end
+	if player_life > p.life then
+		p.life = player_life
+		p:fade_screen("green")
+		p:play_sound("got powerup")
+	end
+	p._teleport = false -- player won't be teleporting upon revival - Lua script can teleport them
+	p._terminal = false -- player will not be reading terminal upon revival - enable oxygen drain
+end
+
+function Global:terminal_enter(t, p)
+	p._terminal = true -- disable oxygen drain while player reads terminal
+	p._teleport = false -- if a player loads a terminal, we can safely assume they're not teleporting
+end
+
+function Global:terminal_exit(t, p)
+	p._terminal = false -- re-enable oxygen drain once player leaves terminal
+end
+
+function Global:checkrevival(p)
+	-- revive players in network games if they hit the action key at least ten seconds after dying
+	-- sometimes we'll just run this as part of a larger loop, so this is refactored into its own function
+	if p.dead and p.action_flags.action_trigger and Game.ticks > p._deathtime + 300 then
+		p:position(p.x, p.y, p.polygon.floor.z, p.polygon)
+		p:revive()
+	end
+end
+
+function Global:reviveplayers()
+	-- other times there is no larger loop, so we'll just run the whole loop here
+	if #Players > 1 then
+		for p in Players() do
+			Global:checkrevival(p)
+		end
+	end
+end
+
+function Global:initialize(restoring, fusion_ammo, staff_charges, havoc_rifle_ammo, scatter_rifle_ammo, napalm_cannon_ammo, zero_point_modules, player_life)
+	Game.proper_item_accounting = true
+	Game.nonlocal_overlays = true
+	Level.stash["FAIL"] = "false"
+	Level.stash["quicksave"] = "false"
+	Level._timeentered = Game.ticks -- record entry time for "load failure" messages
+	if restoring then -- restart from saved game
+		if not Game.restore_saved() then
+			Level.stash["FAIL"] = "TRUE" -- failed to load secret data
+			Global:updatesecrets() -- set secrets, since we won't have data on them
+			Level.stash["recalculate"] = "false"
+		--[[else
+			if #Players == 1 then -- single-player game; may be restoring from network game save
+				if Players[0].items["orange ball"] > Players[0].items["alien weapon ammo"] then
+					-- set "level secrets found by player" to "level secrets found by everyone" if the latter is greater
+					Players[0].items["alien weapon ammo"] = Players[0].items["orange ball"]
+				elseif Players[0].items["orange ball"] < Players[0].items["alien weapon ammo"] then
+					Players[0].items["orange ball"] = Players[0].items["alien weapon ammo"]
+				end
+				if Players[0].items["key"] > Players[0].items["blue ball"] then
+					-- set "player's total secrets" to "everyone's total secrets" if the latter is greater
+					Players[0].items["key"] = Players[0].items["blue ball"]
+				elseif Players[0].items["key"] < Players[0].items["blue ball"] then
+					Players[0].items["blue ball"] = Players[0].items["key"]
+				end
+			end--]]
+			-- i have no idea how to even begin to handle restoring the secret counter in a network game
+		else -- loaded correctly?
+			Global:hudsecrets() -- get the correct secret info to show for the HUD
+		end
+	else
+		Level.stash["recalculate"] = "false"
+		if Game.ticks > 0 then -- entered from previous level
+			if not Game.restore_passed() then
+				Level.stash["FAIL"] = "TRUE" -- failed to load secret data
+			else
+				Level.stash["quicksave"] = "TRUE" -- it's OK for the quicksave function to run
+			end
+		else
+			-- items for vid start
+			for p in Players() do
+				p._hotkey = false -- if they're just starting the game, they obviously haven't pressed a hotkey yet
+				-- funnily enough, we can just do exactly the same thing here we'd do upon player revival
+				Global:player_revived(p, fusion_ammo, staff_charges, havoc_rifle_ammo, scatter_rifle_ammo, napalm_cannon_ammo, zero_point_modules, player_life)
+			end
+		end
+
+		-- reset secrets for level and set terminal variables
+		for p in Players() do
+			p.items["alien weapon ammo"] = 0 -- reset "secrets found on this level by player"
+			p.items["orange ball"] = 0 -- reset "secrets found on this level by all players"
+			p._terminal = false -- tells us they're not reading a terminal
+			p._teleport = false -- tells us they're not teleporting from a Lua script
+		end
+
+		-- update secret counter
+		Global:updatesecrets()
+	end
+end
+
+function Global:failuredream(p, dream) -- The Ensurance Trap calls this despite not actually being a dream, hence the "dream" variable
+	if dream then
+		Global:dream(p)
+	end
+	Global:map_overlays(p)
+	Global:checkrevival(p)
+	Global:loadfailure_player(p)
+end
+
+function Global:landscapemediavacuumnasty()
+	for p in Players() do
+		Global:map_overlays(p)
+		if p.polygon.media or p.polygon.floor.transfer_mode == "landscape" and not p.dead then
+			Global:drainoxygen(p, 2) -- drain oxygen at 2 per tick because Eternal restores 1 per tick
+		end
+		if p.polygon.floor.transfer_mode == "landscape" then
+			p:damage(1, "suffocation")
+		end
+		if #Players > 1 and p.dead then
+			Global:checkrevival(p) -- since we're already checking players in this loop, we'll call the subroutine individually
+		end
+		Global:loadfailure_player(p)
+	end
+end
+
+function Global:landscapemediavacuum()
+	for p in Players() do
+		Global:map_overlays(p)
+		if p.polygon.media or p.polygon.floor.transfer_mode == "landscape" and not p.dead then
+			Global:drainoxygen(p, 2) -- drain oxygen at 2 per tick because Eternal restores 1 per tick
+		elseif #Players > 1 and p.dead then
+			Global:checkrevival(p) -- since we're already checking players in this loop, we'll call the subroutine individually
+		end
+		Global:loadfailure_player(p)
+	end
+end
+
+function Global:spacelandscapevacuum()
+	for p in Players() do
+		Global:map_overlays(p)
+		if p.polygon.ceiling.transfer_mode == "landscape" and (p.polygon.ceiling.texture_index == 0 or p.polygon.ceiling.texture_index == 2) and p.polygon.ceiling.collection == 30 and not p.dead then
+			Global:drainoxygen(p, 2) -- drain oxygen at 2 per tick because Eternal restores 1 per tick
+		elseif #Players > 1 and p.dead then
+			Global:checkrevival(p) -- since we're already checking players in this loop, we'll call the subroutine individually
+		end
+		Global:loadfailure_player(p)
+	end
+end
+
+function Global:landscapevacuum()
+	for p in Players() do
+		Global:map_overlays(p)
+		if p.polygon.floor.transfer_mode == "landscape" and not p.dead then
+			Global:drainoxygen(p, 2) -- drain oxygen at 2 per tick because Eternal restores 1 per tick
+		elseif #Players > 1 and p.dead then
+			Global:checkrevival(p) -- since we're already checking players in this loop, we'll call the subroutine individually
+		end
+		Global:loadfailure_player(p)
+	end
+end
+
+function Global:idlevacuum()
+	for p in Players() do
+		Global:map_overlays(p)
+		if not p.dead then
+			Global:drainoxygen(p, 2) -- drain oxygen at 2 per tick because Eternal restores 1 per tick
+		elseif #Players > 1 then
+			Global:checkrevival(p) -- since we're already checking players in this loop, we'll call the subroutine individually
+		end
+		Global:loadfailure_player(p)
+	end
+end
+
+function Global:idlemain()
+	for p in Players() do
+		Global:map_overlays(p)
+	end
+	Global:loadfailure()
+	Global:reviveplayers()
+end

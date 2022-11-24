@@ -1,0 +1,94 @@
+Triggers = {}
+
+function countPfhor()
+	local livingPfhor = 0 -- see how many pfhor we've got left
+	for m in Monsters() do
+		if m.type == "minor fighter" or m.type == "major fighter" or m.type == "minor projectile fighter" or m.type == "major projectile fighter"
+		or m.type == "minor trooper" or m.type == "major trooper" or m.type == "minor hunter" or m.type == "major hunter"
+		or m.type == "minor enforcer" or m.type == "major enforcer" or m.type == "mother of all hunters" then
+			livingPfhor = livingPfhor + 1
+		end
+	end
+	--[[if Game.ticks % 900 == 0 then
+		Players.print(livingPfhor) -- print number of living Pfhor every half-minute; debug feature
+	end--]]
+	return livingPfhor
+end
+
+function turnDrones()
+	for t in MonsterTypes() do -- set monster alliances
+		if t.class == "juggernaut" or t.class == "drone" then
+			t.enemies["player"] = false
+			t.friends["player"] = true
+			t.enemies["yeti"] = false
+			t.friends["yeti"] = true
+			t.enemies["fighter"] = true
+			t.friends["fighter"] = false
+			t.enemies["trooper"] = true
+			t.friends["trooper"] = false
+			t.enemies["hunter"] = true
+			t.friends["hunter"] = false
+			t.enemies["enforcer"] = true
+			t.friends["enforcer"] = false
+		elseif t.class == "fighter" or t.class == "trooper" or t.class == "hunter" or t.class == "enforcer" then
+			t.enemies["drone"] = true
+			t.friends["drone"] = false
+			t.enemies["juggernaut"] = true
+			t.friends["juggernaut"] = false
+		elseif t.class == "yeti" then
+			t.enemies["drone"] = false
+			t.friends["drone"] = true
+			t.enemies["juggernaut"] = false
+			t.friends["juggernaut"] = true
+		end
+	end
+	Level.stash["recalculate"] = "TRUE"
+end
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	if Level.stash["FAIL"] == "TRUE" or not restoring then
+		Level._dronesturned = false
+	end
+	Level.stash["names"] = "standard"
+end
+
+function Triggers.idle()
+	Global:idlemain()
+	if (not Level._dronesturned) and Tags[2].active and Tags[4].active and Tags[5].active then -- check status of three accessible repair switches
+		turnDrones() -- if all three are set, turn drones (and juggernauts, not that these levels have any)
+		Level._dronesturned = true
+	end
+	if Game.ticks % 15 == 0 and Level._dronesturned and not Tags[6].active then
+	-- no sense running this extermination check every tick; run it twice a second, and not 'til the repair mission is done. level requires both anyway
+		if countPfhor() <= Global:exterminationlimit() then
+			-- if no more than (Kindergarten: 7, Easy: 6, Normal: 5, Major Damage: 4, Total Carnage: 3) Pfhor survive, then...
+			-- activate an inaccessible platform that activates a fourth, inaccessible repair switch, thus setting the mission to finished
+			Tags[6].active = true
+		end
+	end
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end

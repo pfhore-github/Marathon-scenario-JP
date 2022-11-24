@@ -1,6 +1,195 @@
 <marathon>
+	<!-- weird scripting for chapter 2 success dream (The World Is Hollow) -->
+	<!-- Rubicon teleport out, M2 teleport in -->
 	<sounds
-		teleport_in="236"
-		teleport_out="244"
+		teleport_in="1"
+		teleport_out="237"
 	/>
+
+	<!-- Rubicon Pfhor sounds for all platforms and switches-->
+	<control_panels>
+		<!-- pattern buffer -->
+		<panel index="7">
+			<sound type="0" which="242"/>
+		</panel>
+
+		<panel index="16">
+			<sound type="0" which="242"/>
+		</panel>
+
+		<panel index="27">
+			<sound type="0" which="242"/>
+		</panel>
+
+		<panel index="38">
+			<sound type="0" which="242"/>
+		</panel>
+
+		<panel index="49">
+			<sound type="0" which="242"/>
+		</panel>
+
+		<!-- chip insertion -->
+		<panel index="3">
+			<sound type="0" which="241"/>
+		</panel>
+
+		<panel index="19">
+			<sound type="0" which="241"/>
+		</panel>
+
+		<panel index="30">
+			<sound type="0" which="241"/>
+		</panel>
+
+		<panel index="41">
+			<sound type="0" which="241"/>
+		</panel>
+
+		<panel index="52">
+			<sound type="0" which="241"/>
+		</panel>
+
+		<!-- light switches -->
+		<panel index="4">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="13">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="24">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="46">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<!-- platform switches -->
+		<panel index="5">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="14">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="25">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="47">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<!-- tag switches -->
+		<panel index="6">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="15">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="26">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+
+		<panel index="48">
+			<sound type="0" which="195"/>
+			<sound type="1" which="194"/>
+			<sound type="2" which="11"/>
+		</panel>
+	</control_panels>
+
+	<platforms>
+		<!-- s'pht doors -->
+		<platform index="0"
+			start_extend="190"
+			start_contract="191"
+			obstructed="192"
+			uncontrollable="192"
+			moving="23"
+		/>
+
+		<platform index="1"
+			start_extend="190"
+			start_contract="191"
+			obstructed="192"
+			uncontrollable="192"
+			moving="23"
+		/>
+
+		<platform index="2"
+			start_extend="190"
+			start_contract="191"
+			obstructed="192"
+			uncontrollable="192"
+			moving="23"
+		/>
+
+		<!-- s'pht platform -->
+		<platform index="4"
+			start_extend="233"
+			start_contract="233"
+			stop_extend="235"
+			stop_contract="235"
+		/>
+
+		<!-- heavy s'pht door -->
+		<platform index="5"
+			start_extend="190"
+			start_contract="191"
+			stop_extend="-1"
+			stop_contract="-1"
+			obstructed="192"
+			uncontrollable="192"
+			moving="23"
+		/>
+
+		<!-- heavy s'pht platform -->
+		<platform index="7"
+			start_extend="233"
+			start_contract="233"
+			stop_extend="235"
+			stop_contract="235"
+		/>
+
+		<!-- pfhor platform -->
+		<platform index="8"
+			start_extend="233"
+			start_contract="233"
+			stop_extend="235"
+			stop_contract="235"
+		/>
+	</platforms>
+
+	<sounds>
+		<!-- Ambient sounds for Rubicon Pfhor Platform -->
+		<ambient index="24" sound="234"/>
+	</sounds>
 </marathon>

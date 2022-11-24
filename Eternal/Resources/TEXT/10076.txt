@@ -111,8 +111,8 @@
 
 		<!-- s'pht platform -->
 		<platform index="4"
-			start_extend="251"
-			start_contract="251"
+			start_extend="27"
+			start_contract="27"
 			stop_extend="252"
 			stop_contract="252"
 		/>

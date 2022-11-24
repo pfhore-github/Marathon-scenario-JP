@@ -1,1 +1,5 @@
-<marathon>	<view map="true" fold_effect="true" static_effect="true">		<fov normal="135" extra="135" tunnel="30" rate="10"/>	</view>		</marathon>
+<marathon>
+	<control_panels>
+		<panel index="1" type="3" pitch="1.25"/>
+	</control_panels>
+</marathon>

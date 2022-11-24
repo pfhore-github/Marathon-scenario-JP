@@ -1,0 +1,151 @@
+precipitation_collection = 26
+precipitation_sequence = 21
+precipitation_inviscoll = 4 -- using a really dumb hack to make rain on forcefield polygons invisible until the forcefields are raised
+precipitation_invisseq = 18 -- it'd be more sensible to use a table for this, which i'll probably implement once i understand how they work in lua
+precipitation_count = 1536
+precipitation_gravity = 1/4
+precipitation_wind = 0
+
+function build_pool()
+	Level._pool = {}
+	for i=1,precipitation_count do
+		local x, y, z, p, t = uniform.xyz_in_triangle_list(Level._triangles)
+		local e
+		if p.ceiling.texture_index == 2 then
+			e = Ephemera.new(x, y, z, p, precipitation_inviscoll, precipitation_invisseq, 0)
+		else
+			e = Ephemera.new(x, y, z, p, precipitation_collection, precipitation_sequence, 0)
+		end
+		e._triangle = t
+		table.insert(Level._pool, e)
+	end
+end
+
+Triggers = {}
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.platform_activated(plat)
+	if plat.media then -- media are used to link platforms & associated forcefields
+		if plat.media.index > 5 then -- forcefield got deactivated
+			for p in Polygons() do
+				if p.media then
+					if p.media.index == plat.media.index and p.ceiling.transfer_mode == "landscape" then
+						p.ceiling.texture_index = 1 -- change landscape to match
+					end
+				end
+			end
+			if Level.calculate_completion_state() == "finished" then
+				Lights[50].active = true -- mission is completed; turn on light that controls teleporter sound
+			end
+		end
+	end
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Level.stash["names"] = "physics1"
+
+	if not restoring then
+		Global:ch2_rebellion(restoring)
+	end
+
+	if not restoring or Level.stash["FAIL"] == "TRUE" then
+		Level._fogtimer = 420
+		Level._brightness = .125
+		Level._thundertimer = 0
+		Level._depth = 42
+		Level._darken = false
+	end
+
+	-- unfortunately, too much stuff in this level is customized, so we can't use the Global functions this time
+	if Game.version >= "20210222" and Ephemera.quality ~= "off" then
+		-- we're using ephemera, so use a render random function
+		uniform.random = Game.random_local
+
+		-- modify amount of precipitation based on rendering settings
+		if Ephemera.quality == "low" then
+			precipitation_count = 512
+		elseif Ephemera.quality == "medium" then
+			precipitation_count = 1024
+		elseif Ephemera.quality == "ultra" then
+			precipitation_count = 2048
+		end
+
+		local polygon_list = {}
+		for p in Polygons() do
+			if p.ceiling.transfer_mode == "landscape" and p.ceiling.collection == 28 then
+				table.insert(polygon_list, p)
+			end
+		end
+		Level._triangles = uniform.build_triangle_list(polygon_list)
+		build_pool()
+	end
+end
+
+function Triggers.idle()
+	Global:idlemain()
+	-- unfortunately, too much of this subroutine is customised, so we can't use Global:idleprecipitation here
+	if Game.version >= "20210222" and Ephemera.quality ~= "off" then
+		local pool = Level._pool
+		local position = pool[1].position
+
+		for i = 1,precipitation_count do
+			local e = pool[i]
+			if e.rendered then
+				local p = e.polygon
+
+				-- to do wind, add it to e.x and e.y, and use p:find_polygon to find
+				-- the new polygon. You'll also have to track the original polygon
+				-- the ephemera was in to reset it when it goes out of bounds
+				position(e, e.x, e.y, e.z - precipitation_gravity, p)
+				if e.z < e.polygon.floor.height then -- resetting rain that hits the ground
+					local x, y = uniform.xy_in_triangle(e._triangle)
+					e:position(x, y, p.ceiling.height, p)
+					if p.ceiling.texture_index ~= 2 and e.collection == precipitation_inviscoll then -- check to see if it's on a forcefield that we've raised
+						e.collection = precipitation_collection -- making it visible if we've raised the forcefield
+						e.shape_index = precipitation_sequence
+					end
+				elseif e.z > e.polygon.ceiling.height then -- resetting rain that's above the ceiling for some reason (probably only useful for wind, but left intact here)
+					local x, y = uniform.xy_in_triangle(e._triangle)
+					e:position(x, y, p.floor.height, p)
+				end
+				--[[if e.polygon.media then
+					if e.z < e.polygon.media.height then -- resetting rain that hits media (i don't think any of our rain is on media polys either)
+						local x, y = uniform.xy_in_triangle(e._triangle)
+						e:position(x, y, p.ceiling.height, p)
+						if p.ceiling.texture_index == 1 and e.collection == precipitation_inviscoll then
+							e.collection = precipitation_collection
+							e.shape_index = precipitation_sequence
+						end
+					end
+				end--]]
+			end
+		end
+	end
+	Global:purplelightning(7)
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end
+
+-- Incorporates scripting by Gregory Smith (almost all precipitation stuff), Aaron Freed (lightning/fog/forcefield stuff), and others

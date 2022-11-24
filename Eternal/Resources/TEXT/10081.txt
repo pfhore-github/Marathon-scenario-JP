@@ -1,0 +1,6 @@
+<marathon>
+	<!-- puts in the extended Alien Harmonics sound (separate because it is unsettling) -->
+	<sounds>
+		<ambient index="27" sound="223"/>
+	</sounds>
+</marathon>

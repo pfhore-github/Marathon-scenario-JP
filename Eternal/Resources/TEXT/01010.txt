@@ -1,0 +1,174 @@
+--[[ levelwalls = 20
+levellandscape = 27
+
+nextwalls = 21
+nextlandscapecoll = 28
+nextlandscapeindex = 1
+
+CollectionsUsed = { 21, 28 }
+
+function changetexture(x)
+	if x.collection == levelwalls then
+		x.collection = nextwalls
+	elseif x.collection == levellandscape then
+		x.collection = nextlandscapecoll
+		x.texture_index = nextlandscapeindex
+	end
+end --]]
+
+Triggers = {}
+
+function Triggers.got_item(type, player)
+	Global:got_item(type, player)
+end
+
+function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
+end
+
+function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
+	Global:player_damaged_dream(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile) -- dream version
+end
+
+function Triggers.player_killed(player, aggressor_player, action, projectile)
+	Global:player_killed(player, aggressor_player, action, projectile)
+end
+
+function Triggers.player_revived(p)
+	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
+end
+
+function Triggers.terminal_enter(t, p)
+	Global:terminal_enter(t, p)
+end
+
+function Triggers.terminal_exit(t, p)
+	Global:terminal_exit(t, p)
+end
+
+function Triggers.init(restoring)
+	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
+	Level.stash["names"] = "jjaro"
+	Level.stash["ignore"] = "28"
+
+	if not restoring or Level.stash["FAIL"] == "TRUE" then
+		-- suffocation/teleportation constants
+		Level._playersuff = -10
+		Level._monstersuff1 = -1
+		Level._monstersuff2 = -2
+		Level._teleportpoly = 2005
+	end
+
+	-- set display title for HUD
+	Level.stash["maintitle"] = "To Sleep, Perchance to Dream"
+	Level.stash["subtitle"] = string.format("Dorm%cre, fortu%ct%c somni%cre", 146, 146, 151, 135)
+
+	--[[ if not restoring then
+		Level._sides = {}
+		Level._polys = {}
+		Level._transform = false
+		for side in Sides() do
+			if side.primary then
+				if side.primary.collection == levelwalls or side.primary.collection == levellandscape then
+					table.insert(Level._sides, side)
+				end
+			elseif side.transparent then
+				if side.transparent.collection == levelwalls or side.transparent.collection == levellandscape then
+					table.insert(Level._sides, side)
+				end
+			elseif side.secondary then
+				if side.secondary.collection == levelwalls or side.secondary.collection == levellandscape then
+					table.insert(Level._sides, side)
+				end
+			end
+		end
+		for poly in Polygons() do
+			if poly.floor.collection then
+				if poly.floor.collection == levelwalls or poly.floor.collection == levellandscape then
+					table.insert(Level._polys, poly)
+				end
+			elseif poly.ceiling.collection then
+				if poly.ceiling.collection == levelwalls or poly.ceiling.collection == levellandscape then
+					table.insert(Level._polys, poly)
+				end
+			end
+		end
+	end --]]
+end
+
+function Triggers.terminal_enter(t, p)
+	Global:terminal_enter(t, p)
+end
+
+function Triggers.idle()
+	--[[ if not Level._transform then
+		for player in Players() do
+			if player.polygon.media then
+				if (player.polygon.media == 10 or player.polygon.media == 11) and (player.z < -7) then
+					Players.print("transform active")
+					Level._transform = true
+				end
+			end
+		end
+	elseif Level._sides ~= {} or Level._polys ~= {} then
+		local x = 42
+		while x > 0 and Level._sides ~= { } do
+			local side = Game.random(#Level._sides)
+			if Level._sides[side].primary then
+				if Level._sides[side].primary.collection == levelwalls then
+					Level._sides[side].primary.collection = nextwalls
+				elseif Level._sides[side].primary.collection == levellandscape then
+					Level._sides[side].primary.collection = nextlandscapecoll
+					Level._sides[side].primary.texture_index = nextlandscapeindex
+				end
+			end
+			if Level._sides[side].secondary then
+				if Level._sides[side].secondary.collection == levelwalls then
+					Level._sides[side].secondary.collection = nextwalls
+				elseif Level._sides[side].secondary.collection == levellandscape then
+					Level._sides[side].secondary.collection = nextlandscapecoll
+					Level._sides[side].secondary.texture_index = nextlandscapeindex
+				end
+			end
+			if Level._sides[side].transparent then
+				if Level._sides[side].transparent.collection == levelwalls then
+					Level._sides[side].transparent.collection = nextwalls
+				elseif Level._sides[side].transparent.collection == levellandscape then
+					Level._sides[side].transparent.collection = nextlandscapecoll
+					Level._sides[side].transparent.texture_index = nextlandscapeindex
+				end
+			end
+			table.remove(Level._sides, side)
+			x = x - 1
+		end
+		x = 21
+		while x > 0 and Level._polys ~= { } do
+			local poly = Game.random(#Level._polys)
+			if Level._polys[poly].floor.collection then
+				if Level._polys[poly].floor.collection == levelwalls then
+					Level._polys[poly].floor.collection = nextwalls
+				elseif Level._polys[poly].floor.collection == levellandscape then
+					Level._polys[poly].floor.collection = nextlandscapecoll
+					Level._polys[poly].floor.texture_index = nextlandscapeindex
+				end
+			end
+			if Level._polys[poly].ceiling.collection then
+				if Level._polys[poly].ceiling.collection == levelwalls then
+					Level._polys[poly].ceiling.collection = nextwalls
+				elseif Level._polys[poly].ceiling.collection == levellandscape then
+					Level._polys[poly].ceiling.collection = nextlandscapecoll
+					Level._polys[poly].ceiling.texture_index = nextlandscapeindex
+				end
+			end
+			table.remove(Level._polys, poly)
+			x = x - 1
+		end
+	end--]]
+
+	Global:idlemain()
+	Global:successdream(Level._playersuff, Level._monstersuff1, Level._monstersuff2, Level._teleportpoly)
+end
+
+function Triggers.cleanup()
+	Global:cleanup()
+end
