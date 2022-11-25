@@ -1,0 +1,8 @@
+<marathon>
+	<liquids>
+		<!-- redefine Jjaro slime to play "light machinery" sound -->
+		<liquid index="3" coll="18" frame="134">
+			<sound type="5" which="13"/>
+		</liquid>
+	</liquids>
+</marathon>
