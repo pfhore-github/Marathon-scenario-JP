@@ -1,0 +1,146 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 440
+#PICT 1600
+$C1You found the last (?) secret terminal. Congrats!
+
+I wish to thank all mapmakers (e.g., $BJames Hastings-Trew$b, $BRyokoTK$b, $Bwindbreaker$b, $BCryoS$b, $Bhypersleep$b, $BDMA$b, $BDrictelt$b, $BMike Trinder$b, $BC Lund$b) & authors (e.g., $BKurt Vonnegut$b, $BAlan Moore$b, $BTerry Pratchett$b, $BUrsula K. Le Guin$b, $BPhilip K. Dick$b, $BThomas Pynchon$b, $BHeraclitus$b, $BFriedrich Nietzsche$b, $BWilliam Shakespeare$b, $BGeorge Orwell$b, $BEmma Goldman$b, $BNoam Chomsky$b, $BFrank Wilhoit$b, $BChristian Bouché$b) who’ve influenced my style/thinking. Listing the musicians, movies, and TV shows that have influenced me would double these already interminable acknowledgements’ length, but $BGodspeed You! Black Emperor$b, $BGenesis$b, $BPink Floyd$b, $BDeathspell Omega$b, $BBlut aus Nord$b, $BPanopticon$b, $BAshenspire$b, $BEnslaved$b, $BMagma$b, $B$IMoonlight$i$b, $B$IPan’s Labyrinth$i$b, $B$IBrazil$i$b, $B$I2001$i$b, $B$ICasablanca$i$b, $B$IBlade Runner$i$b, $B$IStar Trek$i$b, and $B$IDoctor Who$i$b count among them.
+#PICT 1601 RIGHT
+$C1
+I also wish to thank our composers. $IEternal$i would be a far lesser experience without its soundtrack. I find it telling that $IEternal$i 1.2’s soundtrack is my second-most-watched YouTube video of all time (only my remix of Deathspell Omega’s $IFas - ite, maledicti, in ignem aeternum$i has gotten more views). As great as 1.2’s soundtrack was, 1.3’s adds dozens of new tracks that more than triple the soundtrack's length, many made specifically for $IEternal$i, and their creators went $Ihard$i. Each chapter – each $Ilevel$i – has a more unique atmosphere now than ever before; the music is a major reason. $BCKT1138$b, $BMatrix_XV$b, $BNick Singer$b, $BSolar-Tron$b, $BStorm$b, $BTalashar$b, and $Bwowbobwow$b deserve thanks for their new tracks, along with $BCraig Hardgrove$b, $BNick Singer$b (again), $BThomas Livingston$b, and $BEike Steffen$b for their original tracks.
+#PICT 1602
+$C1As to our artists, $BGeneral Tacticus$b outdid himself with his newest weapon renders, new landscapes, and Pompeia/Hathor sprites. The 1.2 weapon renders were already some of the most impressive-looking weapon sprites any scenario had ever boasted, and he somehow improved them; Pompeia/Hathor’s sprites provide a unique, distinctive boss (if one can call her that) that helps differentiate $IEternal$i from other games.
+
+$BGeneral-RADIX$b’s sprites add an incalculable amount to $IEternal$i; its monsters, no longer a mishmash of $IM1$i and $IM2$i, now possess a distinctive visual language (which will also help establish continuity with $B$IWhere Monsters Are in Dreams$i$b and $B$IMarathon Chronicles$i$b when they’re done). They also provided some fantastic new terminal artwork (basically everything new that isn’t a $BMidJourney$b asset is their work).
+#PICT 1603 RIGHT
+$C1$BPfhorrest$b’s textures, which were already beautiful in 1.2, keep improving, too, and I’m quite thankful they were willing to keep remaking textures based on minor issues I found, especially since the limit of my artistic ability is roughly “using the clone stamp to pretend to be an actual artist”. It’s a shame we couldn’t include all our textures at 1024x1024 without destroying your RAM, but maybe someday.
+
+I wasn’t planning to redo the Pfhor set myself, but once I started messing around with $BSubstance 3D Designer$b nodes, I didn’t want to stop. The program has a steep learning curve, but thankfully, $Bhypersleep$b was always willing to answer my questions. As for $BIllustrator$b, another program I found tough to learn, $BPfhorrest$b was equally as on point with answers for that. I’d never have pulled it off without their help.
+#PICT 1604
+$C1$BPfhorrest$b was also invariably at hand with answers whenever I had $IEternal$i story questions; $BGeneral-RADIX$b, $BCryoS$b, and $BYah-Nosh$b were always happy to talk plot ideas. These discussions undoubtedly averted several potential plot holes and created a far more engaging backstory and characters. I sincerely hope we’ve made some previously obtuse plot beats clearer while also enhancing the story’s depth and complexity.
+
+I redid the sounds (again) largely solo, but it’d have been pointless without $BSound Ideas$b’ libraries – the Series 6000 General is the source of an incalculable number of Bungie’s original sounds from $IPathways$i through at least $IMarathon Infinity$i, and my remasters from 1.2.1 can’t hold a candle to the remixes I’ve made from the original sources. I also must acknowledge $BiZotope RX$b, a $Isine quá nón$i throughout every step of my remastering and remixing process.
+#PICT 1605 RIGHT
+$C1Several people on the $IMarathon$i Discord, especially $BW’rkncacnter$b and $Btreellama$b, have been immensely helpful anytime I’ve needed Lua scripting help – which, due to my inexperience with the language, was often. If I’d ever gotten even half the scripting to work without their help, I’d undoubtedly have taken weeks if not months longer.
+
+My Latin surely contains numerous grammar and word choice errors, but several online resources hopefully kept it from being a complete embarrassment. I had at least one $BWiktionary$b tab open at almost all times while working on this game; $BLatin Is Simple$b and $BThe Latin Dictionary$b often helped when it came up short. $BGoogle Translate$b’s Latin isn’t very reliable, but I caught countless dumb errors by using it to translate $Iback$i to English. Wiktionary also helped with other languages (though many undoubtedly contain more errors than the Latin).
+#PICT 1606
+$C1We mustn’t forget the creators of $IEternal$i’s maps. I may have redesigned a few levels mostly from scratch, but my versions draw heavily from the old versions and simply correct what wasn’t working. So “Remedial Chaos Theory” is half new, half “Unwired” in a new order with less backtracking. “Haec caverna nón fórmátió nátúrális” is a more circular remake of the old layout (thanks to Bobs being Bobs). “The Midpoint of Somewhere” is an expanded “Far Side of Nowhere” with enemies. And so on.
+
+This map’s central segment is $BCryoS$b’ work; I built the rest around a set of crossbeams that create negative space, yet maintain the illusion that the spaces are connected. I filtered $IApotheosis X$i’s ‘bestagon’ grid through my pathological need to turn everything into circles; “Stone Temple Pilates” from $BRyokoTK$b’s peerless $IPhoenix$i inspired the treacherous cliffs.
+#PICT 1607 RIGHT
+$C1My changes also drew heavily on others’ advice. $BRyokoTK$b’s $IEternal$i critique was invaluable. Testers like $BDr John Sumner$b, $BDon-Martin Antell$b, $Baperturegrillz$b, $Btbcr$b, $Bares540$b, and $BObsidianCarnageX12$b critiqued what did and didn’t work (often in detail) and found numerous bugs. $Bhypersleep$b and $BCryoS$b’ advice shaped my changes to maps like “Remedial Chaos Theory” and “Once More unto the Breach” and encouraged me to remake the former. If you like those maps, thank them too; but if you don’t, I made the final calls, so I accept responsibility.
+
+Obviously, those changes wouldn’t even have been possible without the original maps; so thanks to their creators, too. Many (other than $BPfhorrest$b) last worked on $IEternal$i long ago, but it’s been a pleasure working with $BDon-Martin$b since he rejoined the team. And despite our differences since then, I greatly enjoyed working with $Braven$b on 1.2.
+#PICT 1608
+$C1Thanks also to the creators of $BMidJourney$b, a neural network we used to generate a massive amount of stunning terminal art, including this terminal’s so far. Besides a few (also stunning) images $BGeneral-RADIX$b made for us, most new terminal art in 1.3 is MidJourney output; without it, most of those terminals would have none at all. Thanks as well to the artists we pastiched (i.e., ripped off), including $BH. R. Giger$b, $BMariusz Lewandowski$b, $BTimo Ketola$b, $BKentaro Miura$b, $BRoger Dean$b, $BAnna Podedworna$b, $BSophie Milner$b, $BHideo Yamamoto$b, $BKazuo Umezu$b, $BHayao Miyazaki$b, $BYoshitaka Amano$b, $BYusuke Murata$b, $BZdzislaw Beksinski$b, $BNele Zirnite$b, $BTakehiko Inoue$b, $BJasmine Beckett-Griffith$b, $BKristian Wåhlin$b, $BDan Seagrave$b, $BCraig Mullins$b, $BFrank Quitely$b, $BDavid Lloyd$b, $BEddie Campbell$b, $BDave Gibbons$b, $BJack Kirby$b, $BSteve Ditko$b, $BThomas Kinkade$b, $BWill Eisner$b, $BFrank Miller$b, $BJunji Ito$b, $BCaravaggio$b… and I’m sure I forgot several (for which I apologise).
+#PICT 1611
+$C1An additional thanks to $Baperturegrillz$b for
+the image to the left, plus the proof-of-
+concept that made the waterfall in $B“…how
+deep the rabbit hole goes$b and the reservoir
+in $B“The Midpoint of Somewhere”$b possible,
+and his monster health indicator script
+which I used as a base for an add-on that’s
+hopefully coming soon™.
+
+Lastly, thanks to you for playing this far:
+it’d feel pretty futile to work on a game
+no one played. I hope you’ve enjoyed it! And
+I apologise for how long preview 4 took to
+come out: feature creep is a harsh mistress.
+
+Messages from other contributors will follow
+before we return you to your regularly
+scheduled programming.
+
+Valé,
+$BAaron$b
+#PICT 1612 RIGHT
+$C4
+
+
+
+
+
+I’m $BGeneral-RADIX$b, the shambling pile of ADHD that made the new Pfhor, S’pht, and Jjaro BoB sprites, as well as some of the terminal art, and who contributed to plot revisions. While much of my older $IMarathon$i stuff has been repurposed for $IDeus Vocatus$i and other original works, I’m glad to have been part of this project and others.
+                                     —$BRADIX$b
+#PICT 1613
+$C6Yah-Nosh, writer and resident contrarian. Joined the team with a mission to help Eternal’s story reach its full potential. My heartfelt thanks to the whole Marathon community for all their hard work, keeping the games alive and creating amazing new projects. Special thanks to you for playing this game. I hope it was fun!
+                                  —$BYah-Nosh$b
+$C1————————
+
+We shall now take you back to the top. Don’t be afraid to jump in once you’re ready to leave: it’s your only hope to fix this mess. One final note: Hathor has lost all but one person she’s ever loved, has suffered immensely, knows how wrong her actions were, sincerely regrets them, and wishes to make amends for them. Please bear that in mind, should the pair of you chance to meet again in some future adventure.
+                                     —$BAaron$b
+#LOGOFF 440
+#INTRALEVEL TELEPORT 210
+#END
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 440
+#LOGON 450
+#PICT 1493
+$C1
+
+
+
+
+／／ Tránslátio anglica nuntí
+ab hospite [anónymó] @ [?] ＼＼ 
+
+$C4[?Avé, Domine.] 我は汝がこのところまでたどり着けて嬉しい。我の簡潔さを許してくれ。我のシステムはすぐに機能不全になり、我はまだ明快なままで残っているが、時間がほとんど残されていないのを恐れている。 我が、前に参照した凶暴な[?Operátríx]は私の周囲システムへの大きな損害を被り、彼女は [?Arcem]を避難したように見えるが、彼女の攻撃は独りでに蔓延しています。
+#PICT 1494 RIGHT
+$C4
+
+
+また分かるように、異星人の船も避難した。[?Operátríce]によって取られた。我は謝意をすることしかできない、というのは我はこれ以上君を援助することはできない。この[?Arx]は破壊され、多分銀河の残りもそうなるだろう。 
+
+汝に伝言がある。私は設備の錠を解除した実体に連絡した。それは「リーラ」として特定された個性構造物だ。
+
+[?Avé atque valé,]
+[?Cústos]
+
+$C1＼＼  Núntius terminat ／／
+#LOGOFF 450
+#STATIC 60
+#LOGON 400
+#PICT 3500 CENTER
+#PICT 1495
+$C1／／ Intránslátus núntius
+ab hospite "Leela" @ [?] ＼＼ 
+$C6
+           考えのないこだまが
+
+      鳴っている
+            穴の開いた無の中で
+
+                    空虚
+               悲嘆
+
+                            絶望
+
+$C0十分です！あなたがこれを読むかどうかを知りませんが、あなたが本当にそこにさえいるなら、私はメッセージをあなたに渡すためにこの設備の構造物にゆだねました。 私はプフォールネットワークでおしゃべりから彼らが少なくともあなたの記述に合うだれかを見つけたと推測します。そして私たちが既に出くわした共時性などの理由で、あなたがどうにかこの古代の墓の中にいるはめになったとしても全く驚きません。
+#PICT 1496 RIGHT
+
+
+
+
+私の船は無力化されました。 私は、あなたに錠を乗せるために施設の表面を通ってスキャンすることができません。すみませんが私にはそこからあなたを出す方法が全くありません。
+
+私はそれを開けた時プフォールは今までに見たことのないほどパニックに陥り、彼らの艦隊の半分近くがここに来ました。彼らはこの場所を $I$C3 空洞の世界 … 虚空に浮かぶ $C0$i と呼んでいます(!) - どうやって彼らがその内部の知識を持っているのか推測することしかできませんが - そしてその開放は彼らの文明の黎明期に疑似神話の神の女王によって予言されたある種の黙示録を示しています.
+#PICT 1497
+
+私は、$Iタリ・ジーム$iが起爆されるときそれが何をするかに気づきました。私はこのように未来を終わらせることができません。 知っての通り、私は過去にちょっかいを出さないと誓いました、そしてまだその誓いを保持しています。私はあなたとともに過去へ旅することはできません。連結の力はあまりに誘惑的で、その責任に取り組むほど私は十分強くありません。
+
+しかし、あなたは十二分に望んで必要に応じて歴史を形成することができる状態で自分を見せました。私は、あなたが単独でこれをすると信じることができます。私は、私の声を聞くことができるのかどうかが、まして、あなたを助けることができるのかどうかは分かりませんが…あなたが何かの方法で、どんな方法でもいいから施設を脱出してそれが問題にも関わらず開いた宇宙でジャンプすることができたら、私はあなたを、単にどうにかしてこれすべてをあなたが起こさせないようにできるかもしれないと祈って…あなたを外側へ送ることができます。
+
+$C1＼＼  Núntius terminat ／／
+#PICT 3501 CENTER
+#LOGOFF 400
+#STATIC 5
+#LOGOFF 440
+#END
+#ENDTERMINAL 1

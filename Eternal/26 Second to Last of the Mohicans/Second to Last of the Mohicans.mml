@@ -1,13 +1,5 @@
 <marathon>
-
-	<!-- rain limits and skull sequence-->
-	<dynamic_limits>
-		<objects value="2048"/>
-		<effects value="2048"/>
-		<rendered value="2048"/>
-	</dynamic_limits>
-
-	<!-- conveyor belt and various sounds -->
+	<!-- liquids & sounds -->
 	<liquids>
 		<liquid index="0" coll="18" frame="134" transfer="3">
 			<effect type="0" which="-1"/>

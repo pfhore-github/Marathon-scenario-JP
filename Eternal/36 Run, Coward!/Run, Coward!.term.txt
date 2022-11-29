@@ -5,7 +5,7 @@
 #STATIC 5
 #LOGON 400
 #INFORMATION
-$C1／／ホスト "Leela" @ [内部プロセス]からのメッセージをデコード＼＼
+$C1／／ "Leela" [processus internalis] scripsit: ＼＼ 
 $C0
 彼女は出発していません。奇妙です。彼女は私たちがここにいることを知っているはずです。私は彼女が行くところに私たちを連れて行きたいとは想像できません。すぐに脱出してすいませんが、私たちが乗っていた船は完全に破壊されました。私たちはこの船の完全な防御がバックアップになる前にここ来たのは幸運でした。
 
@@ -26,7 +26,7 @@ $C0
 幸運を祈ります、そして神の速さで。
 
 
-$C1＼＼メッセージ終了／／
+$C1＼＼Nuntius terminat／／
 #LOGOFF 400
 #STATIC 5
 #LOGOFF 430
@@ -37,6 +37,7 @@ $C1＼＼メッセージ終了／／
 #LOGON 430
 #INFORMATION
 $C1
+$C1／／ Translatio anglicam activa ＼＼ 
 *** $B転送機認証受け取り$b ***
 
 ** 中央転送格子初期化 **
@@ -56,6 +57,7 @@ $C1
 
 
 ********* $B転送準備$b *********
+＼＼ Translatio terminat ／／
 #LOGOFF 430
-#INTRALEVEL TELEPORT 612
+#INTRALEVEL TELEPORT 140
 #ENDTERMINAL 1

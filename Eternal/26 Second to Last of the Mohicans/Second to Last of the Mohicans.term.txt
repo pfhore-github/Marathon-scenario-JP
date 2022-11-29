@@ -12,6 +12,35 @@ $C5
 
 $C1＼＼翻訳終了／／
 #LOGOFF 380
+#END
+#FINISHED
+#LOGON 380
+#LOGON 410
+#PICT 411
+$C1静かな眠りはついに破られた
+
+                        時は過ぎてしまったようだ
+            だが十分ではない
+
+
+         失われた種族
+                       年上の若者
+
+
+             策謀によって遠く飛ばされ
+                     最初の誕生に
+                           触れられていない
+
+    すぐにはるかに新しすぎるときに
+                      呼び出される
+
+
+             君の介入の結果
+                       今目撃される
+#LOGOFF 410
+#LOGOFF 380
+#INTERLEVEL TELEPORT 27
+#END
 #ENDTERMINAL 0
 ;
 #TERMINAL 1
@@ -19,7 +48,7 @@ $C1＼＼翻訳終了／／
 #LOGON 380
 #LOGON 410
 #PICT 411
-$C1‾                                []
+$C1-                                []
 
 ^r                               /  !
               x ‾^
@@ -65,5 +94,6 @@ $C1静かな眠りはついに破られた
              君の介入の結果
                        今目撃される
 #LOGOFF 410
+#LOGOFF 380
 #INTERLEVEL TELEPORT 27
 #ENDTERMINAL 1

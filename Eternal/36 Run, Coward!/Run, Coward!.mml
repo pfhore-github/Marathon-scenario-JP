@@ -1,0 +1,6 @@
+<marathon>
+	<overhead_map>
+		<!-- set green Jjaro slime to show up normal -->
+		<color index="4" red="0" green="0.2" blue="0"/>
+	</overhead_map>
+</marathon>

@@ -1,0 +1,5 @@
+<marathon>
+	<control_panels>
+		<panel index="1" type="3" pitch="1.25"/>
+	</control_panels>
+</marathon>

@@ -1,0 +1,16 @@
+<marathon>
+	<liquids>
+		<liquid index="3">
+			<!-- "Wind" sound slot above sewage -->
+			<sound type="5" which="5" />
+		</liquid>
+	</liquids>
+
+	<sounds>
+		<!-- "Rain and Wind" sound in "Wind" slot -->
+		<ambient index="5" sound="216"/>
+
+		<!-- "Rubicon Alien Harmonics" sound in "Alarm 2" slot -->
+		<ambient index="21" sound="224"/>
+	</sounds>
+</marathon>
