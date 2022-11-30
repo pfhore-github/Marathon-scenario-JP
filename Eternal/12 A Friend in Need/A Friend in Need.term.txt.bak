@@ -35,6 +35,7 @@ $B$C6
    ヴィラエIDサブルーチン失敗、診断中
    主要パターンに一致なし
    古いデータバンクにアクセス...$b
+
 $C7{polygon= get_polygon_data(*polyg$Bon_index);
 case _clo$C0ckwise_bias /* loif (*polygon_ind
 or (inde$Ix=0;in$idex<polygon->vertex_count &&
