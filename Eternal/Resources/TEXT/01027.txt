@@ -1,125 +1,1 @@
-Triggers = {}
-
-function Triggers.got_item(type, player)
-	Global:got_item(type, player)
-end
-
-function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-end
-
-function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-end
-
-function Triggers.player_killed(player, aggressor_player, action, projectile)
-	Global:player_killed(player, aggressor_player, action, projectile)
-end
-
-function Triggers.player_revived(p)
-	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
-end
-
-function Triggers.start_refuel(class, p, side)
-	Global:start_refuel(class, p, side)
-end
-
-function Triggers.end_refuel(class, p, side)
-	Global:end_refuel(class, p, side)
-end
-
-function Triggers.init(restoring)
-	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
-	Global:goals()
-	Level.stash["names"] = "physics1"
-
-	-- set display title for HUD
-	Level.stash["maintitle"] = "The Manipulated Dead"
-	Level.stash["subtitle"] = string.format("Mortu%c tort%c", 146, 146)
-end
-
-function Triggers.idle()
-	for p in Players() do
-		Global:failuredream(p, true)
-		if p.polygon.media and not p.dead then
-			local oxydrain = 0
-			if p.polygon.media.type == "jjaro" and p.polygon.media ~= 5 then
-				oxydrain = 4
-			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[7]) then
-				oxydrain = 3
-			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[2]) then
-				oxydrain = 2
-			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[3]) then
-				oxydrain = 2
-			elseif p.polygon.media.type == "water" and Global:open(Level._goal[2]) then
-				oxydrain = 3
-			elseif p.polygon.media.type == "water" and Global:open(Level._goal[3]) then
-				oxydrain = 3
-			elseif p.polygon.media.type == "water" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) then
-				oxydrain = 2
-			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) then
-				oxydrain = 2
-			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) then
-				oxydrain = 2
-			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) then
-				oxydrain = 2
-			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
-				oxydrain = 1
-			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
-				oxydrain = 1
-			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
-				oxydrain = 1
-			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[1]) then
-				oxydrain = 1
-			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[1]) then
-				oxydrain = 1
-			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[1]) then
-				oxydrain = 1
-			end
-			Global:drainoxygen(p, oxydrain)
-		end
-	end
-	for m in Monsters() do
-		if m.polygon.media and not m.type.impact_effect == "civilian fusion blood splash" then
-			if m.type.class == "yeti" or m.type.class == "bob" or m.type.class == "fighter" or m.type.class == "enforcer" then
-				if m.polygon.media.type == "jjaro" and m.polygon.media ~= 5 then
-					m:damage(4, "suffocation")
-				elseif m.polygon.media.type == "sewage" and Global:open(Level._goal[7]) then
-					m:damage(3, "suffocation")
-				elseif m.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[2]) then
-					m:damage(2, "suffocation")
-				elseif m.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[3]) then
-					m:damage(2, "suffocation")
-				elseif m.polygon.media.type == "water" and Global:open(Level._goal[2]) then
-					m:damage(3, "suffocation")
-				elseif m.polygon.media.type == "water" and Global:open(Level._goal[3]) then
-					m:damage(3, "suffocation")
-				elseif m.polygon.media.type == "water" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) then
-					m:damage(2, "suffocation")
-				elseif m.polygon.media.type == "lava" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) then
-					m:damage(2, "suffocation")
-				elseif m.polygon.media.type == "lava" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) then
-					m:damage(2, "suffocation")
-				elseif m.polygon.media.type == "lava" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) then
-					m:damage(2, "suffocation")
-				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
-					m:damage(1, "suffocation")
-				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
-					m:damage(1, "suffocation")
-				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then
-					m:damage(1, "suffocation")
-				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[1]) then
-					m:damage(1, "suffocation")
-				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[1]) then
-					m:damage(1, "suffocation")
-				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[1]) then
-					m:damage(1, "suffocation")
-				end
-			end
-		end
-	end
-end
-
-function Triggers.cleanup()
-	Global:cleanup()
-end
+Triggers = {}function Triggers.got_item(type, player)	Global:got_item(type, player)endfunction Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)endfunction Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)endfunction Triggers.player_killed(player, aggressor_player, action, projectile)	Global:player_killed(player, aggressor_player, action, projectile)endfunction Triggers.player_revived(p)	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)endfunction Triggers.start_refuel(class, p, side)	Global:start_refuel(class, p, side)endfunction Triggers.end_refuel(class, p, side)	Global:end_refuel(class, p, side)endfunction Triggers.init(restoring)	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)	Global:goals()	Level.stash["names"] = "physics1"	-- set display title for HUD	Level.stash["maintitle"] = "The Manipulated Dead"	Level.stash["subtitle"] = "Mortuí tortí"endfunction Triggers.idle()	for p in Players() do		Global:failuredream(p, true)		if p.polygon.media and not p.dead then			local oxydrain = 0			if p.polygon.media.type == "jjaro" and p.polygon.media ~= 5 then				oxydrain = 4			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[7]) then				oxydrain = 3			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[2]) then				oxydrain = 2			elseif p.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[3]) then				oxydrain = 2			elseif p.polygon.media.type == "water" and Global:open(Level._goal[2]) then				oxydrain = 3			elseif p.polygon.media.type == "water" and Global:open(Level._goal[3]) then				oxydrain = 3			elseif p.polygon.media.type == "water" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) then				oxydrain = 2			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) then				oxydrain = 2			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) then				oxydrain = 2			elseif p.polygon.media.type == "lava" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) then				oxydrain = 2			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then				oxydrain = 1			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then				oxydrain = 1			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then				oxydrain = 1			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[1]) then				oxydrain = 1			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[1]) then				oxydrain = 1			elseif p.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[1]) then				oxydrain = 1			end			Global:drainoxygen(p, oxydrain)		end	end	for m in Monsters() do		if m.polygon.media and not m.type.impact_effect == "civilian fusion blood splash" then			if m.type.class == "yeti" or m.type.class == "bob" or m.type.class == "fighter" or m.type.class == "enforcer" then				if m.polygon.media.type == "jjaro" and m.polygon.media ~= 5 then					m:damage(4, "suffocation")				elseif m.polygon.media.type == "sewage" and Global:open(Level._goal[7]) then					m:damage(3, "suffocation")				elseif m.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[2]) then					m:damage(2, "suffocation")				elseif m.polygon.media.type == "sewage" and Global:open(Level._goal[6]) and Global:open(Level._goal[3]) then					m:damage(2, "suffocation")				elseif m.polygon.media.type == "water" and Global:open(Level._goal[2]) then					m:damage(3, "suffocation")				elseif m.polygon.media.type == "water" and Global:open(Level._goal[3]) then					m:damage(3, "suffocation")				elseif m.polygon.media.type == "water" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) then					m:damage(2, "suffocation")				elseif m.polygon.media.type == "lava" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) then					m:damage(2, "suffocation")				elseif m.polygon.media.type == "lava" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) then					m:damage(2, "suffocation")				elseif m.polygon.media.type == "lava" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) then					m:damage(2, "suffocation")				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then					m:damage(1, "suffocation")				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then					m:damage(1, "suffocation")				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[4]) and Global:open(Level._goal[5]) then					m:damage(1, "suffocation")				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[2]) and Global:open(Level._goal[1]) then					m:damage(1, "suffocation")				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[3]) and Global:open(Level._goal[1]) then					m:damage(1, "suffocation")				elseif m.polygon.media.type == "goo" and Global:open(Level._goal[7]) and Global:open(Level._goal[6]) and Global:open(Level._goal[1]) then					m:damage(1, "suffocation")				end			end		end	endendfunction Triggers.cleanup()	Global:cleanup()end
