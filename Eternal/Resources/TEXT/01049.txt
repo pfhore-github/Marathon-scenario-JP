@@ -1,198 +1,1 @@
-precipitation_collection = 7
-precipitation_sequence = 36
-precipitation_gravity = 1/4
-precipitation_wind = 0
-
-function precipitationpoly(p)
-	if p.ceiling.transfer_mode == "landscape" and p.ceiling.collection == 30 then
-		return true
-	else
-		return false
-	end
-end
-
-function find_hathor()
-	for m in Monsters() do
-		if m.type == "explodabob" then
-			return m
-		end
-	end
-end
-
-Triggers = {}
-
-function Triggers.got_item(type, player)
-	Global:got_item(type, player)
-end
-
-function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-	if monster.type == "explodabob" then
-		monster.life = 32767 -- Hathor can't be damaged
-		if aggressor_monster then
-			if aggressor_monster.type == "player" and Level._shots < Level._maxshots and Level._shots ~= 0 then
-				-- we hit Hathor; increase number of shots until she cools off by 1 (as long as it doesn't exceed the max)
-				Level._shots = Level._shots + 1
-				-- Players.print(Level._shots)
-			end
-		end
-	else
-		Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-	end
-end
-
-function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-	if projectile then
-		if (victim.weapons.current.type == "smg" or victim.weapons.current.type == "shotgun") then
-			if projectile.type == "shotgun bullet" or projectile.type == "smg bullet" then
-				victim.life = victim.life + damage_amount -- make players immune to WMC and grav blades while wielding either
-				if aggressor_monster then
-					if aggressor_monster.type == "explodabob" and Level._shots > 0 then -- Hathor hit us; reduce number of shots until she cools off by 1
-						Level._shots = Level._shots - 1
-						-- Players.print(Level._shots)
-						if Level._shots == 0 then -- she's cooled off; we'll mark her as our friend, but...
-							MonsterTypes["explodabob"].enemies["player"] = false
-							MonsterTypes["explodabob"].friends["player"] = true
-							-- ...now we need to do some Dumb Shit(tm)
-							local hathor = find_hathor()
-							-- due to some dumb engine quirk with floating/flying monsters, we have to delete and remake Hathor to stop her attacks on the player
-							-- you *could* think of this as us deleting Sakhmet and replacing her with Hathor, but Hathor had already reasserted control over Sakhmet
-							-- there's no actual storytelling significance meant here -- it's just jank from a mid-'90s engine
-							if hathor then
-								local x, y, height, poly, yaw = hathor.x, hathor.y, hathor.z - hathor.polygon.floor.z, hathor.polygon, hathor.facing
-								hathor:delete()
-								local newhathor = Monsters.new (x, y, height, poly, "explodabob")
-								if newhathor then
-									newhathor.facing = yaw
-									newhathor.teleports_out = true
-									newhathor.active = true
-									newhathor:move_by_path(Level._hathorExit)
-								else -- she didn't spawn for some reason - must be time to kill the player
-									Players.print("Something went horribly wrong. It is probably BAD RAM on your end. Please get a new computer.")
-									Players.print("...Dumb memes aside, in all seriousness, please tell @Aaron#6608 on the Discord that the game wouldn't respawn Hathor - see the readme for the link.")
-									for p in Players() do
-										p:damage(6969)
-									end
-								end
-							end
-							Level.stash["recalculate"] = "TRUE"
-							--[[-- trying to get this to work by just switching two different Hathors, but it doesn't seem to want to work
-							local n
-							for n in Monsters() do
-								if n.type == "explodabob" and n ~= m then
-									-- time to do the ol' switcheroo
-									local x, x2, y, y2, z, z2, poly, poly2, yaw, yaw2, xv, xv2, vv, vv2 = m.x, n.x, m.y, n.y, m.z, n.z, m.polygon, n.polygon, m.yaw, n.yaw, m.external_velocity, n.external_velocity, m.vertical_velocity, n.vertical_velocity
-									m:position(x2, y2, z2, poly2)
-									n:position(x, y, z, poly)
-									m.yaw, n.yaw, m.external_velocity, n.external_velocity, m.vertical_velocity, n.vertical_velocity = yaw2, yaw, xv2, xv, vv2, vv
-								end
-							end--]]
-						end
-					end
-				end
-			end
-		elseif projectile.type == "armageddon electricity" then
-			victim.life = victim.life - (damage_amount * 4)
-			if victim.life < 0 then
-				Players:damage(1, "suffocation")
-			end
-		end
-	end
-end
-
-function Triggers.player_killed(player, aggressor_player, action, projectile)
-	Global:player_killed(player, aggressor_player, action, projectile)
-end
-
-function Triggers.player_revived(p)
-	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
-end
-
-function Triggers.init(restoring)
-	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
-	Global:goals()
-	Level.stash["names"] = "physics11" -- these go to eleven
-	Level.stash["ignore"] = "24"
-
-	if not restoring or Level.stash["FAIL"] == "TRUE" then
-		-- set number of shots before Hathor gets over her rage and wanders off
-		if Game.difficulty == "kindergarten" then
-			Level._shots = 18
-		elseif Game.difficulty == "easy" then
-			Level._shots = 24
-		elseif Game.difficulty == "normal" then
-			Level._shots = 30
-		elseif Game.difficulty == "major damage" then
-			Level._shots = 36
-		else -- you're playing on the only real difficulty setting; we salute you
-			Level._shots = 42 -- the answer to the ultimate question of life, the universe, and everything. ... 6 x 9? nice
-		end
-		-- Players.print(Level._shots)
-		Level._maxshots = Level._shots
-		do
-			for g in Goals() do
-				if g.id == 2 then -- goal object sets the polygon to send Hathor to -- safer in case it changes
-					Level._hathorExit = g.polygon
-				end
-			end
-		end
-	end
-
-	Level._fogtimer = 420
-	Level._thundertimer = 0
-	Level._brightness = .125
-	Level._depth = 42
-	Level._darken = false
-
-	Global:initprecipitation(512)
-
-	-- set display title for HUD
-	Level.stash["maintitle"] = "We Met Once in the Garden"
-	Level.stash["subtitle"] = string.format("Co%cbamus %clim in hort%c", 146, 151, 151)
-end
-
-function Triggers.idle()
-	Global:idleprecipitation()
-	for p in Players() do
-		Global:map_overlays(p)
-	end
-	Global:loadfailure()
-	Global:reviveplayers()
-
-	if Game.ticks % 300 == 0 and Level._shots == 0 then -- if we've set Hathor to friendly, we'll tell her every 10 seconds to leave the level
-		for m in Monsters() do
-			if m.type == "explodabob" then
-				m:move_by_path(Level._hathorExit)
-			end
-		end
-	end
-end
-
-function Triggers.cleanup()
-	Global:cleanup()
-end
-
---[[ Plans for Hathor:
-*	Player is marked as enemy.  All other monsters are marked as neither "Enemy" nor "Friend", so if they hit her, she will kill them, but otherwise, she will ignore them.
-*	She's functionally immune to all types of damage; the Triggers.monster_damaged function always restores her life to 32,767.
-*	However, none of these immunities are marked in physics, to ensure that she plays her "defending" animation when hit and gets angry at monsters that hit her.
-*	She fires a specific number of shots at the player, depending on difficulty:
-	*	Kindergarten = 18
-	*	Easy = 24
-	*	Normal = 30
-	*	Major Damage = 36
-	*	Total Carnage = 42
-*	Her shots insta-kill a player who is not wielding either the Wave Motion Cannon or the Gravitronic Blades.
-	*	A player wielding either of same takes no damage from (though is still bounced around by) her shots.
-*	Once she has directly hit a player (or players) with the abovementioned number of shots, she will leave. Current plans to accomplish this:
-	*	Have all monsters, player included, set as "Friend".
-	*	Be repeatedly directed to retreat to the "Goal" polygon.
-	*	Told to teleport out once she reaches it.
-	*	Her departure is dependent upon the player not attacking her - i.e., if the player attacks her, her counter is decreased by the number of times the player hits her.
-*	"Hill" polygons mark the boundary beyond which she'll try to avoid allowing the player to move until she's hit player sufficiently many times
-*	Media assignments 0, 1, 17 mark polygons she regards as "home turf" - if the player homes in on them, she's directed to head here quickly if she isn't already.
-*	Polygons marked "Glue" and "Base" are even more critical to her.
-*	If the player reaches media 19 & beyond (space beyond the "Hill" polygons), she'll panic.  I don't know how we'll handle this yet.
-
-Hathor scripting by Aaron Freed
-Precipitation scripting by Gregory Smith
---]]
+precipitation_collection = 7precipitation_sequence = 36precipitation_gravity = 1/4precipitation_wind = 0function precipitationpoly(p)	if p.ceiling.transfer_mode == "landscape" and p.ceiling.collection == 30 then		return true	else		return false	endendfunction find_hathor()	for m in Monsters() do		if m.type == "explodabob" then			return m		end	endendTriggers = {}function Triggers.got_item(type, player)	Global:got_item(type, player)endfunction Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)	if monster.type == "explodabob" then		monster.life = 32767 -- Hathor can't be damaged		if aggressor_monster then			if aggressor_monster.type == "player" and Level._shots < Level._maxshots and Level._shots ~= 0 then				-- we hit Hathor; increase number of shots until she cools off by 1 (as long as it doesn't exceed the max)				Level._shots = Level._shots + 1				-- Players.print(Level._shots)			end		end	else		Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)	endendfunction Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)	if projectile then		if (victim.weapons.current.type == "smg" or victim.weapons.current.type == "shotgun") then			if projectile.type == "shotgun bullet" or projectile.type == "smg bullet" then				victim.life = victim.life + damage_amount -- make players immune to WMC and grav blades while wielding either				if aggressor_monster then					if aggressor_monster.type == "explodabob" and Level._shots > 0 then -- Hathor hit us; reduce number of shots until she cools off by 1						Level._shots = Level._shots - 1						-- Players.print(Level._shots)						if Level._shots == 0 then -- she's cooled off; we'll mark her as our friend, but...							MonsterTypes["explodabob"].enemies["player"] = false							MonsterTypes["explodabob"].friends["player"] = true							-- ...now we need to do some Dumb Shit(tm)							local hathor = find_hathor()							-- due to some dumb engine quirk with floating/flying monsters, we have to delete and remake Hathor to stop her attacks on the player							-- you *could* think of this as us deleting Sakhmet and replacing her with Hathor, but Hathor had already reasserted control over Sakhmet							-- there's no actual storytelling significance meant here -- it's just jank from a mid-'90s engine							if hathor then								local x, y, height, poly, yaw = hathor.x, hathor.y, hathor.z - hathor.polygon.floor.z, hathor.polygon, hathor.facing								hathor:delete()								local newhathor = Monsters.new (x, y, height, poly, "explodabob")								if newhathor then									newhathor.facing = yaw									newhathor.teleports_out = true									newhathor.active = true									newhathor:move_by_path(Level._hathorExit)								else -- she didn't spawn for some reason - must be time to kill the player									Players.print("Something went horribly wrong. It is probably BAD RAM on your end. Please get a new computer.")									Players.print("...Dumb memes aside, in all seriousness, please tell @Aaron#6608 on the Discord that the game wouldn't respawn Hathor - see the readme for the link.")									for p in Players() do										p:damage(6969)									end								end							end							Level.stash["recalculate"] = "TRUE"							--[[-- trying to get this to work by just switching two different Hathors, but it doesn't seem to want to work							local n							for n in Monsters() do								if n.type == "explodabob" and n ~= m then									-- time to do the ol' switcheroo									local x, x2, y, y2, z, z2, poly, poly2, yaw, yaw2, xv, xv2, vv, vv2 = m.x, n.x, m.y, n.y, m.z, n.z, m.polygon, n.polygon, m.yaw, n.yaw, m.external_velocity, n.external_velocity, m.vertical_velocity, n.vertical_velocity									m:position(x2, y2, z2, poly2)									n:position(x, y, z, poly)									m.yaw, n.yaw, m.external_velocity, n.external_velocity, m.vertical_velocity, n.vertical_velocity = yaw2, yaw, xv2, xv, vv2, vv								end							end--]]						end					end				end			end		elseif projectile.type == "armageddon electricity" then			victim.life = victim.life - (damage_amount * 4)			if victim.life < 0 then				Players:damage(1, "suffocation")			end		end	endendfunction Triggers.player_killed(player, aggressor_player, action, projectile)	Global:player_killed(player, aggressor_player, action, projectile)endfunction Triggers.player_revived(p)	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)endfunction Triggers.init(restoring)	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)	Global:goals()	Level.stash["names"] = "physics11" -- these go to eleven	Level.stash["ignore"] = "24"	if not restoring or Level.stash["FAIL"] == "TRUE" then		-- set number of shots before Hathor gets over her rage and wanders off		if Game.difficulty == "kindergarten" then			Level._shots = 18		elseif Game.difficulty == "easy" then			Level._shots = 24		elseif Game.difficulty == "normal" then			Level._shots = 30		elseif Game.difficulty == "major damage" then			Level._shots = 36		else -- you're playing on the only real difficulty setting; we salute you			Level._shots = 42 -- the answer to the ultimate question of life, the universe, and everything. ... 6 x 9? nice		end		-- Players.print(Level._shots)		Level._maxshots = Level._shots		do			for g in Goals() do				if g.id == 2 then -- goal object sets the polygon to send Hathor to -- safer in case it changes					Level._hathorExit = g.polygon				end			end		end	end	Level._fogtimer = 420	Level._thundertimer = 0	Level._brightness = .125	Level._depth = 42	Level._darken = false	Global:initprecipitation(512)	-- set display title for HUD	Level.stash["maintitle"] = "We Met Once in the Garden"	Level.stash["subtitle"] = "Coíbámus ólim in hortó"endfunction Triggers.idle()	Global:idleprecipitation()	for p in Players() do		Global:map_overlays(p)	end	Global:loadfailure()	Global:reviveplayers()	if Game.ticks % 300 == 0 and Level._shots == 0 then -- if we've set Hathor to friendly, we'll tell her every 10 seconds to leave the level		for m in Monsters() do			if m.type == "explodabob" then				m:move_by_path(Level._hathorExit)			end		end	endendfunction Triggers.cleanup()	Global:cleanup()end--[[ Plans for Hathor:*	Player is marked as enemy.  All other monsters are marked as neither "Enemy" nor "Friend", so if they hit her, she will kill them, but otherwise, she will ignore them.*	She's functionally immune to all types of damage; the Triggers.monster_damaged function always restores her life to 32,767.*	However, none of these immunities are marked in physics, to ensure that she plays her "defending" animation when hit and gets angry at monsters that hit her.*	She fires a specific number of shots at the player, depending on difficulty:	*	Kindergarten = 18	*	Easy = 24	*	Normal = 30	*	Major Damage = 36	*	Total Carnage = 42*	Her shots insta-kill a player who is not wielding either the Wave Motion Cannon or the Gravitronic Blades.	*	A player wielding either of same takes no damage from (though is still bounced around by) her shots.*	Once she has directly hit a player (or players) with the abovementioned number of shots, she will leave. Current plans to accomplish this:	*	Have all monsters, player included, set as "Friend".	*	Be repeatedly directed to retreat to the "Goal" polygon.	*	Told to teleport out once she reaches it.	*	Her departure is dependent upon the player not attacking her - i.e., if the player attacks her, her counter is decreased by the number of times the player hits her.*	"Hill" polygons mark the boundary beyond which she'll try to avoid allowing the player to move until she's hit player sufficiently many times*	Media assignments 0, 1, 17 mark polygons she regards as "home turf" - if the player homes in on them, she's directed to head here quickly if she isn't already.*	Polygons marked "Glue" and "Base" are even more critical to her.*	If the player reaches media 19 & beyond (space beyond the "Hill" polygons), she'll panic.  I don't know how we'll handle this yet.Hathor scripting by Aaron FreedPrecipitation scripting by Gregory Smith--]]

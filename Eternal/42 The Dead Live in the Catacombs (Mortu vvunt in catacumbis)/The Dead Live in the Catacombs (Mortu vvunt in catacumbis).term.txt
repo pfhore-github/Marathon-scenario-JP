@@ -6,18 +6,18 @@
 #INFORMATION
 
 
-$C1／／ Tránslátio anglica nuntí ab hospite [anónymó] @ [?] ＼＼ 
+$C1／／ Translatio anglica nunti ab hospite [anonymo] @ [?] ＼＼ 
 
 
-$C4[?Avé, Domine]. 我は謝らねばならぬ。[?Somniórum] 攻撃があまりに激しいため、このセクターの転送グリッドは [?operátrícem]のネットワーク内のノードに直接汝を転送させることはできない。したがって、 [?operátrórum]の複合体に歩いて入らなければならない。そこには、彼女が活動する次元に汝を運ぶことができるシステムがある。願わくば、彼女と話し、データ チップに防御コードを要求せよ。
+$C4[?Ave, Domine]。我は謝らねばならぬ。[?Somniorum]攻撃があまりに激しいため、このセクターの転送グリッドは[?operatricem]のネットワーク内のノードに直接汝を転送させることはできない。したがって、[?operatrorum]の複合体に歩いて入らなければならない。そこには、彼女が活動する次元に汝を運ぶことができるシステムがある。願わくば、彼女と話し、データチップに防御コードを要求せよ。
 
 コードを得たらここに戻れ。それからもっと助けよう。
 
-[?Valé,]
-[?Custós]
+[?Vale,]
+[?Custos]
 
 
-$C1＼＼  Núntius terminat ／／
+$C1＼＼  Nuntius terminat ／／
 #LOGOFF 450
 #LOGOFF 440
 #END
@@ -28,18 +28,18 @@ $C1＼＼  Núntius terminat ／／
 
 
 
-$C1／／ Tránslátio anglica nuntí ab hospite [anónymó] @ [?] ＼＼ 
+$C1／／ Translatio anglica nunti ab hospite [anonymo] @ [?] ＼＼ 
 
 
-$C4[?Avé, Domine]. すばらしい。汝は我が勧めたとおりに[?人工物]のコマンドコードを得た。我は内部ネットワークに人工物を接続できるように、自分のデータコアの近くに汝を送る。
+$C4[?Ave, Domine]。すばらしい。汝は我が勧めたとおりに[?人工物]のコマンドコードを得た。我は内部ネットワークに人工物を接続できるように、自分のデータコアの近くに汝を送る。
 
 出発のために待機せよ。開始…
 
-[?Valé,]
+[?Vale,]
 [?Custos]
 
 
-$C1＼＼  Núntius terminat ／／
+$C1＼＼  Nuntius terminat ／／
 #LOGOFF 450
 #INTERLEVEL TELEPORT 43
 #ENDTERMINAL 0
@@ -52,21 +52,21 @@ $C1＼＼  Núntius terminat ／／
 #PICT 441
 $C1
 
-// Tránslátio anglicam nuntí ab
-hospite "Pompeia Plotina" @ [?] \\
+／／ Translatio anglicam nunti ab
+hospite "Pompeia Plotina" @ [?] ＼＼ 
 
-$C4[?Avé, Márce]. 我は汝が来ることを予期していた。 [?Custós] は [?Arcem] を守る上での、汝のかけがえのない支援を我に伝えた。
+$C4[?Ave, Marce]。私は汝が来ることを予期していた。 [?Custos]は[?Arcem]を守る上での、汝のかけがえのない支援を私に伝えた。
 
-かつて我らは数十人いたが、現在我らを取り囲む空のノードからわかるように、我は唯一の生存者である。 最近の 40 時間のうち 2 時間はほとんど眠れていない。 [?Arcem] を守るにはやるべきことが多すぎる。 我の睡眠不足で、我は間違いを犯した。 [?systémate] への彼女の侵入を承認したとき、侵入者の策略を見抜くことができなかったので、謝罪しなければならない。
+かつて私達は数十人いたが、現在私達を取り囲む空のノードからわかるように、私は唯一の生存者です。最近の40時間のうち2時間しか眠れていません。[?Arcem]を守るにはやるべきことが多すぎます。私の睡眠不足で、間違いを犯しました。[?systemate] への彼女の侵入を承認したとき、侵入者の策略を見抜くことができませんでしたので、謝罪しなければなりません。
 #PICT 441
-$C4願わくば我の睡眠不足のランブリングを許せ。 我はホストとしての義務を忘れていた。 [?Custós] には、[?Arcis] 防御コードを備えたシステム インターフェイス データ チップが必要である。 我は [?fabricáví] [?facilitátis peripheríá] にいる。 それを [?Cústódí] に輸送して、[?is?ea?id?ií] [?assumam] 我の [?fúnctiónés?officia] の一部を提供せよ。
+$C4願わくば私の睡眠不足のとりとめのなさを許してください。私はホストとしての義務を忘れていました。[?Custos]には、[?Arcis]防御コードを備えたシステムインターフェイスデータチップが必要です。私は[?fabricavi] [?facilitatis peripheria] にいる。それを[?Custodi]に輸送して、[?is?ea?id?ii] [?assumam] 私の [?functiones?officia] の一部を提供してください。
 
-我は汝を[?Arce]に戻す。 我はそれが我らの両方を[?placuisset]したと信じているので、今汝を[?cognoscere]できなかったことを後悔していることしか言えない。 そして、我は汝をこれ以上[?assistere]することはできない。 これがすべて終わったとき、それは我にとって世界を意味し、汝は再び我に会いに来る。
+私は汝を[?Arce]に戻す。私はそれが私達両方を[?placuisset]したと信じているので、今汝を[?cognoscere]できなかったことを後悔していることしか言えません。そして、私は汝をこれ以上[?assistere]することはできません。これがすべて終わったとき、それは私にとって世界を意味し、汝は再び私に会いに来ます。
 
-[?Valé,]
+[?Vale,]
 Pompeia Plotina
 
-$C1＼＼  Núntius terminat ／／
+$C1＼＼  Nuntius terminat ／／
 #LOGOFF 490
 #LOGOFF 440
 #INTRALEVEL TELEPORT 430
@@ -83,11 +83,11 @@ $C1＼＼  Núntius terminat ／／
 
 
 
-$C1／／ Tránslátio anglica nuntí ab systémate computátrálí operátóribus cyborgórum ＼＼ 
+$C1／／ Translatio anglica nunti ab systemate computatrali operatoribus cyborgorum ＼＼ 
 
-$C4[?operátórum facilitáte] への汝の入場は、Pompeia Plotina によって承認されている。 このメッセージを読んだ後、汝はそこに運ばれるだろう。
+$C4[?operatorum facilitate]への汝の入場は、Pompeia Plotina によって承認されている。このメッセージを読んだ後、汝はそこに運ばれるだろう。
 
-$C1＼＼  Núntius terminat ／／
+$C1＼＼  Nuntius terminat ／／
 #LOGOFF 490
 #LOGOFF 440
 #INTRALEVEL TELEPORT 1040

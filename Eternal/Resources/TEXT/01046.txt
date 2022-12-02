@@ -1,39 +1,1 @@
-Triggers = {}
-
-function Triggers.got_item(type, player)
-	Global:got_item(type, player)
-end
-
-function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-end
-
-function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-end
-
-function Triggers.player_killed(player, aggressor_player, action, projectile)
-	Global:player_killed(player, aggressor_player, action, projectile)
-end
-
-function Triggers.player_revived(p)
-	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
-end
-
-function Triggers.init(restoring)
-	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
-	Level.stash["names"] = "jjaro"
-	Level.stash["ignore"] = "0"
-
-	-- set display title for HUD
-	Level.stash["maintitle"] = string.format("Tene%c affectum malum d%c h%cc", 151, 142, 151)
-	Level.stash["subtitle"] = "I've Got a Bad Feeling About This"
-end
-
-function Triggers.idle()
-	Global:idlemain()
-end
-
-function Triggers.cleanup()
-	Global:cleanup()
-end
+Triggers = {}function Triggers.got_item(type, player)	Global:got_item(type, player)endfunction Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)	Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)endfunction Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)endfunction Triggers.player_killed(player, aggressor_player, action, projectile)	Global:player_killed(player, aggressor_player, action, projectile)endfunction Triggers.player_revived(p)	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)endfunction Triggers.init(restoring)	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)	Level.stash["names"] = "jjaro"	Level.stash["ignore"] = "0"	-- set display title for HUD	Level.stash["maintitle"] = "Teneó affectum malum dé hóc"	Level.stash["subtitle"] = "I've Got a Bad Feeling About This"endfunction Triggers.idle()	Global:idlemain()endfunction Triggers.cleanup()	Global:cleanup()end

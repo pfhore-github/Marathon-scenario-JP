@@ -1,89 +1,1 @@
-precipitation_collection = 7
-precipitation_sequence = 36
-precipitation_gravity = 1/4
-precipitation_wind = 0
-
-Triggers = {}
-
-function precipitationpoly(p)
-	if p.ceiling.transfer_mode == "landscape" and p.ceiling.collection == 30 then
-		return true
-	else
-		return false
-	end
-end
-
-function Triggers.got_item(type, player)
-	Global:got_item(type, player)
-	if type == "uplink chip" then
-		Tags[2].active = true
-	end
-end
-
-function Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-	if monster.type == "explodabob" then
-		monster.life = 32767 -- Pompeia can't be damaged
-		monster.facing = 135 -- keep her facing due southwest at all times
-	else
-		Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)
-	end
-end
-
-function Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)
-end
-
-function Triggers.player_killed(player, aggressor_player, action, projectile)
-	Global:player_killed(player, aggressor_player, action, projectile)
-end
-
-function Triggers.player_revived(p)
-	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)
-end
-
-function wheres_pompeia()
-	for m in Monsters() do
-		if m.type == "explodabob" then
-			return m
-		end
-	end
-end
-
-function Triggers.init(restoring)
-	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)
-	Global:initprecipitation(512)
-	Level.stash["names"] = "jjaro"
-	Level.stash["ignore"] = "6"
-
-	Level._pompeia = wheres_pompeia() -- so we can closely monitor her position. (that's what she said)
-
-	-- set display title for HUD
-	Level.stash["maintitle"] = "The Dead Live in the Catacombs"
-	Level.stash["subtitle"] = string.format("Mortu%c v%cvunt in catacumbis", 146, 146)
-end
-
-function pompeiaposition() -- again... that's what she said
-	if Level._pompeia.z < 20 then -- don't want Pompeia drifting out of our view
-		Level._pompeia:position(Level._pompeia.x, Level._pompeia.y, 20, Level._pompeia.polygon)
-	elseif Level._pompeia.z > 20.5 then
-		Level._pompeia:position(Level._pompeia.x, Level._pompeia.y, 20.5, Level._pompeia.polygon)
-	end
-	Level._pompeia.facing = 135 -- keep her facing southwest
-end
-
-function Triggers.idle()
-	Global:idlemain()
-	Global:idleprecipitation()
-	pompeiaposition()
-end
-
-function Triggers.postidle() -- you know a script has gotten really cursed when it uses postidle
-	pompeiaposition()
-end
-
-function Triggers.cleanup()
-	Global:cleanup()
-end
-
--- Precipitation scripting by Gregory Smith
--- Jank-ass monster scripting by Aaron Freed
+precipitation_collection = 7precipitation_sequence = 36precipitation_gravity = 1/4precipitation_wind = 0Triggers = {}function precipitationpoly(p)	if p.ceiling.transfer_mode == "landscape" and p.ceiling.collection == 30 then		return true	else		return false	endendfunction Triggers.got_item(type, player)	Global:got_item(type, player)	if type == "uplink chip" then		Tags[2].active = true	endendfunction Triggers.monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)	if monster.type == "explodabob" then		monster.life = 32767 -- Pompeia can't be damaged		monster.facing = 135 -- keep her facing due southwest at all times	else		Global:monster_damaged(monster, aggressor_monster, damage_type, damage_amount, projectile)	endendfunction Triggers.player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)	Global:player_damaged(victim, aggressor_player, aggressor_monster, damage_type, damage_amount, projectile)endfunction Triggers.player_killed(player, aggressor_player, action, projectile)	Global:player_killed(player, aggressor_player, action, projectile)endfunction Triggers.player_revived(p)	Global:player_revived(p, 7, 0, 0, 0, 0, 0, 150)endfunction wheres_pompeia()	for m in Monsters() do		if m.type == "explodabob" then			return m		end	endendfunction Triggers.init(restoring)	Global:initialize(restoring, 7, 0, 0, 0, 0, 0, 150)	Global:initprecipitation(512)	Level.stash["names"] = "jjaro"	Level.stash["ignore"] = "6"	Level._pompeia = wheres_pompeia() -- so we can closely monitor her position. (that's what she said)	-- set display title for HUD	Level.stash["maintitle"] = "The Dead Live in the Catacombs"	Level.stash["subtitle"] = "Mortuí vívunt in catacumbis"endfunction pompeiaposition() -- again... that's what she said	if Level._pompeia.z < 20 then -- don't want Pompeia drifting out of our view		Level._pompeia:position(Level._pompeia.x, Level._pompeia.y, 20, Level._pompeia.polygon)	elseif Level._pompeia.z > 20.5 then		Level._pompeia:position(Level._pompeia.x, Level._pompeia.y, 20.5, Level._pompeia.polygon)	end	Level._pompeia.facing = 135 -- keep her facing southwestendfunction Triggers.idle()	Global:idlemain()	Global:idleprecipitation()	pompeiaposition()endfunction Triggers.postidle() -- you know a script has gotten really cursed when it uses postidle	pompeiaposition()endfunction Triggers.cleanup()	Global:cleanup()end-- Precipitation scripting by Gregory Smith-- Jank-ass monster scripting by Aaron Freed
