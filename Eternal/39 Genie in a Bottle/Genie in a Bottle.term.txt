@@ -194,7 +194,8 @@ $C1＼＼翻訳終了／／
 #LOGON 350
 #STATIC 5
 #LOGON 400
-
+#INFORMATION
+$C1
 
 
 $C1／／ "Leela" @ [内部プロセス]は書きます＼＼
