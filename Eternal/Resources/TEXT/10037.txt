@@ -1,1 +1,1 @@
-<marathon>	<stringset index="135">		<string index="09">[timestamp indeterminate]</string>	</stringset></marathon>
+<marathon>	<stringset index="135">		<string index="09">[タイムスタンプ 不定]</string>	</stringset></marathon>
