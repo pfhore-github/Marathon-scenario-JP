@@ -8,16 +8,16 @@
 $C1
 
 
-／／ Tra'nsla'tio' Pfhor anglicam a'cti'va ＼＼ 
+／／ Tránslátió Pfhor anglicam áctíva ＼＼ 
 
 $C2注意: 利用可能な全戦闘部隊
 
 ドレッドノートコアに接近する敵対的なエイリアンの戦闘ユニット。
 
 命令：極度の偏見を持ったエイリアンの戦闘ユニットの即時に終わらせよ。ドレッドノートの自己破壊機構と人工頭脳連結へのアクセスを拒否し、
-$Inovam praema’tu’ram$iが星系を全力で破壊するようにせよ。
+$Inovam praemátúram$iが星系を全力で破壊するようにせよ。
 
-$C1＼＼ Tra'nsla'tio' terminat／／
+$C1＼＼Tránslátió terminat／／
 #LOGOFF 350
 #STATIC 5
 #LOGOFF 430
@@ -29,7 +29,7 @@ $C1＼＼ Tra'nsla'tio' terminat／／
 #LOGON 430
 #LOGON 400
 #INFORMATION
-$C1／／ "Leela" @ [intra’nsla’ta’bilis] scri’psit: ＼＼ 
+$C1／／ "Leela" @ [intránslátábilis] scrípsit: ＼＼ 
 $C0
 
 いったい何をしてると思ってるんですか？死にたいんですか？それは廃棄物処分転送機…全ての馬鹿な物の中で…あ！
@@ -59,7 +59,7 @@ $C0
 しかしそれは私が後で教えられる歴史の教訓です。今は、ここから船尾港側のこの船の自壊メカニズムを探して、出口のターミナルのある船尾ターミナルに向かってくださ い。
 
 
-$C1＼＼Nu’ntius terminat／／
+$C1＼＼Núntius terminat／／
 #LOGOFF 400
 #LOGOFF 430
 #END
@@ -69,7 +69,7 @@ $C1＼＼Nu’ntius terminat／／
 #UNFINISHED
 #LOGON 430
 #PICT 431
-$C1／／Tra’nsla’tio’ anglicam a’cti’va ＼＼
+$C1／／Tránslátió anglicam áctíva ＼＼
 
 --- データコア状態: 全システム計画通り
 
@@ -85,7 +85,7 @@ $C1／／Tra’nsla’tio’ anglicam a’cti’va ＼＼
 
 ※$B警告$b：異常な量のニューラルネットの活動が進行中です。余剰思考プロセスを検査するか、いくつかの人格を他のニューラルネットワークに移してください。
 
-＼＼Tra’msla’tio’ terminat／／
+＼＼Tránslátió terminat／／
 #LOGOFF 430
 #END
 #ENDTERMINAL 2
@@ -96,13 +96,13 @@ $C1／／Tra’nsla’tio’ anglicam a’cti’va ＼＼
 #LOGON 400
 #INFORMATION
 $C1
-／／ "Leela" @ [intra’nsla’ta’bilis] scri’psit: ＼＼ 
+／／ "Leela" @ [intránslátábilis] scrípsit: ＼＼ 
 $C0
-待ってください、その端末インターフェイスメッセージはラテン語です。この時代のプフォールが$Iタリ・ジーム$iを$Inovam praema’tu’ram$iと呼んでいたのも同じです。これはある種の悪ふざけですか？プフォールやジャロは、どのようにしてラテン語を知ることができたのでしょうか？そうでもなければ...
+待ってください、その端末インターフェイスメッセージはラテン語です。この時代のプフォールが$Iタリ・ジーム$iを$Inovam praemátúram$iと呼んでいたのも同じです。これはある種の悪ふざけですか？プフォールやジャロは、どのようにしてラテン語を知ることができたのでしょうか？そうでもなければ...
 
 言語的な懸念はさておき、いい仕事です。船の自爆メカニズムが設定されています。 この船でのドリンニオールの脱出と革命の幕開けを見届けましょう。
 
-あなたの時代の何千年も前、スフトが奴隷化される前に、プフォールは他のジャロの配下種 族、ナクに出会いました。ナクはプフォールの奴隷化に全力で戦いました。最初は征服されましたが、彼らはついにくびきを捨て、いくつかの小さな星をプフォールから解放しました。そしてプフォール海軍の多くを破り、プフォールから盗んだジャロの武器を使って、プフォールの星を数十個破壊しました。しかしいまナクや彼らの世界で残っているものはガスとちりの広がった雲だけです。プフォールはそれら集団に$Ien masse[まとめて]$i$Iタリ・ジーム$i、もしくは$Inovam praema’tu’ram$iを使いました。
+あなたの時代の何千年も前、スフトが奴隷化される前に、プフォールは他のジャロの配下種 族、ナクに出会いました。ナクはプフォールの奴隷化に全力で戦いました。最初は征服されましたが、彼らはついにくびきを捨て、いくつかの小さな星をプフォールから解放しました。そしてプフォール海軍の多くを破り、プフォールから盗んだジャロの武器を使って、プフォールの星を数十個破壊しました。しかしいまナクや彼らの世界で残っているものはガスとちりの広がった雲だけです。プフォールはそれら集団に$Ien masse[まとめて]$i$Iタリ・ジーム$i、もしくは$Inovam praemátúram$iを使いました。
 #PICT 401
 
 
@@ -125,7 +125,7 @@ $C0
 
 転送をするので待ってください…。
 
-$C1＼＼  Nu’ntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #LOGOFF 400
 #STATIC 15
 #LOGON 430
@@ -141,11 +141,11 @@ $C1
 
 
 
-／／ "Leela" [pro’cessus internus] scri’psit: ＼＼ 
+／／ "Leela" [pró-cessus internus] scrí-psit: ＼＼ 
 $C0
 終わりました。転送の準備をしてください。
 
-$C1＼＼  Nu’ntius terminat ／／
+$C1＼＼  Nú-ntius terminat ／／
 #LOGOFF 400
 #STATIC 5
 #LOGOFF 430
@@ -155,13 +155,13 @@ $C1＼＼  Nu’ntius terminat ／／
 #LOGON 430
 #LOGON 400
 #INFORMATION
-$C1／／ "Leela" @ [intra’nsla’ta’bilis] scri’psit: ＼＼ 
+$C1／／ "Leela" @ [intránslátábilis] scrípsit: ＼＼ 
 $C0
-待ってください、その端末インターフェイスメッセージはラテン語です。この時代のプフォールが$Iタリ・ジーム$iを$Inovam praema’tu’ram$iと呼んでいたのも同じです。これはある種の悪ふざけですか？プフォールやジャロは、どのようにしてラテン語を知ることができたのでしょうか？そうでもなければ...
+待ってください、その端末インターフェイスメッセージはラテン語です。この時代のプフォールが$Iタリ・ジーム$iを$Inovam praemátú-ram$iと呼んでいたのも同じです。これはある種の悪ふざけですか？プフォールやジャロは、どのようにしてラテン語を知ることができたのでしょうか？そうでもなければ...
 
 言語的な懸念はさておき、いい仕事です。万一に備えてその連結を破壊したのは悪い考えでもないでしょう。この船でのドリンニオールの脱出と革命の幕開けを見届けましょう。
 
-あなたの時代の何千年も前、スフトが奴隷化される前に、プフォールは他のジャロの配下種族、ナクに出会いました。ナクはプフォールの奴隷化に全力で戦いました。最初は征服されましたが、彼らはついにくびきを捨て、いくつかの小さな星をプフォールから解放しました。そしてプフォール海軍の多くを破り、プフォールから盗んだジャロの武器を使って、プフォールの星を数十個破壊しました。しかしいまナクや彼らの世界で残っているものはガスとちりの広がった雲だけです。プフォールはそれら集団に$Ien masse[まとめて]$i$Iタリ・ジーム$i、もしくは$Inovam praema’tu’ram$iを使いました。
+あなたの時代の何千年も前、スフトが奴隷化される前に、プフォールは他のジャロの配下種族、ナクに出会いました。ナクはプフォールの奴隷化に全力で戦いました。最初は征服されましたが、彼らはついにくびきを捨て、いくつかの小さな星をプフォールから解放しました。そしてプフォール海軍の多くを破り、プフォールから盗んだジャロの武器を使って、プフォールの星を数十個破壊しました。しかしいまナクや彼らの世界で残っているものはガスとちりの広がった雲だけです。プフォールはそれら集団に$Ien masse[まとめて]$i$Iタリ・ジーム$i、もしくは$Inovam praemátúram$iを使いました。
 #PICT 401
 
 
@@ -184,7 +184,7 @@ $C0
 
 転送をするので待ってください…。
 
-$C1＼＼  Nu’ntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #LOGOFF 400
 #STATIC 15
 #LOGON 430
@@ -200,11 +200,11 @@ $C1
 
 
 
-／／ "Leela" [pro’cessus internus] scri’psit: ＼＼ 
+／／ "Leela" [prócessus internus] scrípsit: ＼＼ 
 $C0
 終わりました。転送の準備をしてください。
 
-$C1＼＼  Nu’ntius terminat ／／
+$C1＼＼  Nú-ntius terminat ／／
 #LOGOFF 400
 #STATIC 5
 #LOGOFF 430
@@ -216,7 +216,7 @@ $C1＼＼  Nu’ntius terminat ／／
 #UNFINISHED
 #LOGON 430
 #PICT 431
-$C1／／Tra’nsla’tio’ anglicam a’cti’va ＼＼
+$C1／／Tránslátió anglicam áctíva ＼＼
 
 *** $B注意: 自壊メカニズム$b ***
 ******* 緊急時のみ使うこと！！ *******
@@ -227,7 +227,7 @@ $C1／／Tra’nsla’tio’ anglicam a’cti’va ＼＼
 
 *** $B注意：自壊メカニズム$b ***
 
-＼＼Tra’nsla’tio’ terminat／／
+＼＼Tránslátió terminat／／
 #LOGOFF 430
 #END
 #ENDTERMINAL 4

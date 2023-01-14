@@ -5,7 +5,7 @@
 #STATIC 5
 #LOGON 400
 #INFORMATION
-$C1／／ "Leela" [pro’cessus interna’lis] scri’psit: ＼＼ 
+$C1／／ "Leela" [prócessus internális] scrípsit: ＼＼ 
 $C0
 彼女は出発していません。奇妙です。彼女は私たちがここにいることを知っているはずです。私は彼女が行くところに私たちを連れて行きたいとは想像できません。すぐに脱出してすいませんが、私たちが乗っていた船は完全に破壊されました。私たちはこの船の完全な防御がバックアップになる前にここ来たのは幸運でした。
 
@@ -26,7 +26,7 @@ $C0
 幸運を祈ります、そして神の速さで。
 
 
-$C1＼＼Nu’ntius terminat／／
+$C1＼＼Núntius terminat／／
 #LOGOFF 400
 #STATIC 5
 #LOGOFF 430
@@ -36,7 +36,7 @@ $C1＼＼Nu’ntius terminat／／
 #UNFINISHED
 #LOGON 430
 #INFORMATION
-$C1／／ Tra’nsla’tio’ anglicam a’ctiva ＼＼ 
+$C1／／ Tránslátió anglicam áctíva ＼＼ 
 *** $B転送機認証受け取り$b ***
 
 ** 中央転送格子初期化 **
@@ -52,7 +52,7 @@ $C1／／ Tra’nsla’tio’ anglicam a’ctiva ＼＼
        (-14.18), (-22.69), (9.37)
 
 ********* $B転送準備$b *********
-＼＼ Tra’nsla’tio’ terminat ／／
+＼＼Tránslátió terminat ／／
 #LOGOFF 430
 #INTRALEVEL TELEPORT 140
 #ENDTERMINAL 1

@@ -10,7 +10,7 @@
 #INFORMATION
 $C1
 
-／／ Exhibens nuntium hospitis [ABSIGNATUS] [processus internalis] ＼＼ 
+／／ Exhibéns núntium hospitis [ABSIGNÁTUS] [prócessus internális] ＼＼ 
 $C3
 
 私たちの救出はほとんど近いです。私たちは、ここで単に電力回路を動かす必要があります、そして新星装置はオンラインになるでしょう。この世界がいったん破壊されて敵がそれと共に消えれば、ジャロは救われ、$Iarx$iは決して建てられる必要さえないでしょう。
@@ -20,7 +20,7 @@ $C3
 今時間がまだある間に行ってください、そして急いでください。
 
 
-$C1＼＼  Nuntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #LOGOFF 460
 #STATIC 5
 #LOGOFF 440
@@ -38,12 +38,12 @@ $C1
 
 
 
-／／ Exhibens nuntium hospitis [ABSIGNATUS] [processus internalis] ＼＼ 
+／／ Exhibéns núntium hospitis [ABSIGNÁTUS] [prócessus internális] ＼＼ 
 $C3
 
 あなたはまだこのエリアの全ての７つの回路をトリガーしていません。装置のパワーを復帰させるためにはすべてをオンラインにする必要があります。
 
-$C1＼＼  Nuntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #LOGOFF 460
 #STATIC 5
 #LOGOFF 440
@@ -53,7 +53,7 @@ $C1＼＼  Nuntius terminat ／／
 #STATIC 5
 #LOGON 460
 #INFORMATION
-$C1／／ Exhibens nuntium hospitis [ABSIGNATUS] [processus internalis] ＼＼ 
+$C1／／ Exhibéns núntium hospitis [ABSIGNÁTUS] [prócessus internális] ＼＼ 
 $C3
 
 新星装置はオンラインになり、私はそれを太陽に発射しました。太陽系は破壊され、敵も同様です。
@@ -65,7 +65,7 @@ $C3
 さようなら、マーカス。ありがとう、お別れです。
 
 
-$C1＼＼  Nuntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #LOGOFF 460
 #STATIC 5
 #LOGOFF 440

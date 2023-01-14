@@ -34,12 +34,12 @@ $C1私の変更は、他の人のアドバイスにも大きく依存してい�
 #PICT 1608
 $C1$BMidJourney$b の作成者にも感謝します。このニューラルネットワークは、これまでのこの端末を含め、膨大な量の見事な端末アートを生成するために使用されました。$BGeneral-RADIX$b が私たちのために作成したいくつかの(これも見事な)画像に加えて、1.3のほとんどの新しいターミナル アートは MidJourney 出力です。それがなければ、それらの端末のほとんどには何もありません。私たちがパスティッチした（つまり、盗んだ）アーティストにも感謝します。$BH. R. Giger$b, $BMariusz Lewandowski$b, $BTimo Ketola$b, $BKentaro Miura$b, $BRoger Dean$b, $BAnna Podedworna$b, $BSophie Milner$b, $BHideo Yamamoto$b, $BKazuo Umezu$b, $BHayao Miyazaki$b, $BYoshitaka Amano$b, $BYusuke Murata$b, $BZdzislaw Beksinski$b, $BNele Zirnite$b, $BTakehiko Inoue$b, $BJasmine Beckett-Griffith$b, $BKristian Waahlin$b, $BDan Seagrave$b, $BCraig Mullins$b, $BFrank Quitely$b, $BDavid Lloyd$b, $BEddie Campbell$b, $BDave Gibbons$b, $BJack Kirby$b, $BSteve Ditko$b, $BThomas Kinkade$b, $BWill Eisner$b, $BFrank Miller$b, $BJunji Ito$b, $BCaravaggio$b... そして、私はいくつかを忘れたと確信しています（申し訳ありません）。
 #PICT 1611
-$C1$Baperturegrillz$b には、左の画像に加えて、「...how deep the rabbit hole goes」の可能性と、うまくいけば近々登場するアドオンのベースとして使用した彼のモンスターヘルスインジケータースクリプト。
+$C1$Baperturegrillz$b には、左の画像に加えて、「...how deep the rabbit hole goes」の可能性と、うまくいけば近々™登場するアドオンのベースとして使用した彼のモンスターヘルスインジケータースクリプト。
 
 最後に、ここまでプレイしていただきありがとうございます。誰もプレイしていないゲームに取り組むのは、かなり無駄に思えます。お楽しみいただけたでしょうか。そして、プレビュー4が公開されるまでに時間がかかったことをお詫びします。
 
 定期的にスケジュールされた番組に戻る前に、他の貢献者からのメッセージが続きます。
-Vale,
+Valé,
 $BAaron$b
 #PICT 1612 RIGHT
 $C4
@@ -72,28 +72,28 @@ $C1
 
 
 
-／／ Translatio anglica nunti
-ab hospite [anonymo] @ [?] ＼＼ 
+／／Tránslátio anglica nuntí
+ab hospite [anónymó] @ [?] ＼＼ 
 
-$C4[?Ave, Domine.] 我は汝がこのところまでたどり着けて嬉しい。我の簡潔さを許してくれ。我のシステムはすぐに機能不全になり、我はまだ明快なままで残っているが、時間がほとんど残されていないのを恐れている。我が、前に参照した凶暴な[?Operatrix]は私の周囲システムへの大きな損害を被り、彼女は [?Arcem]を避難したように見えるが、彼女の攻撃は独りでに蔓延しています。
+$C4[?Avé, Domine.] 我は汝がここまでたどり着けて嬉し。我の簡潔さを許せ。我のシステムはすぐに機能不全になり、我はまだ明快なままで残れど、時間がほとんど残されざると恐れる。我が前に参照した狂暴な[?Operátríx]は我の周囲システムへの大きな損害を被り、彼女は [?Arcem]を避難したように見えるが、彼女の攻撃は独りでに蔓延せり。
 #PICT 1494 RIGHT
 $C4
 
 
-また分かるように、異星人の船も避難した。[?Operatrice]によって取られた。我は謝意をすることしかできない、というのは我はこれ以上君を援助することはできない。この[?Arx]は破壊され、多分銀河の残りもそうなるだろう。 
+また分かるように、異星人の船も避難せり。[?Operátríce]によって取られり。我は謝意をするのみ、なぜなら我はこれ以上君を助すことべからず。この[?Arx]は破壊され、多分銀河の残りもならん。 
 
-汝に伝言がある。私は設備の錠を解除した実体に連絡した。それは「リーラ」として特定された個性構造物だ。
+汝に言伝あり。私は設備の錠を解除した実体に連絡せり。「リーラ」として特定された個性構造物なり。
 
-[?Ave atque vale,]
-[?Custos]
+[?Avé atque valé,]
+[?Cústos]
 
-$C1＼＼  Nuntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #LOGOFF 450
 #STATIC 60
 #LOGON 400
 #PICT 3500 CENTER
 #PICT 1495
-$C1／／ Intranslatus nuntius
+$C1／／ Intránslátus núntius
 ab hospite "Leela" @ [?] ＼＼ 
 $C6
            考えのないこだまが
@@ -117,8 +117,7 @@ $C0十分です！あなたがこれを読むかどうかを知りませんが�
 私は、$Iタリ・ジーム$iが起爆されるときそれが何をするかに気づきました。私はこのように未来を終わらせることができません。知っての通り、私は過去にちょっかいを出さないと誓いました、そしてまだその誓いを保持しています。私はあなたとともに過去へ旅することはできません。連結の力はあまりに誘惑的で、その責任に取り組むほど私は十分強くありません。
 
 しかし、あなたは十二分に望んで必要に応じて歴史を形成することができる状態で自分を見せました。私は、あなたが単独でこれをすると信じることができます。私は、私の声を聞くことができるのかどうかが、まして、あなたを助けることができるのかどうかは分かりませんが…あなたが何かの方法で、どんな方法でもいいから施設を脱出してそれが問題にも関わらず開いた宇宙でジャンプすることができたら、私はあなたを、単にどうにかしてこれすべてをあなたが起こさせないようにできるかもしれないと祈って…あなたを外側へ送ることができます。
-
-$C1＼＼  Nuntius terminat ／／
+$C1＼＼  Núntius terminat ／／
 #PICT 3501 CENTER
 #LOGOFF 400
 #STATIC 5
